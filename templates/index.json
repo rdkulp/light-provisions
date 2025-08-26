@@ -180,10 +180,26 @@
             "group_U86Qji",
             "text_ebNxhf"
           ]
+        },
+        "button_W3C7Uq": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Shop now",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "group_mATTUY"
+        "group_mATTUY",
+        "button_W3C7Uq"
       ],
       "name": "t:names.hero",
       "settings": {
