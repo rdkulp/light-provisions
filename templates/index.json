@@ -792,7 +792,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h3>Make Your Workspace Yours</h3>",
+                "text": "<h2>On Rotation Collection<br/>      </h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -971,7 +971,7 @@
       "name": "Featured collection",
       "settings": {
         "collection": "all",
-        "layout_type": "grid",
+        "layout_type": "carousel",
         "carousel_on_mobile": false,
         "max_products": 8,
         "columns": 4,
