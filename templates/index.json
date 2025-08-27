@@ -825,12 +825,12 @@
           "static": true,
           "settings": {
             "product_card_gap": 0,
-            "inherit_color_scheme": false,
+            "inherit_color_scheme": true,
             "color_scheme": "scheme-2",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 10,
+            "border_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -888,8 +888,8 @@
                 "gradient_direction": "to top",
                 "padding-block-start": 24,
                 "padding-block-end": 24,
-                "padding-inline-start": 24,
-                "padding-inline-end": 24
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
               "blocks": {
                 "product_title_gH3cpy": {
