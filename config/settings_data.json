@@ -36,7 +36,7 @@
       "scheme-1": {
         "settings": {
           "background": "#ffffff",
-          "foreground_heading": "#414042",
+          "foreground_heading": "#a15736",
           "foreground": "#414042",
           "primary": "#414042",
           "primary_hover": "#b15b32",
@@ -75,7 +75,7 @@
       "scheme-2": {
         "settings": {
           "background": "#f1efee",
-          "foreground_heading": "#414042",
+          "foreground_heading": "#a15736",
           "foreground": "#414042",
           "primary": "#414042",
           "primary_hover": "#000000",
