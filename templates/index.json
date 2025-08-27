@@ -813,10 +813,37 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "text_cAQHhq": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><em>Limited-run scents poured like a tap list. Rotating all year, based on what you’re loving.</em></p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "product_list_text_qK4EWG"
+            "product_list_text_qK4EWG",
+            "text_cAQHhq"
           ]
         },
         "static-product-card": {
