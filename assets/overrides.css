@@ -1,4 +1,12 @@
+/* Freight and */
 @import url("https://use.typekit.net/sug0fip.css");
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+</style>
+
+:root {
+  --font-subheading--family: "Inconsolata";
+}
 
 .shopify-section:not(.container-background-image) h1, .shopify-section:not(.container-background-image) h2, .shopify-section:not(.container-background-image) h3, .shopify-section:not(.container-background-image) h4 {
   color: var(--font-h1--color);
@@ -8,6 +16,7 @@ h1, h2, h3, h4 {
   font-family: "freight-display-pro";
 }
 
-h5 {
-  font-family: "Inconsolata", var(--font-subheading--family);
+body, p {
+  font-family: "freight-sans-pro";
 }
+
