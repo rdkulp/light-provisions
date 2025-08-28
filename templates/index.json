@@ -80,11 +80,11 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h5>Summer Collection 2025</h5>",
+                    "text": "<p>Summer Collection 2025</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "custom",
+                    "type_preset": "h5",
                     "font": "var(--font-subheading--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -788,20 +788,20 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_FrzMaG": {
+            "text_CAFDRL": {
               "type": "text",
-              "name": "t:names.text",
+              "name": "t:names.heading",
               "settings": {
-                "text": "<p>DROPPED IN AUGUST<br/>      </p>",
+                "text": "<p>Dropped in August</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "custom",
-                "font": "var(--font-subheading--family)",
+                "type_preset": "h5",
+                "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
-                "case": "uppercase",
+                "case": "none",
                 "wrap": "pretty",
                 "color": "var(--color-foreground)",
                 "background": false,
@@ -868,7 +868,7 @@
             }
           },
           "block_order": [
-            "text_FrzMaG",
+            "text_CAFDRL",
             "product_list_text_qK4EWG",
             "text_cAQHhq"
           ]
@@ -1127,20 +1127,20 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_rJdHEr": {
+            "text_TCkAjF": {
               "type": "text",
-              "name": "t:names.text",
+              "name": "t:names.heading",
               "settings": {
-                "text": "<p>SIMPLE & SUSTAINABLE<br/>      </p>",
+                "text": "<p>SIMPLE & SUSTAINABLE</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "custom",
-                "font": "var(--font-subheading--family)",
+                "type_preset": "h5",
+                "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
-                "case": "uppercase",
+                "case": "none",
                 "wrap": "pretty",
                 "color": "var(--color-foreground)",
                 "background": false,
@@ -1207,7 +1207,7 @@
             }
           },
           "block_order": [
-            "text_rJdHEr",
+            "text_TCkAjF",
             "text_mDGiDn",
             "text_fiFJjk"
           ]
@@ -1429,20 +1429,20 @@
                     "padding-inline-end": 24
                   },
                   "blocks": {
-                    "text_a9Ykbp": {
+                    "text_6cGR43": {
                       "type": "text",
-                      "name": "t:names.text",
+                      "name": "t:names.heading",
                       "settings": {
-                        "text": "<h2>You provide the vessel, we'll provide the refill.<br/>        </h2>",
+                        "text": "<p>You provide the vessel, we'll provide the refill.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "custom",
-                        "font": "var(--font-subheading--family)",
+                        "type_preset": "h5",
+                        "font": "var(--font-body--family)",
                         "font_size": "1rem",
                         "line_height": "normal",
                         "letter_spacing": "normal",
-                        "case": "uppercase",
+                        "case": "none",
                         "wrap": "pretty",
                         "color": "var(--color-foreground)",
                         "background": false,
@@ -1498,7 +1498,7 @@
                     }
                   },
                   "block_order": [
-                    "text_a9Ykbp",
+                    "text_6cGR43",
                     "text_UqtYUU",
                     "button_apiXjf"
                   ]
