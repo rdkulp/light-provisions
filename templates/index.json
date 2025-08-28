@@ -1433,7 +1433,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<h3>You provide the vessel, we'll provide the refill.<br/>        </h3>",
+                        "text": "<h2>You provide the vessel, we'll provide the refill.<br/>        </h2>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
