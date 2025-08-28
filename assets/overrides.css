@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
   font-family: "freight-display-pro";
 }
 
-body, p {
+body, p, a, a p, span {
   font-family: "freight-sans-pro";
 }
 
