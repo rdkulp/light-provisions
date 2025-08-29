@@ -16,6 +16,6 @@ h5,
   font-family: "soleil" !important;
 }
 
-body, p, a, a p, span {
+body, p, a, a p, span, .button {
   font-family: "freight-sans-pro";
 }
