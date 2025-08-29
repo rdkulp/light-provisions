@@ -19,6 +19,7 @@ body {
   --hover-shadow-color: var(--color-shadow);
   --hover-transition-duration: 0.25s;
   --hover-transition-timing: ease-out;
+
 }
 
 html {

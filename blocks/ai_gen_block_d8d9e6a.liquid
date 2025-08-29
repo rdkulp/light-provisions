@@ -1,0 +1,634 @@
+{% doc %}
+  @prompt
+    Create an image carousel section similar to Featured Collection but for custom uploaded images. The section should allow merchants to upload multiple images, add titles and descriptions for each image, include navigation arrows and dots, and have customizable settings for autoplay, slide timing, and display options. Include responsive design and smooth transitions between images.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-image-carousel-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.section_padding }}px 0;
+  }
+
+  .ai-image-carousel-container-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-image-carousel-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: {{ block.settings.carousel_height }}px;
+    overflow: hidden;
+    border-radius: {{ block.settings.border_radius }}px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-image-carousel-track-{{ ai_gen_id }} {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .ai-image-carousel-slide-{{ ai_gen_id }} {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-image-carousel-slide-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-image-carousel-slide-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-image-carousel-slide-placeholder-{{ ai_gen_id }} svg {
+    width: 100px;
+    height: 100px;
+    opacity: 0.3;
+  }
+
+  .ai-image-carousel-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-image-carousel-content-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    color: white;
+    padding: 40px 30px 30px;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-image-carousel-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    line-height: 1.2;
+  }
+
+  .ai-image-carousel-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    margin: 0;
+    opacity: 0.9;
+    line-height: 1.4;
+  }
+
+  .ai-image-carousel-nav-{{ ai_gen_id }} {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 2;
+  }
+
+  .ai-image-carousel-nav-{{ ai_gen_id }}:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  .ai-image-carousel-nav-prev-{{ ai_gen_id }} {
+    left: 20px;
+  }
+
+  .ai-image-carousel-nav-next-{{ ai_gen_id }} {
+    right: 20px;
+  }
+
+  .ai-image-carousel-nav-{{ ai_gen_id }} svg {
+    width: 20px;
+    height: 20px;
+    color: #333;
+  }
+
+  .ai-image-carousel-dots-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .ai-image-carousel-dot-{{ ai_gen_id }} {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .ai-image-carousel-dot-{{ ai_gen_id }}.active {
+    background-color: {{ block.settings.accent_color }};
+    transform: scale(1.2);
+  }
+
+  .ai-image-carousel-dot-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.accent_color }};
+    opacity: 0.8;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-image-carousel-wrapper-{{ ai_gen_id }} {
+      height: {{ block.settings.carousel_height | times: 0.7 }}px;
+    }
+
+    .ai-image-carousel-content-{{ ai_gen_id }} {
+      padding: 20px 20px 20px;
+    }
+
+    .ai-image-carousel-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.8 }}px;
+    }
+
+    .ai-image-carousel-description-{{ ai_gen_id }} {
+      font-size: {{ block.settings.description_size | times: 0.9 }}px;
+    }
+
+    .ai-image-carousel-nav-{{ ai_gen_id }} {
+      width: 40px;
+      height: 40px;
+    }
+
+    .ai-image-carousel-nav-prev-{{ ai_gen_id }} {
+      left: 10px;
+    }
+
+    .ai-image-carousel-nav-next-{{ ai_gen_id }} {
+      right: 10px;
+    }
+  }
+{% endstyle %}
+
+<image-carousel-{{ ai_gen_id }}
+  class="ai-image-carousel-{{ ai_gen_id }}"
+  data-autoplay="{{ block.settings.autoplay }}"
+  data-autoplay-speed="{{ block.settings.autoplay_speed }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-image-carousel-container-{{ ai_gen_id }}">
+    <div class="ai-image-carousel-wrapper-{{ ai_gen_id }}">
+      <div class="ai-image-carousel-track-{{ ai_gen_id }}">
+        {% for i in (1..5) %}
+          {% liquid
+            assign image_key = 'image_' | append: i
+            assign title_key = 'title_' | append: i
+            assign description_key = 'description_' | append: i
+            
+            assign slide_image = block.settings[image_key]
+            assign slide_title = block.settings[title_key]
+            assign slide_description = block.settings[description_key]
+          %}
+          
+          {% if slide_image != blank or forloop.first %}
+            <div class="ai-image-carousel-slide-{{ ai_gen_id }}" data-slide="{{ forloop.index0 }}">
+              {% if slide_image %}
+                <img
+                  src="{{ slide_image | image_url: width: 1200 }}"
+                  alt="{{ slide_image.alt | escape }}"
+                  class="ai-image-carousel-slide-image-{{ ai_gen_id }}"
+                  loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+                  width="{{ slide_image.width }}"
+                  height="{{ slide_image.height }}"
+                >
+              {% else %}
+                <div class="ai-image-carousel-slide-placeholder-{{ ai_gen_id }}">
+                  {{ 'image' | placeholder_svg_tag }}
+                  {% if forloop.first %}
+                    <div class="ai-image-carousel-empty-state-{{ ai_gen_id }}">
+                      Add images to create your carousel
+                    </div>
+                  {% endif %}
+                </div>
+              {% endif %}
+              
+              {% if slide_title != blank or slide_description != blank %}
+                <div class="ai-image-carousel-content-{{ ai_gen_id }}">
+                  {% if slide_title != blank %}
+                    <h3 class="ai-image-carousel-title-{{ ai_gen_id }}">{{ slide_title }}</h3>
+                  {% endif %}
+                  {% if slide_description != blank %}
+                    <p class="ai-image-carousel-description-{{ ai_gen_id }}">{{ slide_description }}</p>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      {% if block.settings.show_arrows %}
+        <button
+          class="ai-image-carousel-nav-{{ ai_gen_id }} ai-image-carousel-nav-prev-{{ ai_gen_id }}"
+          aria-label="Previous slide"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15,18 9,12 15,6"></polyline>
+          </svg>
+        </button>
+        <button
+          class="ai-image-carousel-nav-{{ ai_gen_id }} ai-image-carousel-nav-next-{{ ai_gen_id }}"
+          aria-label="Next slide"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9,18 15,12 9,6"></polyline>
+          </svg>
+        </button>
+      {% endif %}
+    </div>
+
+    {% if block.settings.show_dots %}
+      <div class="ai-image-carousel-dots-{{ ai_gen_id }}"></div>
+    {% endif %}
+  </div>
+</image-carousel-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ImageCarousel{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.currentSlide = 0;
+        this.totalSlides = 0;
+        this.autoplayTimer = null;
+        this.isAutoplay = this.dataset.autoplay === 'true';
+        this.autoplaySpeed = parseInt(this.dataset.autoplaySpeed) || 5000;
+      }
+
+      connectedCallback() {
+        this.track = this.querySelector('.ai-image-carousel-track-{{ ai_gen_id }}');
+        this.slides = this.querySelectorAll('.ai-image-carousel-slide-{{ ai_gen_id }}');
+        this.prevButton = this.querySelector('.ai-image-carousel-nav-prev-{{ ai_gen_id }}');
+        this.nextButton = this.querySelector('.ai-image-carousel-nav-next-{{ ai_gen_id }}');
+        this.dotsContainer = this.querySelector('.ai-image-carousel-dots-{{ ai_gen_id }}');
+
+        this.totalSlides = this.slides.length;
+
+        if (this.totalSlides <= 1) {
+          if (this.prevButton) this.prevButton.style.display = 'none';
+          if (this.nextButton) this.nextButton.style.display = 'none';
+          if (this.dotsContainer) this.dotsContainer.style.display = 'none';
+          return;
+        }
+
+        this.setupEventListeners();
+        this.createDots();
+        this.updateCarousel();
+
+        if (this.isAutoplay) {
+          this.startAutoplay();
+        }
+      }
+
+      setupEventListeners() {
+        if (this.prevButton) {
+          this.prevButton.addEventListener('click', () => this.prevSlide());
+        }
+
+        if (this.nextButton) {
+          this.nextButton.addEventListener('click', () => this.nextSlide());
+        }
+
+        this.addEventListener('mouseenter', () => this.stopAutoplay());
+        this.addEventListener('mouseleave', () => {
+          if (this.isAutoplay) this.startAutoplay();
+        });
+      }
+
+      createDots() {
+        if (!this.dotsContainer) return;
+
+        this.dotsContainer.innerHTML = '';
+        for (let i = 0; i < this.totalSlides; i++) {
+          const dot = document.createElement('button');
+          dot.className = 'ai-image-carousel-dot-{{ ai_gen_id }}';
+          dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
+          dot.addEventListener('click', () => this.goToSlide(i));
+          this.dotsContainer.appendChild(dot);
+        }
+      }
+
+      updateCarousel() {
+        if (!this.track) return;
+
+        const translateX = -this.currentSlide * 100;
+        this.track.style.transform = `translateX(${translateX}%)`;
+
+        const dots = this.querySelectorAll('.ai-image-carousel-dot-{{ ai_gen_id }}');
+        dots.forEach((dot, index) => {
+          dot.classList.toggle('active', index === this.currentSlide);
+        });
+      }
+
+      nextSlide() {
+        this.currentSlide = (this.currentSlide + 1) % this.totalSlides;
+        this.updateCarousel();
+      }
+
+      prevSlide() {
+        this.currentSlide = (this.currentSlide - 1 + this.totalSlides) % this.totalSlides;
+        this.updateCarousel();
+      }
+
+      goToSlide(index) {
+        this.currentSlide = index;
+        this.updateCarousel();
+      }
+
+      startAutoplay() {
+        this.stopAutoplay();
+        this.autoplayTimer = setInterval(() => {
+          this.nextSlide();
+        }, this.autoplaySpeed);
+      }
+
+      stopAutoplay() {
+        if (this.autoplayTimer) {
+          clearInterval(this.autoplayTimer);
+          this.autoplayTimer = null;
+        }
+      }
+
+      disconnectedCallback() {
+        this.stopAutoplay();
+      }
+    }
+
+    customElements.define('image-carousel-{{ ai_gen_id }}', ImageCarousel{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Image carousel",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "carousel_height",
+      "min": 200,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Carousel height",
+      "default": 500
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Section padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 8
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Accent color",
+      "default": "#000f9f"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Title size",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Navigation"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_arrows",
+      "label": "Show navigation arrows",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_dots",
+      "label": "Show navigation dots",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Enable autoplay",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "autoplay_speed",
+      "min": 2000,
+      "max": 9000,
+      "step": 500,
+      "unit": "ms",
+      "label": "Autoplay speed",
+      "default": 5000
+    },
+    {
+      "type": "header",
+      "content": "Slide 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title_1",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "description_1",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Slide 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title_2",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "description_2",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Slide 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_3",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title_3",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "description_3",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Slide 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_4",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title_4",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "description_4",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Slide 5"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_5",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title_5",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "description_5",
+      "label": "Description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image carousel"
+    }
+  ]
+}
+{% endschema %}
