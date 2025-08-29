@@ -13,9 +13,13 @@ h1, h2, h3, h4 {
 h5,
 .h5.h5,
 .text-block.h5 > * {
-  font-family: "soleil" !important;
+  font-family: "soleil";
 }
 
 body, p, a, a p, span, .button, .paragraph:not(.button), .paragraph>* {
   font-family: "freight-sans-pro";
+}
+
+nav a span {
+  font-family: "soleil";
 }
