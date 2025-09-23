@@ -1066,6 +1066,9 @@
           ]
         }
       },
+      "custom_css": [
+        ":not(.dialog-zoomed-gallery) > .product-media-container,.product-media {aspect-ratio: 1/2 !important;}"
+      ],
       "name": "Featured collection",
       "settings": {
         "collection": "autumn-collection",
