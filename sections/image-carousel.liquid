@@ -15,7 +15,7 @@
 {% capture slides %}
   {% for block in section.blocks %}
     {% capture slide_content %}
-      <div class="image-carousel__slide">
+      <div class="image-carousel__slide" style="padding-top: {{ section.settings.padding-block-start }}px; padding-bottom: {{ section.settings.padding-block-end }}px;">
         <img 
           src="{{ block.settings.image | image_url: width: 800 }}" 
           alt="{{ block.settings.image.alt | escape }}"
@@ -217,6 +217,30 @@
         }
       ],
       "default": "arrow"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start",
+      "label": "Top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end",
+      "label": "Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
     }
   ],
   "blocks": [
