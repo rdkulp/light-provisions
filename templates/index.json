@@ -1906,7 +1906,9 @@
       "settings": {
         "autoplay": false,
         "autoplay_speed": 5,
-        "arrow_style": "arrow"
+        "arrow_style": "arrow",
+        "padding-block-start": 0,
+        "padding-block-end": 84
       }
     },
     "section_feVGA8": {
