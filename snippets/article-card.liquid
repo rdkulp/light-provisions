@@ -1,0 +1,83 @@
+{% comment %} snippets/article-card.liquid 10/25 rk {% endcomment %}
+
+{% liquid
+  assign article = article
+  assign article_excerpt = article.excerpt | truncate: 300 | strip_html
+%}
+
+<div class="article-card">
+  {% if article.image %}
+    <div class="article-card__image">
+      {{ article.image | image_url: width: 1000 | image_tag }}
+    </div>
+  {% endif %}
+  <div class="article-card__content">
+    <p class="article-card__label">JOURNAL</p>
+    <h2 class="article-card__title">{{ article.title }}</h2>
+    <p class="article-card__excerpt">{{ article_excerpt }}</p>
+    <a class="button" href="{{ article.url }}">Read More</a>
+  </div>
+</div>
+
+<style>
+  .article-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: var(--color-background);
+    overflow: hidden;
+  }
+  
+  .article-card__image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .article-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .article-card__content {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-lg);
+    flex: 1;
+    gap: var(--gap-sm);
+    align-items: center;
+  }
+  
+  .article-card__label {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-foreground-subdued);
+    margin: 0;
+  }
+  
+  .article-card__title {
+    font-size: var(--font-h3--size);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height--heading);
+    margin: 0;
+    color: var(--color-foreground);
+  }
+  
+  .article-card__excerpt {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height--body);
+    color: var(--color-foreground-subdued);
+    margin: 0;
+    flex: 1;
+  }
+  
+  .article-card .button-primary {
+    margin-top: auto;
+    align-self: flex-start;
+  }
+</style>
