@@ -1336,7 +1336,7 @@
               "settings": {
                 "collection": "on-rotation",
                 "products_limit": 12,
-                "products_per_view": 4,
+                "products_per_view": 3,
                 "heading": "",
                 "heading_alignment": "center",
                 "heading_size": 32,
