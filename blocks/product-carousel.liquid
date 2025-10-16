@@ -1,11 +1,8 @@
-{% doc %}
-  @prompt
-    Create a block that has a carousel of products with image, title and price from a selected collection
-{% enddoc %}
-{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+{% comment %} blocks/product-carousel.liquid {% endcomment %}
+{% assign block_id = block.id | replace: '_', '' | downcase %}
 
 {% style %}
-  .ai-product-carousel-{{ ai_gen_id }} {
+  .product-carousel-{{ block_id }} {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -13,25 +10,25 @@
     background-color: {{ block.settings.background_color }};
   }
 
-  .ai-product-carousel__header-{{ ai_gen_id }} {
+  .product-carousel__header-{{ block_id }} {
     text-align: {{ block.settings.heading_alignment }};
     margin-bottom: {{ block.settings.heading_spacing }}px;
   }
 
-  .ai-product-carousel__heading-{{ ai_gen_id }} {
+  .product-carousel__heading-{{ block_id }} {
     color: {{ block.settings.heading_color }};
     font-size: {{ block.settings.heading_size }}px;
     margin: 0;
   }
 
-  .ai-product-carousel__container-{{ ai_gen_id }} {
+  .product-carousel__container-{{ block_id }} {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
   }
 
-  .ai-product-carousel__track-{{ ai_gen_id }} {
+  .product-carousel__track-{{ block_id }} {
     display: flex;
     gap: {{ block.settings.product_spacing }}px;
     transition: transform 0.3s ease;
@@ -41,11 +38,11 @@
     -ms-overflow-style: none;
   }
 
-  .ai-product-carousel__track-{{ ai_gen_id }}::-webkit-scrollbar {
+  .product-carousel__track-{{ block_id }}::-webkit-scrollbar {
     display: none;
   }
 
-  .ai-product-carousel__product-{{ ai_gen_id }} {
+  .product-carousel__product-{{ block_id }} {
     flex: 0 0 {{ block.settings.product_width }}px;
     background-color: {{ block.settings.card_background_color }};
     border-radius: {{ block.settings.card_border_radius }}px;
@@ -54,30 +51,30 @@
     border: {{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }};
   }
 
-  .ai-product-carousel__product-{{ ai_gen_id }}:hover {
+  .product-carousel__product-{{ block_id }}:hover {
     transform: translateY(-{{ block.settings.hover_lift }}px);
     box-shadow: 0 {{ block.settings.hover_lift | times: 2 }}px {{ block.settings.hover_lift | times: 4 }}px rgba(0, 0, 0, 0.1);
   }
 
-  .ai-product-carousel__image-wrapper-{{ ai_gen_id }} {
+  .product-carousel__image-wrapper-{{ block_id }} {
     position: relative;
     width: 100%;
     height: {{ block.settings.image_height }}px;
     overflow: hidden;
   }
 
-  .ai-product-carousel__image-{{ ai_gen_id }} {
+  .product-carousel__image-{{ block_id }} {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
   }
 
-  .ai-product-carousel__product-{{ ai_gen_id }}:hover .ai-product-carousel__image-{{ ai_gen_id }} {
+  .product-carousel__product-{{ block_id }}:hover .product-carousel__image-{{ block_id }} {
     transform: scale(1.05);
   }
 
-  .ai-product-carousel__image-placeholder-{{ ai_gen_id }} {
+  .product-carousel__image-placeholder-{{ block_id }} {
     width: 100%;
     height: 100%;
     background-color: #f4f4f4;
@@ -86,17 +83,17 @@
     justify-content: center;
   }
 
-  .ai-product-carousel__image-placeholder-{{ ai_gen_id }} svg {
+  .product-carousel__image-placeholder-{{ block_id }} svg {
     width: 60%;
     height: 60%;
     opacity: 0.3;
   }
 
-  .ai-product-carousel__content-{{ ai_gen_id }} {
+  .product-carousel__content-{{ block_id }} {
     padding: {{ block.settings.card_padding }}px;
   }
 
-  .ai-product-carousel__title-{{ ai_gen_id }} {
+  .product-carousel__title-{{ block_id }} {
     color: {{ block.settings.title_color }};
     font-size: {{ block.settings.title_size }}px;
     margin: 0 0 8px;
@@ -108,14 +105,14 @@
     overflow: hidden;
   }
 
-  .ai-product-carousel__price-{{ ai_gen_id }} {
+  .product-carousel__price-{{ block_id }} {
     color: {{ block.settings.price_color }};
     font-size: {{ block.settings.price_size }}px;
     font-weight: 600;
     margin: 0;
   }
 
-  .ai-product-carousel__price-compare-{{ ai_gen_id }} {
+  .product-carousel__price-compare-{{ block_id }} {
     color: {{ block.settings.compare_price_color }};
     font-size: {{ block.settings.price_size | minus: 2 }}px;
     text-decoration: line-through;
@@ -123,7 +120,7 @@
     opacity: 0.7;
   }
 
-  .ai-product-carousel__nav-{{ ai_gen_id }} {
+  .product-carousel__nav-{{ block_id }} {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -142,76 +139,76 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
 
-  .ai-product-carousel__nav-{{ ai_gen_id }}:hover {
+  .product-carousel__nav-{{ block_id }}:hover {
     background-color: {{ block.settings.nav_button_hover_color }};
     transform: translateY(-50%) scale(1.1);
   }
 
-  .ai-product-carousel__nav-{{ ai_gen_id }}:disabled {
+  .product-carousel__nav-{{ block_id }}:disabled {
     opacity: 0.3;
     cursor: not-allowed;
     transform: translateY(-50%) scale(1);
   }
 
-  .ai-product-carousel__nav--prev-{{ ai_gen_id }} {
+  .product-carousel__nav--prev-{{ block_id }} {
     left: -20px;
   }
 
-  .ai-product-carousel__nav--next-{{ ai_gen_id }} {
+  .product-carousel__nav--next-{{ block_id }} {
     right: -20px;
   }
 
-  .ai-product-carousel__nav-{{ ai_gen_id }} svg {
+  .product-carousel__nav-{{ block_id }} svg {
     width: 20px;
     height: 20px;
   }
 
-  .ai-product-carousel__empty-state-{{ ai_gen_id }} {
+  .product-carousel__empty-state-{{ block_id }} {
     text-align: center;
     padding: 60px 20px;
     color: #666;
   }
 
-  .ai-product-carousel__empty-state-{{ ai_gen_id }} h3 {
+  .product-carousel__empty-state-{{ block_id }} h3 {
     margin: 0 0 10px;
     font-size: 18px;
   }
 
-  .ai-product-carousel__empty-state-{{ ai_gen_id }} p {
+  .product-carousel__empty-state-{{ block_id }} p {
     margin: 0;
     font-size: 14px;
   }
 
   @media screen and (max-width: 749px) {
-    .ai-product-carousel__product-{{ ai_gen_id }} {
+    .product-carousel__product-{{ block_id }} {
       flex: 0 0 {{ block.settings.product_width | times: 0.8 }}px;
     }
 
-    .ai-product-carousel__nav-{{ ai_gen_id }} {
+    .product-carousel__nav-{{ block_id }} {
       display: none;
     }
 
-    .ai-product-carousel__container-{{ ai_gen_id }} {
+    .product-carousel__container-{{ block_id }} {
       padding: 0 10px;
     }
   }
 {% endstyle %}
 
-<product-carousel-{{ ai_gen_id }}
-  class="ai-product-carousel-{{ ai_gen_id }}"
+<product-carousel-{{ block_id }}
+  class="product-carousel-{{ block_id }}"
   data-products-per-view="{{ block.settings.products_per_view }}"
   {{ block.shopify_attributes }}
 >
   {% if block.settings.heading != blank %}
-    <div class="ai-product-carousel__header-{{ ai_gen_id }}">
-      <h2 class="ai-product-carousel__heading-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+    <div class="product-carousel__header-{{ block_id }}">
+      <h2 class="product-carousel__heading-{{ block_id }}">{{ block.settings.heading }}</h2>
     </div>
   {% endif %}
 
-  <div class="ai-product-carousel__container-{{ ai_gen_id }}">
+  <div class="product-carousel__container-{{ block_id }}">
     {% if block.settings.collection != blank and block.settings.collection.products.size > 0 %}
       <button
-        class="ai-product-carousel__nav-{{ ai_gen_id }} ai-product-carousel__nav--prev-{{ ai_gen_id }}"
+        class="product-carousel__nav-{{ block_id }} product-carousel__nav--prev-{{ block_id }}"
         aria-label="Previous products"
         disabled
       >
@@ -220,33 +217,33 @@
         </svg>
       </button>
 
-      <div class="ai-product-carousel__track-{{ ai_gen_id }}">
+      <div class="product-carousel__track-{{ block_id }}">
         {% for product in block.settings.collection.products limit: block.settings.products_limit %}
-          <div class="ai-product-carousel__product-{{ ai_gen_id }}">
-            <a href="{{ product.url }}" class="ai-product-carousel__link-{{ ai_gen_id }}">
-              <div class="ai-product-carousel__image-wrapper-{{ ai_gen_id }}">
+          <div class="product-carousel__product-{{ block_id }}">
+            <a href="{{ product.url }}" class="product-carousel__link-{{ block_id }}">
+              <div class="product-carousel__image-wrapper-{{ block_id }}">
                 {% if product.featured_image %}
                   <img
                     src="{{ product.featured_image | image_url: width: 400 }}"
                     alt="{{ product.featured_image.alt | escape }}"
-                    class="ai-product-carousel__image-{{ ai_gen_id }}"
+                    class="product-carousel__image-{{ block_id }}"
                     loading="lazy"
                     width="400"
                     height="{{ block.settings.image_height }}"
                   >
                 {% else %}
-                  <div class="ai-product-carousel__image-placeholder-{{ ai_gen_id }}">
+                  <div class="product-carousel__image-placeholder-{{ block_id }}">
                     {{ 'product-1' | placeholder_svg_tag }}
                   </div>
                 {% endif %}
               </div>
 
-              <div class="ai-product-carousel__content-{{ ai_gen_id }}">
-                <h3 class="ai-product-carousel__title-{{ ai_gen_id }}">{{ product.title }}</h3>
-                <div class="ai-product-carousel__price-{{ ai_gen_id }}">
+              <div class="product-carousel__content-{{ block_id }}">
+                <h3 class="product-carousel__title-{{ block_id }}">{{ product.title }}</h3>
+                <div class="product-carousel__price-{{ block_id }}">
                   {{ product.price | money }}
                   {% if product.compare_at_price > product.price %}
-                    <span class="ai-product-carousel__price-compare-{{ ai_gen_id }}">
+                    <span class="product-carousel__price-compare-{{ block_id }}">
                       {{ product.compare_at_price | money }}
                     </span>
                   {% endif %}
@@ -258,7 +255,7 @@
       </div>
 
       <button
-        class="ai-product-carousel__nav-{{ ai_gen_id }} ai-product-carousel__nav--next-{{ ai_gen_id }}"
+        class="product-carousel__nav-{{ block_id }} product-carousel__nav--next-{{ block_id }}"
         aria-label="Next products"
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -266,17 +263,17 @@
         </svg>
       </button>
     {% else %}
-      <div class="ai-product-carousel__empty-state-{{ ai_gen_id }}">
+      <div class="product-carousel__empty-state-{{ block_id }}">
         <h3>No products to display</h3>
         <p>Select a collection with products to show in this carousel</p>
       </div>
     {% endif %}
   </div>
-</product-carousel-{{ ai_gen_id }}>
+</product-carousel-{{ block_id }}>
 
 <script>
   (function() {
-    class ProductCarousel{{ ai_gen_id }} extends HTMLElement {
+    class ProductCarousel{{ block_id }} extends HTMLElement {
       constructor() {
         super();
         this.track = null;
@@ -288,9 +285,9 @@
       }
 
       connectedCallback() {
-        this.track = this.querySelector('.ai-product-carousel__track-{{ ai_gen_id }}');
-        this.prevButton = this.querySelector('.ai-product-carousel__nav--prev-{{ ai_gen_id }}');
-        this.nextButton = this.querySelector('.ai-product-carousel__nav--next-{{ ai_gen_id }}');
+        this.track = this.querySelector('.product-carousel__track-{{ block_id }}');
+        this.prevButton = this.querySelector('.product-carousel__nav--prev-{{ block_id }}');
+        this.nextButton = this.querySelector('.product-carousel__nav--next-{{ block_id }}');
         
         if (!this.track) return;
 
@@ -372,7 +369,7 @@
       }
     }
 
-    customElements.define('product-carousel-{{ ai_gen_id }}', ProductCarousel{{ ai_gen_id }});
+    customElements.define('product-carousel-{{ block_id }}', ProductCarousel{{ block_id }});
   })();
 </script>
 
@@ -496,8 +493,8 @@
       "type": "range",
       "id": "image_height",
       "min": 200,
-      "max": 400,
-      "step": 10,
+      "max": 660,
+      "step": 20,
       "unit": "px",
       "label": "Image height",
       "default": 280
