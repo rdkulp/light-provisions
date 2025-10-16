@@ -1225,7 +1225,7 @@
                 "gradient_direction": "to top",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 0,
+                "padding-inline-start": 40,
                 "padding-inline-end": 0
               },
               "blocks": {
@@ -1348,7 +1348,7 @@
                 "card_padding": 10,
                 "card_border_radius": 0,
                 "card_border_width": 0,
-                "hover_lift": 4,
+                "hover_lift": 0,
                 "title_size": 16,
                 "price_size": 16,
                 "background_color": "#ffffff",
@@ -1384,7 +1384,7 @@
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 12,
-        "section_width": "page-width",
+        "section_width": "full-width",
         "section_height": "small",
         "section_height_custom": 50,
         "color_scheme": "scheme-1",
