@@ -780,6 +780,20 @@
         "padding-block-end": 0
       }
     },
+    "divider_r6ErzJ": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "product_list_EDUBdR": {
       "type": "product-list",
       "blocks": {
@@ -2807,6 +2821,7 @@
   "order": [
     "slideshow_C9edwc",
     "section_UcDgem",
+    "divider_r6ErzJ",
     "product_list_EDUBdR",
     "17563185878d8cddde",
     "section_7TKdhh",
