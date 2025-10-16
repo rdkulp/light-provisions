@@ -1117,6 +1117,7 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_WGmAFk"
       ],
+      "name": "Reviews Carousel",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -1202,8 +1203,8 @@
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
+                "width": "custom",
+                "custom_width": 58,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
@@ -1310,7 +1311,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "label": "Shop now",
+                    "label": "SHOP NOW",
                     "link": "shopify://collections/on-rotation",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
@@ -1373,7 +1374,7 @@
       "block_order": [
         "group_wbFUfJ"
       ],
-      "name": "t:names.custom_section",
+      "name": "On Rotation Collection",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
