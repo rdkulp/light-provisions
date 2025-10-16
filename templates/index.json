@@ -1330,8 +1330,8 @@
                 "button_T36yFe"
               ]
             },
-            "ai_gen_block_beecf88_nUWNXJ": {
-              "type": "ai_gen_block_beecf88",
+            "product_carousel_nUWNXJ": {
+              "type": "product-carousel",
               "name": "Product carousel",
               "settings": {
                 "collection": "on-rotation",
@@ -1367,7 +1367,7 @@
           },
           "block_order": [
             "group_XpA3Uc",
-            "ai_gen_block_beecf88_nUWNXJ"
+            "product_carousel_nUWNXJ"
           ]
         }
       },
