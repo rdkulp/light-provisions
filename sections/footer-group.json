@@ -29,6 +29,7 @@
         },
         "content": {
           "type": "_content-without-appearance",
+          "disabled": true,
           "static": true,
           "settings": {
             "horizontal_alignment_flex_direction_column": "flex-start",
@@ -69,6 +70,8 @@
                 "width": "fill",
                 "custom_width": 100,
                 "inherit_color_scheme": true,
+                "heading": "",
+                "heading_preset": "h3",
                 "color_scheme": "scheme-4",
                 "border_style": "all",
                 "border_width": 0,
@@ -93,6 +96,7 @@
           ]
         }
       },
+      "disabled": true,
       "name": "t:names.media_with_text",
       "settings": {
         "media_position": "left",
@@ -136,6 +140,7 @@
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0,
+            "placeholder": "",
             "toggle_overlay": false,
             "overlay_color": "#00000026",
             "overlay_style": "solid",
@@ -148,6 +153,7 @@
           "blocks": {
             "group_AeYPK8": {
               "type": "group",
+              "name": "Footer Menus",
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -174,6 +180,7 @@
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
+                "placeholder": "",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
@@ -251,10 +258,109 @@
                 "menu_fHeXLe",
                 "menu_CRFABU"
               ]
+            },
+            "group_Y4N36x": {
+              "type": "group",
+              "name": "Footer Newsletter signup",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "placeholder": "",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_Rr7XD4": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<p>Join our Newsletter — Get Updates, Offers and Invites.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h6",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "email_signup_BfeEW7": {
+                  "type": "email-signup",
+                  "name": "t:names.email_signup",
+                  "settings": {
+                    "width": "fill",
+                    "custom_width": 100,
+                    "inherit_color_scheme": true,
+                    "heading": "",
+                    "heading_preset": "h3",
+                    "color_scheme": "scheme-4",
+                    "border_style": "all",
+                    "border_width": 0,
+                    "border_radius": 100,
+                    "input_type_preset": "paragraph",
+                    "style_class": "button",
+                    "display_type": "arrow",
+                    "label": "Sign up",
+                    "integrated_button": false,
+                    "button_type_preset": "paragraph",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_Rr7XD4",
+                "email_signup_BfeEW7"
+              ]
             }
           },
           "block_order": [
-            "group_AeYPK8"
+            "group_AeYPK8",
+            "group_Y4N36x"
           ]
         },
         "footer_utilities_iTnDrc": {
@@ -270,6 +376,7 @@
               "type": "_footer-copyright",
               "static": true,
               "settings": {
+                "show_powered_by": true,
                 "font_size": "0.75rem",
                 "case": "none"
               },
