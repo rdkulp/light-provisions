@@ -1613,7 +1613,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<ul><li>Harvest</li><li>Dry Leaves & Cardamom</li><li>Autumn Twilight</li><li>Patchouli & Nutmeg</li></ul>",
+                        "text": "<ul><li>Smoldering Sage</li><li>Tobacco Leaf & Nutmeg</li><li>Patchouli & Tonka Bean</li></ul>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1756,7 +1756,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<ul><li>Winter Pine</li><li>Amber & Eucalyptus</li><li>Red Tea & Sandalwood</li><li>Bitter Orange & Clove</li><li>Anise & Evergreen</li><li>Bay Leaf & Smoked Vanilla</li></ul>",
+                        "text": "<ul><li>Anise & Evergreen</li><li>Bay Leaf & Smoked Vanilla</li><li>Bitter Orange & Clove</li></ul>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
