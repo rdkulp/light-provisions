@@ -1261,8 +1261,8 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "label": "Shop the Collection",
-                    "link": "shopify://collections/flagship",
+                    "label": "Shop on Rotation",
+                    "link": "shopify://collections/on-rotation",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
