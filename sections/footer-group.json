@@ -112,6 +112,32 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "email_signup_4f3AK9": {
+          "type": "email-signup",
+          "name": "t:names.email_signup",
+          "settings": {
+            "width": "fill",
+            "custom_width": 100,
+            "inherit_color_scheme": true,
+            "heading": "",
+            "heading_preset": "h3",
+            "color_scheme": "scheme-4",
+            "border_style": "all",
+            "border_width": 0,
+            "border_radius": 100,
+            "input_type_preset": "paragraph",
+            "style_class": "button",
+            "display_type": "arrow",
+            "label": "Sign up",
+            "integrated_button": false,
+            "button_type_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "group_MK6PAh": {
           "type": "group",
           "settings": {
@@ -340,7 +366,7 @@
                     "border_radius": 100,
                     "input_type_preset": "paragraph",
                     "style_class": "button",
-                    "display_type": "arrow",
+                    "display_type": "text",
                     "label": "Sign up",
                     "integrated_button": false,
                     "button_type_preset": "paragraph",
@@ -450,6 +476,7 @@
         }
       },
       "block_order": [
+        "email_signup_4f3AK9",
         "group_MK6PAh",
         "footer_utilities_iTnDrc"
       ],
