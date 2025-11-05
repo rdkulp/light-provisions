@@ -1,0 +1,79 @@
+<!-- Breadcrumbs -->
+<style>
+  nav.breadcrumbs {
+    width: 100%;
+  }
+
+  .breadcrumbs__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .breadcrumbs__item {
+    display: flex;
+    align-items: center;
+  }
+
+  .breadcrumbs__link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .breadcrumbs__icon {
+    margin-left: 0.5rem;
+  }
+</style>
+
+{%- assign current_template = template | split: '.' | first -%}
+<nav class="breadcrumbs type-body-regular" role="navigation" aria-label="breadcrumbs">
+  <ul class="breadcrumbs__list">
+    <li class="breadcrumbs__item">
+      <a class="breadcrumbs__link" href="{{ routes.root_url }}">Home</a>
+      <div class="breadcrumbs__icon">{% render 'icon-chevron-right' %}</div>
+    </li>
+    {%- case current_template -%}
+      {%- when 'product' -%}
+        {%- if collection.url -%}
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="{{ collection.url }}">{{ collection.title }}</a>
+            <div class="breadcrumbs__icon">{% render 'icon-chevron-right' %}</div>
+          </li>
+        {%- endif -%}
+        <li class="breadcrumbs__item">
+          <span class="breadcrumbs__current" aria-current="page">{{ product.title }}</span>
+        </li>
+      {%- when 'collection' and collection.handle -%}
+        {%- if current_tags -%}
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="{{ collection.url }}">{{ collection.title }}</a>
+            <div class="breadcrumbs__icon">{% render 'icon-chevron-right' %}</div>
+          </li>
+          <li class="breadcrumbs__item">
+            <span class="breadcrumbs__current" aria-current="page">{{- current_tags | join: ' + ' -}}</span>
+          </li>
+        {%- else -%}
+          <li class="breadcrumbs__item">
+            <span class="breadcrumbs__current" aria-current="page">{{ collection.title }}</span>
+          </li>
+        {%- endif -%}
+    {%- endcase -%}
+  </ul>
+</nav>
+
+{% schema %}
+  {
+    "name": "Breadcrumbs",
+    "tag": null,
+    "presets": [
+      {
+        "name": "Breadcrumbs",
+        "category": "Navigation"
+      }
+    ]
+  }
+{% endschema %}
