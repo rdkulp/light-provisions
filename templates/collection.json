@@ -22,7 +22,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Collection</h2>",
+            "text": "<h5>Collection</h5>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
