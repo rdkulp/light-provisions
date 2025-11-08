@@ -12,6 +12,12 @@
     "section": {
       "type": "section",
       "blocks": {
+        "breadcrumbs_tLNrDf": {
+          "type": "breadcrumbs",
+          "name": "Breadcrumbs",
+          "settings": {},
+          "blocks": {}
+        },
         "text_tqQTNE": {
           "type": "text",
           "name": "Title",
@@ -136,6 +142,7 @@
         }
       },
       "block_order": [
+        "breadcrumbs_tLNrDf",
         "text_tqQTNE",
         "group_KwyQPe"
       ],
