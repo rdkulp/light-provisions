@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "main": {
       "type": "product-information",
@@ -202,6 +203,7 @@
               "type": "group",
               "name": "Values",
               "settings": {
+                "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -241,6 +243,7 @@
                   "type": "group",
                   "name": "Row 1",
                   "settings": {
+                    "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "row",
                     "vertical_on_mobile": false,
@@ -280,6 +283,7 @@
                       "type": "group",
                       "name": "Care",
                       "settings": {
+                        "link": "",
                         "open_in_new_tab": false,
                         "content_direction": "column",
                         "vertical_on_mobile": true,
@@ -321,6 +325,7 @@
                           "settings": {
                             "icon": "heart",
                             "width": 24,
+                            "link": "",
                             "open_in_new_tab": false
                           },
                           "blocks": {}
@@ -361,6 +366,7 @@
                       "type": "group",
                       "name": "Value",
                       "settings": {
+                        "link": "",
                         "open_in_new_tab": false,
                         "content_direction": "column",
                         "vertical_on_mobile": true,
@@ -402,6 +408,7 @@
                           "settings": {
                             "icon": "price_tag",
                             "width": 24,
+                            "link": "",
                             "open_in_new_tab": false
                           },
                           "blocks": {}
@@ -448,6 +455,7 @@
                   "type": "group",
                   "name": "Row 2",
                   "settings": {
+                    "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "row",
                     "vertical_on_mobile": false,
@@ -487,6 +495,7 @@
                       "type": "group",
                       "name": "Design",
                       "settings": {
+                        "link": "",
                         "open_in_new_tab": false,
                         "content_direction": "column",
                         "vertical_on_mobile": true,
@@ -528,6 +537,7 @@
                           "settings": {
                             "icon": "plant",
                             "width": 24,
+                            "link": "",
                             "open_in_new_tab": false
                           },
                           "blocks": {}
@@ -568,6 +578,7 @@
                       "type": "group",
                       "name": "Quality",
                       "settings": {
+                        "link": "",
                         "open_in_new_tab": false,
                         "content_direction": "column",
                         "vertical_on_mobile": true,
@@ -609,6 +620,7 @@
                           "settings": {
                             "icon": "leather",
                             "width": 24,
+                            "link": "",
                             "open_in_new_tab": false
                           },
                           "blocks": {}
@@ -779,7 +791,7 @@
         "equal_columns": false,
         "limit_details_width": false,
         "gap": 48,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "padding-block-start": 0,
         "padding-block-end": 32
       }
@@ -948,6 +960,7 @@
               "type": "_product-card-group",
               "name": "t:names.group",
               "settings": {
+                "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
