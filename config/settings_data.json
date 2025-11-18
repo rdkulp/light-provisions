@@ -29,6 +29,7 @@
     "button_text_case_primary": "uppercase",
     "secondary_button_border_width": 0,
     "button_border_radius_secondary": 4,
+    "pills_border_radius": 0,
     "cart_type": "drawer",
     "popover_border": "none",
     "currency_code_enabled_product_pages": false,
@@ -43,6 +44,18 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "8764476057892802672": {
+        "type": "shopify://apps/stoq/blocks/main/4bb73be2-b7c2-4870-949f-c528145452a3",
+        "disabled": false,
+        "settings": {}
+      },
+      "3667842014806057753": {
+        "type": "shopify://apps/one-click-upsell/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "disabled": false,
+        "settings": {
+          "allowed_templates": ""
+        }
       }
     },
     "color_schemes": {
@@ -110,18 +123,18 @@
           "input_text_color": "#000000",
           "input_border_color": "#000000",
           "input_hover_background": "#f5f5f5",
-          "variant_background_color": "#ffffff",
-          "variant_text_color": "#000000",
+          "variant_background_color": "#00000014",
+          "variant_text_color": "#414042",
           "variant_border_color": "#e6e6e6",
-          "variant_hover_background_color": "#f5f5f5",
-          "variant_hover_text_color": "#000000",
-          "variant_hover_border_color": "#e6e6e6",
-          "selected_variant_background_color": "#000000",
-          "selected_variant_text_color": "#ffffff",
-          "selected_variant_border_color": "#000000",
-          "selected_variant_hover_background_color": "#1a1a1a",
-          "selected_variant_hover_text_color": "#ffffff",
-          "selected_variant_hover_border_color": "#1a1a1a"
+          "variant_hover_background_color": "#00000014",
+          "variant_hover_text_color": "#414042",
+          "variant_hover_border_color": "#414042",
+          "selected_variant_background_color": "#00000014",
+          "selected_variant_text_color": "#414042",
+          "selected_variant_border_color": "#414042",
+          "selected_variant_hover_background_color": "#00000014",
+          "selected_variant_hover_text_color": "#414042",
+          "selected_variant_hover_border_color": "#414042"
         }
       },
       "scheme-3": {
