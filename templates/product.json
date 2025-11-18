@@ -92,16 +92,9 @@
               },
               "blocks": {}
             },
-            "reviews": {
-              "type": "review",
-              "settings": {
-                "stars_style": "shaded",
-                "show_number": true,
-                "rating_color": "primary",
-                "type_preset": "paragraph",
-                "alignment": "left"
-              },
-              "blocks": {}
+            "judge_me_reviews_preview_badge_pPTagT": {
+              "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+              "settings": {}
             },
             "price_a7krng": {
               "type": "price",
@@ -176,6 +169,7 @@
             "product_description_LfDYCg": {
               "type": "product-description",
               "name": "t:names.product_description",
+              "disabled": true,
               "settings": {
                 "text": "{{ closest.product.description }}",
                 "width": "fit-content",
@@ -775,7 +769,7 @@
           },
           "block_order": [
             "product_title_GnyQiN",
-            "reviews",
+            "judge_me_reviews_preview_badge_pPTagT",
             "price_a7krng",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
