@@ -807,6 +807,7 @@
       "block_order": [
         "one_click_upsell_on_page_APX7Vi"
       ],
+      "custom_css": [],
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -815,11 +816,11 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
+        "gap": 0,
         "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "",
+        "section_height": "custom",
+        "section_height_custom": 0,
+        "color_scheme": "scheme-2",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -863,7 +864,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
