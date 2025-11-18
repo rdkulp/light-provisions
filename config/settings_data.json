@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/Light_Provisions_-_white_2dfa0b8a-9e4a-4bb3-80a2-9361a0d73af5.png",
-    "logo_inverse": "shopify://shop_images/Light_Provisions_-_brown.png",
+    "logo": "shopify://shop_images/Light_Provisions_-_brown.png",
+    "logo_inverse": "shopify://shop_images/Light_Provisions_-_grey_5fd53605-abe2-4ae3-a6d0-bf8b1a22c564.png",
     "type_body_font": "source_code_pro_n4",
     "type_subheading_font": "inconsolata_n4",
     "type_heading_font": "serif",
