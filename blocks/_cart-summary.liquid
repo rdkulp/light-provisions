@@ -22,7 +22,7 @@
   {{ block.shopify_attributes }}
 >
   <div class="{{ cart_summary_inner_class }}">
-    {% render 'cart-summary' %}
+    {% render 'cart-summary', accelerated_checkout_buttons_layout: 'vertical' %}
   </div>
 </div>
 
@@ -33,8 +33,8 @@
     justify-content: space-between;
   }
 
-  .cart__summary-item.tax-note {
-    font-size: var(--cart-font-size--sm);
+  .cart__summary-item.tax-note small {
+    font-size: var(--font-size--2xs);
   }
 
   .cart__discount-label {

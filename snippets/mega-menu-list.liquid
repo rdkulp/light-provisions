@@ -26,6 +26,15 @@
   assign max_menu_columns = grid_columns_count | default: 6
   assign max_menu_columns_tablet = grid_columns_count_tablet | default: 4
 
+  ##
+  # We only eager load heavy elements of the page when rendering this template
+  # through the Section Rendering API.
+  #
+  # This keeps the initial render lightweight, minimizing the impact on TTFB.
+  # The second render then refreshes the page with additional content.
+  #
+  # At the moment, we check if the Section Rendering API is being used by
+  # checking if section.index is blank.
   assign eager_loading = false
   if section.index == blank
     assign eager_loading = true
@@ -82,15 +91,20 @@
         assign column_span = link.links.size | divided_by: break_after_float | ceil | at_least: 1
         assign column_count = column_count | plus: column_span
         assign should_break_columns = true
-        assign span_class = 'mega-menu__column mega-menu__column--span-' | append: column_span
+
         if menu_content_type == 'collection_images'
           assign should_break_columns = false
-          # temporary fix to use 8 column grid (spanning 2) when fewer than 5 collection image links
-          if parent_link.links.size < 5
-            assign span_class = span_class | append: ' mega-menu__column--collection-image'
+          # For collection image mode, we have an 8-column grid when 4 or fewer parent links are used. Set column span to 2 in that case, otherwise use 1 column
+          if parent_link.links.size <= 4
+            assign span_class = 'mega-menu__column--wide-collection-image'
+          else
+            assign span_class = 'mega-menu__column--span-1'
           endif
+        else
+          # For all other modes, column span is determined by the number of links in the parent link
+          assign span_class = 'mega-menu__column--span-' | append: column_span
         endif
-        echo '<li class="' | append: span_class | append: '">'
+        echo '<li class="mega-menu__column ' | append: span_class | append: '">'
       endif
     %}
     <div>
@@ -100,7 +114,7 @@
       >
         {% if menu_content_type == 'collection_images' %}
           {%- capture collection_image_sizes -%}
-            {%- if parent_link.links.size < 5 -%}
+            {%- if parent_link.links.size <= 4 -%}
               {%- assign columns_per_item = 2 -%}
             {%- else -%}
               {%- assign columns_per_item = 1 -%}
@@ -119,7 +133,7 @@
           {% render 'link-featured-image', link: link, class: 'mega-menu__link-image', sizes: collection_image_sizes %}
         {% endif %}
         <span
-          class="mega-menu__link-title"
+          class="mega-menu__link-title wrap-text"
         >
           {{- link.title -}}
         </span>
@@ -142,7 +156,7 @@
                 href="{{ childLink.url }}"
                 class="mega-menu__link"
               >
-                <span class="mega-menu__link-title">{{- childLink.title -}}</span>
+                <span class="mega-menu__link-title wrap-text">{{- childLink.title -}}</span>
               </a>
             </li>
           {% endfor %}
