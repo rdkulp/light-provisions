@@ -609,6 +609,14 @@
     "wide": "Wide",
     "youtube": "YouTube"
   },
+  "placeholders": {
+    "blog": "Blog",
+    "blog_post": "Blog post",
+    "blog_posts": "Blog posts",
+    "blog_posts_carousel": "Blog posts carousel",
+    "blog_posts_grid": "Blog posts grid",
+    "blog_posts_editorial": "Blog posts editorial",
+  },
   "settings": {
     "accordion": "Accordion",
     "account": "Account",
@@ -632,6 +640,7 @@
     "badge_sale_color_scheme": "Sale",
     "badge_sold_out_color_scheme": "Sold out",
     "behavior": "Behavior",
+    "blog": "Blog",
     "blur": "Shadow blur",
     "blurred_reflection": "Blurred reflection",
     "border": "Border",
@@ -827,6 +836,8 @@
     "pixel_size_mobile": "Pixel size",
     "placement": "Placement",
     "position": "Position",
+    "post_count": "Post count",
+    "post_limit": "Post limit",
     "preset": "Preset",
     "primary_button_background": "Primary button background",
     "primary_button_border": "Primary button border",
