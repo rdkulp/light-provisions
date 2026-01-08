@@ -9,14 +9,6 @@
 {% liquid
   assign block_settings = block.settings
   assign animation_speed = 200
-
-  if block_settings.menu_style == 'featured_products' and block_settings.product_title_case == 'uppercase'
-    assign title_case_style = ' --title-case: uppercase;'
-  elsif block_settings.menu_style == 'featured_collections' and block_settings.collection_title_case == 'uppercase'
-    assign title_case_style = ' --title-case: uppercase;'
-  elsif block_settings.menu_style == 'collection_images' and block_settings.collection_title_case == 'uppercase'
-    assign title_case_style = ' --title-case: uppercase;'
-  endif
 %}
 
 {% case variant %}
@@ -24,7 +16,6 @@
     <div
       class="header__drawer desktop:hidden"
       ref="headerDrawerContainer"
-      style="{{ title_case_style }}"
       {{ block.shopify_attributes }}
     >
       {% render 'header-drawer',
@@ -38,7 +29,7 @@
     {% if block_settings.navigation_bar == true %}
       <div
         class="menu-list menu-list--mobile{% if transparent == blank %} color-{{ block_settings.color_scheme_navigation_bar }}{% endif %}"
-        style="--menu-horizontal-gap: 15px; --mobile-nav-margin: auto;{{ title_case_style }}"
+        style="--menu-horizontal-gap: 15px; --mobile-nav-margin: auto;"
       >
         <div class="menu-list__scroll-container">
           <ul
@@ -64,15 +55,124 @@
       </div>
     {% endif %}
   {% else %}
+    {% liquid
+      assign block_settings = block.settings
+      assign menu_content_type = block_settings.menu_style | default: 'text'
+      assign image_border_radius = block_settings.image_border_radius
+      assign color_scheme_classes = ''
+      assign color_scheme_setting_id = 'color_scheme_' | append: section.settings.menu_row
+      assign current_color_scheme = block_settings.color_scheme
+      assign parent_color_scheme = section.settings[color_scheme_setting_id]
+
+      if parent_color_scheme.id != current_color_scheme.id
+        assign color_scheme_classes = ' color-' | append: current_color_scheme
+      endif
+
+      # Check if header and menu colors match. This is used to apply different padding styles in css
+      if parent_color_scheme.settings.background.rgb == current_color_scheme.settings.background.rgb
+        assign color_scheme_classes = color_scheme_classes | append: ' color-scheme-matches-parent'
+      endif
+
+      if block_settings.menu_style == 'featured_collections'
+        assign ratio = block_settings.featured_collections_aspect_ratio
+      elsif block_settings.menu_style == 'featured_products'
+        assign ratio = block_settings.featured_products_aspect_ratio
+      endif
+    %}
+
+    {% capture children %}
+      {% for link in block_settings.menu.links %}
+        <li
+          role="presentation"
+          class="menu-list__list-item"
+          on:focus="/activate"
+          on:blur="/deactivate"
+          on:pointerenter="/activate"
+          on:pointerleave="/deactivate"
+        >
+          <a
+            href="{{ link.url }}"
+            data-skip-node-update="true"
+            class="menu-list__link{% if link.active %} menu-list__link--active{% endif %}"
+            {%- if link.links != blank -%}
+              aria-controls="submenu-{{ forloop.index }}"
+              aria-haspopup="true"
+              aria-expanded="false"
+            {%- endif -%}
+            ref="menuitem"
+          >
+            <span class="menu-list__link-title">{{- link.title -}}</span>
+          </a>
+          {%- if link.links != blank -%}
+            <div class="menu-list__submenu{{ color_scheme_classes }}" ref="submenu[]">
+              <div
+                id="submenu-{{ forloop.index }}"
+                class="menu-list__submenu-inner"
+                style="{% render 'submenu-font-styles', settings: block_settings %}"
+              >
+                {% assign list_id = 'MegaMenuList-' | append: forloop.index %}
+                <div class="mega-menu section section--full-width-margin section--{{ section.settings.section_width }}">
+                  <div
+                    class="mega-menu__grid"
+                    data-menu-grid-id="{{ list_id }}"
+                  >
+                    {% render 'mega-menu-list',
+                      parent_link: link,
+                      id: list_id,
+                      section: section,
+                      grid_columns_count: 6,
+                      grid_columns_count_tablet: 4,
+                      grid_columns_count_collection_images: 8,
+                      menu_content_type: menu_content_type,
+                      content_aspect_ratio: ratio,
+                      image_border_radius: image_border_radius
+                    %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          {%- endif -%}
+        </li>
+      {% endfor %}
+      <li
+        class="menu-list__list-item"
+        role="presentation"
+        slot="more"
+        on:focus="/activate"
+        on:blur="/deactivate"
+        on:pointerenter="/activate"
+        on:pointerleave="/deactivate"
+      >
+        <button role="menuitem" class="button menu-list__link button-unstyled">
+          <span class="menu-list__link-title">{{ 'actions.more' | t }}</span>
+        </button>
+      </li>
+    {% endcapture %}
+
     <header-menu
       ref="headerMenu"
       class="header-menu mobile:hidden"
       data-animation-delay="{{ animation_speed }}"
       {{ block.shopify_attributes }}
-      style="--submenu-animation-speed: {{ animation_speed }}ms;{{ title_case_style }}"
+      style="--submenu-animation-speed: {{ animation_speed }}ms;"
     >
       <div class="header-menu__inner">
-        {%- render 'header-menu' %}
+        <nav header-menu>
+          <div
+            class="menu-list"
+            style="{% render 'menu-font-styles', settings: block_settings %}"
+          >
+            {% assign class = 'overflow-menu' | append: color_scheme_classes %}
+            {% render 'overflow-list',
+              class: class,
+              ref: 'overflowMenu',
+              children: children,
+              minimum-items: 2,
+              data-testid: 'header-menu-overflow-list',
+              attributes: 'data-skip-node-update'
+            %}
+          </div>
+        </nav>
       </div>
 
       <script
@@ -116,7 +216,7 @@
   .menu-list__scroll-container {
     position: relative;
     overflow-x: auto;
-    mask-image: linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent);
+    mask-image: linear-gradient(to right, transparent, #000 20px, #000 calc(100% - 20px), transparent);
     padding-block: var(--padding-2xs);
   }
 
@@ -159,12 +259,6 @@
 
   .menu-drawer__featured-content-list-item:last-child {
     margin-inline-end: var(--margin-xl);
-  }
-
-  /* Apply title case to drawer menu featured content */
-  .menu-drawer__featured-content-list-item--product .resource-card__title,
-  .menu-drawer__featured-content-list-item--collection .resource-card__title {
-    text-transform: var(--title-case);
   }
 
   .menu-list {
@@ -282,7 +376,6 @@
     --submenu-content-opacity: 0;
     --submenu-content-animation: opacity calc(var(--submenu-animation-speed) * 0.75) var(--animation-easing);
 
-    box-shadow: var(--shadow-drawer);
     visibility: hidden;
     background-color: var(--color-background);
     position: absolute;
@@ -341,6 +434,16 @@
     grid-template-areas: 'left right';
     grid-template-rows: max-content;
     grid-gap: 0;
+  }
+
+  /* Make overflow menu scrollable when content exceeds viewport */
+  .menu-list__submenu-inner,
+  .overflow-menu::part(overflow-list) {
+    max-height: calc(80vh - var(--header-height));
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(var(--color-foreground-rgb) / var(--opacity-40)) transparent;
   }
 
   .menu-list__list-item:is([slot='overflow']) {
@@ -452,6 +555,7 @@
   }
 
   /* Fix alignment for collection image mode links without images */
+
   /* Target only top-level links (direct children of column > div) in collection image mode */
   .mega-menu__grid:has(.mega-menu__link-image)
     .mega-menu__column
@@ -504,7 +608,7 @@
     grid-column: span 4;
   }
 
-  .mega-menu__column--collection-image {
+  .mega-menu__column--wide-collection-image {
     grid-column: span 1;
 
     @media screen and (min-width: 990px) {
@@ -512,18 +616,8 @@
     }
   }
 
-  .mega-menu__column--collection-image .mega-menu__link {
-    text-transform: var(--title-case);
-  }
-
-  .mega-menu__submenu .mega-menu__column--collection-image {
+  .mega-menu__submenu .mega-menu__column--wide-collection-image {
     grid-column: span 1;
-  }
-
-  /* Apply title case to featured products and collections */
-  .mega-menu__content-list--products .resource-card__title,
-  .mega-menu__content-list--collections .resource-card__title {
-    text-transform: var(--title-case);
   }
 
   .mega-menu__content-list {
@@ -616,13 +710,116 @@
       "default": "main-menu"
     },
     {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:settings.color_scheme",
+      "default": "primary"
+    },
+    {
+      "type": "header",
+      "content": "t:content.typography"
+    },
+    {
+      "type": "select",
+      "id": "type_font_primary_size",
+      "label": "t:settings.top_level_size",
+      "options": [
+        {
+          "value": "0.625rem",
+          "label": "10px"
+        },
+        {
+          "value": "0.75rem",
+          "label": "12px"
+        },
+        {
+          "value": "0.875rem",
+          "label": "14px"
+        },
+        {
+          "value": "1rem",
+          "label": "16px"
+        },
+        {
+          "value": "1.125rem",
+          "label": "18px"
+        }
+      ],
+      "default": "1rem"
+    },
+    {
+      "type": "select",
+      "id": "menu_font_style",
+      "label": "t:settings.submenu_size",
+      "options": [
+        {
+          "value": "regular",
+          "label": "t:options.small"
+        },
+        {
+          "value": "inverse",
+          "label": "t:options.medium"
+        },
+        {
+          "value": "inverse_large",
+          "label": "t:options.large"
+        }
+      ],
+      "default": "inverse"
+    },
+    {
+      "type": "select",
+      "id": "type_font_primary_link",
+      "label": "t:settings.font",
+      "options": [
+        {
+          "value": "body",
+          "label": "t:options.body"
+        },
+        {
+          "value": "subheading",
+          "label": "t:options.subheading"
+        },
+        {
+          "value": "heading",
+          "label": "t:options.heading"
+        },
+        {
+          "value": "accent",
+          "label": "t:options.accent"
+        }
+      ],
+      "default": "heading"
+    },
+    {
+      "type": "select",
+      "id": "type_case_primary_link",
+      "label": "t:settings.text_case",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:options.default"
+        },
+        {
+          "value": "uppercase",
+          "label": "t:options.uppercase"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "header",
+      "content": "t:content.submenu_feature"
+    },
+    {
       "type": "select",
       "id": "menu_style",
-      "label": "t:settings.style",
+      "label": "t:settings.media_type",
+      "info": "t:info.media_type_info",
       "options": [
         {
           "value": "text",
-          "label": "t:options.text_only"
+          "label": "t:options.none"
         },
         {
           "value": "collection_images",
@@ -691,270 +888,6 @@
       "unit": "px",
       "default": 0,
       "visible_if": "{{ block.settings.menu_style != 'text' }}"
-    },
-    {
-      "type": "select",
-      "id": "product_title_case",
-      "label": "t:settings.product_title_case",
-      "options": [
-        {
-          "value": "default",
-          "label": "t:options.default"
-        },
-        {
-          "value": "uppercase",
-          "label": "t:options.uppercase"
-        }
-      ],
-      "default": "default",
-      "visible_if": "{{ block.settings.menu_style == 'featured_products' }}"
-    },
-    {
-      "type": "select",
-      "id": "collection_title_case",
-      "label": "t:settings.collection_title_case",
-      "options": [
-        {
-          "value": "default",
-          "label": "t:options.default"
-        },
-        {
-          "value": "uppercase",
-          "label": "t:options.uppercase"
-        }
-      ],
-      "default": "default",
-      "visible_if": "{{ block.settings.menu_style == 'featured_collections' or block.settings.menu_style == 'collection_images' }}"
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:settings.color_scheme",
-      "default": "primary"
-    },
-    {
-      "type": "select",
-      "id": "menu_font_style",
-      "label": "t:settings.text_hierarchy",
-      "options": [
-        {
-          "value": "regular",
-          "label": "t:options.classic"
-        },
-        {
-          "value": "inverse",
-          "label": "t:options.inverse"
-        },
-        {
-          "value": "inverse_large",
-          "label": "t:options.inverse_large"
-        }
-      ],
-      "default": "inverse"
-    },
-    {
-      "type": "header",
-      "content": "t:content.typography_primary"
-    },
-    {
-      "type": "select",
-      "id": "type_font_primary_link",
-      "label": "t:settings.font",
-      "options": [
-        {
-          "value": "body",
-          "label": "t:options.body"
-        },
-        {
-          "value": "subheading",
-          "label": "t:options.subheading"
-        },
-        {
-          "value": "heading",
-          "label": "t:options.heading"
-        },
-        {
-          "value": "accent",
-          "label": "t:options.accent"
-        }
-      ],
-      "default": "heading"
-    },
-    {
-      "type": "select",
-      "id": "type_font_primary_size",
-      "label": "t:settings.size",
-      "options": [
-        {
-          "value": "0.625rem",
-          "label": "10px"
-        },
-        {
-          "value": "0.75rem",
-          "label": "12px"
-        },
-        {
-          "value": "0.875rem",
-          "label": "14px"
-        },
-        {
-          "value": "1rem",
-          "label": "16px"
-        },
-        {
-          "value": "1.125rem",
-          "label": "18px"
-        },
-        {
-          "value": "1.25rem",
-          "label": "20px"
-        },
-        {
-          "value": "1.5rem",
-          "label": "24px"
-        },
-        {
-          "value": "2rem",
-          "label": "32px"
-        },
-        {
-          "value": "2.5rem",
-          "label": "40px"
-        },
-        {
-          "value": "3rem",
-          "label": "48px"
-        },
-        {
-          "value": "3.5rem",
-          "label": "56px"
-        },
-        {
-          "value": "4.5rem",
-          "label": "72px"
-        },
-        {
-          "value": "5.5rem",
-          "label": "88px"
-        },
-        {
-          "value": "7.5rem",
-          "label": "120px"
-        },
-        {
-          "value": "9.5rem",
-          "label": "152px"
-        },
-        {
-          "value": "11.5rem",
-          "label": "184px"
-        }
-      ],
-      "default": "1rem"
-    },
-    {
-      "type": "select",
-      "id": "type_case_primary_link",
-      "label": "t:settings.text_case",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:options.default"
-        },
-        {
-          "value": "uppercase",
-          "label": "t:options.uppercase"
-        }
-      ],
-      "default": "none"
-    },
-    {
-      "type": "header",
-      "content": "t:content.typography_secondary"
-    },
-    {
-      "type": "select",
-      "id": "type_font_secondary_link",
-      "label": "t:settings.font",
-      "options": [
-        {
-          "value": "body",
-          "label": "t:options.body"
-        },
-        {
-          "value": "subheading",
-          "label": "t:options.subheading"
-        },
-        {
-          "value": "heading",
-          "label": "t:options.heading"
-        },
-        {
-          "value": "accent",
-          "label": "t:options.accent"
-        }
-      ],
-      "default": "subheading"
-    },
-    {
-      "type": "select",
-      "id": "type_case_secondary_link",
-      "label": "t:settings.text_case",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:options.default"
-        },
-        {
-          "value": "uppercase",
-          "label": "t:options.uppercase"
-        }
-      ],
-      "default": "none"
-    },
-    {
-      "type": "header",
-      "content": "t:content.typography_tertiary"
-    },
-    {
-      "type": "select",
-      "id": "type_font_tertiary_link",
-      "label": "t:settings.font",
-      "options": [
-        {
-          "value": "body",
-          "label": "t:options.body"
-        },
-        {
-          "value": "subheading",
-          "label": "t:options.subheading"
-        },
-        {
-          "value": "heading",
-          "label": "t:options.heading"
-        },
-        {
-          "value": "accent",
-          "label": "t:options.accent"
-        }
-      ],
-      "default": "body"
-    },
-    {
-      "type": "select",
-      "id": "type_case_tertiary_link",
-      "label": "t:settings.text_case",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:options.default"
-        },
-        {
-          "value": "uppercase",
-          "label": "t:options.uppercase"
-        }
-      ],
-      "default": "none"
     },
     {
       "type": "header",

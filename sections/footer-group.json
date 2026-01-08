@@ -71,6 +71,8 @@
                 "inherit_color_scheme": true,
                 "heading": "",
                 "heading_preset": "h3",
+                "heading": "",
+                "heading_preset": "h3",
                 "color_scheme": "scheme-4",
                 "border_style": "all",
                 "border_width": 0,
@@ -361,113 +363,19 @@
             "group_AeYPK8",
             "group_Y4N36x"
           ]
-        },
-        "footer_utilities_iTnDrc": {
-          "type": "footer-utilities",
-          "name": "t:names.footer_utilities",
-          "settings": {
-            "divider_thickness": 1,
-            "padding-block-start": 20,
-            "padding-block-end": 0
-          },
-          "blocks": {
-            "copyright": {
-              "type": "_footer-copyright",
-              "static": true,
-              "settings": {
-                "show_powered_by": true,
-                "font_size": "0.75rem",
-                "case": "none"
-              },
-              "blocks": {}
-            },
-            "policy_list": {
-              "type": "_footer-policy-list",
-              "static": true,
-              "settings": {
-                "font_size": "0.75rem",
-                "case": "none"
-              },
-              "blocks": {}
-            },
-            "social_icons": {
-              "type": "_footer-social-icons",
-              "static": true,
-              "settings": {},
-              "blocks": {
-                "social_link_669aGB": {
-                  "type": "_social-link",
-                  "name": "Facebook",
-                  "settings": {
-                    "link": "https://www.facebook.com/"
-                  },
-                  "blocks": {}
-                },
-                "social_link_mPkL4V": {
-                  "type": "_social-link",
-                  "name": "Instagram",
-                  "settings": {
-                    "link": "https://www.instagram.com/"
-                  },
-                  "blocks": {}
-                },
-                "social_link_bRPJHh": {
-                  "type": "_social-link",
-                  "name": "TikTok",
-                  "settings": {
-                    "link": "https://www.tiktok.com/"
-                  },
-                  "blocks": {}
-                },
-                "social_link_QEXeUQ": {
-                  "type": "_social-link",
-                  "name": "X / Twitter",
-                  "settings": {
-                    "link": "https://twitter.com/"
-                  },
-                  "blocks": {}
-                },
-                "social_link_77ffzN": {
-                  "type": "_social-link",
-                  "name": "YouTube",
-                  "settings": {
-                    "link": "https://www.youtube.com/"
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "social_link_669aGB",
-                "social_link_mPkL4V",
-                "social_link_bRPJHh",
-                "social_link_QEXeUQ",
-                "social_link_77ffzN"
-              ]
-            }
-          },
-          "block_order": []
         }
       },
       "block_order": [
-        "group_MK6PAh",
-        "footer_utilities_iTnDrc"
+        "menu_8tJbUk",
+        "menu_jRmAQi",
+        "menu_6jWwP4",
+        "group_hAzkCn"
       ],
       "name": "Footer",
       "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
         "section_width": "page-width",
-        "section_height": "",
+        "gap": 12,
         "color_scheme": "scheme-3",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
         "padding-block-start": 36,
         "padding-block-end": 18
       }
