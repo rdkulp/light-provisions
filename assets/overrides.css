@@ -23,3 +23,38 @@ body, p, a, a p, span, .button, .paragraph:not(.button), .paragraph>* {
 nav a span {
   font-family: "soleil";
 }
+
+/* First column fit-content only for MegaMenuList-1 (override grid track) */
+[data-menu-grid-id="MegaMenuList-1"].mega-menu__grid {
+  grid-template-columns:
+    minmax(max-content, .45fr)
+    repeat(calc(var(--menu-columns-desktop) - 1), minmax(0, 1fr));
+}
+
+@media screen and (max-width: 989px) {
+  [data-menu-grid-id="MegaMenuList-1"].mega-menu__grid {
+    grid-template-columns:
+      minmax(max-content, .45fr)
+      repeat(calc(var(--menu-columns-tablet) - 1), minmax(0, 1fr));
+  }
+}
+
+nav .menu-list__list-item .mega-menu__column:nth-last-child(-n+2) ul a span.mega-menu__link-title {
+  font-family: "freight-display-pro";
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+nav .menu-list__list-item .mega-menu__column:nth-last-child(-n+2) a span.mega-menu__link-title {
+  font-family: "soleil";
+}
+
+
+nav .menu-list__list-item:first-of-type .mega-menu__column:first-child ul li:nth-last-child(-n+2) { 
+  margin-top: 36px;
+}
+
+nav .menu-list__list-item:first-of-type .mega-menu__column:first-child ul li:last-child {
+  margin-top: 0;
+}

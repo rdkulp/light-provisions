@@ -1,44 +1,123 @@
 {
   "article": [],
   "blog": [],
-  "brand": [],
-  "collection": [],
-  "company": [],
-  "company_location": [],
-  "location": [],
-  "market": [],
-  "order": [
+  "collection": [
     {
-      "key": "custom_fields",
-      "namespace": "apz-checkout",
-      "name": "Tell us more about you",
-      "description": null,
+      "key": "hero_image",
+      "namespace": "custom",
+      "name": "Hero Image",
+      "description": "",
+      "type": {
+        "name": "file_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "description",
+      "namespace": "custom",
+      "name": "description",
+      "description": "",
       "type": {
         "name": "multi_line_text_field",
         "category": "TEXT"
       }
     }
   ],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
   "page": [],
   "product": [
     {
-      "key": "rating",
-      "namespace": "reviews",
-      "name": "Product rating",
-      "description": "Average rating from customers",
+      "key": "pairs_with",
+      "namespace": "custom",
+      "name": "Pairs With",
+      "description": "",
       "type": {
-        "name": "rating",
-        "category": "RATING"
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     },
     {
-      "key": "rating_count",
-      "namespace": "reviews",
-      "name": "Product rating count",
-      "description": "Total number of ratings from customers",
+      "key": "uses",
+      "namespace": "custom",
+      "name": "Uses",
+      "description": "",
       "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "dietary_information",
+      "namespace": "custom",
+      "name": "Dietary Information",
+      "description": "",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "ingredients",
+      "namespace": "custom",
+      "name": "Ingredients",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "nutrition_facts",
+      "namespace": "custom",
+      "name": "Nutrition Facts",
+      "description": "",
+      "type": {
+        "name": "file_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "food-product-form",
+      "namespace": "shopify",
+      "name": "Food product form",
+      "description": "Specifies the form in which the food product is presented, such as dried or frozen",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "taste_notes",
+      "namespace": "custom",
+      "name": "Taste Notes",
+      "description": "",
+      "type": {
+        "name": "metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "flavor_profile",
+      "namespace": "custom",
+      "name": "Flavor Profile",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "legacy_name",
+      "namespace": "custom",
+      "name": "Legacy Name",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
       }
     },
     {
@@ -82,9 +161,19 @@
       }
     },
     {
-      "key": "parts_repair",
+      "key": "notes_1_heading",
       "namespace": "custom",
-      "name": "Parts & Repair",
+      "name": "Notes 1 Heading",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "notes_1_text",
+      "namespace": "custom",
+      "name": "Notes 1 Text",
       "description": "",
       "type": {
         "name": "multi_line_text_field",
@@ -92,139 +181,19 @@
       }
     },
     {
-      "key": "custom_product",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Product",
-      "description": "Use to indicate whether or not the unique product identifiers (UPIs) GTIN, MPN, and brand are available for your product.",
-      "type": {
-        "name": "boolean",
-        "category": "TRUE_FALSE"
-      }
-    },
-    {
-      "key": "candle-type",
-      "namespace": "shopify",
-      "name": "Candle type",
-      "description": "Specifies the design of candles, such as taper or tea light",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "scent",
-      "namespace": "shopify",
-      "name": "Scent",
-      "description": "Specifies the fragrance or aroma of a product, such as vanilla or citrus",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "color-pattern",
-      "namespace": "shopify",
-      "name": "Color",
-      "description": "Defines the primary color or pattern, such as blue or striped",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "drinkware-material",
-      "namespace": "shopify",
-      "name": "Drinkware material",
-      "description": "Specifies the composition of drinkware, such as glass or plastic",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "suitable-space",
-      "namespace": "shopify",
-      "name": "Suitable space",
-      "description": "Defines the ideal location for product use, e.g. indoors, above ground",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "tableware-material",
-      "namespace": "shopify",
-      "name": "Tableware material",
-      "description": "Specifies the composition of tableware, such as bone china or earthenware",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "shape",
-      "namespace": "shopify",
-      "name": "Shape",
-      "description": "Describes the geometric form or shape of a product, such as round or heart",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "barware-material",
-      "namespace": "shopify",
-      "name": "Barware material",
-      "description": "Identifies the main material used in barware items, such as glass or stainless steel",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "material",
-      "namespace": "shopify",
-      "name": "Material",
-      "description": "Defines a product's primary material, such as cotton or wool",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "target-gender",
-      "namespace": "shopify",
-      "name": "Target gender",
-      "description": "Identifies the intended gender for a product, such as female, male or unisex",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "hardware-material",
-      "namespace": "shopify",
-      "name": "Hardware material",
-      "description": "Specifies the composition of hardware items, such as metal or stainless steel",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "decoration-material",
-      "namespace": "shopify",
-      "name": "Decoration material",
-      "description": "Identifies the material used for decoration, such as sequins or feathers",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "size_info",
+      "key": "notes_2_heading",
       "namespace": "custom",
-      "name": "Size Info",
+      "name": "Notes 2 Heading",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "notes_2_text",
+      "namespace": "custom",
+      "name": "Notes 2 Text",
       "description": "",
       "type": {
         "name": "multi_line_text_field",
@@ -232,9 +201,19 @@
       }
     },
     {
-      "key": "ingredient_info",
+      "key": "notes_3_heading",
       "namespace": "custom",
-      "name": "Ingredient Info",
+      "name": "Notes 3 Heading",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "notes_3_text",
+      "namespace": "custom",
+      "name": "Notes 3 Text",
       "description": "",
       "type": {
         "name": "multi_line_text_field",
@@ -242,278 +221,6 @@
       }
     }
   ],
-  "variant": [
-    {
-      "key": "rrp",
-      "namespace": "sparklayer",
-      "name": "RRP",
-      "description": "",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "pack_size",
-      "namespace": "sparklayer",
-      "name": "B2B Pack Size - Tin",
-      "description": "\"pdp.price.pack-size\": \"Pack ({4}): {30}\"",
-      "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
-      }
-    },
-    {
-      "key": "pack_size_tumbler",
-      "namespace": "sparklayer",
-      "name": "B2B Pack Size - Tumbler",
-      "description": "pdp.price.pack-size: \"Pack ({3}): {51}",
-      "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
-      }
-    },
-    {
-      "key": "custom_label_4",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 4",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "custom_label_3",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 3",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "custom_label_2",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 2",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "custom_label_1",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 1",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "custom_label_0",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 0",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "size_system",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Size System",
-      "description": "The country of the size system used by your product.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "size_type",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Size Type",
-      "description": "Your apparel product’s cut.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "mpn",
-      "namespace": "mm-google-shopping",
-      "name": "Google: MPN",
-      "description": "Your product’s Manufacturer Part Number (MPN).",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "gender",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Gender",
-      "description": "The gender for which your product is intended.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "condition",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Condition",
-      "description": "The condition of your product at time of sale.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "age_group",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Age Group",
-      "description": "The demographic for which your product is intended.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "preorder_count",
-      "namespace": "restockrocket_production",
-      "name": "Preorder Count",
-      "description": "Current preorder count for the variant",
-      "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
-      }
-    },
-    {
-      "key": "preorder_max_count",
-      "namespace": "restockrocket_production",
-      "name": "Preorder Max Count",
-      "description": "Maximum preorder count allowed for the variant",
-      "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
-      }
-    },
-    {
-      "key": "shipping_text",
-      "namespace": "restockrocket_production",
-      "name": "Shipping Text",
-      "description": "Custom shipping text for the variant",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "market_preorder_count",
-      "namespace": "restockrocket_production",
-      "name": "Market Preorder Count",
-      "description": "Market-specific preorder counts for the variant",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "market_preorder_max_count",
-      "namespace": "restockrocket_production",
-      "name": "Market Preorder Max Count",
-      "description": "Market-specific preorder max counts for the variant",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "market_shipping_text",
-      "namespace": "restockrocket_production",
-      "name": "Market Shipping Text",
-      "description": "Market-specific shipping text for the variant",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    }
-  ],
-  "shop": [
-    {
-      "key": "settings",
-      "namespace": "restockrocket_production",
-      "name": "Settings",
-      "description": "Settings for the app",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "selling_plans",
-      "namespace": "restockrocket_production",
-      "name": "Selling Plans",
-      "description": "Settings and variant IDs for preorder offers",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "out_of_stock_variant_ids",
-      "namespace": "restockrocket_production",
-      "name": "Out of Stock Variant IDs",
-      "description": "List of variant IDs that are currently out of stock",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "in_stock_variant_ids",
-      "namespace": "restockrocket_production",
-      "name": "In Stock Variant IDs",
-      "description": "List of variant IDs that are currently in stock",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "preorder_variant_ids",
-      "namespace": "restockrocket_production",
-      "name": "Preorder Variant IDs",
-      "description": "List of variant IDs that are available for preorder",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "merchant_id",
-      "namespace": "mm_google_shopping_extension",
-      "name": "Google: Merchant ID",
-      "description": "Currently Linked Merchant Center ID",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "show_store_widget_app_embed_block",
-      "namespace": "mm_google_shopping_extension",
-      "name": "Google: Show Store Widget App Embed Block",
-      "description": "Indicates if the store widget app embed block should be shown.",
-      "type": {
-        "name": "boolean",
-        "category": "TRUE_FALSE"
-      }
-    }
-  ]
+  "variant": [],
+  "shop": []
 }
