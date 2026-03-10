@@ -1,7 +1,13 @@
 
+<<<<<<< Updated upstream
 
 {% liquid
   assign max_items = section.settings.post_limit
+=======
+{% liquid
+  assign blog = section.settings.blog
+  assign articles = blog.articles | default: collections.all.products
+>>>>>>> Stashed changes
 %}
 
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
@@ -16,6 +22,7 @@
     gap-style
   "
   style="
+<<<<<<< Updated upstream
     {%- render 'spacing-style', settings: section.settings -%}
     {%- render 'gap-style', value: section.settings.gap -%}
   "
@@ -58,11 +65,34 @@
     content_type: 'articles',
     test_id: 'featured-blog-posts'
   %}
+=======
+    {% render 'spacing-style', settings: section.settings %}
+    {% render 'gap-style', value: section.settings.gap %}
+    --resource-list-column-gap-desktop: {{ section.settings.columns_gap }}px;
+    --resource-list-row-gap-desktop: {{ section.settings.rows_gap }}px;
+    --resource-list-columns: repeat({{ section.settings.columns }}, 1fr);
+    --resource-list-columns-mobile: repeat({{ section.settings.mobile_columns }}, 1fr);
+    --column-count-mobile: {{ section.settings.mobile_columns }};
+  "
+>
+  <div class="section-resource-list__content">
+    {% content_for 'blocks' %}
+  </div>
+
+  <div class="resource-list resource-list--grid">
+    {% for article in articles limit: section.settings.post_limit %}
+      <div class="resource-list__item">
+        {% content_for 'block', id: 'static-blog-post-card', type: '_featured-blog-posts-card', article: article, closest.blog: blog %}
+      </div>
+    {% endfor %}
+  </div>
+>>>>>>> Stashed changes
 </div>
 
 {% schema %}
 {
   "name": "t:names.blog_posts",
+<<<<<<< Updated upstream
   "tag": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
@@ -70,13 +100,26 @@
   "class": "featured-blog-posts",
   "blocks": [
     {
+=======
+  "blocks": [
+    {
+      "type": "@theme"
+    },
+    {
+      "type": "@app"
+    },
+    {
+>>>>>>> Stashed changes
       "type": "_featured-blog-posts-title"
     },
     {
       "type": "_featured-blog-posts-card"
+<<<<<<< Updated upstream
     },
     {
       "type": "_featured-blog-posts-image"
+=======
+>>>>>>> Stashed changes
     }
   ],
   "settings": [
@@ -86,6 +129,7 @@
       "label": "t:settings.blog"
     },
     {
+<<<<<<< Updated upstream
       "type": "header",
       "content": "t:content.cards_layout"
     },
@@ -99,41 +143,77 @@
           "label": "t:options.grid"
         },
         {
+=======
+      "type": "select",
+      "id": "layout_type",
+      "label": "t:settings.layout",
+      "options": [
+        {
+>>>>>>> Stashed changes
           "value": "carousel",
           "label": "t:options.carousel"
         },
         {
+<<<<<<< Updated upstream
+=======
+          "value": "grid",
+          "label": "t:options.grid"
+        },
+        {
+>>>>>>> Stashed changes
           "value": "editorial",
           "label": "t:options.editorial"
         }
       ],
+<<<<<<< Updated upstream
       "default": "grid"
+=======
+      "default": "carousel"
+>>>>>>> Stashed changes
     },
     {
       "type": "checkbox",
       "id": "carousel_on_mobile",
       "label": "t:settings.carousel_on_mobile",
+<<<<<<< Updated upstream
       "default": true,
       "visible_if": "{{ section.settings.layout_type != 'carousel' }}"
+=======
+      "default": true
+>>>>>>> Stashed changes
     },
     {
       "type": "range",
       "id": "post_limit",
+<<<<<<< Updated upstream
       "label": "t:settings.post_count",
       "min": 2,
       "max": 10,
       "step": 1,
       "default": 3
+=======
+      "label": "t:settings.post_limit",
+      "min": 1,
+      "max": 20,
+      "step": 1,
+      "default": 5
+>>>>>>> Stashed changes
     },
     {
       "type": "range",
       "id": "columns",
       "label": "t:settings.columns",
       "min": 1,
+<<<<<<< Updated upstream
       "max": 8,
       "step": 1,
       "default": 3,
       "visible_if": "{{ section.settings.layout_type == 'grid' or section.settings.layout_type == 'carousel' }}"
+=======
+      "max": 6,
+      "step": 1,
+      "default": 3
+>>>>>>> Stashed changes
     },
     {
       "type": "select",
@@ -142,6 +222,7 @@
       "options": [
         {
           "value": "1",
+<<<<<<< Updated upstream
           "label": "t:options.one_number"
         },
         {
@@ -168,26 +249,55 @@
       ],
       "default": "60cqw",
       "visible_if": "{{ section.settings.layout_type == 'carousel' or section.settings.carousel_on_mobile == true }}"
+=======
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "text",
+      "id": "mobile_card_size",
+      "label": "t:settings.mobile_card_size",
+      "default": "60cqw"
+>>>>>>> Stashed changes
     },
     {
       "type": "range",
       "id": "columns_gap",
+<<<<<<< Updated upstream
       "label": "t:settings.horizontal_gap",
+=======
+      "label": "t:settings.columns_gap",
+>>>>>>> Stashed changes
       "min": 0,
       "max": 100,
       "step": 1,
       "unit": "px",
+<<<<<<< Updated upstream
       "default": 16,
       "visible_if": "{{ section.settings.layout_type == 'grid' or section.settings.layout_type == 'carousel' }}"
+=======
+      "default": 8
+>>>>>>> Stashed changes
     },
     {
       "type": "range",
       "id": "rows_gap",
+<<<<<<< Updated upstream
       "label": "t:settings.vertical_gap",
+=======
+      "label": "t:settings.rows_gap",
+>>>>>>> Stashed changes
       "min": 0,
       "max": 100,
       "step": 1,
       "unit": "px",
+<<<<<<< Updated upstream
       "default": 16,
       "visible_if": "{{ section.settings.layout_type == 'grid' }}"
     },
@@ -195,10 +305,14 @@
       "type": "header",
       "content": "t:content.carousel_navigation",
       "visible_if": "{{ section.settings.layout_type == 'carousel' or section.settings.carousel_on_mobile == true }}"
+=======
+      "default": 16
+>>>>>>> Stashed changes
     },
     {
       "type": "select",
       "id": "icons_style",
+<<<<<<< Updated upstream
       "label": "t:settings.icon",
       "options": [
         {
@@ -224,10 +338,25 @@
       ],
       "default": "arrow",
       "visible_if": "{{ section.settings.layout_type == 'carousel' or section.settings.carousel_on_mobile == true }}"
+=======
+      "label": "t:settings.icons_style",
+      "options": [
+        {
+          "value": "arrow",
+          "label": "t:options.arrow"
+        },
+        {
+          "value": "chevron",
+          "label": "t:options.chevron"
+        }
+      ],
+      "default": "arrow"
+>>>>>>> Stashed changes
     },
     {
       "type": "select",
       "id": "icons_shape",
+<<<<<<< Updated upstream
       "label": "t:settings.icon_background",
       "options": [
         {
@@ -235,6 +364,11 @@
           "label": "t:options.none"
         },
         {
+=======
+      "label": "t:settings.icons_shape",
+      "options": [
+        {
+>>>>>>> Stashed changes
           "value": "circle",
           "label": "t:options.circle"
         },
@@ -243,12 +377,16 @@
           "label": "t:options.square"
         }
       ],
+<<<<<<< Updated upstream
       "default": "none",
       "visible_if": "{{ section.settings.icons_style != 'none' and section.settings.layout_type == 'carousel' or section.settings.carousel_on_mobile == true }}"
     },
     {
       "type": "header",
       "content": "t:content.section_layout"
+=======
+      "default": "circle"
+>>>>>>> Stashed changes
     },
     {
       "type": "select",
@@ -294,7 +432,11 @@
       "max": 100,
       "step": 1,
       "unit": "px",
+<<<<<<< Updated upstream
       "default": 32
+=======
+      "default": 48
+>>>>>>> Stashed changes
     },
     {
       "type": "range",
@@ -304,6 +446,7 @@
       "max": 100,
       "step": 1,
       "unit": "px",
+<<<<<<< Updated upstream
       "default": 32
     }
   ],
@@ -490,7 +633,14 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+=======
+      "default": 48
+>>>>>>> Stashed changes
     }
   ]
 }
 {% endschema %}
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
