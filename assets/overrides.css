@@ -40,10 +40,10 @@ nav a span {
 }
 
 nav .menu-list__list-item .mega-menu__column:nth-last-child(-n+2) ul a span.mega-menu__link-title {
-  font-family: "freight-display-pro";
+  font-family: "freightneocnd-pro";
   font-size: 32px;
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 nav .menu-list__list-item .mega-menu__column:nth-last-child(-n+2) a span.mega-menu__link-title {
