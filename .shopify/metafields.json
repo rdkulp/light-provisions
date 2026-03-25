@@ -219,6 +219,116 @@
         "name": "multi_line_text_field",
         "category": "TEXT"
       }
+    },
+    {
+      "key": "color-pattern",
+      "namespace": "shopify",
+      "name": "Color",
+      "description": "Defines the primary color or pattern, such as blue or striped",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "tool-utensil-material",
+      "namespace": "shopify",
+      "name": "Tool/Utensil material",
+      "description": "Identifies the main material used in a tool or utensil, like stainless steel or teak wood",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "lumber-wood-type",
+      "namespace": "shopify",
+      "name": "Lumber/Wood type",
+      "description": "Identifies the specific type of wood or lumber used in a product, like oak or pine",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "rating",
+      "namespace": "reviews",
+      "name": "Product rating",
+      "description": "Average rating from customers",
+      "type": {
+        "name": "rating",
+        "category": "RATING"
+      }
+    },
+    {
+      "key": "rating_count",
+      "namespace": "reviews",
+      "name": "Product rating count",
+      "description": "Total number of ratings from customers",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "allergen-information",
+      "namespace": "shopify",
+      "name": "Allergen information",
+      "description": "Indicates potential allergens present in food or beverages, such as wheat or peanuts",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "heat-level",
+      "namespace": "shopify",
+      "name": "Heat level",
+      "description": "Indicates the spiciness of food and beverage products, such as mild or very hot",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "dietary-preferences",
+      "namespace": "shopify",
+      "name": "Dietary preferences",
+      "description": "Helps identify products suitable for specific diets, e.g. vegan, nut free",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "package-type",
+      "namespace": "shopify",
+      "name": "Package type",
+      "description": "Defines the type of packaging for a product, e.g. jar, pump",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "flavor",
+      "namespace": "shopify",
+      "name": "Flavor",
+      "description": "Specifies the taste or flavor of a product, e.g. vanilla, mint",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "staff_pick_name",
+      "namespace": "custom",
+      "name": "Staff Pick Name",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "variant": [],
