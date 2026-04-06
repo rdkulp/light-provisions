@@ -681,6 +681,20 @@
         "padding-block-end": 64
       }
     },
+    "divider_r6ErzJ": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "section_UcDgem": {
       "type": "section",
       "blocks": {
@@ -1153,7 +1167,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -1165,20 +1179,6 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
-    "divider_r6ErzJ": {
-      "type": "divider",
-      "name": "t:names.divider_section",
-      "settings": {
-        "color_scheme": "",
-        "section_width": "full-width",
-        "thickness": 1,
-        "corner_radius": "square",
-        "width_percent": 100,
-        "alignment_horizontal": "center",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
@@ -2590,8 +2590,8 @@
   "order": [
     "slideshow_C9edwc",
     "product_list_EDUBdR",
-    "section_UcDgem",
     "divider_r6ErzJ",
+    "section_UcDgem",
     "17563185878d8cddde",
     "section_7TKdhh",
     "section_rqDEn3",
