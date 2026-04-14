@@ -120,14 +120,16 @@
 
 {% schema %}
 {
-  "name": "t:names.logo",
+  "name": "Logo",
   "enabled_on": {
-    "groups": ["footer"]
+    "groups": [
+      "footer"
+    ]
   },
   "settings": [
     {
       "type": "checkbox",
-      "label": "t:settings.use_inverse_logo",
+      "label": "Use inverse logo",
       "id": "inverse",
       "default": false,
       "visible_if": "{{ settings.logo_inverse }}"
@@ -135,23 +137,23 @@
     {
       "type": "select",
       "id": "font",
-      "label": "t:settings.font",
+      "label": "Font",
       "options": [
         {
           "value": "body",
-          "label": "t:options.body"
+          "label": "Body"
         },
         {
           "value": "subheading",
-          "label": "t:options.subheading"
+          "label": "Subheading"
         },
         {
           "value": "heading",
-          "label": "t:options.heading"
+          "label": "Heading"
         },
         {
           "value": "accent",
-          "label": "t:options.accent"
+          "label": "Accent"
         }
       ],
       "default": "heading",
@@ -159,24 +161,24 @@
     },
     {
       "type": "paragraph",
-      "content": "t:content.edit_logo_in_theme_settings"
+      "content": "Edit logo in [theme settings](/editor?context=theme&category=logo%20and%20favicon)"
     },
     {
       "type": "header",
-      "content": "t:content.size"
+      "content": "Size"
     },
     {
       "type": "select",
       "id": "unit",
-      "label": "t:settings.unit",
+      "label": "Unit",
       "options": [
         {
           "value": "pixel",
-          "label": "t:options.pixel"
+          "label": "Pixel"
         },
         {
           "value": "percent",
-          "label": "t:options.percent"
+          "label": "Percent"
         }
       ],
       "default": "percent"
@@ -184,7 +186,7 @@
     {
       "type": "range",
       "id": "pixel_height",
-      "label": "t:settings.height",
+      "label": "Height",
       "min": 16,
       "max": 320,
       "step": 8,
@@ -195,7 +197,7 @@
     {
       "type": "range",
       "id": "percent_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "min": 10,
       "max": 100,
       "step": 1,
@@ -206,26 +208,26 @@
     {
       "type": "checkbox",
       "id": "custom_mobile_size",
-      "label": "t:settings.custom_mobile_size",
+      "label": "Custom mobile size",
       "default": false
     },
     {
       "type": "header",
-      "content": "t:content.mobile_size",
+      "content": "Mobile size",
       "visible_if": "{{ section.settings.custom_mobile_size == true }}"
     },
     {
       "type": "select",
       "id": "unit_mobile",
-      "label": "t:settings.unit",
+      "label": "Unit",
       "options": [
         {
           "value": "pixel",
-          "label": "t:options.pixel"
+          "label": "Pixel"
         },
         {
           "value": "percent",
-          "label": "t:options.percent"
+          "label": "Percent"
         }
       ],
       "default": "percent",
@@ -234,7 +236,7 @@
     {
       "type": "range",
       "id": "percent_width_mobile",
-      "label": "t:settings.width",
+      "label": "Width",
       "min": 10,
       "max": 100,
       "step": 1,
@@ -245,7 +247,7 @@
     {
       "type": "range",
       "id": "pixel_height_mobile",
-      "label": "t:settings.height",
+      "label": "Height",
       "min": 16,
       "max": 160,
       "step": 8,
@@ -255,20 +257,20 @@
     },
     {
       "type": "header",
-      "content": "t:content.layout"
+      "content": "Layout"
     },
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "page-width"
@@ -276,19 +278,19 @@
     {
       "type": "select",
       "id": "alignment_horizontal",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "center"
@@ -296,17 +298,17 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -316,7 +318,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -326,8 +328,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.logo",
-      "category": "t:categories.storytelling",
+      "name": "Logo",
+      "category": "Storytelling",
       "settings": {
         "unit": "pixel",
         "pixel_height": 48,

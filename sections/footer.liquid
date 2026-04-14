@@ -88,7 +88,7 @@
 
 {% schema %}
 {
-  "name": "t:names.footer",
+  "name": "Footer",
   "class": "section-wrapper",
   "tag": "footer",
   "blocks": [
@@ -136,21 +136,23 @@
     }
   ],
   "enabled_on": {
-    "groups": ["footer"]
+    "groups": [
+      "footer"
+    ]
   },
   "settings": [
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "page-width"
@@ -158,7 +160,7 @@
     {
       "type": "range",
       "id": "gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -168,17 +170,17 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -188,7 +190,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -198,8 +200,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.footer",
-      "category": "t:categories.footer",
+      "name": "Footer",
+      "category": "Footer",
       "settings": {
         "gap": 20,
         "color_scheme": "scheme-1",
@@ -222,7 +224,7 @@
             "newsletter-heading": {
               "type": "text",
               "settings": {
-                "text": "t:html_defaults.join_our_email_list",
+                "text": "<p>Join our email list</p>",
                 "width": "100%",
                 "alignment": "left",
                 "type_preset": "h3"
@@ -231,14 +233,17 @@
             "newsletter-text": {
               "type": "text",
               "settings": {
-                "text": "t:html_defaults.get_exclusive_deals_and_early_access_to_new_products",
+                "text": "<p>Get exclusive deals and early access to new products</p>",
                 "width": "100%",
                 "alignment": "left",
                 "type_preset": "rte"
               }
             }
           },
-          "block_order": ["newsletter-heading", "newsletter-text"]
+          "block_order": [
+            "newsletter-heading",
+            "newsletter-text"
+          ]
         },
         "newsletter-form": {
           "type": "email-signup",
@@ -247,7 +252,10 @@
           }
         }
       },
-      "block_order": ["newsletter-group", "newsletter-form"]
+      "block_order": [
+        "newsletter-group",
+        "newsletter-form"
+      ]
     }
   ]
 }

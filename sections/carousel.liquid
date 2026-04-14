@@ -23,15 +23,18 @@
 
 {% schema %}
 {
-  "name": "t:names.carousel",
+  "name": "Carousel",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "settings": [
     {
       "type": "range",
       "id": "columns",
-      "label": "t:settings.columns",
+      "label": "Columns",
       "min": 1,
       "max": 8,
       "step": 1,
@@ -40,15 +43,15 @@
     {
       "type": "select",
       "id": "mobile_columns",
-      "label": "t:settings.mobile_columns",
+      "label": "Mobile columns",
       "options": [
         {
           "value": "1",
-          "label": "t:options.one_number"
+          "label": "1"
         },
         {
           "value": "2",
-          "label": "t:options.two_number"
+          "label": "2"
         }
       ],
       "default": "1"
@@ -56,15 +59,15 @@
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "page-width"
@@ -72,7 +75,7 @@
     {
       "type": "range",
       "id": "columns_gap",
-      "label": "t:settings.horizontal_gap",
+      "label": "Horizontal gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -82,37 +85,37 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.navigation"
+      "content": "Navigation"
     },
     {
       "type": "select",
       "id": "icons_style",
-      "label": "t:settings.icon",
+      "label": "Icon",
       "options": [
         {
           "value": "arrow",
-          "label": "t:options.arrows"
+          "label": "Arrows"
         },
         {
           "value": "chevron",
-          "label": "t:options.chevrons"
+          "label": "Chevrons"
         },
         {
           "value": "arrows_large",
-          "label": "t:options.arrows_large"
+          "label": "Large arrows"
         },
         {
           "value": "chevron_large",
-          "label": "t:options.chevron_large"
+          "label": "Large chevrons"
         },
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         }
       ],
       "default": "arrow"
@@ -120,19 +123,19 @@
     {
       "type": "select",
       "id": "icons_shape",
-      "label": "t:settings.icon_background",
+      "label": "Icon background",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "circle",
-          "label": "t:options.circle"
+          "label": "Circle"
         },
         {
           "value": "square",
-          "label": "t:options.square"
+          "label": "Square"
         }
       ],
       "default": "none",
@@ -140,12 +143,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -155,7 +158,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -165,8 +168,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.carousel",
-      "category": "t:categories.storytelling",
+      "name": "Carousel",
+      "category": "Storytelling",
       "settings": {
         "columns": 3,
         "columns_gap": 12,
@@ -176,7 +179,7 @@
       "blocks": {
         "static-header": {
           "type": "group",
-          "name": "t:names.header",
+          "name": "Header",
           "static": true,
           "settings": {
             "content_direction": "row",
@@ -210,9 +213,9 @@
           "blocks": {
             "heading": {
               "type": "text",
-              "name": "t:names.header",
+              "name": "Header",
               "settings": {
-                "text": "t:html_defaults.discover_elevated_design",
+                "text": "<p>Discover elevated design</p>",
                 "type_preset": "h3",
                 "font": "var(--font-body--family)",
                 "wrap": "pretty",
@@ -222,11 +225,13 @@
               }
             }
           },
-          "block_order": ["heading"]
+          "block_order": [
+            "heading"
+          ]
         },
         "static-carousel-content": {
           "type": "_carousel-content",
-          "name": "t:names.carousel_content",
+          "name": "Carousel content",
           "static": true,
           "settings": {
             "inherit_color_scheme": true,
@@ -245,110 +250,131 @@
           "blocks": {
             "card_1": {
               "type": "_card",
-              "name": "t:names.card",
+              "name": "Card",
               "blocks": {
                 "image_1": {
                   "type": "image",
-                  "name": "t:names.image"
+                  "name": "Image"
                 },
                 "heading_1": {
                   "type": "text",
-                  "name": "t:names.heading",
+                  "name": "Heading",
                   "settings": {
-                    "text": "t:html_defaults.artistry_in_action",
+                    "text": "<p>Artistry in action</p>",
                     "type_preset": "h5"
                   }
                 },
                 "text_1": {
                   "type": "text",
-                  "name": "t:names.text",
+                  "name": "Text",
                   "settings": {
-                    "text": "t:html_defaults.bold_style_recognizable"
+                    "text": "<p>Bold style recognizable</p>"
                   }
                 }
               },
-              "block_order": ["image_1", "heading_1", "text_1"]
+              "block_order": [
+                "image_1",
+                "heading_1",
+                "text_1"
+              ]
             },
             "card_2": {
               "type": "_card",
-              "name": "t:names.card",
+              "name": "Card",
               "blocks": {
                 "image_2": {
                   "type": "image",
-                  "name": "t:names.image"
+                  "name": "Image"
                 },
                 "heading_2": {
                   "type": "text",
-                  "name": "t:names.heading",
+                  "name": "Heading",
                   "settings": {
-                    "text": "t:html_defaults.uncompromising_standards",
+                    "text": "<p>Uncompromising standards</p>",
                     "type_preset": "h5"
                   }
                 },
                 "text_2": {
                   "type": "text",
-                  "name": "t:names.text",
+                  "name": "Text",
                   "settings": {
-                    "text": "t:html_defaults.expert_construction_finish"
+                    "text": "<p>Expert construction finish</p>"
                   }
                 }
               },
-              "block_order": ["image_2", "heading_2", "text_2"]
+              "block_order": [
+                "image_2",
+                "heading_2",
+                "text_2"
+              ]
             },
             "card_3": {
               "type": "_card",
-              "name": "t:names.card",
+              "name": "Card",
               "blocks": {
                 "image_3": {
                   "type": "image",
-                  "name": "t:names.image"
+                  "name": "Image"
                 },
                 "heading_3": {
                   "type": "text",
-                  "name": "t:names.heading",
+                  "name": "Heading",
                   "settings": {
-                    "text": "t:html_defaults.made_to_last",
+                    "text": "<p>Made to last</p>",
                     "type_preset": "h5"
                   }
                 },
                 "text_3": {
                   "type": "text",
-                  "name": "t:names.text",
+                  "name": "Text",
                   "settings": {
-                    "text": "t:html_defaults.pieces_better_with_time"
+                    "text": "<p>Pieces better with time</p>"
                   }
                 }
               },
-              "block_order": ["image_3", "heading_3", "text_3"]
+              "block_order": [
+                "image_3",
+                "heading_3",
+                "text_3"
+              ]
             },
             "card_4": {
               "type": "_card",
-              "name": "t:names.card",
+              "name": "Card",
               "blocks": {
                 "image_4": {
                   "type": "image",
-                  "name": "t:names.image"
+                  "name": "Image"
                 },
                 "heading_4": {
                   "type": "text",
-                  "name": "t:names.heading",
+                  "name": "Heading",
                   "settings": {
-                    "text": "t:html_defaults.quality_you_can_feel",
+                    "text": "<p>Quality you can feel</p>",
                     "type_preset": "h5"
                   }
                 },
                 "text_4": {
                   "type": "text",
-                  "name": "t:names.text",
+                  "name": "Text",
                   "settings": {
-                    "text": "t:html_defaults.authentic_materials"
+                    "text": "<p>Authentic materials</p>"
                   }
                 }
               },
-              "block_order": ["image_4", "heading_4", "text_4"]
+              "block_order": [
+                "image_4",
+                "heading_4",
+                "text_4"
+              ]
             }
           },
-          "block_order": ["card_1", "card_2", "card_3", "card_4"]
+          "block_order": [
+            "card_1",
+            "card_2",
+            "card_3",
+            "card_4"
+          ]
         }
       }
     }

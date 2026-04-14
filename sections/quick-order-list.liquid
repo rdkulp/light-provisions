@@ -1109,17 +1109,19 @@
 
 {% schema %}
 {
-  "name": "t:names.quick_order_list",
+  "name": "Quick order list",
   "tag": "section",
   "enabled_on": {
-    "templates": ["product"]
+    "templates": [
+      "product"
+    ]
   },
   "blocks": [],
   "settings": [
     {
       "type": "range",
       "id": "variants_per_page",
-      "label": "t:settings.variant_per_page",
+      "label": "Variant per page",
       "min": 5,
       "max": 50,
       "step": 1,
@@ -1128,29 +1130,29 @@
     {
       "type": "checkbox",
       "id": "show_image",
-      "label": "t:settings.image",
+      "label": "Image",
       "default": false
     },
     {
       "type": "checkbox",
       "id": "show_sku",
-      "label": "t:settings.skus",
+      "label": "Skus",
       "default": false
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -1160,7 +1162,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -1170,8 +1172,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.quick_order_list",
-      "category": "t:categories.products",
+      "name": "Quick order list",
+      "category": "Products",
       "settings": {
         "padding-block-start": 48,
         "padding-block-end": 48

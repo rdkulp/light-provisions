@@ -62,7 +62,7 @@
 
 {% schema %}
 {
-  "name": "t:names.collection_list",
+  "name": "Collection list",
   "class": "ui-test-collection-list",
   "blocks": [
     {
@@ -97,33 +97,36 @@
     }
   ],
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "settings": [
     {
       "type": "header",
-      "content": "t:content.cards_layout"
+      "content": "Cards layout"
     },
     {
       "type": "select",
       "id": "layout_type",
-      "label": "t:settings.layout_type",
+      "label": "Type",
       "options": [
         {
           "value": "grid",
-          "label": "t:options.grid"
+          "label": "Grid"
         },
         {
           "value": "carousel",
-          "label": "t:options.carousel"
+          "label": "Carousel"
         },
         {
           "value": "bento",
-          "label": "t:options.bento"
+          "label": "Bento"
         },
         {
           "value": "editorial",
-          "label": "t:options.editorial"
+          "label": "Editorial"
         }
       ],
       "default": "grid"
@@ -131,14 +134,14 @@
     {
       "type": "checkbox",
       "id": "carousel_on_mobile",
-      "label": "t:settings.carousel_on_mobile",
+      "label": "Carousel on mobile",
       "default": false,
       "visible_if": "{{ section.settings.layout_type != 'carousel' }}"
     },
     {
       "type": "range",
       "id": "columns",
-      "label": "t:settings.columns",
+      "label": "Columns",
       "min": 1,
       "max": 8,
       "step": 1,
@@ -148,15 +151,15 @@
     {
       "type": "select",
       "id": "mobile_columns",
-      "label": "t:settings.mobile_columns",
+      "label": "Mobile columns",
       "options": [
         {
           "value": "1",
-          "label": "t:options.one_number"
+          "label": "1"
         },
         {
           "value": "2",
-          "label": "t:options.two_number"
+          "label": "2"
         }
       ],
       "default": "2",
@@ -165,7 +168,7 @@
     {
       "type": "range",
       "id": "columns_gap",
-      "label": "t:settings.horizontal_gap",
+      "label": "Horizontal gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -176,7 +179,7 @@
     {
       "type": "range",
       "id": "bento_gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -187,7 +190,7 @@
     {
       "type": "range",
       "id": "rows_gap",
-      "label": "t:settings.vertical_gap",
+      "label": "Vertical gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -198,7 +201,7 @@
     {
       "type": "range",
       "id": "max_collections",
-      "label": "t:settings.collection_count",
+      "label": "Collection count",
       "min": 1,
       "max": 16,
       "step": 1,
@@ -207,33 +210,33 @@
     },
     {
       "type": "header",
-      "content": "t:content.carousel_navigation",
+      "content": "Carousel navigation",
       "visible_if": "{{ section.settings.layout_type == 'carousel' or section.settings.carousel_on_mobile == true }}"
     },
     {
       "type": "select",
       "id": "icons_style",
-      "label": "t:settings.icon",
+      "label": "Icon",
       "options": [
         {
           "value": "arrow",
-          "label": "t:options.arrows"
+          "label": "Arrows"
         },
         {
           "value": "chevron",
-          "label": "t:options.chevrons"
+          "label": "Chevrons"
         },
         {
           "value": "arrows_large",
-          "label": "t:options.arrows_large"
+          "label": "Large arrows"
         },
         {
           "value": "chevron_large",
-          "label": "t:options.chevron_large"
+          "label": "Large chevrons"
         },
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         }
       ],
       "default": "arrow",
@@ -242,19 +245,19 @@
     {
       "type": "select",
       "id": "icons_shape",
-      "label": "t:settings.icon_background",
+      "label": "Icon background",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "circle",
-          "label": "t:options.circle"
+          "label": "Circle"
         },
         {
           "value": "square",
-          "label": "t:options.square"
+          "label": "Square"
         }
       ],
       "default": "none",
@@ -262,20 +265,20 @@
     },
     {
       "type": "header",
-      "content": "t:content.section_layout"
+      "content": "Section layout"
     },
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "page-width"
@@ -283,7 +286,7 @@
     {
       "type": "range",
       "id": "gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -293,17 +296,17 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -313,7 +316,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,

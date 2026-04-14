@@ -92,9 +92,12 @@
 
 {% schema %}
 {
-  "name": "t:names.marquee",
+  "name": "Marquee",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "blocks": [
     {
@@ -114,15 +117,15 @@
     {
       "type": "select",
       "id": "movement_direction",
-      "label": "t:settings.motion_direction",
+      "label": "Motion direction",
       "options": [
         {
           "value": "reverse",
-          "label": "t:options.forward"
+          "label": "Forward"
         },
         {
           "value": "normal",
-          "label": "t:options.reverse"
+          "label": "Reverse"
         }
       ],
       "default": "normal"
@@ -130,17 +133,17 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -150,7 +153,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -160,7 +163,7 @@
     {
       "type": "range",
       "id": "gap_between_elements",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -170,13 +173,13 @@
   ],
   "presets": [
     {
-      "name": "t:names.marquee_section",
-      "category": "t:categories.text",
+      "name": "Marquee",
+      "category": "Text",
       "blocks": {
         "text": {
           "type": "text",
           "settings": {
-            "text": "t:html_defaults.make_things_better",
+            "text": "<p>Make things better</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h2)",
@@ -188,7 +191,9 @@
           }
         }
       },
-      "block_order": ["text"]
+      "block_order": [
+        "text"
+      ]
     }
   ]
 }

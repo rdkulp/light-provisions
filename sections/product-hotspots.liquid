@@ -476,9 +476,12 @@
 
 {% schema %}
 {
-  "name": "t:names.product_hotspots",
+  "name": "Product hotspots",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "blocks": [
     {
@@ -489,17 +492,17 @@
     {
       "type": "image_picker",
       "id": "image",
-      "label": "t:settings.image"
+      "label": "Image"
     },
     {
       "type": "checkbox",
       "id": "toggle_overlay",
-      "label": "t:settings.media_overlay"
+      "label": "Media overlay"
     },
     {
       "type": "color",
       "id": "overlay_color",
-      "label": "t:settings.overlay_color",
+      "label": "Overlay color",
       "alpha": true,
       "default": "#00000026",
       "visible_if": "{{ section.settings.toggle_overlay }}"
@@ -507,15 +510,15 @@
     {
       "type": "select",
       "id": "overlay_style",
-      "label": "t:settings.overlay_style",
+      "label": "Overlay style",
       "options": [
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         },
         {
           "value": "gradient",
-          "label": "t:options.gradient"
+          "label": "Gradient"
         }
       ],
       "default": "solid",
@@ -524,15 +527,15 @@
     {
       "type": "select",
       "id": "gradient_direction",
-      "label": "t:settings.gradient_direction",
+      "label": "Gradient direction",
       "options": [
         {
           "value": "to top",
-          "label": "t:options.up"
+          "label": "Up"
         },
         {
           "value": "to bottom",
-          "label": "t:options.down"
+          "label": "Down"
         }
       ],
       "default": "to top",
@@ -540,20 +543,20 @@
     },
     {
       "type": "header",
-      "content": "t:content.section_layout"
+      "content": "Section layout"
     },
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "page-width"
@@ -561,59 +564,59 @@
     {
       "type": "select",
       "id": "section_height",
-      "label": "t:settings.height",
+      "label": "Height",
       "options": [
         {
           "value": "auto",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "21 / 9",
-          "label": "t:options.small"
+          "label": "Small"
         },
         {
           "value": "16 / 9",
-          "label": "t:options.medium"
+          "label": "Medium"
         },
         {
           "value": "4 / 3",
-          "label": "t:options.large"
+          "label": "Large"
         }
       ],
       "default": "auto"
     },
     {
       "type": "header",
-      "content": "t:content.colors"
+      "content": "Colors"
     },
     {
       "type": "color",
       "id": "hotspot_color",
-      "label": "t:settings.hotspot_color",
+      "label": "Hotspot color",
       "default": "#FFFFFF57",
       "alpha": true
     },
     {
       "type": "color",
       "id": "bullseye_color",
-      "label": "t:settings.bullseye_color",
+      "label": "Bullseye color",
       "default": "#ffffff",
       "alpha": true
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.popover"
+      "content": "Popover"
     },
     {
       "type": "range",
       "id": "product_title_gap",
-      "label": "t:settings.vertical_gap",
+      "label": "Vertical gap",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -623,69 +626,69 @@
     {
       "type": "select",
       "id": "product_title_preset",
-      "label": "t:settings.product_title_typography",
+      "label": "Product title typography",
       "options": [
         {
           "value": "",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "paragraph",
-          "label": "t:options.paragraph"
+          "label": "Paragraph"
         },
         {
           "value": "h4",
-          "label": "t:options.h4"
+          "label": "Heading 4"
         },
         {
           "value": "h5",
-          "label": "t:options.h5"
+          "label": "Heading 5"
         },
         {
           "value": "h6",
-          "label": "t:options.h6"
+          "label": "Heading 6"
         }
       ],
       "default": "",
-      "info": "t:info.edit_presets_in_theme_settings"
+      "info": "Edit presets in [theme settings](/editor?context=theme&category=typography)"
     },
     {
       "type": "select",
       "id": "product_price_preset",
-      "label": "t:settings.product_price_typography",
+      "label": "Product price typography",
       "options": [
         {
           "value": "",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "paragraph",
-          "label": "t:options.paragraph"
+          "label": "Paragraph"
         },
         {
           "value": "h4",
-          "label": "t:options.h4"
+          "label": "Heading 4"
         },
         {
           "value": "h5",
-          "label": "t:options.h5"
+          "label": "Heading 5"
         },
         {
           "value": "h6",
-          "label": "t:options.h6"
+          "label": "Heading 6"
         }
       ],
       "default": "",
-      "info": "t:info.edit_presets_in_theme_settings"
+      "info": "Edit presets in [theme settings](/editor?context=theme&category=typography)"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -695,7 +698,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -705,8 +708,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.product_hotspots",
-      "category": "t:categories.products",
+      "name": "Product hotspots",
+      "category": "Products",
       "settings": {
         "section_width": "page-width",
         "color_scheme": "scheme-1",
@@ -717,10 +720,10 @@
       "blocks": {
         "heading": {
           "type": "text",
-          "name": "t:names.heading",
+          "name": "Heading",
           "static": true,
           "settings": {
-            "text": "t:text_defaults.shop_the_look",
+            "text": "Shop the look",
             "type_preset": "h4"
           }
         },
@@ -739,7 +742,10 @@
           }
         }
       },
-      "block_order": ["hotspot-1", "hotspot-2"]
+      "block_order": [
+        "hotspot-1",
+        "hotspot-2"
+      ]
     }
   ]
 }

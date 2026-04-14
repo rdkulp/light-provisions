@@ -362,32 +362,35 @@
 
 {% schema %}
 {
-  "name": "t:names.product_information",
+  "name": "Product information",
   "blocks": [
     {
       "type": "@app"
     }
   ],
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "settings": [
     {
       "type": "header",
-      "content": "t:content.layout"
+      "content": "Layout"
     },
     {
       "type": "select",
       "id": "content_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "content-center-aligned",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "content-full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "content-center-aligned"
@@ -395,15 +398,15 @@
     {
       "type": "select",
       "id": "desktop_media_position",
-      "label": "t:settings.media_position",
+      "label": "Media position",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "left"
@@ -411,20 +414,20 @@
     {
       "type": "checkbox",
       "id": "equal_columns",
-      "label": "t:settings.equal_columns",
+      "label": "Equal columns",
       "default": false
     },
     {
       "type": "checkbox",
       "id": "limit_details_width",
-      "label": "t:settings.limit_product_details_width",
+      "label": "Limit product details width",
       "default": false,
       "visible_if": "{{ section.settings.equal_columns }}"
     },
     {
       "type": "range",
       "id": "gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 48,
       "step": 4,
@@ -434,23 +437,23 @@
     {
       "type": "checkbox",
       "id": "enable_sticky_add_to_cart",
-      "label": "t:settings.enable_sticky_add_to_cart",
+      "label": "Enable sticky add to cart",
       "default": true
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -460,7 +463,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,

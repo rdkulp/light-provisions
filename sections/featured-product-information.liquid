@@ -35,37 +35,40 @@
 
 {% schema %}
 {
-  "name": "t:names.featured_product_information",
+  "name": "Featured Product information",
   "blocks": [
     {
       "type": "@app"
     }
   ],
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "settings": [
     {
       "type": "product",
       "id": "product",
-      "label": "t:settings.product"
+      "label": "Product"
     },
     {
       "type": "header",
-      "content": "t:content.layout"
+      "content": "Layout"
     },
     {
       "type": "select",
       "id": "content_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "content-center-aligned",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "content-full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "content-center-aligned"
@@ -73,15 +76,15 @@
     {
       "type": "select",
       "id": "desktop_media_position",
-      "label": "t:settings.media_position",
+      "label": "Media position",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "left"
@@ -89,20 +92,20 @@
     {
       "type": "checkbox",
       "id": "equal_columns",
-      "label": "t:settings.equal_columns",
+      "label": "Equal columns",
       "default": false
     },
     {
       "type": "checkbox",
       "id": "limit_details_width",
-      "label": "t:settings.limit_product_details_width",
+      "label": "Limit product details width",
       "default": false,
       "visible_if": "{{ section.settings.equal_columns }}"
     },
     {
       "type": "range",
       "id": "gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 48,
       "step": 4,
@@ -112,17 +115,17 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -132,7 +135,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -142,8 +145,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.featured_product_information",
-      "category": "t:categories.products",
+      "name": "Featured Product information",
+      "category": "Products",
       "settings": {
         "gap": 48,
         "padding-block-start": 40,
@@ -178,36 +181,39 @@
           "blocks": {
             "header": {
               "type": "group",
-              "name": "t:names.header",
+              "name": "Header",
               "settings": {
                 "gap": 12
               },
               "blocks": {
                 "title": {
                   "type": "product-title",
-                  "name": "t:names.title",
+                  "name": "Title",
                   "settings": {
                     "type_preset": "h3"
                   }
                 },
                 "price": {
                   "type": "price",
-                  "name": "t:names.product_price"
+                  "name": "Price"
                 }
               },
-              "block_order": ["title", "price"]
+              "block_order": [
+                "title",
+                "price"
+              ]
             },
             "review_stars": {
               "type": "review",
-              "name": "t:names.product_review_stars"
+              "name": "Review stars"
             },
             "variant_picker": {
               "type": "variant-picker",
-              "name": "t:names.product_variant_picker"
+              "name": "Variant picker"
             },
             "buy_buttons": {
               "type": "buy-buttons",
-              "name": "t:names.product_buy_buttons",
+              "name": "Buy buttons",
               "blocks": {
                 "quantity": {
                   "type": "quantity",
@@ -224,7 +230,12 @@
               }
             }
           },
-          "block_order": ["header", "review_stars", "variant_picker", "buy_buttons"]
+          "block_order": [
+            "header",
+            "review_stars",
+            "variant_picker",
+            "buy_buttons"
+          ]
         }
       }
     }

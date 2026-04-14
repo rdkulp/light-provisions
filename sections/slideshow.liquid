@@ -170,7 +170,7 @@
 
 {% schema %}
 {
-  "name": "t:names.slideshow",
+  "name": "Slideshow",
   "class": "container-background-image",
   "blocks": [
     {
@@ -178,21 +178,24 @@
     }
   ],
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "settings": [
     {
       "type": "select",
       "id": "display_mode",
-      "label": "t:settings.layout",
+      "label": "Layout",
       "options": [
         {
           "value": "full_frame",
-          "label": "t:options.full_frame"
+          "label": "Full frame"
         },
         {
           "value": "with_hints",
-          "label": "t:options.with_hints"
+          "label": "With hints"
         }
       ],
       "default": "full_frame"
@@ -200,15 +203,15 @@
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "full-width",
@@ -217,14 +220,14 @@
     {
       "type": "checkbox",
       "id": "full_frame_on_mobile",
-      "label": "t:settings.full_frame_on_mobile",
+      "label": "Full frame on mobile",
       "default": false,
       "visible_if": "{{ section.settings.display_mode == 'with_hints' }}"
     },
     {
       "type": "range",
       "id": "slideshow_gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 30,
       "step": 1,
@@ -235,7 +238,7 @@
     {
       "type": "range",
       "id": "corner_radius",
-      "label": "t:settings.corner_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -249,36 +252,36 @@
       "options": [
         {
           "value": "auto",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "small",
-          "label": "t:options.small"
+          "label": "Small"
         },
         {
           "value": "medium",
-          "label": "t:options.medium"
+          "label": "Medium"
         },
         {
           "value": "large",
-          "label": "t:options.large"
+          "label": "Large"
         }
       ],
       "default": "medium",
-      "label": "t:settings.media_height"
+      "label": "Media height"
     },
     {
       "type": "select",
       "id": "content_position",
-      "label": "t:settings.content_position",
+      "label": "Content position",
       "options": [
         {
           "value": "on-media",
-          "label": "t:options.on_media"
+          "label": "On media"
         },
         {
           "value": "below-media",
-          "label": "t:options.below_media"
+          "label": "Below media"
         }
       ],
       "default": "on-media"
@@ -286,37 +289,37 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "primary"
     },
     {
       "type": "header",
-      "content": "t:content.navigation"
+      "content": "Navigation"
     },
     {
       "type": "select",
       "id": "icons_style",
-      "label": "t:settings.icons",
+      "label": "Icons",
       "options": [
         {
           "value": "arrow",
-          "label": "t:options.arrows"
+          "label": "Arrows"
         },
         {
           "value": "chevron",
-          "label": "t:options.chevrons"
+          "label": "Chevrons"
         },
         {
           "value": "arrows_large",
-          "label": "t:options.large_arrows"
+          "label": "Large arrows"
         },
         {
           "value": "chevron_large",
-          "label": "t:options.large_chevrons"
+          "label": "Large chevrons"
         },
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         }
       ],
       "default": "arrows_large"
@@ -324,19 +327,19 @@
     {
       "type": "select",
       "id": "icons_shape",
-      "label": "t:settings.icon_background",
+      "label": "Icon background",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "circle",
-          "label": "t:options.circle"
+          "label": "Circle"
         },
         {
           "value": "square",
-          "label": "t:options.square"
+          "label": "Square"
         }
       ],
       "default": "none",
@@ -345,19 +348,19 @@
     {
       "type": "select",
       "id": "slideshow_controls_style",
-      "label": "t:settings.pagination",
+      "label": "Pagination",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "dots",
-          "label": "t:options.dots"
+          "label": "Dots"
         },
         {
           "value": "counter",
-          "label": "t:options.counter"
+          "label": "Counter"
         }
       ],
       "default": "dots"
@@ -365,14 +368,14 @@
     {
       "type": "checkbox",
       "id": "autoplay",
-      "label": "t:settings.auto_rotate_slides",
+      "label": "Auto-rotate slides",
       "default": false,
       "visible_if": "{{ section.settings.display_mode == 'full_frame' }}"
     },
     {
       "type": "range",
       "id": "autoplay_speed",
-      "label": "t:settings.speed",
+      "label": "Speed",
       "min": 3,
       "max": 7,
       "step": 1,
@@ -382,12 +385,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -397,7 +400,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -407,8 +410,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.slideshow_full_frame",
-      "category": "t:categories.banners",
+      "name": "Slideshow: Full frame",
+      "category": "Banners",
       "blocks": {
         "slide_1": {
           "type": "_slide",
@@ -424,27 +427,31 @@
           "blocks": {
             "heading": {
               "type": "text",
-              "name": "t:names.heading",
+              "name": "Heading",
               "settings": {
-                "text": "t:html_defaults.new_arrivals_h2"
+                "text": "<h2>New arrivals</h2>"
               }
             },
             "text": {
               "type": "text",
               "settings": {
-                "text": "t:html_defaults.latest_products",
+                "text": "<p>Latest products</p>",
                 "padding-block-end": 20
               }
             },
             "button": {
               "type": "button",
               "settings": {
-                "label": "t:text_defaults.shop_now_button_label",
+                "label": "Shop now",
                 "link": "shopify://collections/all"
               }
             }
           },
-          "block_order": ["heading", "text", "button"]
+          "block_order": [
+            "heading",
+            "text",
+            "button"
+          ]
         },
         "slide_2": {
           "type": "_slide",
@@ -460,34 +467,41 @@
           "blocks": {
             "heading": {
               "type": "text",
-              "name": "t:names.heading",
+              "name": "Heading",
               "settings": {
-                "text": "t:html_defaults.bestseller_h2"
+                "text": "<h2>Bestseller</h2>"
               }
             },
             "text": {
               "type": "text",
               "settings": {
-                "text": "t:html_defaults.discover_bestsellers",
+                "text": "<p>Discover bestsellers</p>",
                 "padding-block-end": 20
               }
             },
             "button": {
               "type": "button",
               "settings": {
-                "label": "t:text_defaults.shop_now_button_label",
+                "label": "Shop now",
                 "link": "shopify://collections/all"
               }
             }
           },
-          "block_order": ["heading", "text", "button"]
+          "block_order": [
+            "heading",
+            "text",
+            "button"
+          ]
         }
       },
-      "block_order": ["slide_1", "slide_2"]
+      "block_order": [
+        "slide_1",
+        "slide_2"
+      ]
     },
     {
-      "name": "t:names.slideshow_inset",
-      "category": "t:categories.banners",
+      "name": "Slideshow: Inset",
+      "category": "Banners",
       "blocks": {
         "slide_1": {
           "type": "_slide",
@@ -502,27 +516,31 @@
           "blocks": {
             "heading": {
               "type": "text",
-              "name": "t:names.heading",
+              "name": "Heading",
               "settings": {
-                "text": "t:html_defaults.new_arrivals_h2"
+                "text": "<h2>New arrivals</h2>"
               }
             },
             "text": {
               "type": "text",
               "settings": {
-                "text": "t:html_defaults.latest_products",
+                "text": "<p>Latest products</p>",
                 "padding-block-end": 20
               }
             },
             "button": {
               "type": "button",
               "settings": {
-                "label": "t:text_defaults.shop_now_button_label",
+                "label": "Shop now",
                 "link": "shopify://collections/all"
               }
             }
           },
-          "block_order": ["heading", "text", "button"]
+          "block_order": [
+            "heading",
+            "text",
+            "button"
+          ]
         },
         "slide_2": {
           "type": "_slide",
@@ -537,30 +555,37 @@
           "blocks": {
             "heading": {
               "type": "text",
-              "name": "t:names.heading",
+              "name": "Heading",
               "settings": {
-                "text": "t:html_defaults.bestseller_h2"
+                "text": "<h2>Bestseller</h2>"
               }
             },
             "text": {
               "type": "text",
               "settings": {
-                "text": "t:html_defaults.discover_bestsellers",
+                "text": "<p>Discover bestsellers</p>",
                 "padding-block-end": 20
               }
             },
             "button": {
               "type": "button",
               "settings": {
-                "label": "t:text_defaults.shop_now_button_label",
+                "label": "Shop now",
                 "link": "shopify://collections/all"
               }
             }
           },
-          "block_order": ["heading", "text", "button"]
+          "block_order": [
+            "heading",
+            "text",
+            "button"
+          ]
         }
       },
-      "block_order": ["slide_1", "slide_2"],
+      "block_order": [
+        "slide_1",
+        "slide_2"
+      ],
       "settings": {
         "display_mode": "with_hints",
         "slideshow_gap": 18,
