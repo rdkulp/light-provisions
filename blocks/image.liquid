@@ -111,22 +111,22 @@
 
 {% schema %}
 {
-  "name": "t:names.image",
+  "name": "Image",
   "tag": null,
   "settings": [
     {
       "type": "image_picker",
       "id": "image",
-      "label": "t:settings.image"
+      "label": "Image"
     },
     {
       "type": "url",
       "id": "link",
-      "label": "t:settings.link"
+      "label": "Link"
     },
     {
       "type": "header",
-      "content": "t:content.size"
+      "content": "Size"
     },
     {
       "type": "select",
@@ -134,40 +134,40 @@
       "options": [
         {
           "value": "adapt",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "portrait",
-          "label": "t:options.portrait"
+          "label": "Portrait"
         },
         {
           "value": "square",
-          "label": "t:options.square"
+          "label": "Square"
         },
         {
           "value": "landscape",
-          "label": "t:options.landscape"
+          "label": "Landscape"
         }
       ],
       "default": "adapt",
-      "label": "t:settings.aspect_ratio"
+      "label": "Aspect ratio"
     },
     {
       "type": "select",
       "id": "width",
-      "label": "t:settings.width_desktop",
+      "label": "Desktop width",
       "options": [
         {
           "value": "fit-content",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "fill",
-          "label": "t:options.fill"
+          "label": "Fill"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "fill"
@@ -175,7 +175,7 @@
     {
       "type": "range",
       "id": "custom_width",
-      "label": "t:settings.custom_width",
+      "label": "Custom width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -186,19 +186,19 @@
     {
       "type": "select",
       "id": "width_mobile",
-      "label": "t:settings.width_mobile",
+      "label": "Mobile width",
       "options": [
         {
           "value": "fit-content",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "fill",
-          "label": "t:options.fill"
+          "label": "Fill"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "fill"
@@ -206,7 +206,7 @@
     {
       "type": "range",
       "id": "custom_width_mobile",
-      "label": "t:settings.custom_width",
+      "label": "Custom width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -217,15 +217,15 @@
     {
       "type": "select",
       "id": "height",
-      "label": "t:settings.height",
+      "label": "Height",
       "options": [
         {
           "value": "fit",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "fill",
-          "label": "t:options.fill"
+          "label": "Fill"
         }
       ],
       "default": "fit",
@@ -233,20 +233,20 @@
     },
     {
       "type": "header",
-      "content": "t:content.borders"
+      "content": "Borders"
     },
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -258,7 +258,7 @@
       "max": 100,
       "step": 1,
       "unit": "px",
-      "label": "t:settings.thickness",
+      "label": "Thickness",
       "default": 1,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
@@ -269,14 +269,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.opacity",
+      "label": "Opacity",
       "default": 100,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -285,12 +285,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -300,7 +300,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -310,7 +310,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -320,7 +320,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -330,8 +330,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.image",
-      "category": "t:categories.basic"
+      "name": "Image",
+      "category": "Basic"
     }
   ]
 }

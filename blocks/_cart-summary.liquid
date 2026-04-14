@@ -166,44 +166,44 @@
 
 {% schema %}
 {
-  "name": "t:names.summary",
+  "name": "Summary",
   "tag": null,
   "settings": [
     {
       "type": "checkbox",
       "id": "extend_summary",
-      "label": "t:settings.extend_summary",
+      "label": "Extend to screen edge",
       "default": true
     },
     {
       "type": "checkbox",
       "id": "inherit_color_scheme",
-      "label": "t:settings.inherit_color_scheme",
+      "label": "Inherit color scheme",
       "default": false
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-3",
       "visible_if": "{{ block.settings.inherit_color_scheme == false }}"
     },
     {
       "type": "header",
-      "content": "t:content.borders"
+      "content": "Borders"
     },
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -215,7 +215,7 @@
       "max": 100,
       "step": 1,
       "unit": "px",
-      "label": "t:settings.thickness",
+      "label": "Thickness",
       "default": 1,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
@@ -226,14 +226,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.opacity",
+      "label": "Opacity",
       "default": 100,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -243,7 +243,7 @@
   ],
   "presets": [
     {
-      "name": "t:names.summary"
+      "name": "Summary"
     }
   ]
 }

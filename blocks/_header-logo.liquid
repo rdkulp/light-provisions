@@ -141,32 +141,32 @@
 
 {% schema %}
 {
-  "name": "t:names.logo",
+  "name": "Logo",
   "tag": null,
   "class": "header-logo",
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.edit_logo_in_theme_settings"
+      "content": "Edit logo in [theme settings](/editor?context=theme&category=logo%20and%20favicon)"
     },
     {
       "type": "header",
-      "content": "t:content.visibility"
+      "content": "Visibility"
     },
     {
       "type": "checkbox",
       "id": "hide_logo_on_home_page",
-      "label": "t:settings.hide_logo_on_home_page"
+      "label": "Hide logo on home page"
     },
     {
       "type": "header",
-      "content": "t:content.size",
+      "content": "Size",
       "visible_if": "{{ settings.logo != blank }}"
     },
     {
       "type": "range",
       "id": "custom_height",
-      "label": "t:settings.desktop_height",
+      "label": "Desktop height",
       "min": 12,
       "max": 100,
       "step": 1,
@@ -177,7 +177,7 @@
     {
       "type": "range",
       "id": "custom_height_mobile",
-      "label": "t:settings.mobile_height",
+      "label": "Mobile height",
       "min": 12,
       "max": 100,
       "step": 1,
@@ -187,12 +187,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding_desktop"
+      "content": "Desktop padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -202,7 +202,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -212,7 +212,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -222,7 +222,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,

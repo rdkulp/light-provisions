@@ -9,61 +9,61 @@
 
 {% schema %}
 {
-  "name": "t:names.product_list_button",
+  "name": "View all button",
   "tag": null,
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.visible_if_collection_has_more_products"
+      "content": "Visible if collection has more products than shown"
     },
     {
       "type": "text",
       "id": "label",
-      "label": "t:settings.label",
-      "default": "t:text_defaults.button_label"
+      "label": "Label",
+      "default": "Shop now"
     },
     {
       "type": "checkbox",
       "id": "open_in_new_tab",
-      "label": "t:settings.open_new_tab",
+      "label": "Open link in new tab",
       "default": false
     },
     {
       "type": "select",
       "id": "style_class",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "button",
-          "label": "t:options.primary"
+          "label": "Primary"
         },
         {
           "value": "button-secondary",
-          "label": "t:options.secondary"
+          "label": "Secondary"
         },
         {
           "value": "link",
-          "label": "t:options.link"
+          "label": "Link"
         }
       ],
       "default": "button"
     },
     {
       "type": "header",
-      "content": "t:content.size"
+      "content": "Size"
     },
     {
       "type": "select",
       "id": "width",
-      "label": "t:settings.width_desktop",
+      "label": "Desktop width",
       "options": [
         {
           "value": "fit-content",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "fit-content"
@@ -71,7 +71,7 @@
     {
       "type": "range",
       "id": "custom_width",
-      "label": "t:settings.custom_width",
+      "label": "Custom width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -82,15 +82,15 @@
     {
       "type": "select",
       "id": "width_mobile",
-      "label": "t:settings.width_mobile",
+      "label": "Mobile width",
       "options": [
         {
           "value": "fit-content",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "fit-content"
@@ -98,7 +98,7 @@
     {
       "type": "range",
       "id": "custom_width_mobile",
-      "label": "t:settings.custom_width",
+      "label": "Custom width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -109,8 +109,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.product_list_button",
-      "category": "t:categories.collection",
+      "name": "View all button",
+      "category": "Collection",
       "settings": {
         "label": "View all",
         "style_class": "button-secondary"

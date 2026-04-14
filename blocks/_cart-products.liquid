@@ -18,13 +18,13 @@
 
 {% schema %}
 {
-  "name": "t:names.cart_products",
+  "name": "Cart products",
   "tag": null,
   "settings": [
     {
       "type": "range",
       "id": "gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 8,
       "max": 36,
       "step": 4,
@@ -37,40 +37,40 @@
       "options": [
         {
           "value": "adapt",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "portrait",
-          "label": "t:options.portrait"
+          "label": "Portrait"
         },
         {
           "value": "square",
-          "label": "t:options.square"
+          "label": "Square"
         }
       ],
       "default": "adapt",
-      "label": "t:settings.aspect_ratio"
+      "label": "Aspect ratio"
     },
     {
       "type": "checkbox",
       "id": "dividers",
-      "label": "t:settings.dividers",
+      "label": "Dividers",
       "default": true
     },
     {
       "type": "checkbox",
       "id": "vendor",
-      "label": "t:settings.vendor",
+      "label": "Vendor",
       "default": false
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -80,7 +80,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -90,7 +90,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -100,7 +100,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -110,7 +110,7 @@
   ],
   "presets": [
     {
-      "name": "t:names.cart_items"
+      "name": "Cart items"
     }
   ]
 }

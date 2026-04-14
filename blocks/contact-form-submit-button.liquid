@@ -17,47 +17,47 @@
 
 {% schema %}
 {
-  "name": "t:names.submit_button",
+  "name": "Submit button",
   "tag": null,
   "settings": [
     {
       "type": "text",
       "id": "label",
-      "label": "t:settings.label",
-      "default": "t:text_defaults.contact_form_button_label"
+      "label": "Label",
+      "default": "Submit"
     },
     {
       "type": "select",
       "id": "style_class",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "button",
-          "label": "t:options.primary"
+          "label": "Primary"
         },
         {
           "value": "button-secondary",
-          "label": "t:options.secondary"
+          "label": "Secondary"
         }
       ],
       "default": "button"
     },
     {
       "type": "header",
-      "content": "t:content.size"
+      "content": "Size"
     },
     {
       "type": "select",
       "id": "width",
-      "label": "t:settings.width_desktop",
+      "label": "Desktop width",
       "options": [
         {
           "value": "fit-content",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "fit-content"
@@ -65,7 +65,7 @@
     {
       "type": "range",
       "id": "custom_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -76,15 +76,15 @@
     {
       "type": "select",
       "id": "width_mobile",
-      "label": "t:settings.width_mobile",
+      "label": "Mobile width",
       "options": [
         {
           "value": "fit-content",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "fit-content"
@@ -92,7 +92,7 @@
     {
       "type": "range",
       "id": "custom_width_mobile",
-      "label": "t:settings.width",
+      "label": "Width",
       "min": 0,
       "max": 100,
       "step": 1,

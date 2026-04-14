@@ -84,21 +84,21 @@
 
 {% schema %}
 {
-  "name": "t:names.spacer",
+  "name": "Spacer",
   "tag": null,
   "settings": [
     {
       "type": "select",
       "id": "size",
-      "label": "t:settings.unit",
+      "label": "Unit",
       "options": [
         {
           "value": "pixel",
-          "label": "t:options.pixel"
+          "label": "Pixel"
         },
         {
           "value": "percent",
-          "label": "t:options.percent"
+          "label": "Percent"
         }
       ],
       "default": "percent"
@@ -106,7 +106,7 @@
     {
       "type": "range",
       "id": "percent_size",
-      "label": "t:settings.size",
+      "label": "Size",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -117,7 +117,7 @@
     {
       "type": "range",
       "id": "pixel_size",
-      "label": "t:settings.size",
+      "label": "Size",
       "min": 0,
       "max": 400,
       "step": 4,
@@ -128,26 +128,26 @@
     {
       "type": "checkbox",
       "id": "custom_mobile_size",
-      "label": "t:settings.custom_mobile_size",
+      "label": "Custom mobile size",
       "default": false
     },
     {
       "type": "header",
-      "content": "t:content.mobile_size",
+      "content": "Mobile size",
       "visible_if": "{{ block.settings.custom_mobile_size == true }}"
     },
     {
       "type": "select",
       "id": "size_mobile",
-      "label": "t:settings.unit",
+      "label": "Unit",
       "options": [
         {
           "value": "pixel",
-          "label": "t:options.pixel"
+          "label": "Pixel"
         },
         {
           "value": "percent",
-          "label": "t:options.percent"
+          "label": "Percent"
         }
       ],
       "default": "percent",
@@ -156,7 +156,7 @@
     {
       "type": "range",
       "id": "percent_size_mobile",
-      "label": "t:settings.size",
+      "label": "Size",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -167,7 +167,7 @@
     {
       "type": "range",
       "id": "pixel_size_mobile",
-      "label": "t:settings.size",
+      "label": "Size",
       "min": 0,
       "max": 400,
       "step": 4,
@@ -178,8 +178,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.spacer",
-      "category": "t:categories.layout"
+      "name": "Spacer",
+      "category": "Layout"
     }
   ]
 }

@@ -160,33 +160,33 @@
 
 {% schema %}
 {
-  "name": "t:names.product_review_stars",
+  "name": "Review stars",
   "tag": null,
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.resource_reference_product_review"
+      "content": "Displays reviews from parent product"
     },
     {
       "type": "paragraph",
-      "content": "t:content.app_required_for_ratings"
+      "content": "An app is required for product ratings. [Learn more](https://help.shopify.com/manual/apps)"
     },
     {
       "type": "select",
       "id": "stars_style",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "outline",
-          "label": "t:options.outline"
+          "label": "Outline"
         },
         {
           "value": "shaded",
-          "label": "t:options.shaded"
+          "label": "Shaded"
         },
         {
           "value": "single",
-          "label": "t:options.single"
+          "label": "Single"
         }
       ],
       "default": "shaded"
@@ -194,61 +194,61 @@
     {
       "type": "checkbox",
       "id": "show_number",
-      "label": "t:settings.review_count",
+      "label": "Review count",
       "default": true
     },
     {
       "type": "select",
       "id": "rating_color",
-      "label": "t:settings.color",
+      "label": "Color",
       "options": [
         {
           "value": "foreground",
-          "label": "t:options.text"
+          "label": "Text"
         },
         {
           "value": "primary",
-          "label": "t:options.body"
+          "label": "Body"
         }
       ],
       "default": "primary"
     },
     {
       "type": "header",
-      "content": "t:content.typography"
+      "content": "Typography"
     },
     {
       "type": "select",
       "id": "type_preset",
-      "label": "t:settings.preset",
+      "label": "Preset",
       "options": [
         {
           "value": "paragraph",
-          "label": "t:options.paragraph"
+          "label": "Paragraph"
         },
         {
           "value": "h1",
-          "label": "t:options.h1"
+          "label": "Heading 1"
         },
         {
           "value": "h2",
-          "label": "t:options.h2"
+          "label": "Heading 2"
         },
         {
           "value": "h3",
-          "label": "t:options.h3"
+          "label": "Heading 3"
         },
         {
           "value": "h4",
-          "label": "t:options.h4"
+          "label": "Heading 4"
         },
         {
           "value": "h5",
-          "label": "t:options.h5"
+          "label": "Heading 5"
         },
         {
           "value": "h6",
-          "label": "t:options.h6"
+          "label": "Heading 6"
         }
       ],
       "default": "paragraph"
@@ -256,14 +256,14 @@
     {
       "type": "text_alignment",
       "id": "alignment",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "default": "left"
     }
   ],
   "presets": [
     {
-      "name": "t:names.product_review_stars",
-      "category": "t:categories.product"
+      "name": "Review stars",
+      "category": "Product"
     }
   ]
 }

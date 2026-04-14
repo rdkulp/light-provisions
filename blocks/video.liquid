@@ -41,21 +41,21 @@
 
 {% schema %}
 {
-  "name": "t:names.video",
+  "name": "Video",
   "tag": null,
   "settings": [
     {
       "type": "select",
       "id": "source",
-      "label": "t:settings.video_source",
+      "label": "Source",
       "options": [
         {
           "value": "uploaded",
-          "label": "t:options.video_uploaded"
+          "label": "Uploaded"
         },
         {
           "value": "url",
-          "label": "t:options.video_external_url"
+          "label": "External URL"
         }
       ],
       "default": "uploaded"
@@ -63,51 +63,51 @@
     {
       "type": "video",
       "id": "video",
-      "label": "t:settings.video",
+      "label": "Video",
       "visible_if": "{{ block.settings.source == 'uploaded' }}"
     },
     {
       "type": "video_url",
       "id": "video_url",
-      "label": "t:settings.video_external_url",
-      "info": "t:info.video_external",
+      "label": "URL",
+      "info": "Use a YouTube or Vimeo URL",
       "accept": ["youtube", "vimeo"],
       "visible_if": "{{ block.settings.source == 'url' }}"
     },
     {
       "type": "checkbox",
       "id": "video_autoplay",
-      "label": "t:settings.video_autoplay",
-      "info": "t:info.video_autoplay",
+      "label": "Autoplay",
+      "info": "Videos will be muted by default",
       "default": false
     },
     {
       "type": "checkbox",
       "id": "video_loop",
-      "label": "t:settings.video_loop",
+      "label": "Loop video",
       "default": true
     },
     {
       "type": "image_picker",
       "id": "cover_image",
-      "label": "t:settings.cover_image",
+      "label": "Cover image",
       "visible_if": "{{ block.settings.source == 'url' and block.settings.video_autoplay == false }}"
     },
     {
       "type": "text",
       "id": "alt",
-      "label": "t:settings.video_alt_text",
-      "info": "t:info.video_alt_text",
+      "label": "Alt text",
+      "info": "Describe the video for assistive tech users",
       "visible_if": "{{ block.settings.source == 'url' }}"
     },
     {
       "type": "header",
-      "content": "t:content.size"
+      "content": "Size"
     },
     {
       "type": "range",
       "id": "custom_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -117,7 +117,7 @@
     {
       "type": "range",
       "id": "custom_width_mobile",
-      "label": "t:settings.width_mobile",
+      "label": "Mobile width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -127,44 +127,44 @@
     {
       "type": "select",
       "id": "aspect_ratio",
-      "label": "t:settings.aspect_ratio",
+      "label": "Aspect ratio",
       "visible_if": "{{ block.settings.source == 'url' and block.settings.cover_image == blank }}",
       "options": [
         {
           "value": "auto",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "9/16",
-          "label": "t:options.portrait"
+          "label": "Portrait"
         },
         {
           "value": "1/1",
-          "label": "t:options.square"
+          "label": "Square"
         },
         {
           "value": "16/9",
-          "label": "t:options.landscape"
+          "label": "Landscape"
         }
       ],
       "default": "auto"
     },
     {
       "type": "header",
-      "content": "t:content.borders"
+      "content": "Borders"
     },
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -176,7 +176,7 @@
       "max": 100,
       "step": 1,
       "unit": "px",
-      "label": "t:settings.thickness",
+      "label": "Thickness",
       "default": 1,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
@@ -187,14 +187,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.opacity",
+      "label": "Opacity",
       "default": 100,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -203,12 +203,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 32,
       "step": 1,
@@ -218,7 +218,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 32,
       "step": 1,
@@ -228,7 +228,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 32,
       "step": 1,
@@ -238,7 +238,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 32,
       "step": 1,
@@ -248,8 +248,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.video",
-      "category": "t:categories.basic"
+      "name": "Video",
+      "category": "Basic"
     }
   ]
 }

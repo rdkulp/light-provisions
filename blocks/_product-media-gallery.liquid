@@ -687,43 +687,43 @@
 
 {% schema %}
 {
-  "name": "t:names.product_media",
+  "name": "Product media",
   "tag": null,
   "settings": [
     {
       "type": "select",
       "id": "media_presentation",
-      "label": "t:settings.type",
+      "label": "Type",
       "options": [
         {
           "value": "grid",
-          "label": "t:options.grid"
+          "label": "Grid"
         },
         {
           "value": "carousel",
-          "label": "t:options.carousel"
+          "label": "Carousel"
         }
       ],
       "default": "grid",
-      "info": "t:info.carousel_layout_on_mobile"
+      "info": "Carousel is used on mobile"
     },
     {
       "type": "header",
-      "content": "t:content.grid",
+      "content": "Grid",
       "visible_if": "{{ block.settings.media_presentation == 'grid' }}"
     },
     {
       "type": "select",
       "id": "media_columns",
-      "label": "t:settings.columns",
+      "label": "Columns",
       "options": [
         {
           "value": "one",
-          "label": "t:options.one_number"
+          "label": "1"
         },
         {
           "value": "two",
-          "label": "t:options.two_number"
+          "label": "2"
         }
       ],
       "default": "one",
@@ -732,7 +732,7 @@
     {
       "type": "range",
       "id": "image_gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 100,
       "unit": "px",
@@ -743,34 +743,34 @@
     {
       "type": "checkbox",
       "id": "large_first_image",
-      "label": "t:settings.full_width_first_image",
+      "label": "Full width first image",
       "default": false,
       "visible_if": "{{ block.settings.media_presentation == 'grid' and block.settings.media_columns == 'two' }}"
     },
     {
       "type": "header",
-      "content": "t:content.carousel"
+      "content": "Carousel"
     },
     {
       "type": "select",
       "id": "icons_style",
-      "label": "t:settings.icons",
+      "label": "Icons",
       "options": [
         {
           "value": "arrow",
-          "label": "t:options.arrows"
+          "label": "Arrows"
         },
         {
           "value": "chevron",
-          "label": "t:options.chevrons"
+          "label": "Chevrons"
         },
         {
           "value": "arrows_large",
-          "label": "t:options.large_arrows"
+          "label": "Large arrows"
         },
         {
           "value": "chevron_large",
-          "label": "t:options.large_chevrons"
+          "label": "Large chevrons"
         }
       ],
       "default": "arrow",
@@ -779,19 +779,19 @@
     {
       "type": "select",
       "id": "slideshow_controls_style",
-      "label": "t:settings.pagination",
+      "label": "Pagination",
       "options": [
         {
           "value": "dots",
-          "label": "t:options.dots"
+          "label": "Dots"
         },
         {
           "value": "counter",
-          "label": "t:options.counter"
+          "label": "Counter"
         },
         {
           "value": "thumbnails",
-          "label": "t:options.thumbnails"
+          "label": "Thumbnails"
         }
       ],
       "visible_if": "{{ block.settings.media_presentation == 'carousel' }}"
@@ -799,43 +799,43 @@
     {
       "type": "select",
       "id": "slideshow_mobile_controls_style",
-      "label": "t:settings.mobile_pagination",
+      "label": "Mobile pagination",
       "options": [
         {
           "value": "dots",
-          "label": "t:options.dots"
+          "label": "Dots"
         },
         {
           "value": "counter",
-          "label": "t:options.counter"
+          "label": "Counter"
         },
         {
           "value": "hint",
-          "label": "t:options.hint"
+          "label": "Hint"
         }
       ]
     },
     {
       "type": "header",
-      "content": "t:content.thumbnails",
+      "content": "Thumbnails",
       "visible_if": "{{ block.settings.media_presentation == 'carousel' and block.settings.slideshow_controls_style == 'thumbnails' }}"
     },
     {
       "type": "select",
       "id": "thumbnail_position",
-      "label": "t:settings.position",
+      "label": "Position",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "bottom",
-          "label": "t:options.bottom"
+          "label": "Bottom"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "bottom",
@@ -844,7 +844,7 @@
     {
       "type": "range",
       "id": "thumbnail_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "min": 44,
       "max": 72,
       "step": 1,
@@ -854,28 +854,28 @@
     },
     {
       "type": "header",
-      "content": "t:content.media"
+      "content": "Media"
     },
     {
       "type": "select",
       "id": "aspect_ratio",
-      "label": "t:settings.aspect_ratio",
+      "label": "Aspect ratio",
       "options": [
         {
           "value": "adapt",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "1/1.25",
-          "label": "t:options.portrait"
+          "label": "Portrait"
         },
         {
           "value": "1",
-          "label": "t:options.square"
+          "label": "Square"
         },
         {
           "value": "2/1",
-          "label": "t:options.landscape"
+          "label": "Landscape"
         }
       ],
       "default": "adapt"
@@ -883,21 +883,21 @@
     {
       "type": "checkbox",
       "id": "constrain_to_viewport",
-      "label": "t:settings.limit_media_to_screen_height",
+      "label": "Constrain to screen height",
       "default": false
     },
     {
       "type": "select",
       "id": "media_fit",
-      "label": "t:settings.media_fit",
+      "label": "Media fit",
       "options": [
         {
           "value": "cover",
-          "label": "t:options.cover"
+          "label": "Cover"
         },
         {
           "value": "contain",
-          "label": "t:options.contain"
+          "label": "Contain"
         }
       ],
       "default": "cover",
@@ -906,7 +906,7 @@
     {
       "type": "range",
       "id": "media_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 32,
       "step": 1,
@@ -916,36 +916,36 @@
     {
       "type": "checkbox",
       "id": "extend_media",
-      "label": "t:settings.extend_media_to_screen_edge",
+      "label": "Extend media to screen edge",
       "default": true,
       "visible_if": "{{ section.settings.content_width == 'content-center-aligned' }}"
     },
     {
       "type": "checkbox",
       "id": "zoom",
-      "label": "t:settings.enable_zoom",
+      "label": "Enable zoom",
       "default": true
     },
     {
       "type": "checkbox",
       "id": "video_loop",
-      "label": "t:settings.enable_video_looping",
+      "label": "Video looping",
       "default": false
     },
     {
       "type": "checkbox",
       "id": "hide_variants",
       "default": false,
-      "label": "t:settings.hide_unselected_variant_media"
+      "label": "Hide unselected variant media"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -955,7 +955,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -965,7 +965,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -975,7 +975,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -985,7 +985,7 @@
   ],
   "presets": [
     {
-      "name": "t:names.product_media"
+      "name": "Product media"
     }
   ]
 }

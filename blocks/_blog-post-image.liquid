@@ -53,25 +53,25 @@
 
 {% schema %}
 {
-  "name": "t:names.image",
+  "name": "Image",
   "blocks": [],
   "settings": [
     {
       "type": "select",
       "id": "height",
-      "label": "t:settings.height",
+      "label": "Height",
       "options": [
         {
           "value": "small",
-          "label": "t:options.small"
+          "label": "Small"
         },
         {
           "value": "medium",
-          "label": "t:options.medium"
+          "label": "Medium"
         },
         {
           "value": "large",
-          "label": "t:options.large"
+          "label": "Large"
         }
       ],
       "default": "large"
@@ -79,15 +79,15 @@
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.border",
+      "label": "Border",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -99,7 +99,7 @@
       "max": 10,
       "step": 0.5,
       "unit": "px",
-      "label": "t:settings.border_width",
+      "label": "Border thickness",
       "default": 1,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
@@ -110,14 +110,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.border_opacity",
+      "label": "Border opacity",
       "default": 100,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.corner_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 100,
       "step": 1,

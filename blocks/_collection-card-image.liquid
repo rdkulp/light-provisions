@@ -132,34 +132,34 @@
 
 {% schema %}
 {
-  "name": "t:names.collection_card_image",
+  "name": "Image",
   "tag": null,
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.resource_reference_collection_card_image"
+      "content": "Displays image from parent collection"
     },
     {
       "type": "select",
       "id": "image_ratio",
-      "label": "t:settings.aspect_ratio",
-      "info": "t:info.aspect_ratio_adjusted",
+      "label": "Aspect ratio",
+      "info": "Adjusted in some layouts",
       "options": [
         {
           "value": "adapt",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "portrait",
-          "label": "t:options.portrait"
+          "label": "Portrait"
         },
         {
           "value": "square",
-          "label": "t:options.square"
+          "label": "Square"
         },
         {
           "value": "landscape",
-          "label": "t:options.landscape"
+          "label": "Landscape"
         }
       ],
       "default": "portrait"
@@ -167,12 +167,12 @@
     {
       "type": "checkbox",
       "id": "toggle_overlay",
-      "label": "t:settings.media_overlay"
+      "label": "Media overlay"
     },
     {
       "type": "color",
       "id": "overlay_color",
-      "label": "t:settings.overlay_color",
+      "label": "Overlay color",
       "alpha": true,
       "default": "#00000026",
       "visible_if": "{{ block.settings.toggle_overlay }}"
@@ -180,15 +180,15 @@
     {
       "type": "select",
       "id": "overlay_style",
-      "label": "t:settings.overlay_style",
+      "label": "Overlay style",
       "options": [
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         },
         {
           "value": "gradient",
-          "label": "t:options.gradient"
+          "label": "Gradient"
         }
       ],
       "default": "solid",
@@ -197,15 +197,15 @@
     {
       "type": "select",
       "id": "gradient_direction",
-      "label": "t:settings.gradient_direction",
+      "label": "Gradient direction",
       "options": [
         {
           "value": "to top",
-          "label": "t:options.up"
+          "label": "Up"
         },
         {
           "value": "to bottom",
-          "label": "t:options.down"
+          "label": "Down"
         }
       ],
       "default": "to top",
@@ -213,20 +213,20 @@
     },
     {
       "type": "header",
-      "content": "t:content.borders"
+      "content": "Borders"
     },
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -238,7 +238,7 @@
       "max": 100,
       "step": 1,
       "unit": "px",
-      "label": "t:settings.thickness",
+      "label": "Thickness",
       "default": 1,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
@@ -249,14 +249,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.opacity",
+      "label": "Opacity",
       "default": 100,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 100,
       "step": 1,

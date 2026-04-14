@@ -1057,28 +1057,28 @@
 
 {% schema %}
 {
-  "name": "t:names.filters",
+  "name": "Filtering and sorting",
   "tag": null,
   "settings": [
     {
       "type": "checkbox",
       "id": "enable_filtering",
-      "label": "t:settings.enable_filtering",
-      "info": "t:info.enable_filtering_info",
+      "label": "Filters",
+      "info": "Customize filters with the [Search & Discovery app](https://help.shopify.com/manual/online-store/search-and-discovery/filters)",
       "default": false
     },
     {
       "type": "select",
       "id": "filter_style",
-      "label": "t:settings.direction",
+      "label": "Direction",
       "options": [
         {
           "value": "horizontal",
-          "label": "t:options.horizontal"
+          "label": "Horizontal"
         },
         {
           "value": "vertical",
-          "label": "t:options.vertical"
+          "label": "Vertical"
         }
       ],
       "default": "horizontal",
@@ -1087,15 +1087,15 @@
     {
       "type": "select",
       "id": "filter_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "centered",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "centered",
@@ -1104,15 +1104,15 @@
     {
       "type": "select",
       "id": "text_label_case",
-      "label": "t:settings.text_label_case",
+      "label": "Text label case",
       "options": [
         {
           "value": "default",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "uppercase",
-          "label": "t:options.uppercase"
+          "label": "Uppercase"
         }
       ],
       "default": "default",
@@ -1121,50 +1121,50 @@
     {
       "type": "checkbox",
       "id": "show_swatch_label",
-      "label": "t:settings.show_swatch_label",
+      "label": "Text labels for swatches",
       "default": false,
       "visible_if": "{{ block.settings.enable_filtering == true }}"
     },
     {
       "type": "checkbox",
       "id": "show_filter_label",
-      "label": "t:settings.show_filter_label",
+      "label": "Text labels for applied filters",
       "default": false,
       "visible_if": "{{ block.settings.enable_filtering == true }}"
     },
     {
       "type": "checkbox",
       "id": "enable_sorting",
-      "label": "t:settings.enable_sorting",
+      "label": "Sorting",
       "default": true
     },
     {
       "type": "checkbox",
       "id": "enable_grid_density",
-      "label": "t:settings.enable_grid_density",
+      "label": "Grid layout control",
       "default": true
     },
     {
       "type": "checkbox",
       "id": "inherit_color_scheme",
-      "label": "t:settings.inherit_color_scheme",
+      "label": "Inherit color scheme",
       "default": true
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1",
       "visible_if": "{{ block.settings.inherit_color_scheme == false }}"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -1174,7 +1174,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -1184,7 +1184,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -1194,7 +1194,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -1203,12 +1203,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.margin"
+      "content": "Margin"
     },
     {
       "type": "range",
       "id": "facets_margin_bottom",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -1219,7 +1219,7 @@
     {
       "type": "range",
       "id": "facets_margin_right",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,

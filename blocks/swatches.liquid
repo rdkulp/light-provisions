@@ -101,29 +101,29 @@
 
 {% schema %}
 {
-  "name": "t:names.swatches",
+  "name": "Swatches",
   "tag": null,
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.resource_reference_product_swatches"
+      "content": "Displays swatches from parent product"
     },
     {
       "type": "select",
       "id": "product_swatches_alignment",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "flex-start"
@@ -131,39 +131,39 @@
     {
       "type": "select",
       "id": "product_swatches_alignment_mobile",
-      "label": "t:settings.alignment_mobile",
+      "label": "Mobile alignment",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "flex-start"
     },
     {
       "type": "header",
-      "content": "t:content.padding",
+      "content": "Padding",
       "visible_if": "{{ block.settings.hide_padding == false }}"
     },
     {
       "type": "checkbox",
       "id": "hide_padding",
-      "label": "t:settings.hide_padding",
+      "label": "Hide padding",
       "default": false,
       "visible_if": "{{ false }}"
     },
     {
       "type": "range",
       "id": "product_swatches_padding_top",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -174,7 +174,7 @@
     {
       "type": "range",
       "id": "product_swatches_padding_bottom",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -185,7 +185,7 @@
     {
       "type": "range",
       "id": "product_swatches_padding_left",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -196,7 +196,7 @@
     {
       "type": "range",
       "id": "product_swatches_padding_right",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -207,8 +207,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.swatches",
-      "category": "t:categories.product"
+      "name": "Swatches",
+      "category": "Product"
     }
   ]
 }

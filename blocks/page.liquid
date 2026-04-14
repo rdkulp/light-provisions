@@ -51,51 +51,51 @@
 
 {% schema %}
 {
-  "name": "t:names.page",
+  "name": "Page",
   "settings": [
     {
       "type": "page",
       "id": "page",
-      "label": "t:settings.page"
+      "label": "Page"
     },
     {
       "type": "checkbox",
       "id": "inherit_color_scheme",
-      "label": "t:settings.inherit_color_scheme",
+      "label": "Inherit color scheme",
       "default": true
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1",
       "visible_if": "{{ block.settings.inherit_color_scheme == false }}"
     },
     {
       "type": "header",
-      "content": "t:content.appearance"
+      "content": "Appearance"
     },
     {
       "type": "checkbox",
       "id": "background",
-      "label": "t:settings.background",
+      "label": "Background",
       "default": false
     },
     {
       "type": "color",
       "id": "background_color",
-      "label": "t:settings.background_color",
+      "label": "Background color",
       "default": "#00000026",
       "visible_if": "{{ block.settings.background }}"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -105,7 +105,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -115,7 +115,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -125,7 +125,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -135,8 +135,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.page",
-      "category": "t:categories.basic"
+      "name": "Page",
+      "category": "Basic"
     }
   ]
 }

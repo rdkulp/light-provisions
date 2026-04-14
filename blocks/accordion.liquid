@@ -70,7 +70,7 @@
 
 {% schema %}
 {
-  "name": "t:names.accordion",
+  "name": "Accordion",
   "tag": null,
   "class": "accordion",
   "blocks": [
@@ -82,15 +82,15 @@
     {
       "type": "select",
       "id": "icon",
-      "label": "t:settings.icon",
+      "label": "Icon",
       "options": [
         {
           "value": "caret",
-          "label": "t:options.caret"
+          "label": "Caret"
         },
         {
           "value": "plus",
-          "label": "t:options.plus"
+          "label": "Plus"
         }
       ],
       "default": "caret"
@@ -98,79 +98,79 @@
     {
       "type": "checkbox",
       "id": "dividers",
-      "label": "t:settings.dividers",
+      "label": "Dividers",
       "default": true
     },
     {
       "type": "select",
       "id": "type_preset",
-      "label": "t:settings.heading_preset",
+      "label": "Heading preset",
       "options": [
         {
           "value": "",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "paragraph",
-          "label": "t:options.paragraph"
+          "label": "Paragraph"
         },
         {
           "value": "h1",
-          "label": "t:options.h1"
+          "label": "Heading 1"
         },
         {
           "value": "h2",
-          "label": "t:options.h2"
+          "label": "Heading 2"
         },
         {
           "value": "h3",
-          "label": "t:options.h3"
+          "label": "Heading 3"
         },
         {
           "value": "h4",
-          "label": "t:options.h4"
+          "label": "Heading 4"
         },
         {
           "value": "h5",
-          "label": "t:options.h5"
+          "label": "Heading 5"
         },
         {
           "value": "h6",
-          "label": "t:options.h6"
+          "label": "Heading 6"
         }
       ],
       "default": "h6",
-      "info": "t:info.edit_presets_in_theme_settings"
+      "info": "Edit presets in [theme settings](/editor?context=theme&category=typography)"
     },
     {
       "type": "checkbox",
       "id": "inherit_color_scheme",
-      "label": "t:settings.inherit_color_scheme",
+      "label": "Inherit color scheme",
       "default": true
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1",
       "visible_if": "{{ block.settings.inherit_color_scheme == false }}"
     },
     {
       "type": "header",
-      "content": "t:content.borders"
+      "content": "Borders"
     },
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -182,7 +182,7 @@
       "max": 100,
       "step": 1,
       "unit": "px",
-      "label": "t:settings.thickness",
+      "label": "Thickness",
       "default": 1,
       "visible_if": "{{ block.settings.border != \"none\" }}"
     },
@@ -193,14 +193,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.opacity",
+      "label": "Opacity",
       "default": 100,
       "visible_if": "{{ block.settings.border != \"none\" }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -208,12 +208,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -223,7 +223,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -233,7 +233,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -243,7 +243,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -253,8 +253,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.accordion",
-      "category": "t:categories.layout",
+      "name": "Accordion",
+      "category": "Layout",
       "blocks": {
         "row-1": {
           "type": "_accordion-row",

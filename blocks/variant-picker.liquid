@@ -11,29 +11,29 @@
 
 {% schema %}
 {
-  "name": "t:names.product_variant_picker",
+  "name": "Variant picker",
   "tag": null,
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.resource_reference_product_variant_picker"
+      "content": "Displays variants from parent product"
     },
     {
       "type": "paragraph",
-      "content": "t:content.edit_variants_in_theme_settings"
+      "content": "Edit variant styling in [theme settings](/editor?context=theme&category=variants)"
     },
     {
       "type": "select",
       "id": "variant_style",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "dropdowns",
-          "label": "t:options.dropdowns"
+          "label": "Dropdowns"
         },
         {
           "value": "buttons",
-          "label": "t:options.buttons"
+          "label": "Buttons"
         }
       ],
       "default": "buttons"
@@ -41,23 +41,23 @@
     {
       "type": "checkbox",
       "id": "show_swatches",
-      "label": "t:settings.swatches",
+      "label": "Swatches",
       "default": true
     },
     {
       "type": "text_alignment",
       "id": "alignment",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "default": "left"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -67,7 +67,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -77,7 +77,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -87,7 +87,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -97,8 +97,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.product_variant_picker",
-      "category": "t:categories.product"
+      "name": "Variant picker",
+      "category": "Product"
     }
   ]
 }

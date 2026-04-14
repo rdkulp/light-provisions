@@ -59,13 +59,13 @@
 
 {% schema %}
 {
-  "name": "t:names.collection_image",
+  "name": "Collection image",
   "tag": null,
   "settings": [
     {
       "type": "collection",
       "id": "collection",
-      "label": "t:settings.collection"
+      "label": "Collection"
     },
     {
       "type": "select",
@@ -73,28 +73,28 @@
       "options": [
         {
           "value": "adapt",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "portrait",
-          "label": "t:options.portrait"
+          "label": "Portrait"
         },
         {
           "value": "square",
-          "label": "t:options.square"
+          "label": "Square"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "square",
-      "label": "t:settings.aspect_ratio"
+      "label": "Aspect ratio"
     },
     {
       "type": "range",
       "id": "collection_image_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -105,7 +105,7 @@
     {
       "type": "range",
       "id": "collection_image_height",
-      "label": "t:settings.height",
+      "label": "Height",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -115,12 +115,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -130,7 +130,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -140,7 +140,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -150,7 +150,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -160,7 +160,7 @@
   ],
   "presets": [
     {
-      "name": "t:names.collection_image",
+      "name": "Collection image",
       "settings": {
         "collection": "{{ closest.collection }}"
       }

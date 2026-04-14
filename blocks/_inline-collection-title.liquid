@@ -30,37 +30,37 @@
 
 {% schema %}
 {
-  "name": "t:names.collection_title",
+  "name": "Collection title",
   "tag": null,
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.resource_reference_collection_title"
+      "content": "Displays title from parent collection"
     },
     {
       "type": "header",
-      "content": "t:content.typography"
+      "content": "Typography"
     },
     {
       "type": "select",
       "id": "font",
-      "label": "t:settings.font",
+      "label": "Font",
       "options": [
         {
           "value": "var(--font-body--family)",
-          "label": "t:options.body"
+          "label": "Body"
         },
         {
           "value": "var(--font-subheading--family)",
-          "label": "t:options.subheading"
+          "label": "Subheading"
         },
         {
           "value": "var(--font-heading--family)",
-          "label": "t:options.heading"
+          "label": "Heading"
         },
         {
           "value": "var(--font-accent--family)",
-          "label": "t:options.accent"
+          "label": "Accent"
         }
       ],
       "default": "var(--font-body--family)"
@@ -68,39 +68,39 @@
     {
       "type": "select",
       "id": "weight",
-      "label": "t:settings.weight",
+      "label": "Weight",
       "options": [
         {
           "value": "",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "100",
-          "label": "t:options.thin"
+          "label": "Thin"
         },
         {
           "value": "300",
-          "label": "t:options.light"
+          "label": "Light"
         },
         {
           "value": "400",
-          "label": "t:options.regular"
+          "label": "Regular"
         },
         {
           "value": "500",
-          "label": "t:options.medium"
+          "label": "Medium"
         },
         {
           "value": "600",
-          "label": "t:options.semibold"
+          "label": "Semibold"
         },
         {
           "value": "700",
-          "label": "t:options.bold"
+          "label": "Bold"
         },
         {
           "value": "900",
-          "label": "t:options.black"
+          "label": "Black"
         }
       ],
       "default": ""
@@ -108,19 +108,19 @@
     {
       "type": "select",
       "id": "line_height",
-      "label": "t:settings.line_height",
+      "label": "Line height",
       "options": [
         {
           "value": "tight",
-          "label": "t:options.tight"
+          "label": "Tight"
         },
         {
           "value": "normal",
-          "label": "t:options.normal"
+          "label": "Normal"
         },
         {
           "value": "loose",
-          "label": "t:options.loose"
+          "label": "Loose"
         }
       ],
       "default": "normal"
@@ -128,19 +128,19 @@
     {
       "type": "select",
       "id": "letter_spacing",
-      "label": "t:settings.letter_spacing",
+      "label": "Letter spacing",
       "options": [
         {
           "value": "tight",
-          "label": "t:options.tight"
+          "label": "Tight"
         },
         {
           "value": "normal",
-          "label": "t:options.normal"
+          "label": "Normal"
         },
         {
           "value": "loose",
-          "label": "t:options.loose"
+          "label": "Loose"
         }
       ],
       "default": "normal"
@@ -148,15 +148,15 @@
     {
       "type": "select",
       "id": "case",
-      "label": "t:settings.case",
+      "label": "Case",
       "options": [
         {
           "value": "none",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "uppercase",
-          "label": "t:options.uppercase"
+          "label": "Uppercase"
         }
       ],
       "default": "none"

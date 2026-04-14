@@ -4,35 +4,35 @@
 
 {% schema %}
 {
-  "name": "t:names.jumbo_text",
+  "name": "Jumbo text",
   "tag": null,
   "settings": [
     {
       "id": "text",
       "type": "textarea",
-      "label": "t:settings.text",
-      "default": "t:text_defaults.be_bold"
+      "label": "Text",
+      "default": "Be bold."
     },
     {
       "type": "select",
       "id": "font",
-      "label": "t:settings.font",
+      "label": "Font",
       "options": [
         {
           "value": "body",
-          "label": "t:options.body"
+          "label": "Body"
         },
         {
           "value": "subheading",
-          "label": "t:options.subheading"
+          "label": "Subheading"
         },
         {
           "value": "heading",
-          "label": "t:options.heading"
+          "label": "Heading"
         },
         {
           "value": "accent",
-          "label": "t:options.accent"
+          "label": "Accent"
         }
       ],
       "default": "heading"
@@ -40,25 +40,25 @@
     {
       "type": "text_alignment",
       "id": "alignment",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "default": "left"
     },
     {
       "type": "select",
       "id": "line_height",
-      "label": "t:settings.line_height",
+      "label": "Line height",
       "options": [
         {
           "value": "0.8",
-          "label": "t:options.tight"
+          "label": "Tight"
         },
         {
           "value": "1",
-          "label": "t:options.normal"
+          "label": "Normal"
         },
         {
           "value": "1.2",
-          "label": "t:options.loose"
+          "label": "Loose"
         }
       ],
       "default": "0.8"
@@ -66,19 +66,19 @@
     {
       "type": "select",
       "id": "letter_spacing",
-      "label": "t:settings.letter_spacing",
+      "label": "Letter spacing",
       "options": [
         {
           "value": "-0.03em",
-          "label": "t:options.tight"
+          "label": "Tight"
         },
         {
           "value": "normal",
-          "label": "t:options.normal"
+          "label": "Normal"
         },
         {
           "value": "0.03em",
-          "label": "t:options.loose"
+          "label": "Loose"
         }
       ],
       "default": "-0.03em"
@@ -86,15 +86,15 @@
     {
       "type": "select",
       "id": "case",
-      "label": "t:settings.case",
+      "label": "Case",
       "options": [
         {
           "value": "none",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "uppercase",
-          "label": "t:options.uppercase"
+          "label": "Uppercase"
         }
       ],
       "default": "none"
@@ -102,19 +102,19 @@
     {
       "type": "select",
       "id": "text_effect",
-      "label": "t:settings.effects",
+      "label": "Effects",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "blur",
-          "label": "t:options.blur"
+          "label": "Blur"
         },
         {
           "value": "reveal",
-          "label": "t:options.reveal"
+          "label": "Reveal"
         }
       ],
       "default": "none"
@@ -122,15 +122,15 @@
     {
       "type": "checkbox",
       "id": "animation_repeat",
-      "label": "t:settings.animation_repeat",
+      "label": "Repeat animation",
       "default": false,
       "visible_if": "{{ block.settings.text_effect == \"blur\" or block.settings.text_effect == \"reveal\" }}"
     }
   ],
   "presets": [
     {
-      "name": "t:names.jumbo_text",
-      "category": "t:categories.decorative"
+      "name": "Jumbo text",
+      "category": "Decorative"
     }
   ]
 }

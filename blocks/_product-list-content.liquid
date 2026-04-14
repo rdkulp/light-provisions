@@ -8,7 +8,7 @@
 
 {% schema %}
 {
-  "name": "t:names.header",
+  "name": "Header",
   "tag": null,
   "blocks": [
     {
@@ -39,20 +39,20 @@
   "settings": [
     {
       "type": "header",
-      "content": "t:content.layout"
+      "content": "Layout"
     },
     {
       "type": "select",
       "id": "content_direction",
-      "label": "t:settings.direction",
+      "label": "Direction",
       "options": [
         {
           "value": "column",
-          "label": "t:options.vertical"
+          "label": "Vertical"
         },
         {
           "value": "row",
-          "label": "t:options.horizontal"
+          "label": "Horizontal"
         }
       ],
       "default": "column"
@@ -60,30 +60,30 @@
     {
       "type": "checkbox",
       "id": "vertical_on_mobile",
-      "label": "t:settings.vertical_on_mobile",
+      "label": "Vertical on mobile",
       "default": true,
       "visible_if": "{{ block.settings.content_direction == 'row' }}"
     },
     {
       "type": "select",
       "id": "horizontal_alignment",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.right"
+          "label": "Right"
         },
         {
           "value": "space-between",
-          "label": "t:options.space_between"
+          "label": "Space between"
         }
       ],
       "default": "flex-start",
@@ -92,19 +92,19 @@
     {
       "type": "select",
       "id": "vertical_alignment",
-      "label": "t:settings.position",
+      "label": "Position",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.top"
+          "label": "Top"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.bottom"
+          "label": "Bottom"
         }
       ],
       "default": "center",
@@ -113,26 +113,26 @@
     {
       "type": "checkbox",
       "id": "align_baseline",
-      "label": "t:settings.align_baseline",
+      "label": "Align text baseline",
       "default": false,
       "visible_if": "{{ block.settings.vertical_alignment == 'flex-end' }}"
     },
     {
       "type": "select",
       "id": "horizontal_alignment_flex_direction_column",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "flex-start",
@@ -141,23 +141,23 @@
     {
       "type": "select",
       "id": "vertical_alignment_flex_direction_column",
-      "label": "t:settings.position",
+      "label": "Position",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.top"
+          "label": "Top"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.bottom"
+          "label": "Bottom"
         },
         {
           "value": "space-between",
-          "label": "t:options.space_between"
+          "label": "Space between"
         }
       ],
       "default": "center",
@@ -166,7 +166,7 @@
     {
       "type": "range",
       "id": "gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -175,24 +175,24 @@
     },
     {
       "type": "header",
-      "content": "t:content.size"
+      "content": "Size"
     },
     {
       "type": "select",
       "id": "width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "fit-content",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "fill",
-          "label": "t:options.fill"
+          "label": "Fill"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "fill"
@@ -200,7 +200,7 @@
     {
       "type": "range",
       "id": "custom_width",
-      "label": "t:settings.custom_width",
+      "label": "Custom width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -211,19 +211,19 @@
     {
       "type": "select",
       "id": "width_mobile",
-      "label": "t:settings.width_mobile",
+      "label": "Mobile width",
       "options": [
         {
           "value": "fit-content",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "fill",
-          "label": "t:options.fill"
+          "label": "Fill"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "fill"
@@ -231,7 +231,7 @@
     {
       "type": "range",
       "id": "custom_width_mobile",
-      "label": "t:settings.custom_width",
+      "label": "Custom width",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -242,19 +242,19 @@
     {
       "type": "select",
       "id": "height",
-      "label": "t:settings.height",
+      "label": "Height",
       "options": [
         {
           "value": "fit",
-          "label": "t:options.fit_content"
+          "label": "Fit"
         },
         {
           "value": "fill",
-          "label": "t:options.fill"
+          "label": "Fill"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": "fit"
@@ -262,7 +262,7 @@
     {
       "type": "range",
       "id": "custom_height",
-      "label": "t:settings.custom_height",
+      "label": "Custom height",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -272,37 +272,37 @@
     },
     {
       "type": "header",
-      "content": "t:content.appearance"
+      "content": "Appearance"
     },
     {
       "type": "checkbox",
       "id": "inherit_color_scheme",
-      "label": "t:settings.inherit_color_scheme",
+      "label": "Inherit color scheme",
       "default": true
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1",
       "visible_if": "{{ block.settings.inherit_color_scheme == false }}"
     },
     {
       "type": "select",
       "id": "background_media",
-      "label": "t:settings.background_media",
+      "label": "Background media",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "image",
-          "label": "t:options.image"
+          "label": "Image"
         },
         {
           "value": "video",
-          "label": "t:options.video"
+          "label": "Video"
         }
       ],
       "default": "none"
@@ -310,21 +310,21 @@
     {
       "type": "video",
       "id": "video",
-      "label": "t:settings.video",
+      "label": "Video",
       "visible_if": "{{ block.settings.background_media == 'video' }}"
     },
     {
       "type": "select",
       "id": "video_position",
-      "label": "t:settings.video_position",
+      "label": "Video position",
       "options": [
         {
           "value": "cover",
-          "label": "t:options.cover"
+          "label": "Cover"
         },
         {
           "value": "contain",
-          "label": "t:options.contain"
+          "label": "Contain"
         }
       ],
       "default": "cover",
@@ -333,21 +333,21 @@
     {
       "type": "image_picker",
       "id": "background_image",
-      "label": "t:settings.image",
+      "label": "Image",
       "visible_if": "{{ block.settings.background_media == 'image' }}"
     },
     {
       "type": "select",
       "id": "background_image_position",
-      "label": "t:settings.image_position",
+      "label": "Image position",
       "options": [
         {
           "value": "cover",
-          "label": "t:options.cover"
+          "label": "Cover"
         },
         {
           "value": "fit",
-          "label": "t:options.fit"
+          "label": "Fit"
         }
       ],
       "default": "cover",
@@ -356,15 +356,15 @@
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.borders",
+      "label": "Borders",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -376,7 +376,7 @@
       "max": 10,
       "step": 0.5,
       "unit": "px",
-      "label": "t:settings.border_width",
+      "label": "Border thickness",
       "default": 1,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
@@ -387,14 +387,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.border_opacity",
+      "label": "Border opacity",
       "default": 100,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -403,12 +403,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -418,7 +418,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -428,7 +428,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -438,7 +438,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -448,8 +448,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.group",
-      "category": "t:categories.layout"
+      "name": "Group",
+      "category": "Layout"
     }
   ]
 }

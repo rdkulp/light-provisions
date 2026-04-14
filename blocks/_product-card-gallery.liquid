@@ -38,12 +38,12 @@
 
 {% schema %}
 {
-  "name": "t:names.product_image",
+  "name": "Product image",
   "tag": null,
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.resource_reference_product_media"
+      "content": "Displays media from parent product"
     },
     {
       "type": "select",
@@ -51,41 +51,41 @@
       "options": [
         {
           "value": "adapt",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "portrait",
-          "label": "t:options.portrait"
+          "label": "Portrait"
         },
         {
           "value": "square",
-          "label": "t:options.square"
+          "label": "Square"
         },
         {
           "value": "landscape",
-          "label": "t:options.landscape"
+          "label": "Landscape"
         }
       ],
       "default": "portrait",
-      "label": "t:settings.aspect_ratio",
-      "info": "t:info.aspect_ratio_adjusted"
+      "label": "Aspect ratio",
+      "info": "Adjusted in some layouts"
     },
     {
       "type": "header",
-      "content": "t:content.borders"
+      "content": "Borders"
     },
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.style",
+      "label": "Style",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -97,7 +97,7 @@
       "max": 100,
       "step": 1,
       "unit": "px",
-      "label": "t:settings.thickness",
+      "label": "Thickness",
       "default": 1,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
@@ -108,14 +108,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.opacity",
+      "label": "Opacity",
       "default": 100,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 32,
       "step": 1,
@@ -124,12 +124,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -139,7 +139,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -149,7 +149,7 @@
     {
       "type": "range",
       "id": "padding-inline-start",
-      "label": "t:settings.left",
+      "label": "Left",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -159,7 +159,7 @@
     {
       "type": "range",
       "id": "padding-inline-end",
-      "label": "t:settings.right",
+      "label": "Right",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -169,8 +169,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.product_card_media",
-      "category": "t:categories.product"
+      "name": "Media",
+      "category": "Product"
     }
   ]
 }

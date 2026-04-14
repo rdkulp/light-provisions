@@ -109,29 +109,29 @@
 
 {% schema %}
 {
-  "name": "t:names.image",
+  "name": "Image",
   "tag": null,
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.resource_reference_collection_card_image"
+      "content": "Displays image from parent collection"
     },
     {
       "type": "select",
       "id": "height",
-      "label": "t:settings.height",
+      "label": "Height",
       "options": [
         {
           "value": "small",
-          "label": "t:options.small"
+          "label": "Small"
         },
         {
           "value": "medium",
-          "label": "t:options.medium"
+          "label": "Medium"
         },
         {
           "value": "large",
-          "label": "t:options.large"
+          "label": "Large"
         }
       ],
       "default": "large"
@@ -139,19 +139,19 @@
     {
       "type": "select",
       "id": "ratio",
-      "label": "t:settings.ratio",
+      "label": "Ratio",
       "options": [
         {
           "value": "portrait",
-          "label": "t:options.portrait"
+          "label": "Portrait"
         },
         {
           "value": "square",
-          "label": "t:options.square"
+          "label": "Square"
         },
         {
           "value": "landscape",
-          "label": "t:options.landscape"
+          "label": "Landscape"
         }
       ],
       "default": "portrait"
@@ -159,7 +159,7 @@
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 32,
       "step": 1,

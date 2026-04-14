@@ -32,7 +32,7 @@
 
 {% schema %}
 {
-  "name": "t:names.collection_card",
+  "name": "Collection card",
   "blocks": [
     {
       "type": "text"
@@ -54,43 +54,43 @@
   "settings": [
     {
       "type": "paragraph",
-      "content": "t:content.resource_reference_collection_card"
+      "content": "Displays collection from parent section"
     },
     {
       "type": "header",
-      "content": "t:content.text"
+      "content": "Text"
     },
     {
       "type": "select",
       "id": "placement",
-      "label": "t:settings.placement",
+      "label": "Placement",
       "options": [
         {
           "value": "on_image",
-          "label": "t:options.on_image"
+          "label": "On image"
         },
         {
           "value": "below_image",
-          "label": "t:options.below_image"
+          "label": "Below image"
         }
       ]
     },
     {
       "type": "select",
       "id": "horizontal_alignment",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "flex-start"
@@ -98,19 +98,19 @@
     {
       "type": "select",
       "id": "vertical_alignment",
-      "label": "t:settings.position",
+      "label": "Position",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.top"
+          "label": "Top"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.bottom"
+          "label": "Bottom"
         }
       ],
       "default": "center",
@@ -119,7 +119,7 @@
     {
       "type": "range",
       "id": "collection_card_gap",
-      "label": "t:settings.vertical_gap",
+      "label": "Vertical gap",
       "min": 0,
       "max": 50,
       "step": 1,
@@ -128,33 +128,33 @@
     },
     {
       "type": "header",
-      "content": "t:content.appearance"
+      "content": "Appearance"
     },
     {
       "type": "checkbox",
       "id": "inherit_color_scheme",
-      "label": "t:settings.inherit_color_scheme",
+      "label": "Inherit color scheme",
       "default": true
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1",
       "visible_if": "{{ block.settings.inherit_color_scheme == false }}"
     },
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.borders",
+      "label": "Borders",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -166,7 +166,7 @@
       "max": 10,
       "step": 0.5,
       "unit": "px",
-      "label": "t:settings.border_width",
+      "label": "Border thickness",
       "default": 1,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
@@ -177,14 +177,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.border_opacity",
+      "label": "Border opacity",
       "default": 100,
       "visible_if": "{{ block.settings.border != 'none' }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 100,
       "step": 1,
