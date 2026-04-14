@@ -197,6 +197,7 @@
             "group_X39hBc": {
               "type": "group",
               "name": "Values",
+              "disabled": true,
               "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -810,7 +811,7 @@
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
+        "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 0,
         "section_width": "page-width",
@@ -906,6 +907,7 @@
       "block_order": [
         "video_PthMbP"
       ],
+      "disabled": true,
       "name": "t:names.video_section",
       "settings": {
         "content_direction": "column",
@@ -1153,7 +1155,7 @@
       },
       "name": "Featured collection",
       "settings": {
-        "collection": "all",
+        "collection": "stick-incense",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 4,
@@ -1167,7 +1169,7 @@
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
         "gap": 28,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "padding-block-start": 60,
         "padding-block-end": 72
       }
