@@ -8,7 +8,7 @@
 
 {% schema %}
 {
-  "name": "t:names.section",
+  "name": "Section",
   "class": "section-wrapper",
   "blocks": [
     {
@@ -27,20 +27,20 @@
   "settings": [
     {
       "type": "header",
-      "content": "t:content.layout"
+      "content": "Layout"
     },
     {
       "type": "select",
       "id": "content_direction",
-      "label": "t:settings.direction",
+      "label": "Direction",
       "options": [
         {
           "value": "column",
-          "label": "t:options.vertical"
+          "label": "Vertical"
         },
         {
           "value": "row",
-          "label": "t:options.horizontal"
+          "label": "Horizontal"
         }
       ],
       "default": "column"
@@ -48,30 +48,30 @@
     {
       "type": "checkbox",
       "id": "vertical_on_mobile",
-      "label": "t:settings.vertical_on_mobile",
+      "label": "Vertical on mobile",
       "default": true,
       "visible_if": "{{ section.settings.content_direction == 'row' }}"
     },
     {
       "type": "select",
       "id": "horizontal_alignment",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.right"
+          "label": "Right"
         },
         {
           "value": "space-between",
-          "label": "t:options.space_between"
+          "label": "Space between"
         }
       ],
       "default": "flex-start",
@@ -80,19 +80,19 @@
     {
       "type": "select",
       "id": "vertical_alignment",
-      "label": "t:settings.position",
+      "label": "Position",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.top"
+          "label": "Top"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.bottom"
+          "label": "Bottom"
         }
       ],
       "default": "center",
@@ -101,26 +101,26 @@
     {
       "type": "checkbox",
       "id": "align_baseline",
-      "label": "t:settings.align_baseline",
+      "label": "Align text baseline",
       "default": false,
       "visible_if": "{{ section.settings.vertical_alignment == 'flex-end' }}"
     },
     {
       "type": "select",
       "id": "horizontal_alignment_flex_direction_column",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "flex-start",
@@ -129,23 +129,23 @@
     {
       "type": "select",
       "id": "vertical_alignment_flex_direction_column",
-      "label": "t:settings.position",
+      "label": "Position",
       "options": [
         {
           "value": "flex-start",
-          "label": "t:options.top"
+          "label": "Top"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "flex-end",
-          "label": "t:options.bottom"
+          "label": "Bottom"
         },
         {
           "value": "space-between",
-          "label": "t:options.space_between"
+          "label": "Space between"
         }
       ],
       "default": "center",
@@ -154,7 +154,7 @@
     {
       "type": "range",
       "id": "gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -163,20 +163,20 @@
     },
     {
       "type": "header",
-      "content": "t:content.size"
+      "content": "Size"
     },
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "page-width"
@@ -184,31 +184,31 @@
     {
       "type": "select",
       "id": "section_height",
-      "label": "t:settings.height",
+      "label": "Height",
       "options": [
         {
           "value": "",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "small",
-          "label": "t:options.small"
+          "label": "Small"
         },
         {
           "value": "medium",
-          "label": "t:options.medium"
+          "label": "Medium"
         },
         {
           "value": "large",
-          "label": "t:options.large"
+          "label": "Large"
         },
         {
           "value": "full-screen",
-          "label": "t:options.full_screen"
+          "label": "Full screen"
         },
         {
           "value": "custom",
-          "label": "t:options.custom"
+          "label": "Custom"
         }
       ],
       "default": ""
@@ -216,7 +216,7 @@
     {
       "type": "range",
       "id": "section_height_custom",
-      "label": "t:settings.custom_height",
+      "label": "Custom height",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -226,30 +226,30 @@
     },
     {
       "type": "header",
-      "content": "t:content.appearance"
+      "content": "Appearance"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "select",
       "id": "background_media",
-      "label": "t:settings.background_media",
+      "label": "Background media",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "image",
-          "label": "t:options.image"
+          "label": "Image"
         },
         {
           "value": "video",
-          "label": "t:options.video"
+          "label": "Video"
         }
       ],
       "default": "none"
@@ -257,21 +257,21 @@
     {
       "type": "video",
       "id": "video",
-      "label": "t:settings.video",
+      "label": "Video",
       "visible_if": "{{ section.settings.background_media == 'video' }}"
     },
     {
       "type": "select",
       "id": "video_position",
-      "label": "t:settings.video_position",
+      "label": "Video position",
       "options": [
         {
           "value": "cover",
-          "label": "t:options.cover"
+          "label": "Cover"
         },
         {
           "value": "contain",
-          "label": "t:options.contain"
+          "label": "Contain"
         }
       ],
       "default": "cover",
@@ -280,21 +280,21 @@
     {
       "type": "image_picker",
       "id": "background_image",
-      "label": "t:settings.image",
+      "label": "Image",
       "visible_if": "{{ section.settings.background_media == 'image' }}"
     },
     {
       "type": "select",
       "id": "background_image_position",
-      "label": "t:settings.image_position",
+      "label": "Image position",
       "options": [
         {
           "value": "cover",
-          "label": "t:options.cover"
+          "label": "Cover"
         },
         {
           "value": "fit",
-          "label": "t:options.fit"
+          "label": "Fit"
         }
       ],
       "default": "cover",
@@ -303,15 +303,15 @@
     {
       "type": "select",
       "id": "border",
-      "label": "t:settings.borders",
+      "label": "Borders",
       "options": [
         {
           "value": "none",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         }
       ],
       "default": "none"
@@ -323,7 +323,7 @@
       "max": 10,
       "step": 0.5,
       "unit": "px",
-      "label": "t:settings.border_width",
+      "label": "Border thickness",
       "default": 1,
       "visible_if": "{{ section.settings.border != 'none' }}"
     },
@@ -334,14 +334,14 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "t:settings.border_opacity",
+      "label": "Border opacity",
       "default": 100,
       "visible_if": "{{ section.settings.border != 'none' }}"
     },
     {
       "type": "range",
       "id": "border_radius",
-      "label": "t:settings.border_radius",
+      "label": "Corner radius",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -351,12 +351,12 @@
     {
       "type": "checkbox",
       "id": "toggle_overlay",
-      "label": "t:settings.background_overlay"
+      "label": "Background overlay"
     },
     {
       "type": "color",
       "id": "overlay_color",
-      "label": "t:settings.overlay_color",
+      "label": "Overlay color",
       "alpha": true,
       "default": "#00000026",
       "visible_if": "{{ section.settings.toggle_overlay }}"
@@ -364,15 +364,15 @@
     {
       "type": "select",
       "id": "overlay_style",
-      "label": "t:settings.overlay_style",
+      "label": "Overlay style",
       "options": [
         {
           "value": "solid",
-          "label": "t:options.solid"
+          "label": "Solid"
         },
         {
           "value": "gradient",
-          "label": "t:options.gradient"
+          "label": "Gradient"
         }
       ],
       "default": "solid",
@@ -381,15 +381,15 @@
     {
       "type": "select",
       "id": "gradient_direction",
-      "label": "t:settings.gradient_direction",
+      "label": "Gradient direction",
       "options": [
         {
           "value": "to top",
-          "label": "t:options.up"
+          "label": "Up"
         },
         {
           "value": "to bottom",
-          "label": "t:options.down"
+          "label": "Down"
         }
       ],
       "default": "to top",
@@ -397,12 +397,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -412,7 +412,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -422,19 +422,19 @@
   ],
   "presets": [
     {
-      "name": "t:names.custom_section",
-      "category": "t:categories.layout",
+      "name": "Custom section",
+      "category": "Layout",
       "settings": {
         "section_height": "small"
       }
     },
     {
-      "name": "t:names.rich_text_section",
-      "category": "t:categories.storytelling",
+      "name": "Rich text",
+      "category": "Storytelling",
       "blocks": {
         "heading": {
           "type": "text",
-          "name": "t:names.heading",
+          "name": "Heading",
           "settings": {
             "text": "<h2>New arrivals</h2>",
             "width": "fit-content",
@@ -456,7 +456,7 @@
         },
         "text": {
           "type": "text",
-          "name": "t:names.text",
+          "name": "Text",
           "settings": {
             "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
             "width": "fit-content",
@@ -478,7 +478,7 @@
         },
         "button": {
           "type": "button",
-          "name": "t:names.button",
+          "name": "Button",
           "settings": {
             "label": "Shop now",
             "link": "shopify://collections/all",
@@ -515,12 +515,12 @@
       }
     },
     {
-      "name": "t:names.faq_section",
-      "category": "t:categories.storytelling",
+      "name": "FAQ",
+      "category": "Storytelling",
       "blocks": {
         "text": {
           "type": "text",
-          "name": "t:names.heading",
+          "name": "Heading",
           "settings": {
             "text": "<h3>Frequently asked questions</h3>",
             "type_preset": "rte",
@@ -541,7 +541,7 @@
         },
         "accordion": {
           "type": "accordion",
-          "name": "t:names.accordion",
+          "name": "Accordion",
           "settings": {
             "icon": "caret",
             "dividers": true,
@@ -618,14 +618,14 @@
             },
             "accordion_row_3": {
               "type": "_accordion-row",
-              "name": "t:names.accordion_dash_row",
+              "name": "Accordion row",
               "settings": {
                 "heading": "When will I get my order?"
               },
               "blocks": {
                 "text": {
                   "type": "text",
-                  "name": "t:names.text",
+                  "name": "Text",
                   "settings": {
                     "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
                     "type_preset": "rte",
@@ -649,14 +649,14 @@
             },
             "accordion_row_4": {
               "type": "_accordion-row",
-              "name": "t:names.accordion_dash_row",
+              "name": "Accordion row",
               "settings": {
                 "heading": "Where are your products manufactured?"
               },
               "blocks": {
                 "text": {
                   "type": "text",
-                  "name": "t:names.text",
+                  "name": "Text",
                   "settings": {
                     "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value. </p>",
                     "type_preset": "rte",
@@ -680,14 +680,14 @@
             },
             "accordion_row_5": {
               "type": "_accordion-row",
-              "name": "t:names.accordion_dash_row",
+              "name": "Accordion row",
               "settings": {
                 "heading": "How much does shipping cost?"
               },
               "blocks": {
                 "text": {
                   "type": "text",
-                  "name": "t:names.text",
+                  "name": "Text",
                   "settings": {
                     "text": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>",
                     "type_preset": "rte",
@@ -737,8 +737,8 @@
       }
     },
     {
-      "name": "t:names.video_section",
-      "category": "t:categories.storytelling",
+      "name": "Video",
+      "category": "Storytelling",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -763,7 +763,7 @@
       "blocks": {
         "video": {
           "type": "video",
-          "name": "t:names.video",
+          "name": "Video",
           "settings": {
             "video": "",
             "custom_width": 100,
@@ -810,7 +810,7 @@
           "blocks": {
             "text": {
               "type": "text",
-              "name": "t:names.text",
+              "name": "Text",
               "settings": {
                 "text": "<p>Take a look behind the scenes of our latest product launch.</p>",
                 "type_preset": "rte",
@@ -831,7 +831,7 @@
             },
             "button": {
               "type": "button",
-              "name": "t:names.button",
+              "name": "Button",
               "settings": {
                 "label": "Discover the collection",
                 "link": "shopify://collections/all",
@@ -850,8 +850,8 @@
       "block_order": ["video", "group"]
     },
     {
-      "name": "t:names.pull_quote",
-      "category": "t:categories.storytelling",
+      "name": "Pull quote",
+      "category": "Storytelling",
       "blocks": {
         "text": {
           "type": "text",
@@ -881,8 +881,8 @@
       }
     },
     {
-      "name": "t:names.contact_form",
-      "category": "t:categories.forms",
+      "name": "Contact form",
+      "category": "Forms",
       "blocks": {
         "text": {
           "type": "text",
@@ -957,8 +957,8 @@
       }
     },
     {
-      "name": "t:names.email_signup",
-      "category": "t:categories.forms",
+      "name": "Email signup",
+      "category": "Forms",
       "settings": {
         "horizontal_alignment_flex_direction_column": "center",
         "gap": 16,
@@ -969,7 +969,7 @@
       "blocks": {
         "text_1": {
           "type": "text",
-          "name": "t:names.heading",
+          "name": "Heading",
           "settings": {
             "text": "<h2>Subscribe to our emails</h2>",
             "width": "100%",
@@ -1000,8 +1000,8 @@
       "block_order": ["text_1", "text_2", "email_signup"]
     },
     {
-      "name": "t:names.icons_with_text",
-      "category": "t:categories.storytelling",
+      "name": "Icons with text",
+      "category": "Storytelling",
       "blocks": {
         "group_1": {
           "type": "group",
@@ -1225,8 +1225,8 @@
       }
     },
     {
-      "name": "t:names.split_showcase",
-      "category": "t:categories.banners",
+      "name": "Split showcase",
+      "category": "Banners",
       "blocks": {
         "group_1": {
           "type": "group",
@@ -1327,8 +1327,8 @@
       }
     },
     {
-      "name": "t:names.image_with_text",
-      "category": "t:categories.storytelling",
+      "name": "Image with text",
+      "category": "Storytelling",
       "settings": {
         "content_direction": "row",
         "gap": 32,
@@ -1352,7 +1352,7 @@
           "blocks": {
             "heading": {
               "type": "text",
-              "name": "t:names.heading",
+              "name": "Heading",
               "settings": {
                 "text": "<h2>Our signature product.</h2>",
                 "type_preset": "h3"
@@ -1379,8 +1379,8 @@
       "block_order": ["image", "group"]
     },
     {
-      "name": "t:names.multicolumn",
-      "category": "t:categories.storytelling",
+      "name": "Multicolumn",
+      "category": "Storytelling",
       "blocks": {
         "group_1": {
           "type": "group",
@@ -1638,8 +1638,8 @@
       }
     },
     {
-      "name": "t:names.large_logo",
-      "category": "t:categories.banners",
+      "name": "Large logo",
+      "category": "Banners",
       "blocks": {
         "text": {
           "type": "text",

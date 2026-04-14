@@ -191,7 +191,7 @@
 
 {% schema %}
 {
-  "name": "t:names.collection_links",
+  "name": "Collection links",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -199,24 +199,24 @@
     {
       "type": "collection_list",
       "id": "collection_list",
-      "label": "t:settings.collection_list"
+      "label": "Collections"
     },
     {
       "type": "header",
-      "content": "t:content.layout"
+      "content": "Layout"
     },
     {
       "type": "select",
       "id": "layout",
-      "label": "t:settings.layout",
+      "label": "Layout",
       "options": [
         {
           "value": "spotlight",
-          "label": "t:options.spotlight"
+          "label": "Spotlight"
         },
         {
           "value": "text",
-          "label": "t:options.text"
+          "label": "Text"
         }
       ],
       "default": "spotlight"
@@ -224,15 +224,15 @@
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "page-width"
@@ -240,19 +240,19 @@
     {
       "type": "select",
       "id": "alignment",
-      "label": "t:settings.alignment",
+      "label": "Alignment",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "left"
@@ -260,15 +260,15 @@
     {
       "type": "select",
       "id": "image_position",
-      "label": "t:settings.image_position",
+      "label": "Image position",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "right",
@@ -277,17 +277,17 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -297,7 +297,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -307,8 +307,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.collection_links_spotlight",
-      "category": "t:categories.collections",
+      "name": "Collection links: Spotlight",
+      "category": "Collections",
       "blocks": {
         "link": {
           "type": "_collection-link",
@@ -316,7 +316,7 @@
           "blocks": {
             "title": {
               "type": "_inline-collection-title",
-              "name": "t:names.title",
+              "name": "Title",
               "static": true,
               "settings": {
                 "font": "var(--font-subheading--family)"
@@ -335,8 +335,8 @@
       }
     },
     {
-      "name": "t:names.collection_links_text",
-      "category": "t:categories.collections",
+      "name": "Collection links: Text",
+      "category": "Collections",
       "settings": {
         "layout": "text",
         "alignment": "center"
@@ -348,7 +348,7 @@
           "blocks": {
             "title": {
               "type": "_inline-collection-title",
-              "name": "t:names.title",
+              "name": "Title",
               "static": true,
               "settings": {
                 "font": "var(--font-subheading--family)"

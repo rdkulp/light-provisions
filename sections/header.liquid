@@ -631,54 +631,54 @@
 
 {% schema %}
 {
-  "name": "t:names.header",
+  "name": "Header",
   "tag": "header",
   "class": "header-section",
   "settings": [
     {
       "type": "header",
-      "content": "t:content.logo"
+      "content": "Logo"
     },
     {
       "type": "select",
       "id": "logo_position",
-      "label": "t:settings.position",
+      "label": "Position",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "center"
     },
     {
       "type": "header",
-      "content": "t:content.menu"
+      "content": "Menu"
     },
     {
       "type": "select",
       "id": "menu_position",
-      "label": "t:settings.position",
+      "label": "Position",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "center",
-          "label": "t:options.center"
+          "label": "Center"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "left"
@@ -686,49 +686,49 @@
     {
       "type": "select",
       "id": "menu_row",
-      "label": "t:settings.row",
+      "label": "Row",
       "options": [
         {
           "value": "top",
-          "label": "t:options.top"
+          "label": "Top"
         },
         {
           "value": "bottom",
-          "label": "t:options.bottom"
+          "label": "Bottom"
         }
       ],
       "default": "top"
     },
     {
       "type": "header",
-      "content": "t:content.customer_account"
+      "content": "Customer account"
     },
     {
       "type": "paragraph",
-      "content": "t:content.manage_customer_accounts"
+      "content": "[Manage visibility](/admin/settings/customer_accounts) in customer account settings. Legacy accounts not supported."
     },
     {
       "type": "header",
-      "content": "t:content.search"
+      "content": "Search"
     },
     {
       "type": "checkbox",
       "id": "show_search",
-      "label": "t:settings.search_icon",
+      "label": "Search icon",
       "default": true
     },
     {
       "type": "select",
       "id": "search_position",
-      "label": "t:settings.search_position",
+      "label": "Position",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "right",
@@ -737,15 +737,15 @@
     {
       "type": "select",
       "id": "search_row",
-      "label": "t:settings.search_row",
+      "label": "Row",
       "options": [
         {
           "value": "top",
-          "label": "t:options.top"
+          "label": "Top"
         },
         {
           "value": "bottom",
-          "label": "t:options.bottom"
+          "label": "Bottom"
         }
       ],
       "default": "top",
@@ -753,49 +753,49 @@
     },
     {
       "type": "header",
-      "content": "t:content.localization"
+      "content": "Localization"
     },
     {
       "type": "checkbox",
       "id": "show_country",
-      "label": "t:settings.country_region",
-      "info": "t:info.manage_countries_regions",
+      "label": "Country/Region",
+      "info": "[Manage countries/regions](/admin/settings/markets)",
       "default": true
     },
     {
       "type": "checkbox",
       "id": "country_selector_style",
-      "label": "t:settings.flag",
+      "label": "Flag",
       "default": true,
       "visible_if": "{{ section.settings.show_country }}"
     },
     {
       "type": "checkbox",
       "id": "show_language",
-      "label": "t:settings.language_selector",
-      "info": "t:info.manage_languages",
+      "label": "Language selector",
+      "info": "[Manage languages](/admin/settings/languages)",
       "default": true
     },
     {
       "type": "select",
       "id": "localization_font",
-      "label": "t:settings.font",
+      "label": "Font",
       "options": [
         {
           "value": "heading",
-          "label": "t:options.heading"
+          "label": "Heading"
         },
         {
           "value": "subheading",
-          "label": "t:options.subheading"
+          "label": "Subheading"
         },
         {
           "value": "body",
-          "label": "t:options.body"
+          "label": "Body"
         },
         {
           "value": "accent",
-          "label": "t:options.accent"
+          "label": "Accent"
         }
       ],
       "default": "heading",
@@ -804,7 +804,7 @@
     {
       "type": "select",
       "id": "localization_font_size",
-      "label": "t:settings.size",
+      "label": "Size",
       "options": [
         {
           "value": "0.625rem",
@@ -832,15 +832,15 @@
     {
       "type": "select",
       "id": "localization_position",
-      "label": "t:settings.position",
+      "label": "Position",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "right",
@@ -849,15 +849,15 @@
     {
       "type": "select",
       "id": "localization_row",
-      "label": "t:settings.row",
+      "label": "Row",
       "options": [
         {
           "value": "top",
-          "label": "t:options.top"
+          "label": "Top"
         },
         {
           "value": "bottom",
-          "label": "t:options.bottom"
+          "label": "Bottom"
         }
       ],
       "default": "top",
@@ -865,35 +865,35 @@
     },
     {
       "type": "header",
-      "content": "t:content.appearance"
+      "content": "Appearance"
     },
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.width",
+      "label": "Width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ]
     },
     {
       "type": "select",
       "id": "section_height",
-      "label": "t:settings.height",
+      "label": "Height",
       "options": [
         {
           "value": "compact",
-          "label": "t:options.compact"
+          "label": "Compact"
         },
         {
           "value": "standard",
-          "label": "t:options.standard"
+          "label": "Standard"
         }
       ],
       "default": "standard"
@@ -901,19 +901,19 @@
     {
       "type": "select",
       "id": "enable_sticky_header",
-      "label": "t:settings.sticky_header",
+      "label": "Sticky header",
       "options": [
         {
           "value": "always",
-          "label": "t:options.always"
+          "label": "Always"
         },
         {
           "value": "scroll-up",
-          "label": "t:options.on_scroll_up"
+          "label": "On scroll up"
         },
         {
           "value": "never",
-          "label": "t:options.never"
+          "label": "Never"
         }
       ],
       "default": "always"
@@ -921,7 +921,7 @@
     {
       "type": "range",
       "id": "divider_width",
-      "label": "t:settings.divider_thickness",
+      "label": "Divider thickness",
       "min": 0,
       "max": 5,
       "step": 0.5,
@@ -932,15 +932,15 @@
     {
       "type": "select",
       "id": "divider_size",
-      "label": "t:settings.divider_width",
+      "label": "Divider width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "visible_if": "{{ section.settings.divider_width > 0 and section.settings.menu_row == 'bottom' or section.settings.localization_row == 'bottom' or section.settings.search_row == 'bottom' }}"
@@ -948,7 +948,7 @@
     {
       "type": "range",
       "id": "border_width",
-      "label": "t:settings.border_width",
+      "label": "Border thickness",
       "min": 0,
       "max": 5,
       "step": 0.5,
@@ -957,50 +957,50 @@
     },
     {
       "type": "header",
-      "content": "t:content.colors"
+      "content": "Colors"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme_top",
-      "label": "t:settings.default",
+      "label": "Default",
       "default": "primary"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme_bottom",
-      "label": "t:settings.bottom_row",
+      "label": "Bottom row",
       "default": "primary",
       "visible_if": "{{ section.settings.menu_row == 'bottom' or section.settings.localization_row == 'bottom' or section.settings.search_row == 'bottom' }}"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme_transparent",
-      "label": "t:settings.inverse",
+      "label": "Inverse",
       "default": "primary",
       "visible_if": "{{ section.settings.enable_transparent_header_home or section.settings.enable_transparent_header_product or section.settings.enable_transparent_header_collection }}"
     },
     {
       "type": "header",
-      "content": "t:content.home_page"
+      "content": "Home page"
     },
     {
       "type": "checkbox",
       "id": "enable_transparent_header_home",
-      "label": "t:settings.transparent_background",
+      "label": "Transparent background",
       "default": false
     },
     {
       "type": "select",
       "id": "home_color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "options": [
         {
           "value": "default",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "inverse",
-          "label": "t:options.inverse"
+          "label": "Inverse"
         }
       ],
       "default": "default",
@@ -1008,26 +1008,26 @@
     },
     {
       "type": "header",
-      "content": "t:content.product_page"
+      "content": "Product page"
     },
     {
       "type": "checkbox",
       "id": "enable_transparent_header_product",
-      "label": "t:settings.transparent_background",
+      "label": "Transparent background",
       "default": false
     },
     {
       "type": "select",
       "id": "product_color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "options": [
         {
           "value": "default",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "inverse",
-          "label": "t:options.inverse"
+          "label": "Inverse"
         }
       ],
       "default": "default",
@@ -1035,26 +1035,26 @@
     },
     {
       "type": "header",
-      "content": "t:content.collection_page"
+      "content": "Collection page"
     },
     {
       "type": "checkbox",
       "id": "enable_transparent_header_collection",
-      "label": "t:settings.transparent_background",
+      "label": "Transparent background",
       "default": false
     },
     {
       "type": "select",
       "id": "collection_color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "options": [
         {
           "value": "default",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "inverse",
-          "label": "t:options.inverse"
+          "label": "Inverse"
         }
       ],
       "default": "default",

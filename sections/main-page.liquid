@@ -21,7 +21,7 @@
 
 {% schema %}
 {
-  "name": "t:names.page",
+  "name": "Page",
   "class": "section-wrapper",
   "blocks": [
     {
@@ -41,11 +41,11 @@
     {
       "type": "select",
       "id": "content_direction",
-      "label": "t:settings.direction",
+      "label": "Direction",
       "options": [
         {
           "value": "column",
-          "label": "t:options.vertical"
+          "label": "Vertical"
         }
       ],
       "default": "column",
@@ -54,7 +54,7 @@
     {
       "type": "range",
       "id": "gap",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -64,17 +64,17 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -84,7 +84,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,

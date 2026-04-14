@@ -89,7 +89,7 @@
 
 {% schema %}
 {
-  "name": "t:names.marquee",
+  "name": "Marquee",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -111,15 +111,15 @@
     {
       "type": "select",
       "id": "movement_direction",
-      "label": "t:settings.motion_direction",
+      "label": "Motion direction",
       "options": [
         {
           "value": "reverse",
-          "label": "t:options.forward"
+          "label": "Forward"
         },
         {
           "value": "normal",
-          "label": "t:options.reverse"
+          "label": "Reverse"
         }
       ],
       "default": "normal"
@@ -127,17 +127,17 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -147,7 +147,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -157,7 +157,7 @@
     {
       "type": "range",
       "id": "gap_between_elements",
-      "label": "t:settings.gap",
+      "label": "Gap",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -167,8 +167,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.marquee_section",
-      "category": "t:categories.banners",
+      "name": "Marquee",
+      "category": "Banners",
       "blocks": {
         "text": {
           "type": "text",

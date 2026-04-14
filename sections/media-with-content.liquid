@@ -199,7 +199,7 @@
 
 {% schema %}
 {
-  "name": "t:names.media_with_text",
+  "name": "Media with text",
   "disabled_on": {
     "groups": ["header"]
   },
@@ -207,15 +207,15 @@
     {
       "type": "select",
       "id": "media_position",
-      "label": "t:settings.media_position",
+      "label": "Media position",
       "options": [
         {
           "value": "left",
-          "label": "t:options.left"
+          "label": "Left"
         },
         {
           "value": "right",
-          "label": "t:options.right"
+          "label": "Right"
         }
       ],
       "default": "left"
@@ -223,19 +223,19 @@
     {
       "type": "select",
       "id": "media_width",
-      "label": "t:settings.media_width",
+      "label": "Media width",
       "options": [
         {
           "value": "narrow",
-          "label": "t:options.narrow"
+          "label": "Narrow"
         },
         {
           "value": "medium",
-          "label": "t:options.medium"
+          "label": "Medium"
         },
         {
           "value": "wide",
-          "label": "t:options.wide"
+          "label": "Wide"
         }
       ],
       "default": "wide"
@@ -243,27 +243,27 @@
     {
       "type": "select",
       "id": "media_height",
-      "label": "t:settings.media_height",
+      "label": "Media height",
       "options": [
         {
           "value": "auto",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "50svh",
-          "label": "t:options.small"
+          "label": "Small"
         },
         {
           "value": "60svh",
-          "label": "t:options.medium"
+          "label": "Medium"
         },
         {
           "value": "80svh",
-          "label": "t:options.large"
+          "label": "Large"
         },
         {
           "value": "100svh",
-          "label": "t:options.full_screen"
+          "label": "Full screen"
         }
       ],
       "default": "80svh"
@@ -271,15 +271,15 @@
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.section_width",
+      "label": "Section width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "full-width"
@@ -287,24 +287,24 @@
     {
       "type": "checkbox",
       "id": "extend_media",
-      "label": "t:settings.extend_media_to_screen_edge",
+      "label": "Extend media to screen edge",
       "default": true,
       "visible_if": "{{ section.settings.section_width == 'page-width' }}"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "scheme-3"
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -314,7 +314,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -324,8 +324,8 @@
   ],
   "presets": [
     {
-      "name": "t:names.editorial",
-      "category": "t:categories.storytelling",
+      "name": "Editorial",
+      "category": "Storytelling",
       "settings": {
         "media_width": "medium",
         "media_height": "60svh",
@@ -346,7 +346,7 @@
           "blocks": {
             "caption": {
               "type": "text",
-              "name": "t:names.caption",
+              "name": "Caption",
               "settings": {
                 "text": "<p>Bestseller</p>",
                 "type_preset": "h6"
@@ -360,7 +360,7 @@
               "blocks": {
                 "heading": {
                   "type": "text",
-                  "name": "t:names.heading",
+                  "name": "Heading",
                   "settings": {
                     "text": "<h2>Our signature product</h2>",
                     "type_preset": "h3"
@@ -391,8 +391,8 @@
       }
     },
     {
-      "name": "t:names.editorial_jumbo_text",
-      "category": "t:categories.storytelling",
+      "name": "Editorial: Jumbo text",
+      "category": "Storytelling",
       "settings": {
         "media_position": "right",
         "media_width": "medium",
@@ -414,7 +414,7 @@
           "blocks": {
             "caption": {
               "type": "jumbo-text",
-              "name": "t:names.jumbo_text",
+              "name": "Jumbo text",
               "settings": {
                 "text": "Up\nThe\nAnte",
                 "font": "heading",

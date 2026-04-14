@@ -124,7 +124,7 @@
 
 {% schema %}
 {
-  "name": "t:names.announcement_bar",
+  "name": "Announcement bar",
   "blocks": [
     {
       "type": "_announcement"
@@ -137,7 +137,7 @@
     {
       "type": "range",
       "id": "speed",
-      "label": "t:settings.scroll_speed",
+      "label": "Time to next announcement",
       "min": 2,
       "max": 10,
       "default": 5,
@@ -145,20 +145,20 @@
     },
     {
       "type": "header",
-      "content": "t:content.appearance"
+      "content": "Appearance"
     },
     {
       "type": "select",
       "id": "section_width",
-      "label": "t:settings.section_width",
+      "label": "Section width",
       "options": [
         {
           "value": "page-width",
-          "label": "t:options.page"
+          "label": "Page"
         },
         {
           "value": "full-width",
-          "label": "t:options.full"
+          "label": "Full"
         }
       ],
       "default": "page-width"
@@ -167,12 +167,12 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "default": "scheme-4",
-      "label": "t:settings.color_scheme"
+      "label": "Color scheme"
     },
     {
       "type": "range",
       "id": "divider_width",
-      "label": "t:settings.divider_thickness",
+      "label": "Divider thickness",
       "min": 0,
       "max": 5,
       "step": 0.5,
@@ -181,12 +181,12 @@
     },
     {
       "type": "header",
-      "content": "t:content.padding"
+      "content": "Padding"
     },
     {
       "type": "range",
       "id": "padding-block-start",
-      "label": "t:settings.top",
+      "label": "Top",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -196,7 +196,7 @@
     {
       "type": "range",
       "id": "padding-block-end",
-      "label": "t:settings.bottom",
+      "label": "Bottom",
       "min": 0,
       "max": 100,
       "step": 1,
@@ -206,7 +206,7 @@
   ],
   "presets": [
     {
-      "name": "t:names.announcement_bar",
+      "name": "Announcement bar",
       "blocks": {
         "announcement_1": {
           "type": "_announcement"
