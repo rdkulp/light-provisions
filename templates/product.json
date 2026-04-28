@@ -734,7 +734,7 @@
                     "text_DNPAct": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ closest.product.metafields.custom.ingredient_info | metafield_tag }}</p>",
+                        "text": "",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
