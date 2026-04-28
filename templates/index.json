@@ -1882,9 +1882,10 @@
                     "button_apiXjf": {
                       "type": "button",
                       "name": "t:names.button",
+                      "disabled": true,
                       "settings": {
                         "label": "Shop Refills",
-                        "link": "shopify://products/refill-candles",
+                        "link": "",
                         "open_in_new_tab": false,
                         "style_class": "button",
                         "width": "fit-content",
