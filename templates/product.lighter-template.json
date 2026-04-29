@@ -16,7 +16,7 @@
           "type": "_product-media-gallery",
           "static": true,
           "settings": {
-            "media_presentation": "carousel",
+            "media_presentation": "grid",
             "media_columns": "two",
             "image_gap": 12,
             "large_first_image": true,
@@ -32,7 +32,7 @@
             "media_radius": 0,
             "extend_media": false,
             "zoom": true,
-            "video_loop": false,
+            "video_loop": true,
             "hide_variants": false,
             "padding-block-start": 0,
             "padding-block-end": 0,
@@ -687,7 +687,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Product Specs",
+                    "heading": "Product Details",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -722,10 +722,92 @@
                   "block_order": [
                     "text_rRRCTP"
                   ]
+                },
+                "accordion_row_C8dWha": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Care & Maintenance",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_t4HwXQ": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.lighter_care_maintenance | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_t4HwXQ"
+                  ]
+                },
+                "accordion_row_6xgGBY": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "About Tsubota Pearl",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_RxVwXa": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p></p>{{ closest.product.metafields.custom.about_tsubota_pearl | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_RxVwXa"
+                  ]
                 }
               },
               "block_order": [
-                "accordion_row_tChRcq"
+                "accordion_row_tChRcq",
+                "accordion_row_C8dWha",
+                "accordion_row_6xgGBY"
               ]
             }
           },
