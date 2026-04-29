@@ -170,7 +170,6 @@
             "product_description_LfDYCg": {
               "type": "product-description",
               "name": "t:names.product_description",
-              "disabled": true,
               "settings": {
                 "text": "{{ closest.product.description }}",
                 "width": "fit-content",
@@ -684,30 +683,31 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_VyFryh": {
+                "accordion_row_tChRcq": {
                   "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Size",
+                    "heading": "Product Specs",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_McjMWz": {
+                    "text_rRRCTP": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.sizes | metafield_tag }}",
+                        "text": "<p></p>{{ closest.product.metafields.custom.product_specs | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
                         "type_preset": "rte",
-                        "font": "var(--font-primary--family)",
-                        "font_size": "",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
                         "line_height": "normal",
                         "letter_spacing": "normal",
                         "case": "none",
                         "wrap": "pretty",
-                        "color": "",
+                        "color": "var(--color-foreground)",
                         "background": false,
                         "background_color": "#00000026",
                         "corner_radius": 0,
@@ -720,23 +720,12 @@
                     }
                   },
                   "block_order": [
-                    "text_McjMWz"
+                    "text_rRRCTP"
                   ]
-                },
-                "accordion_row_aaFerA": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Ingredients",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
-                "accordion_row_VyFryh",
-                "accordion_row_aaFerA"
+                "accordion_row_tChRcq"
               ]
             }
           },
