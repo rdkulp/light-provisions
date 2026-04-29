@@ -683,6 +683,46 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "accordion_row_XDMwaY": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "How to Use",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_yp4rte": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>1. Open lighter and remove inner tank<br/><br/>2. Slowly fill cotton chamber until lightly saturated<br/><br/>3. Avoid overfilling<br/><br/>4. Allow excess fluid to evaporate before lighting</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_yp4rte"
+                  ]
+                },
                 "accordion_row_U7tdCa": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
@@ -725,6 +765,7 @@
                 }
               },
               "block_order": [
+                "accordion_row_XDMwaY",
                 "accordion_row_U7tdCa"
               ]
             }
