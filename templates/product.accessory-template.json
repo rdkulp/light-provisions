@@ -687,7 +687,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Care Instructions",
+                    "heading": "Care Instructions{{ closest.product.metafields.shopify[\"care-instructions\"] | metafield_text: field: 'label' }}",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
