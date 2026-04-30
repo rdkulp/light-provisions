@@ -736,7 +736,7 @@
                     "text_rRRCTP": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Compatible with Tsubota Pearl Queue and Bolbo lighters<br/></p><p>Made from durable, high-quality cotton<br/></p><p>Maintains steady flame height and ignition reliability<br/></p><p>Easy to trim and install for quick maintenance<br/></p><p>Extends the lifespan of your lighter<br/></p><p>Offers up to 10 wick refills</p>",
+                        "text": "{{ closest.product.metafields.custom.features | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
