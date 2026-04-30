@@ -686,7 +686,6 @@
                 "accordion_row_GgRL6z": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
-                  "disabled": true,
                   "settings": {
                     "heading": "Care Instructions{{ closest.product.metafields.shopify[\"care-instructions\"] | metafield_text: field: 'label' }}",
                     "open_by_default": false,
