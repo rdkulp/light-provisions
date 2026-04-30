@@ -726,6 +726,7 @@
                 "accordion_row_tChRcq": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Features",
                     "open_by_default": false,
