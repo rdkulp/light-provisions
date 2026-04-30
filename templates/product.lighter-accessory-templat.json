@@ -683,6 +683,46 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "accordion_row_ENXbfj": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Tips",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_xiMiQb": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Keep wick slightly above the wind guard for reliable ignition<br/><br/>Trim frayed ends for a cleaner flame<br/><br/>Allow time for fuel to absorb before lighting</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_xiMiQb"
+                  ]
+                },
                 "accordion_row_tChRcq": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
@@ -764,46 +804,6 @@
                     "text_EtncPi"
                   ]
                 },
-                "accordion_row_C8dWha": {
-                  "type": "_accordion-row",
-                  "name": "t:names.accordion_row",
-                  "settings": {
-                    "heading": "Care & Maintenance",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_t4HwXQ": {
-                      "type": "text",
-                      "settings": {
-                        "text": "{{ closest.product.metafields.custom.lighter_care_maintenance | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_t4HwXQ"
-                  ]
-                },
                 "accordion_row_6xgGBY": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
@@ -846,9 +846,9 @@
                 }
               },
               "block_order": [
+                "accordion_row_ENXbfj",
                 "accordion_row_tChRcq",
                 "accordion_row_zYtNRr",
-                "accordion_row_C8dWha",
                 "accordion_row_6xgGBY"
               ]
             }
