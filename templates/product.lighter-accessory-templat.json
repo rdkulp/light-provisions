@@ -686,6 +686,7 @@
                 "accordion_row_tChRcq": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Product Details",
                     "open_by_default": false,
@@ -802,12 +803,53 @@
                   "block_order": [
                     "text_RxVwXa"
                   ]
+                },
+                "accordion_row_zYtNRr": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Compatibility",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_EtncPi": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>{{ closest.product.metafields.custom.compatibility | metafield_tag }}</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_EtncPi"
+                  ]
                 }
               },
               "block_order": [
                 "accordion_row_tChRcq",
                 "accordion_row_C8dWha",
-                "accordion_row_6xgGBY"
+                "accordion_row_6xgGBY",
+                "accordion_row_zYtNRr"
               ]
             }
           },
