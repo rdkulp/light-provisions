@@ -817,7 +817,7 @@
                     "text_RxVwXa": {
                       "type": "text",
                       "settings": {
-                        "text": "<p></p>{{ closest.product.metafields.custom.about_tsubota_pearl | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.about_tsubota_pearl | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
