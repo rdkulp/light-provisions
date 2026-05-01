@@ -171,7 +171,7 @@
               "type": "product-description",
               "name": "t:names.product_description",
               "settings": {
-                "text": "<p>{{ closest.product.description }}</p>",
+                "text": "{{ closest.product.description }}",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -667,6 +667,7 @@
             "accordion_g8EVVp": {
               "type": "accordion",
               "name": "Accordion",
+              "disabled": true,
               "settings": {
                 "icon": "plus",
                 "dividers": true,
