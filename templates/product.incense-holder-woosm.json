@@ -736,7 +736,7 @@
                     "text_chkwng": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.details | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.product_specs | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -816,7 +816,7 @@
                     "text_ftiTpJ": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ closest.product.metafields.custom.care | metafield_tag }}</p>",
+                        "text": "{{ closest.product.metafields.custom.how_to_use | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
