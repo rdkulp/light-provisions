@@ -696,7 +696,7 @@
                     "text_TyyQGc": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.scent_notes | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.Scent.Notes | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
