@@ -683,7 +683,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_GgRL6z": {
+                "accordion_row_gjUBtr": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
@@ -693,12 +693,11 @@
                     "width": 20
                   },
                   "blocks": {
-                    "text_Qt3teR": {
+                    "text_tVhWGD": {
                       "type": "text",
-                      "name": "t:names.text",
                       "settings": {
                         "text": "{{ closest.product.metafields.custom.features | metafield_tag }}",
-                        "width": "fit-content",
+                        "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
                         "type_preset": "rte",
@@ -721,10 +720,10 @@
                     }
                   },
                   "block_order": [
-                    "text_Qt3teR"
+                    "text_tVhWGD"
                   ]
                 },
-                "accordion_row_TAY97U": {
+                "accordion_row_EfL9Gq": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
@@ -734,12 +733,11 @@
                     "width": 20
                   },
                   "blocks": {
-                    "text_Yzj6qN": {
+                    "text_7Rhxez": {
                       "type": "text",
-                      "name": "t:names.text",
                       "settings": {
                         "text": "{{ closest.product.metafields.custom.product_specs | metafield_tag }}",
-                        "width": "fit-content",
+                        "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
                         "type_preset": "rte",
@@ -762,13 +760,13 @@
                     }
                   },
                   "block_order": [
-                    "text_Yzj6qN"
+                    "text_7Rhxez"
                   ]
                 }
               },
               "block_order": [
-                "accordion_row_GgRL6z",
-                "accordion_row_TAY97U"
+                "accordion_row_gjUBtr",
+                "accordion_row_EfL9Gq"
               ]
             }
           },
