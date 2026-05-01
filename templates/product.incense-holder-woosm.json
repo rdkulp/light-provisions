@@ -687,7 +687,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Features",
+                    "heading": "Craft & Materials",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -696,7 +696,7 @@
                     "text_3AV9Bn": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.features | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.craft_materials | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -727,7 +727,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Craft & Materials",
+                    "heading": "Technical Details",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -736,7 +736,7 @@
                     "text_chkwng": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.craft_materials | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.details | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -767,7 +767,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Dimensions",
+                    "heading": "Incense Compatibility",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -776,7 +776,7 @@
                     "text_MMcQcJ": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ closest.product.metafields.custom.dimesions | metafield_tag }}</p>",
+                        "text": "<p>{{ closest.product.metafields.custom.compatibility | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -816,7 +816,7 @@
                     "text_ftiTpJ": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.how_to_use | metafield_tag }}",
+                        "text": "<p>{{ closest.product.metafields.custom.care | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
