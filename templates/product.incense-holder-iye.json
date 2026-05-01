@@ -683,20 +683,20 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_w4DpY4": {
+                "accordion_row_7PfMV8": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Details",
+                    "heading": "Features",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_j9WMMJ": {
+                    "text_3AV9Bn": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.details | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.features | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -720,23 +720,23 @@
                     }
                   },
                   "block_order": [
-                    "text_j9WMMJ"
+                    "text_3AV9Bn"
                   ]
                 },
-                "accordion_row_Vz8c6h": {
+                "accordion_row_NYTJJB": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Sample Tube",
+                    "heading": "Craft & Materials",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_9TCYB3": {
+                    "text_chkwng": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.sample_option | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.craft_materials | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -760,23 +760,23 @@
                     }
                   },
                   "block_order": [
-                    "text_9TCYB3"
+                    "text_chkwng"
                   ]
                 },
-                "accordion_row_jgAcHb": {
+                "accordion_row_pGqzHk": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "About the Packaging",
+                    "heading": "Dimensions",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_XEdE9H": {
+                    "text_MMcQcJ": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.packaging | metafield_tag }}",
+                        "text": "<p>{{ closest.product.metafields.custom.dimesions | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -800,20 +800,20 @@
                     }
                   },
                   "block_order": [
-                    "text_XEdE9H"
+                    "text_MMcQcJ"
                   ]
                 },
-                "accordion_row_PU9rLy": {
+                "accordion_row_qe4tna": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "How to Burn",
+                    "heading": "Use & Care",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_7QdmUX": {
+                    "text_ftiTpJ": {
                       "type": "text",
                       "settings": {
                         "text": "{{ closest.product.metafields.custom.how_to_use | metafield_tag }}",
@@ -840,15 +840,15 @@
                     }
                   },
                   "block_order": [
-                    "text_7QdmUX"
+                    "text_ftiTpJ"
                   ]
                 }
               },
               "block_order": [
-                "accordion_row_w4DpY4",
-                "accordion_row_Vz8c6h",
-                "accordion_row_jgAcHb",
-                "accordion_row_PU9rLy"
+                "accordion_row_7PfMV8",
+                "accordion_row_NYTJJB",
+                "accordion_row_pGqzHk",
+                "accordion_row_qe4tna"
               ]
             }
           },
