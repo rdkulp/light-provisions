@@ -667,7 +667,6 @@
             "accordion_g8EVVp": {
               "type": "accordion",
               "name": "Accordion",
-              "disabled": true,
               "settings": {
                 "icon": "plus",
                 "dividers": true,
@@ -697,7 +696,7 @@
                     "text_yp4rte": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>1. Open lighter and remove inner tank<br/><br/>2. Slowly fill cotton chamber until lightly saturated<br/><br/>3. Avoid overfilling<br/><br/>4. Allow excess fluid to evaporate before lighting</p>",
+                        "text": "{{ closest.product.metafields.custom.how_to_use | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -728,7 +727,7 @@
                   "type": "_accordion-row",
                   "name": "Compatibility",
                   "settings": {
-                    "heading": "Compatibility",
+                    "heading": "Details",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -737,7 +736,7 @@
                     "text_LtHFj4": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Works with Tsubota Pearl petrol lighters</p><p>Compatible with Zippo-style wick lighters</p><p>Not for butane lighters</p>",
+                        "text": "{{ closest.product.metafields.custom.details | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -763,11 +762,52 @@
                   "block_order": [
                     "text_LtHFj4"
                   ]
+                },
+                "accordion_row_8DViVg": {
+                  "type": "_accordion-row",
+                  "name": "Compatibility",
+                  "settings": {
+                    "heading": "Scent Notes",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_TyyQGc": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.scent_notes | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_TyyQGc"
+                  ]
                 }
               },
               "block_order": [
                 "accordion_row_XDMwaY",
-                "accordion_row_U7tdCa"
+                "accordion_row_U7tdCa",
+                "accordion_row_8DViVg"
               ]
             }
           },
