@@ -762,11 +762,52 @@
                   "block_order": [
                     "text_7Rhxez"
                   ]
+                },
+                "accordion_row_apPDzQ": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "About Toyo Steel Co",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_G4LGNP": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.about_the_maker | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_G4LGNP"
+                  ]
                 }
               },
               "block_order": [
                 "accordion_row_gjUBtr",
-                "accordion_row_EfL9Gq"
+                "accordion_row_EfL9Gq",
+                "accordion_row_apPDzQ"
               ]
             }
           },
