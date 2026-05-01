@@ -683,20 +683,20 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_XDMwaY": {
+                "accordion_row_8DViVg": {
                   "type": "_accordion-row",
-                  "name": "How to use",
+                  "name": "Compatibility",
                   "settings": {
-                    "heading": "How to Use",
+                    "heading": "Scent Notes",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_yp4rte": {
+                    "text_TyyQGc": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.how_to_use | metafield_tag }}",
+                        "text": "",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -720,7 +720,7 @@
                     }
                   },
                   "block_order": [
-                    "text_yp4rte"
+                    "text_TyyQGc"
                   ]
                 },
                 "accordion_row_U7tdCa": {
@@ -763,20 +763,20 @@
                     "text_LtHFj4"
                   ]
                 },
-                "accordion_row_8DViVg": {
+                "accordion_row_XDMwaY": {
                   "type": "_accordion-row",
-                  "name": "Compatibility",
+                  "name": "How to use",
                   "settings": {
-                    "heading": "Scent Notes",
+                    "heading": "How to Use",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_TyyQGc": {
+                    "text_yp4rte": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.scent_notes | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.how_to_use | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -800,14 +800,14 @@
                     }
                   },
                   "block_order": [
-                    "text_TyyQGc"
+                    "text_yp4rte"
                   ]
                 }
               },
               "block_order": [
-                "accordion_row_XDMwaY",
+                "accordion_row_8DViVg",
                 "accordion_row_U7tdCa",
-                "accordion_row_8DViVg"
+                "accordion_row_XDMwaY"
               ]
             }
           },
