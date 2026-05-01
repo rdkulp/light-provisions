@@ -696,7 +696,7 @@
                     "text_tVhWGD": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>test</p>",
+                        "text": "{{ closest.product.metafields.custom.features | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
