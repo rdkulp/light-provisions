@@ -1,28 +1,7 @@
 {
   "article": [],
   "blog": [],
-  "collection": [
-    {
-      "key": "hero_image",
-      "namespace": "custom",
-      "name": "Hero Image",
-      "description": "",
-      "type": {
-        "name": "file_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "description",
-      "namespace": "custom",
-      "name": "description",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    }
-  ],
+  "collection": [],
   "company": [],
   "company_location": [],
   "location": [],
@@ -30,96 +9,6 @@
   "order": [],
   "page": [],
   "product": [
-    {
-      "key": "pairs_with",
-      "namespace": "custom",
-      "name": "Pairs With",
-      "description": "",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "uses",
-      "namespace": "custom",
-      "name": "Uses",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "dietary_information",
-      "namespace": "custom",
-      "name": "Dietary Information",
-      "description": "",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "ingredients",
-      "namespace": "custom",
-      "name": "Ingredients",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "nutrition_facts",
-      "namespace": "custom",
-      "name": "Nutrition Facts",
-      "description": "",
-      "type": {
-        "name": "file_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "food-product-form",
-      "namespace": "shopify",
-      "name": "Food product form",
-      "description": "Specifies the form in which the food product is presented, such as dried or frozen",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "taste_notes",
-      "namespace": "custom",
-      "name": "Taste Notes",
-      "description": "",
-      "type": {
-        "name": "metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "flavor_profile",
-      "namespace": "custom",
-      "name": "Flavor Profile",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "legacy_name",
-      "namespace": "custom",
-      "name": "Legacy Name",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
     {
       "key": "queries",
       "namespace": "shopify--discovery--product_search_boost",
@@ -161,169 +50,49 @@
       }
     },
     {
-      "key": "notes_1_heading",
-      "namespace": "custom",
-      "name": "Notes 1 Heading",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "notes_1_text",
-      "namespace": "custom",
-      "name": "Notes 1 Text",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "notes_2_heading",
-      "namespace": "custom",
-      "name": "Notes 2 Heading",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "notes_2_text",
-      "namespace": "custom",
-      "name": "Notes 2 Text",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "notes_3_heading",
-      "namespace": "custom",
-      "name": "Notes 3 Heading",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "notes_3_text",
-      "namespace": "custom",
-      "name": "Notes 3 Text",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "color-pattern",
-      "namespace": "shopify",
-      "name": "Color",
-      "description": "Defines the primary color or pattern, such as blue or striped",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "tool-utensil-material",
-      "namespace": "shopify",
-      "name": "Tool/Utensil material",
-      "description": "Identifies the main material used in a tool or utensil, like stainless steel or teak wood",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "lumber-wood-type",
-      "namespace": "shopify",
-      "name": "Lumber/Wood type",
-      "description": "Identifies the specific type of wood or lumber used in a product, like oak or pine",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "rating",
-      "namespace": "reviews",
-      "name": "Product rating",
-      "description": "Average rating from customers",
-      "type": {
-        "name": "rating",
-        "category": "RATING"
-      }
-    },
-    {
-      "key": "rating_count",
-      "namespace": "reviews",
-      "name": "Product rating count",
-      "description": "Total number of ratings from customers",
-      "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
-      }
-    },
-    {
-      "key": "allergen-information",
-      "namespace": "shopify",
-      "name": "Allergen information",
-      "description": "Indicates potential allergens present in food or beverages, such as wheat or peanuts",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "heat-level",
-      "namespace": "shopify",
-      "name": "Heat level",
-      "description": "Indicates the spiciness of food and beverage products, such as mild or very hot",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "dietary-preferences",
-      "namespace": "shopify",
-      "name": "Dietary preferences",
-      "description": "Helps identify products suitable for specific diets, e.g. vegan, nut free",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "package-type",
-      "namespace": "shopify",
-      "name": "Package type",
-      "description": "Defines the type of packaging for a product, e.g. jar, pump",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
       "key": "flavor",
-      "namespace": "shopify",
+      "namespace": "custom",
       "name": "Flavor",
-      "description": "Specifies the taste or flavor of a product, e.g. vanilla, mint",
+      "description": "",
       "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
+        "name": "multi_line_text_field",
+        "category": "TEXT"
       }
     },
     {
-      "key": "staff_pick_name",
+      "key": "uses",
       "namespace": "custom",
-      "name": "Staff Pick Name",
+      "name": "Uses",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "ingredients",
+      "namespace": "custom",
+      "name": "Ingredients",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "legacy_name",
+      "namespace": "custom",
+      "name": "Legacy Name",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "pairs_with",
+      "namespace": "custom",
+      "name": "Pairs With",
       "description": "",
       "type": {
         "name": "single_line_text_field",
