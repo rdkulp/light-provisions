@@ -490,7 +490,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "shop the collection",
-                "link": "shopify://collections/autumn-collection",
+                "link": "shopify://collections/spring-summer-collection",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
