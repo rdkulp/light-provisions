@@ -181,6 +181,7 @@
         },
         "slide_LqhJUE": {
           "type": "_slide",
+          "disabled": true,
           "settings": {
             "media_type_1": "image",
             "image_1": "shopify://shop_images/spring-lit-candle-banner.png",
