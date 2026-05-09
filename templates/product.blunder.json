@@ -687,6 +687,7 @@
                 "accordion_row_XDMwaY": {
                   "type": "_accordion-row",
                   "name": "How to use",
+                  "disabled": true,
                   "settings": {
                     "heading": "How to Use",
                     "open_by_default": false,
@@ -727,6 +728,7 @@
                 "accordion_row_U7tdCa": {
                   "type": "_accordion-row",
                   "name": "Compatibility",
+                  "disabled": true,
                   "settings": {
                     "heading": "Compatibility",
                     "open_by_default": false,
