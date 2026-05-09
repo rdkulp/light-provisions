@@ -663,114 +663,6 @@
                 "group_XqRYxC",
                 "group_e7FkRj"
               ]
-            },
-            "accordion_g8EVVp": {
-              "type": "accordion",
-              "name": "Accordion",
-              "disabled": true,
-              "settings": {
-                "icon": "plus",
-                "dividers": true,
-                "type_preset": "h4",
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "accordion_row_XDMwaY": {
-                  "type": "_accordion-row",
-                  "name": "How to use",
-                  "disabled": true,
-                  "settings": {
-                    "heading": "How to Use",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_yp4rte": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>1. Open lighter and remove inner tank<br/><br/>2. Slowly fill cotton chamber until lightly saturated<br/><br/>3. Avoid overfilling<br/><br/>4. Allow excess fluid to evaporate before lighting</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_yp4rte"
-                  ]
-                },
-                "accordion_row_U7tdCa": {
-                  "type": "_accordion-row",
-                  "name": "Compatibility",
-                  "disabled": true,
-                  "settings": {
-                    "heading": "Compatibility",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_LtHFj4": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>Works with Tsubota Pearl petrol lighters</p><p>Compatible with Zippo-style wick lighters</p><p>Not for butane lighters</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_LtHFj4"
-                  ]
-                }
-              },
-              "block_order": [
-                "accordion_row_XDMwaY",
-                "accordion_row_U7tdCa"
-              ]
             }
           },
           "block_order": [
@@ -780,8 +672,7 @@
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
             "product_description_LfDYCg",
-            "group_X39hBc",
-            "accordion_g8EVVp"
+            "group_X39hBc"
           ]
         }
       },
