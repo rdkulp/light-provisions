@@ -685,6 +685,7 @@
               "blocks": {
                 "accordion_row_VyFryh": {
                   "type": "_accordion-row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Sizes",
                     "open_by_default": false,
@@ -724,6 +725,7 @@
                 },
                 "accordion_row_aaFerA": {
                   "type": "_accordion-row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Ingredients",
                     "open_by_default": false,
@@ -764,6 +766,7 @@
                 "accordion_row_rGipr6": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "How Refills Work",
                     "open_by_default": false,
@@ -804,6 +807,7 @@
                 "accordion_row_r3eBWG": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Craft & Materials",
                     "open_by_default": false,
@@ -844,6 +848,7 @@
                 "accordion_row_nTYUi4": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Candle Care",
                     "open_by_default": false,
