@@ -76,7 +76,8 @@
     autoplay_speed: section.settings.autoplay_speed,
     slides: slides,
     slide_count: section.blocks.size,
-    slide_size: section.settings.slide_height
+    slide_size: section.settings.slide_height,
+    slide_size_mobile: section.settings.slide_height_mobile
   %}
 </div>
 
@@ -269,6 +270,35 @@
       ],
       "default": "medium",
       "label": "Media height"
+    },
+    {
+      "type": "select",
+      "id": "slide_height_mobile",
+      "options": [
+        {
+          "value": "inherit",
+          "label": "Same as desktop"
+        },
+        {
+          "value": "auto",
+          "label": "Auto"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "inherit",
+      "label": "Mobile media height",
+      "info": "Overrides the media height on screens under 750px."
     },
     {
       "type": "select",
