@@ -7,6 +7,9 @@
 {% capture children %}
   {% liquid
     assign preview_image = block_settings.image_1
+    if block_settings.media_type_1 == 'image' and preview_image == blank
+      assign preview_image = block_settings.image_1_mobile
+    endif
     if block_settings.media_type_1 == 'video'
       assign preview_image = block_settings.video_1.preview_image
     endif
@@ -58,11 +61,45 @@
       -%}
 
       {%- if block_settings.media_type_1 == 'image' -%}
-        {{
-          block_settings.image_1
-          | image_url: width: 3840
-          | image_tag: height: height, sizes: sizes, widths: widths, class: 'slide__image', loading: loading, fetchpriority: fetchpriority
-        }}
+        {%- liquid
+          assign mobile_image = block_settings.image_1_mobile
+          assign desktop_image = block_settings.image_1
+          if desktop_image == blank
+            assign desktop_image = mobile_image
+          endif
+          assign mobile_widths = '416, 600, 800, 1200, 1600'
+          assign mobile_widths_array = mobile_widths | split: ', '
+          assign has_art_direction = false
+          if mobile_image != blank and block_settings.image_1 != blank
+            assign has_art_direction = true
+          endif
+        -%}
+        {%- if has_art_direction -%}
+          <picture class="slide__image">
+            <source
+              media="(max-width: 749px)"
+              srcset="
+                {%- for mw in mobile_widths_array -%}
+                  {{ mobile_image | image_url: width: mw }} {{ mw }}w{%- unless forloop.last -%},{%- endunless -%}
+                {%- endfor -%}
+              "
+              sizes="{{ sizes }}"
+              width="{{ mobile_image.width }}"
+              height="{{ mobile_image.height }}"
+            >
+            {{
+              desktop_image
+              | image_url: width: 3840
+              | image_tag: height: height, sizes: sizes, widths: widths, class: 'slide__image', loading: loading, fetchpriority: fetchpriority
+            }}
+          </picture>
+        {%- else -%}
+          {{
+            desktop_image
+            | image_url: width: 3840
+            | image_tag: height: height, sizes: sizes, widths: widths, class: 'slide__image', loading: loading, fetchpriority: fetchpriority
+          }}
+        {%- endif -%}
       {%- else -%}
         {%- if block_settings.video_1.preview_image -%}
 
@@ -148,6 +185,8 @@
   }
 
   .slide__image-container > .slide__image,
+  .slide__image-container > picture.slide__image,
+  .slide__image-container > picture.slide__image > .slide__image,
   .slide__image-container > .slide__video,
   .slide__image-container > .slide__video-poster {
     position: relative;
@@ -155,6 +194,10 @@
     height: 100%;
     object-fit: cover;
     object-position: center center;
+  }
+
+  .slide__image-container > picture.slide__image {
+    display: block;
   }
 
   .slide__image-container > .slide__video-poster {
@@ -219,6 +262,13 @@
       "type": "image_picker",
       "id": "image_1",
       "label": "t:settings.image",
+      "visible_if": "{{ block.settings.media_type_1 == 'image' }}"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1_mobile",
+      "label": "Mobile image",
+      "info": "Shown on screens under 750px. If left blank, the image above is used on all devices.",
       "visible_if": "{{ block.settings.media_type_1 == 'image' }}"
     },
     {

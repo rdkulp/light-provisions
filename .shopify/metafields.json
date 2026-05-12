@@ -10,6 +10,46 @@
   "page": [],
   "product": [
     {
+      "key": "ingredients",
+      "namespace": "custom",
+      "name": "Ingredients",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "uses",
+      "namespace": "custom",
+      "name": "Uses",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "flavor",
+      "namespace": "custom",
+      "name": "Flavor",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "legacy_name",
+      "namespace": "custom",
+      "name": "Legacy Name",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
       "key": "queries",
       "namespace": "shopify--discovery--product_search_boost",
       "name": "Search product boosts",
@@ -50,53 +90,13 @@
       }
     },
     {
-      "key": "flavor",
-      "namespace": "custom",
-      "name": "Flavor",
-      "description": "",
+      "key": "food-product-form",
+      "namespace": "shopify",
+      "name": "Food product form",
+      "description": "Specifies the form in which the food product is presented, such as dried or frozen",
       "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "uses",
-      "namespace": "custom",
-      "name": "Uses",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "ingredients",
-      "namespace": "custom",
-      "name": "Ingredients",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "legacy_name",
-      "namespace": "custom",
-      "name": "Legacy Name",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "pairs_with",
-      "namespace": "custom",
-      "name": "Pairs With",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     }
   ],
