@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "section": {
       "type": "section",
@@ -39,7 +40,7 @@
         "text_dWXrnm": {
           "type": "text",
           "settings": {
-            "text": "{{ closest.page.content }}",
+            "text": "",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",

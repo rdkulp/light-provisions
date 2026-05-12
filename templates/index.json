@@ -105,7 +105,7 @@
                 "text_hmM4h6": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Summer, distilled</h2>",
+                    "text": "<h2>Sunlight, distilled</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -131,7 +131,7 @@
                   "type": "text",
                   "settings": {
                     "text": "<p>Fresh, coastal, and green - now in tumbler, tin & refill. Collect all three, or just pick a favorite to obsess over.</p><p><em>Available til August 29th</em></p>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "rte",
@@ -156,7 +156,7 @@
                   "type": "button",
                   "settings": {
                     "label": "Shop now",
-                    "link": "shopify://collections/all",
+                    "link": "shopify://collections/spring-summer-collection",
                     "open_in_new_tab": false,
                     "style_class": "button",
                     "width": "fit-content",
@@ -181,6 +181,7 @@
         },
         "slide_LqhJUE": {
           "type": "_slide",
+          "disabled": true,
           "settings": {
             "media_type_1": "image",
             "image_1": "shopify://shop_images/spring-lit-candle-banner.png",
@@ -351,6 +352,9 @@
         "slide_KGCXXK",
         "slide_LqhJUE"
       ],
+      "custom_css": [
+        "@media (max-width: 748px) {.group-block-content {height: 100vh; }}"
+      ],
       "name": "t:names.slideshow",
       "settings": {
         "display_mode": "full_frame",
@@ -490,7 +494,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "shop the collection",
-                "link": "shopify://collections/autumn-collection",
+                "link": "shopify://collections/spring-summer-collection",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -671,11 +675,11 @@
         "mobile_card_size": "60cqw",
         "columns_gap": 12,
         "rows_gap": 12,
-        "icons_style": "arrow",
-        "icons_shape": "none",
+        "icons_style": "chevron",
+        "icons_shape": "circle",
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
-        "gap": 24,
+        "gap": 32,
         "color_scheme": "scheme-2",
         "padding-block-start": 80,
         "padding-block-end": 64
