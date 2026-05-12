@@ -353,7 +353,9 @@
         "slide_KGCXXK",
         "slide_LqhJUE"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media (max-width: 748px) {.group-block-content {height: 100vh; }}"
+      ],
       "name": "t:names.slideshow",
       "settings": {
         "display_mode": "full_frame",
