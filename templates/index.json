@@ -353,9 +353,7 @@
         "slide_KGCXXK",
         "slide_LqhJUE"
       ],
-      "custom_css": [
-        "@media (max-width: 748px) {.group-block-content {height: 100vh; }}"
-      ],
+      "custom_css": [],
       "name": "t:names.slideshow",
       "settings": {
         "display_mode": "full_frame",
@@ -364,6 +362,7 @@
         "slideshow_gap": 12,
         "corner_radius": 0,
         "slide_height": "large",
+        "slide_height_mobile": "large",
         "content_position": "on-media",
         "color_scheme": "",
         "icons_style": "arrows_large",
