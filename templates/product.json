@@ -1355,7 +1355,7 @@
       "name": "Recommended products",
       "settings": {
         "product": "{{ closest.product }}",
-        "recommendation_type": "related",
+        "recommendation_type": "complementary",
         "layout_type": "carousel",
         "carousel_on_mobile": false,
         "max_products": 4,
