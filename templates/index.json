@@ -14,7 +14,7 @@
       "blocks": {
         "slide_MGtFmf": {
           "type": "_slide",
-          "name": "t:names.slide",
+          "name": "RC Slide",
           "settings": {
             "media_type_1": "image",
             "image_1": "shopify://shop_images/Screenshot_2026-05-21_at_8.20.33_AM.png",
@@ -163,7 +163,6 @@
           "settings": {
             "media_type_1": "image",
             "image_1": "shopify://shop_images/spring-lit-candle-banner.png",
-            "image_1_mobile": "shopify://shop_images/Fig_sage_Mobile.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
