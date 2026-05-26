@@ -83,7 +83,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>Rosemary & Cedar </p><p>| Final Batch | </p><p>50% off</p>",
+                    "text": "<p>Rosemary & Cedar </p><p>| Final Batch | </p><p>25% off</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
