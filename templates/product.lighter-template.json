@@ -927,6 +927,7 @@
           "name": "t:names.video",
           "settings": {
             "source": "uploaded",
+            "video": "shopify://files/videos/TP Banner Video.mp4",
             "video_url": "",
             "video_autoplay": false,
             "video_loop": true,
@@ -949,7 +950,6 @@
       "block_order": [
         "video_PthMbP"
       ],
-      "disabled": true,
       "name": "t:names.video_section",
       "settings": {
         "content_direction": "column",
