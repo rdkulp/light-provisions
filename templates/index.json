@@ -109,7 +109,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>A longtime favorite with fresh rosemary, cedarwood, and evergreen notes. Available only while this last batch lasts.</p>",
+                    "text": "<p>A bright, herbal candle with notes of rosemary, cedarwood, and zesty tangerine. Once this batch is gone, it will not return.</p>",
                     "width": "fit-content",
                     "max_width": "narrow",
                     "alignment": "left",
