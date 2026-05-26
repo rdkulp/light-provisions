@@ -18,6 +18,7 @@
           "settings": {
             "media_type_1": "image",
             "image_1": "shopify://shop_images/Screenshot_2026-05-21_at_8.20.33_AM.png",
+            "image_1_mobile": "shopify://shop_images/rosemary-on-slate.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -69,7 +70,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "",
+                "link": "shopify://products/rosemary-cedar-candle",
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 0,
