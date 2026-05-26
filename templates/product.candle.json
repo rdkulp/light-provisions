@@ -1181,7 +1181,6 @@
         "accordion_EHBtNQ": {
           "type": "accordion",
           "name": "Accordion",
-          "disabled": true,
           "settings": {
             "icon": "caret",
             "dividers": true,
@@ -1413,6 +1412,7 @@
         "text_pB7a9c",
         "accordion_EHBtNQ"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "content_direction": "column",
