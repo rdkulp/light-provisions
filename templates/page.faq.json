@@ -55,9 +55,236 @@
         "padding-block-start": 40,
         "padding-block-end": 80
       }
+    },
+    "ss_faq_13_ijBKQm": {
+      "type": "ss-faq-13",
+      "blocks": {
+        "tab_XECEWn": {
+          "type": "tab",
+          "name": "Candles TOGGLE",
+          "settings": {
+            "tab": "Candles"
+          }
+        },
+        "faq_item_fMi4hH": {
+          "type": "faq_item",
+          "name": "why trim wick TAB",
+          "settings": {
+            "question": "Must I trim the wick before every light?",
+            "answer": "<p>Absolutely! Trimming the wick to 1/4 inch helps your candle burn cleaner, last longer, and throw scent more effectively - with less soot and a steadier flame.</p><p>Need a <a href=\"/products/wick-trimmer\" target=\"_blank\" title=\"Black Wick Trimmer with Cotton Storage Pouch\"><span style=\"text-decoration:underline\"><strong>wick trimmer</strong></span></a>? Thought you might ask. </p>"
+          }
+        },
+        "faq_item_ePME8J": {
+          "type": "faq_item",
+          "name": "cleaning guide TAB",
+          "settings": {
+            "question": "How to clean out my candle vessel?",
+            "answer": "<p>Pop the old wax out (freezer method works great), remove the wick tab, and rinse with warm soapy water. If needed, check our <a href=\"https://www.lightprovisions.com/pages/candle-cleanup-guide\" target=\"_blank\" title=\"candle wax and wick removal guide\"><span style=\"text-decoration:underline\"><strong>wax removal guide.</strong></span></a></p>"
+          }
+        },
+        "faq_item_wEzpYF": {
+          "type": "faq_item",
+          "name": "reuse TAB",
+          "settings": {
+            "question": "What are some ways I can reuse my candle vessels?",
+            "answer": "<p>Answer<strong>Drinks & Cocktails:</strong><br/><br/>Perfect for <a href=\"https://www.instagram.com/lightprovisions/p/DJjlvqpMuw-/\" target=\"_blank\" title=\"Negroni cocktail in our signature glassware\"><span style=\"text-decoration:underline\"><strong>cocktails</strong></span></a>, <a href=\"https://www.instagram.com/lightprovisions/reel/ChceP9vqNwt/\" target=\"_blank\" title=\"Instagram Reel of cold brew coffee in our signature glassware\"><span style=\"text-decoration:underline\"><strong>cold brew</strong></span></a>, or even just your daily <a href=\"https://www.instagram.com/p/C17TgoTMIAt/\" target=\"_blank\" title=\"signature rippled glassware topped with OJ - Instagram link\"><span style=\"text-decoration:underline\"><strong>OJ. </strong></span></a></p><p><strong>Plants & Florals:</strong><br/><br/>Use as a <a href=\"https://www.instagram.com/lightprovisions/p/C2u8kHGMk6O/\" target=\"_blank\" title=\"an image of a succulent in our signature glassware\"><span style=\"text-decoration:underline\"><strong>vase </strong></span></a>for wildflowers, a propagation jar, or a mini planter.</p><p><strong>Bathroom Vanity:</strong><br/><br/>Store toothbrushes, makeup brushes, cotton rounds, or hair accessories.</p><p><strong>Desserts:</strong><br/><br/>Ideal for affogato, ice cream, mousse, or frozen yogurt. </p><p><strong>Candles:</strong><br/><br/>Drop in an electric or wax <a href=\"https://www.instagram.com/lightprovisions/p/C-1lAi9MpsP/\" target=\"_blank\" title=\"image of a tea light in our signature blown glasses\"><span style=\"text-decoration:underline\"><strong>tea light</strong></span></a>, votive, or one of our sustainable <a href=\"https://www.lightprovisions.com/collections/refill-candles\" target=\"_blank\" title=\"sustainable wax refill for glass container reuse\"><span style=\"text-decoration:underline\"><strong>refill candles.</strong></span></a></p><p><strong>Odds & Ends:</strong><br/><br/>Great for matches, office supplies, snack mixes, or gifting something small.</p>"
+          }
+        },
+        "faq_item_ACkTnq": {
+          "type": "faq_item",
+          "name": "tunneling TAB",
+          "settings": {
+            "question": "Why is my candle tunneling?",
+            "answer": "<p>It probably wasn’t lit long enough. Most candles need 2–4 hours to fully melt across the top. If you’re stuck with a tunnel, let it burn longer next time, or try the foil method: </p><p>wrap a ring of aluminum foil around the top of the container, leaving the center open. This traps heat and helps the outer wax catch up.                                        </p>"
+          }
+        },
+        "faq_item_LBQx78": {
+          "type": "faq_item",
+          "name": "discoloration TAB",
+          "settings": {
+            "question": "Why are my candles discoloring?",
+            "answer": "<p>Over time, exposure to light, heat, or air can cause wax to yellow or brown slightly. This is common with certain fragrance ingredients (especially vanilla and citrus) and happens in both essential oil candles and those made with fragrance oils. It’s purely cosmetic and won’t affect how your candle performs.</p>"
+          }
+        },
+        "faq_item_x7jaQr": {
+          "type": "faq_item",
+          "name": "soot TAB",
+          "settings": {
+            "question": "Why do my candles produce soot?",
+            "answer": "<p>Soot is a normal byproduct of combustion. Anything with a flame can produce it, including candles marketed as clean-burning.</p><p>It usually forms when the wick is too long, the flame is disturbed by drafts, or the candle burns too long. No candle with a real flame is truly soot-free, and white soot is mostly marketing in a lab coat.</p><p>To reduce soot, trim the wick, avoid drafts, and burn for no more than 4 hours. A little soot does not mean your candle is toxic. It usually means fire is doing what fire does.</p>"
+          }
+        },
+        "faq_item_eFUFD9": {
+          "type": "faq_item",
+          "name": "toxic TAB",
+          "settings": {
+            "question": "Are candles toxic?",
+            "answer": "<p>The word <strong>toxic</strong> is often used without much context. In science, toxicity depends on the substance, the amount, the length of exposure, and how it enters the body. Even water can become harmful in extreme amounts, which feels a little unfair, but it is true.</p><p>A well-made candle, using IFRA-compliant fragrance oils, lead-free wicks, and safe wax blends, poses no known health risk when used properly. Burning a candle can produce trace byproducts like soot or VOCs, but in a well-ventilated space, those levels are typically very low.</p><p>Trim the wick, avoid excessive burn times, and enjoy your candle without spiraling into a late-night influencer-induced rabbit hole.</p>"
+          }
+        },
+        "faq_item_rFQ9jU": {
+          "type": "faq_item",
+          "name": "burn duration TAB",
+          "settings": {
+            "question": "How long should I burn my candle at a time?",
+            "answer": "<p>Two to four hours is typically the sweet spot. Long enough to get a full melt pool, short enough to avoid overheating the glass or drowning the wick.</p>"
+          }
+        },
+        "tab_jnQfYA": {
+          "type": "tab",
+          "name": "Ingredients TOGGLE",
+          "settings": {
+            "tab": "Ingredients"
+          }
+        },
+        "faq_item_VXRmyF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_DDwUHP": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "tab_nTiiCy": {
+          "type": "tab",
+          "settings": {
+            "tab": "Toggle"
+          }
+        },
+        "faq_item_CwE9WH": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_kdrYiq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_XECEWn",
+        "faq_item_fMi4hH",
+        "faq_item_ePME8J",
+        "faq_item_wEzpYF",
+        "faq_item_ACkTnq",
+        "faq_item_LBQx78",
+        "faq_item_x7jaQr",
+        "faq_item_eFUFD9",
+        "faq_item_rFQ9jU",
+        "tab_jnQfYA",
+        "faq_item_VXRmyF",
+        "faq_item_DDwUHP",
+        "tab_nTiiCy",
+        "faq_item_CwE9WH",
+        "faq_item_kdrYiq"
+      ],
+      "name": "General FAQ",
+      "settings": {
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "sub_heading": "",
+        "sub_heading_custom": false,
+        "sub_heading_font": "serif",
+        "sub_heading_size": 14,
+        "sub_heading_size_mobile": 14,
+        "sub_heading_height": 130,
+        "line_width": 500,
+        "line_width_mobile": 250,
+        "line_thickness": 1,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "serif",
+        "heading_size": 24,
+        "heading_size_mobile": 20,
+        "heading_height": 150,
+        "heading_mt": 24,
+        "heading_mt_mobile": 24,
+        "toggles_gap": 8,
+        "toggles_gap_mobile": 8,
+        "toggles_mt": 32,
+        "toggles_mt_mobile": 32,
+        "toggle_padding_horizontal": 12,
+        "toggle_padding_horizontal_mobile": 12,
+        "toggle_padding_vertical": 6,
+        "toggle_padding_vertical_mobile": 6,
+        "toggle_radius": 100,
+        "toggle_opacity": 0.5,
+        "toggle_custom": false,
+        "toggle_font": "sans_serif_n4",
+        "toggle_size": 14,
+        "toggle_size_mobile": 14,
+        "toggle_height": 130,
+        "tabs_mt": 24,
+        "tabs_mt_mobile": 24,
+        "item_mt": 12,
+        "item_mt_mobile": 12,
+        "item_padding_horizontal": 24,
+        "item_padding_horizontal_mobile": 24,
+        "item_padding_vertical": 24,
+        "item_padding_vertical_mobile": 24,
+        "item_radius": 16,
+        "question_custom": false,
+        "question_font": "josefin_sans_n4",
+        "question_size": 14,
+        "question_size_mobile": 14,
+        "question_height": 150,
+        "icon_size": 16,
+        "icon_size_mobile": 16,
+        "icon_padding_horizontal": 12,
+        "icon_padding_horizontal_mobile": 12,
+        "icon_padding_vertical": 12,
+        "icon_padding_vertical_mobile": 12,
+        "icon_radius": 50,
+        "answer_custom": false,
+        "answer_font": "serif",
+        "answer_size": 14,
+        "answer_size_mobile": 14,
+        "answer_height": 150,
+        "answer_padding_top": 30,
+        "heading_color": "#000000",
+        "sub_heading_color": "#000000",
+        "dot_color": "#FFAF00",
+        "line_color": "#D9D9D9",
+        "toggle_color": "#999999",
+        "toggle_active_color": "#000000",
+        "toggle_bg_color": "#EFEFEF",
+        "question_color": "#000000",
+        "answer_color": "#4D4D4D",
+        "item_bg_color": "#EFEFEF",
+        "icon_color": "#000000",
+        "icon_bg": "#FFFFFF",
+        "icon_active_bg": "#DFDFDF",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 800,
+        "border_thickness": 0,
+        "section_radius": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "ss_faq_13_ijBKQm"
   ]
 }
