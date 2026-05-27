@@ -244,7 +244,7 @@
           "name": "refill lighter TAB",
           "settings": {
             "question": "How do you refill a Tsubota Pearl or Zippo-style lighter?",
-            "answer": "<p>We’ve got full refill instructions right here, friend: <a href=\"https://www.lightprovisions.com/pages/lighter-maintenance\" target=\"_blank\" title=\"Tsubota Pearl repair guide for: bolbo, queue, and hard-edge\"><span style=\"text-decoration:underline\"><strong>Lighter Maintenance Guides</strong></span></a></p><p></p><h5><em>How often should I refill my lighter?</em></h5><p>It depends on how often you light up, but most folks refill every 1–3 weeks with regular use.</p>"
+            "answer": "<p>We’ve got full refill instructions right here, friend: <a href=\"https://www.lightprovisions.com/pages/lighter-maintenance\" target=\"_blank\" title=\"Tsubota Pearl repair guide for: bolbo, queue, and hard-edge\"><span style=\"text-decoration:underline\"><strong>Lighter Maintenance Guides</strong></span></a></p><p><em>How often should I refill my lighter?</em></p><p>It depends on how often you light up, but most folks refill every 1–3 weeks with regular use.</p>"
           }
         },
         "faq_item_QmMGWt": {
