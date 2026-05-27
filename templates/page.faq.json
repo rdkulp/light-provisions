@@ -137,6 +137,14 @@
             "tab": "Ingredients"
           }
         },
+        "faq_item_tCiQ76": {
+          "type": "faq_item",
+          "name": "soy and paraffin TAB",
+          "settings": {
+            "question": "Why do you use soy and paraffin wax?",
+            "answer": "<p>We use a blend of soy and paraffin wax because different waxes do different jobs well.</p><p>Soy wax is renewable and burns slowly, but on its own it can be softer, less stable, and more prone to frosting, tunneling, or weaker scent throw. Paraffin is highly refined, very stable, and excellent at carrying fragrance and producing a consistent burn. Blending the two allows us to balance burn quality, scent performance, stability, and longevity instead of choosing a wax based on marketing trends.</p><p>There are also environmental tradeoffs with every wax. Paraffin is a byproduct of existing petroleum refinement, meaning it makes use of material already created through another industry. Soy is plant-based, but it is still tied to large-scale agriculture, land use, and monocropping. In other words, there is no perfect wax. There are only better formulas for the job.</p><p>Highly refined paraffin is also more boring than scary. It is chemically stable and used in some food, pharmaceutical, and cosmetic applications. It is the same type of wax used in those little <a href=\"https://en.wikipedia.org/wiki/Nik-L-Nip\" target=\"_blank\" title=\"wax bottle candies wikipedia\">wax bottle candies</a> from childhood, though we still do not recommend snacking on your candle.</p><p>Our goal is not to chase the trendiest label. It is to make a candle that burns cleanly, smells good, lasts well, and does not waste half the jar through tunneling or poor performance.</p>"
+          }
+        },
         "faq_item_VXRmyF": {
           "type": "faq_item",
           "name": "FO safety TAB",
@@ -338,6 +346,7 @@
         "faq_item_eFUFD9",
         "faq_item_rFQ9jU",
         "tab_jnQfYA",
+        "faq_item_tCiQ76",
         "faq_item_VXRmyF",
         "faq_item_DDwUHP",
         "faq_item_9emhte",
