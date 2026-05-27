@@ -79,7 +79,7 @@
           "name": "cleaning guide TAB",
           "settings": {
             "question": "How to clean out my candle vessel?",
-            "answer": "<p>Pop the old wax out (freezer method works great), remove the wick tab, and rinse with warm soapy water. If needed, check our <a href=\"https://www.lightprovisions.com/pages/candle-cleanup-guide\" target=\"_blank\" title=\"candle wax and wick removal guide\"><span style=\"text-decoration:underline\"><strong>wax removal guide.</strong></span></a></p>"
+            "answer": "<p>Once your candle is finished, place the vessel in the freezer for a few hours. The leftover wax will usually shrink and pop out easily with a spoon or butter knife. Remove the wick tab from the bottom, then wash the vessel with warm soapy water.</p><p>Avoid pouring melted wax down the drain unless you enjoy your plumber's company.</p><p>If needed, check our <a href=\"https://www.lightprovisions.com/pages/candle-cleanup-guide\" target=\"_blank\" title=\"candle wax and wick removal guide\"><span style=\"text-decoration:underline\"><strong>wax removal guide.</strong></span></a></p>"
           }
         },
         "faq_item_wEzpYF": {
@@ -139,36 +139,81 @@
         },
         "faq_item_VXRmyF": {
           "type": "faq_item",
+          "name": "FO safety TAB",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
+            "question": "Are fragrance oils safe to burn?",
+            "answer": "<p>Yes - when specifically formulated for home fragrance. We use fragrance oils that comply with <a href=\"https://ifrafragrance.org/about-ifra/ifra-code-of-practice/introduction\" target=\"_blank\" title=\"IFRA\"><span style=\"text-decoration:underline\"><strong>IFRA</strong></span></a> (International Fragrance Association) standards, which are based on toxicology reports and exposure safety data. These oils are engineered to perform consistently in candles without compromising air quality or user health.</p>"
           }
         },
         "faq_item_DDwUHP": {
           "type": "faq_item",
+          "name": "EO's TAB",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
+            "question": "Why don’t you use only essential oils in your candles?",
+            "answer": "<p>Essential oils may be natural, but they are not always ideal for candles. Many evaporate quickly, break down under heat, or can become irritating when burned in high concentrations. Some can even create respiratory irritation when combusted rather than diffused, especially in sensitive individuals. The <a href=\"https://www.lung.org/blog/essential-oils-harmful-or-helpful?utm_source=chatgpt.com\" target=\"_blank\">American Lung Association</a> has written about this in more detail.</p><p>The selection is also fairly limited. Only a small number are stable or strong enough to perform well in a candle.</p><p>That said, many of our fragrance blends do contain essential oils alongside other safe aroma compounds. They help add depth and realism to scents, especially notes like citrus, woods, herbs, and resins, without sacrificing performance or scent throw.</p><p>There is also a sustainability factor. Producing essential oils can require huge amounts of plant material. In some cases, hundreds of pounds of flowers, bark, or leaves are needed to produce a single pound of oil. <a href=\"https://www.earthisland.org/journal/index.php/articles/entry/the_environmental_impact_of_essential_oils/?utm_source=chatgpt.com\" target=\"_blank\">This article from Earth Island Journal</a> offers a deeper look at the environmental impact behind essential oil production.</p>"
+          }
+        },
+        "faq_item_9emhte": {
+          "type": "faq_item",
+          "name": "EO's natural tho? TAB",
+          "settings": {
+            "question": "But aren't essential oils more natural?",
+            "answer": "<p>“Natural” is not a regulated term, and it doesn't automatically mean safer, healthier, or more sustainable. Poison ivy is natural, so is arsenic.</p><p>We try to avoid fear-based marketing and greenwashed <a href=\"https://www.cnet.com/health/nutrition/we-really-need-to-stop-using-these-8-health-buzzwords/\" target=\"_blank\" title=\"We Really Need to Stop Using These 8 Health Buzzwords\">buzzwords</a>. Instead, we focus on materials that are well-tested, responsibly sourced, and perform safely in a candle, whether they come from a lab, a plant, or a combination of both.</p>"
+          }
+        },
+        "faq_item_cNjEHd": {
+          "type": "faq_item",
+          "name": "IFRA TAB",
+          "settings": {
+            "question": "What is IFRA, and why does it matter?",
+            "answer": "<p><a href=\"https://ifrafragrance.org/\" target=\"_blank\" title=\"International Fragrance Association\"><span style=\"text-decoration:underline\"><strong>IFRA</strong></span></a> (International Fragrance Association) is the global authority on fragrance safety. It sets science-based limits on how and where specific ingredients can be used, drawing from toxicological studies and ongoing safety reviews. Compliance helps ensure that the fragrance ingredients in our products are safe for regular, long-term use.</p>"
           }
         },
         "tab_nTiiCy": {
           "type": "tab",
+          "name": "Refill TOGGLE",
           "settings": {
-            "tab": "Toggle"
+            "tab": "Refills"
           }
         },
         "faq_item_CwE9WH": {
           "type": "faq_item",
+          "name": "how to refill TAB",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
+            "question": "How do I burn a Refill Candle?",
+            "answer": "<p>1. Place the refill into a heat-safe container at least 2.75\" wide and 3\" tall. Straight-sided glass or ceramic works best.<br/></p><p><br/>2. Refills are designed for containers and should not be burned on their own like pillar candles.<br/></p><p><br/>3. If the refill shifts or wobbles, use a small amount of <a href=\"https://www.lightprovisions.com/products/stickum-pillar-taper-candle-adhesive\" target=\"_blank\" title=\"Stickum refill and taper wax adhesive\">wax adhesive</a> or gently soften the base to help secure it.<br/></p><p><br/>4. Trim the wick to about 1/4\" before each burn for a cleaner, steadier flame.<br/></p><p><br/>5. Once finished, freeze the container to help remove leftover wax, then wash with warm soapy water.</p>"
+          }
+        },
+        "faq_item_yr9dmD": {
+          "type": "faq_item",
+          "name": "suitable vessels TAB",
+          "settings": {
+            "question": "What are some suitable vessels that I can use?",
+            "answer": "<p>Any heat-safe container that holds at least 7 oz and measures around 2.75\" wide by 3\" tall should work well.</p><p>Some favorites:</p><ul><li>Mason jars<br/></li><li>Straight-sided rocks or whiskey glasses<br/></li><li>Ceramic mugs<br/></li><li>Vintage glassware<br/></li><li>Tins from past collections<br/></li><li>Our <a href=\"/products/signature-crystal-tumbler\" target=\"_blank\" title=\"Signature Glassware\">signature ripple glass</a><br/></li></ul><p>Please avoid shallow bowls or plates, since refills need sidewalls to contain the melted wax.</p><p>Not sure if your vessel will work? Feel free to <a target=\"_blank\">send us a photo</a>.</p>"
           }
         },
         "faq_item_kdrYiq": {
           "type": "faq_item",
+          "name": "refills = pillar? TAB",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
+            "question": "Are Refill Candles just pillar candles?",
+            "answer": "<p>Nope. Refill candles are designed to be burned inside a vessel, not on their own like a traditional pillar candle.</p><p>We originally experimented with standalone pillars, but found they performed much better when burned inside glassware or ceramic containers. Instead of collapsing outward, the wax melts down and burns evenly like a classic container candle, with about 25 hours of burn time and easier cleanup afterward.</p>"
+          }
+        },
+        "faq_item_GbtjxT": {
+          "type": "faq_item",
+          "name": "burn the same TAB",
+          "settings": {
+            "question": "Do refill candles burn the same as regular container candles?",
+            "answer": "<p>Mostly. But the flame may be slightly taller due to our harder wax blend. That’s normal. As long as it’s in the right container, it’ll burn just as well.</p>"
+          }
+        },
+        "faq_item_BYUzy7": {
+          "type": "faq_item",
+          "name": "refills = sustainable TAB",
+          "settings": {
+            "question": "Are refills more sustainable than regular candles?",
+            "answer": "<p>Yes. Refill candles help reduce packaging and landfill waste by giving existing vessels a second life instead of tossing them once the candle is finished. They also remove the constant anxiety of figuring out what to do with leftover candle jars and glassware. Just clean the vessel and refill it again.</p><p>Our refills are made with a plant-based blend of soy, palm, and a touch of beeswax.</p>"
           }
         }
       },
@@ -185,9 +230,14 @@
         "tab_jnQfYA",
         "faq_item_VXRmyF",
         "faq_item_DDwUHP",
+        "faq_item_9emhte",
+        "faq_item_cNjEHd",
         "tab_nTiiCy",
         "faq_item_CwE9WH",
-        "faq_item_kdrYiq"
+        "faq_item_yr9dmD",
+        "faq_item_kdrYiq",
+        "faq_item_GbtjxT",
+        "faq_item_BYUzy7"
       ],
       "name": "General FAQ",
       "settings": {
