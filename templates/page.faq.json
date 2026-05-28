@@ -278,6 +278,70 @@
             "tab": "Incense"
           }
         },
+        "faq_item_7efxeR": {
+          "type": "faq_item",
+          "name": "coreless vs bamboo TAB",
+          "settings": {
+            "question": "What is the difference between coreless and bamboo-core incense?",
+            "answer": "<p>Coreless incense is made entirely from compressed aromatic material, without a bamboo stick running through the center. It usually burns with less smoke and leaves a fine ash.</p><p>Bamboo-core incense has a thin bamboo stick in the middle. It is often stronger, smokier, and more common in many traditional incense styles.</p><p>Both can be beautiful. They just burn differently, and not every holder works equally well for both.</p>"
+          }
+        },
+        "faq_item_bE3Cw4": {
+          "type": "faq_item",
+          "name": "holder compatibility TAB",
+          "settings": {
+            "question": "Will your incense holders work with all incense sticks?",
+            "answer": "<p>Not always. Incense sticks vary in thickness, shape, and whether they have a bamboo core.</p><p>Our glass and ceramic holders work well with many Japanese-style incense sticks, especially coreless sticks. Some holders, like the <a href=\"https://www.lightprovisions.com/products/sculptural-incense-holder-light?_pos=1&_psq=woosm&_ss=e&_v=1.0\" target=\"_blank\" title=\"woosm ceramic LED incense holder light\">Woosm Studio</a> Ceramic Incense Light, include multiple hole sizes to fit both coreless and bamboo-core incense.</p><p>If a stick feels loose, too tight, or unstable, do not force it. </p>"
+          }
+        },
+        "faq_item_xyjtMf": {
+          "type": "faq_item",
+          "name": "which holder to choose TAB",
+          "settings": {
+            "question": "Which holder should I choose?",
+            "answer": "<p>Choose the holder that pairs best with the incense listed on the product page. Incense sticks vary in thickness, length, and style, so the best holder depends on the specific incense you are burning.</p><p>As a general rule, look for a holder with a stable base, a heat-safe surface, and a hole size that holds the stick securely without forcing it. Glass, ceramic, brass, and recycled glass holders can all work beautifully when they are matched with the right incense.</p><p>If you are unsure, check the recommended pairings on each incense product page, or send us a photo of the incense or holder you are trying to match.</p>"
+          }
+        },
+        "faq_item_XAN48T": {
+          "type": "faq_item",
+          "name": "smoke TAB",
+          "settings": {
+            "question": "Does incense produce smoke?",
+            "answer": "<p>Yes. Incense works by smoldering, so smoke is part of the process.</p><p>Japanese-style and coreless incense often produces less smoke than many bamboo-core styles, but no burning incense is smoke-free. If you are sensitive to smoke, have respiratory concerns, or share your space with pets or small children, use incense sparingly and keep the room ventilated.</p><p>If you are burning in a small room and don't want to be overwhelmed with the fragrance or smoke, we often recommend cracking a window or only burning half a stick at a time.  With coreless incense, you can simply snap the stick in half before burning.</p>"
+          }
+        },
+        "faq_item_kcciR8": {
+          "type": "faq_item",
+          "name": "how strong is scent TAB",
+          "settings": {
+            "question": "How strong is the scent?",
+            "answer": "<p>Incense is usually more immediate than a candle. While a candle may take an hour or more to slowly fill a room, incense begins scenting a space almost right away.</p><p>The overall strength still depends on the formula, room size, airflow, and how many sticks you burn. For smaller rooms, one stick is usually enough.</p>"
+          }
+        },
+        "faq_item_kNdhDP": {
+          "type": "faq_item",
+          "name": "pet safe TAB",
+          "settings": {
+            "question": "Is incense safe for pets?",
+            "answer": "<p>Use caution. Incense produces smoke, and pets can be more sensitive to smoke and fragrance than humans. Burn incense in a ventilated space, keep it away from pets, and avoid using it in small closed rooms where animals cannot leave.</p><p>Birds are especially sensitive to airborne particles and fragrances, so incense should generally be avoided around them.</p>"
+          }
+        },
+        "faq_item_HWqJVc": {
+          "type": "faq_item",
+          "name": "incense vs candles TAB",
+          "settings": {
+            "question": "Is incense better than candles?",
+            "answer": "<p>They do different things.</p><p>Incense is immediate. It can quickly cleanse a space after cooking, before guests arrive, or during a short reset at the end of the day. Many people also use a single stick as a gentle timer for meditation, reading, journaling, or focused work.</p><p>Candles feel slower and more intentional. Lighting one usually means settling in for a while. The flame stays with you, gradually filling the room over the course of an evening.</p><p>We love both for different reasons. One shifts the atmosphere quickly. The other keeps you company.</p>"
+          }
+        },
+        "faq_item_rptbKA": {
+          "type": "faq_item",
+          "name": "expire? TAB",
+          "settings": {
+            "question": "Does incense expire?",
+            "answer": "<p>Incense does not usually expire in a dramatic way, but scent can fade over time, especially if sticks are exposed to heat, sunlight, moisture, or open air.</p><p>Store incense in its box or tube, away from humidity and direct light.</p>"
+          }
+        },
         "tab_63PKxc": {
           "type": "tab",
           "name": "Route Insurance TOGGLE",
@@ -371,6 +435,14 @@
         "faq_item_qWnVWm",
         "faq_item_QNa4H4",
         "tab_UX9mj4",
+        "faq_item_7efxeR",
+        "faq_item_bE3Cw4",
+        "faq_item_xyjtMf",
+        "faq_item_XAN48T",
+        "faq_item_kcciR8",
+        "faq_item_kNdhDP",
+        "faq_item_HWqJVc",
+        "faq_item_rptbKA",
         "tab_63PKxc",
         "faq_item_pYwK3f",
         "faq_item_JCGrTe",
