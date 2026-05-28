@@ -499,7 +499,7 @@
         "item_radius": 16,
         "question_custom": false,
         "question_font": "josefin_sans_n4",
-        "question_size": 16,
+        "question_size": 20,
         "question_size_mobile": 14,
         "question_height": 150,
         "icon_size": 40,
