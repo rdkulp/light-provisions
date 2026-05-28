@@ -89,6 +89,7 @@
       "block_order": [
         "text_rzWbFm"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "content_direction": "column",
