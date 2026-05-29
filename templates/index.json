@@ -331,6 +331,7 @@
         "slide_MGtFmf",
         "slide_LqhJUE"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 748px) {.group-block-content {height: 100vh; }}"
       ],
@@ -2576,6 +2577,7 @@
       "blocks": {
         "slide_AjYPBg": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/RC_Window_1.jpg",
@@ -2597,21 +2599,24 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
+            "image": "shopify://shop_images/Reborn_Black_Tray_11.jpg",
+            "image_mobile": "shopify://shop_images/Reborn_Black_Tray_12.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Slide subheading",
-            "heading": "Slide heading",
+            "sub_heading": "Incense Holders",
+            "heading": "Recycled Glass. Japan Made",
             "button": "Shop now",
-            "url": "",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
+            "url": "shopify://products/iye-reborn-square-incense-holder",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#ffffff",
+            "arrow_color": "#ffffff",
+            "dots_color": "#ffffff",
+            "border_color": "#ffffff"
           }
         },
         "slide_UFtBjY": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "media_type": "image",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -2633,7 +2638,6 @@
         "slide_pi6GUY",
         "slide_UFtBjY"
       ],
-      "disabled": true,
       "name": "SS - Hero #23",
       "settings": {
         "hero_height": "adapt_first",
@@ -2672,7 +2676,7 @@
         "dots_size_mobile": 8,
         "dots_show_desktop": true,
         "dots_show_mobile": true,
-        "overlay_color": "#a15736",
+        "overlay_color": "rgba(0,0,0,0)",
         "background_color": "#f1efee",
         "border_color": "#000000",
         "margin_top": 0,
@@ -2692,6 +2696,7 @@
     }
   },
   "order": [
+    "ss_hero_23_6j9HkF",
     "slideshow_C9edwc",
     "product_list_EDUBdR",
     "divider_r6ErzJ",
@@ -2704,7 +2709,6 @@
     "section_cwmCm3",
     "image_carousel_KYjeWH",
     "section_feVGA8",
-    "featured_blog_posts_TGKkiX",
-    "ss_hero_23_6j9HkF"
+    "featured_blog_posts_TGKkiX"
   ]
 }
