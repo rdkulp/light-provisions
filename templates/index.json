@@ -12,26 +12,6 @@
     "ss_hero_23_6j9HkF": {
       "type": "ss-hero-23",
       "blocks": {
-        "slide_AjYPBg": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/RC_Window_1.jpg",
-            "image_mobile": "shopify://shop_images/RC_Window_3.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Final Batch - 25% off",
-            "heading": "Rosemary & Cedar",
-            "button": "Shop now",
-            "url": "shopify://products/rosemary-cedar-candle",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#ffffff",
-            "arrow_color": "#ffffff",
-            "dots_color": "#ffffff",
-            "border_color": "#ffffff"
-          }
-        },
         "slide_pi6GUY": {
           "type": "slide",
           "settings": {
@@ -40,7 +20,26 @@
             "image_mobile": "shopify://shop_images/Reborn_Black_Tray_12.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "sub_heading": "Incense Holders",
-            "heading": "Recycled Glass. Japan Made.",
+            "heading": "Recycled Glass, Made Beautiful",
+            "button": "Shop now",
+            "url": "shopify://products/recycled-glass-incense-holder-blue-gray",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#ffffff",
+            "arrow_color": "#ffffff",
+            "dots_color": "#ffffff",
+            "border_color": "#ffffff"
+          }
+        },
+        "slide_t7eQCp": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Reborn_Blue_Holder.jpg",
+            "image_mobile": "shopify://shop_images/719adc8c-d21b-4da9-bf2b-143a136b1df0.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Incense Holders",
+            "heading": "Japanese Craft, Reimagined",
             "button": "Shop now",
             "url": "shopify://products/iye-reborn-square-incense-holder",
             "heading_color": "#ffffff",
@@ -50,30 +49,11 @@
             "dots_color": "#ffffff",
             "border_color": "#ffffff"
           }
-        },
-        "slide_UFtBjY": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "media_type": "image",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Slide subheading",
-            "heading": "Slide heading",
-            "button": "Shop now",
-            "url": "",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
-          }
         }
       },
       "block_order": [
-        "slide_AjYPBg",
         "slide_pi6GUY",
-        "slide_UFtBjY"
+        "slide_t7eQCp"
       ],
       "name": "SS - Hero #23",
       "settings": {
@@ -88,7 +68,7 @@
         "content_align_mobile": "left",
         "sub_heading_custom": true,
         "sub_heading_font": "system_ui_i4",
-        "sub_heading_size": 12,
+        "sub_heading_size": 14,
         "sub_heading_size_mobile": 15,
         "sub_heading_height": 130,
         "heading_custom": true,
@@ -101,7 +81,7 @@
         "link_custom": false,
         "link_font": "mono",
         "link_size": 13,
-        "link_size_mobile": 15,
+        "link_size_mobile": 16,
         "link_height": 130,
         "link_mt": 12,
         "link_mt_mobile": 8,
