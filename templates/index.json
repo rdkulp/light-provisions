@@ -2581,21 +2581,20 @@
             "image": "shopify://shop_images/RC_Window_1.jpg",
             "image_mobile": "shopify://shop_images/RC_Window_3.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Slide subheading",
-            "heading": "Slide heading",
+            "sub_heading": "Final Batch - 25% off",
+            "heading": "Rosemary & Cedar",
             "button": "Shop now",
-            "url": "",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
+            "url": "shopify://products/rosemary-cedar-candle",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#ffffff",
+            "arrow_color": "#ffffff",
+            "dots_color": "#ffffff",
+            "border_color": "#ffffff"
           }
         },
         "slide_pi6GUY": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "media_type": "image",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -2613,7 +2612,6 @@
         },
         "slide_UFtBjY": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "media_type": "image",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -2644,7 +2642,7 @@
         "autoplay": true,
         "autoplay_delay": 6,
         "overlay": 0.2,
-        "use_gradient": true,
+        "use_gradient": false,
         "content_align": "left",
         "content_align_mobile": "left",
         "sub_heading_custom": true,
