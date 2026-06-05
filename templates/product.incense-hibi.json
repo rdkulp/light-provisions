@@ -878,15 +878,6 @@
     },
     "1763495531717164ae": {
       "type": "_blocks",
-      "blocks": {
-        "one_click_upsell_on_page_APX7Vi": {
-          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "one_click_upsell_on_page_APX7Vi"
-      ],
       "custom_css": [],
       "settings": {
         "content_direction": "column",
