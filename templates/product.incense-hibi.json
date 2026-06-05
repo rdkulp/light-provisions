@@ -958,17 +958,17 @@
           "type": "video",
           "name": "t:names.video",
           "settings": {
-            "source": "uploaded",
-            "video_url": "",
+            "source": "url",
+            "video_url": "https://www.youtube.com/watch?v=0-cn95OQjeY",
             "video_autoplay": false,
             "video_loop": true,
-            "alt": "",
+            "alt": "Brand story of Hibi matches",
             "custom_width": 100,
             "custom_width_mobile": 100,
             "aspect_ratio": "16/9",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
+            "border": "solid",
+            "border_width": 32,
+            "border_opacity": 92,
             "border_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
@@ -981,7 +981,6 @@
       "block_order": [
         "video_PthMbP"
       ],
-      "disabled": true,
       "name": "t:names.video_section",
       "settings": {
         "content_direction": "column",
@@ -1304,9 +1303,9 @@
   },
   "order": [
     "main",
+    "section_NaqU9X",
     "1763495531717164ae",
     "17634957166372b8c3",
-    "section_NaqU9X",
     "product_list_zR9Cym",
     "176350314455f5c7dd"
   ]
