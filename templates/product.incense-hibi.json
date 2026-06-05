@@ -767,7 +767,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "About the Packaging",
+                    "heading": "About HIBI",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -776,7 +776,7 @@
                     "text_XEdE9H": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.packaging | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.about_the_maker | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
