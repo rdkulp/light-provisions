@@ -1040,7 +1040,7 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<h1>Related</h1>",
+            "text": "<h1>Pair with a vintage dish</h1>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1051,7 +1051,7 @@
             "letter_spacing": "normal",
             "case": "none",
             "wrap": "pretty",
-            "color": "var(--color-foreground)",
+            "color": "var(--color-foreground-heading)",
             "background": true,
             "background_color": "#00000000",
             "corner_radius": 0,
@@ -1157,7 +1157,7 @@
       ],
       "name": "Recommended products",
       "settings": {
-        "product": "{{ closest.product }}",
+        "product": "hibi-incense-matches",
         "recommendation_type": "complementary",
         "layout_type": "grid",
         "carousel_on_mobile": false,
