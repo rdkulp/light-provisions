@@ -807,7 +807,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "How to Burn",
+                    "heading": "How to Use",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
