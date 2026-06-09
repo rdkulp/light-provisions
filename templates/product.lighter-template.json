@@ -868,6 +868,7 @@
       "block_order": [
         "text_aETGYM"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "content_direction": "column",
@@ -1271,6 +1272,17 @@
         "padding-block-start": 60,
         "padding-block-end": 60
       }
+    },
+    "custom_liquid_tnKrAU": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.custom.makers_note != blank %}\n  <style>\n    .makers-note {\n      max-width: 700px;\n      margin: 2rem auto;\n      padding: 2rem;\n      border-left: 4px solid #8A4B2A;\n      background: #f7f4ef;\n    }\n\n    .makers-note h2 {\n      margin-top: 0;\n    }\n\n    .makers-note__body {\n      font-size: 1rem;\n      line-height: 1.6;\n    }\n  </style>\n\n  <div class=\"makers-note\">\n    <h2>A Note from Tsubota Pearl</h2>\n    <div class=\"makers-note__body\">\n      {{ product.metafields.custom.makers_note | metafield_tag }}\n    </div>\n  </div>\n{% endif %}",
+        "color_scheme": "",
+        "section_width": "full-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -1279,6 +1291,7 @@
     "1763495531717164ae",
     "17634957166372b8c3",
     "product_list_zR9Cym",
-    "176350314455f5c7dd"
+    "176350314455f5c7dd",
+    "custom_liquid_tnKrAU"
   ]
 }
