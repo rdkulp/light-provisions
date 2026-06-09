@@ -978,7 +978,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -1283,6 +1283,20 @@
         "padding-block-start": 60,
         "padding-block-end": 60
       }
+    },
+    "divider_iRQDXd": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
+      }
     }
   },
   "order": [
@@ -1290,6 +1304,7 @@
     "custom_liquid_tnKrAU",
     "section_KRPpMk",
     "1763495531717164ae",
+    "divider_iRQDXd",
     "17634957166372b8c3",
     "product_list_zR9Cym",
     "176350314455f5c7dd"
