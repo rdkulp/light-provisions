@@ -909,6 +909,17 @@
         "padding-block-end": 48
       }
     },
+    "custom_liquid_FkMnMn": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "{% assign lifestyle_image = product.metafields.custom.custom_lifestyle_image.value %}\n\n{% if lifestyle_image != blank %}\n\n<style>\n  .lp-lifestyle-hero {\n    width: 100%;\n    margin: 3rem 0;\n    overflow: hidden;\n  }\n\n  .lp-lifestyle-hero img {\n    width: 100%;\n    height: 520px;\n    object-fit: cover;\n    display: block;\n  }\n\n  @media screen and (max-width: 749px) {\n    .lp-lifestyle-hero img {\n      height: 320px;\n    }\n  }\n</style>\n\n<div class=\"lp-lifestyle-hero\">\n  {{ lifestyle_image | image_url: width: 2400 | image_tag: loading: 'lazy' }}\n</div>\n\n{% endif %}",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "1763495531717164ae": {
       "type": "_blocks",
       "blocks": {
@@ -1297,28 +1308,17 @@
         "padding-block-start": 60,
         "padding-block-end": 60
       }
-    },
-    "custom_liquid_FkMnMn": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "custom_liquid": "{% assign lifestyle_image = product.metafields.custom.custom_lifestyle_image.value %}\n\n{% if lifestyle_image != blank %}\n\n<style>\n  .lp-lifestyle-hero {\n    width: 100%;\n    margin: 3rem 0;\n    overflow: hidden;\n  }\n\n  .lp-lifestyle-hero img {\n    width: 100%;\n    height: 520px;\n    object-fit: cover;\n    display: block;\n  }\n\n  @media screen and (max-width: 749px) {\n    .lp-lifestyle-hero img {\n      height: 320px;\n    }\n  }\n</style>\n\n<div class=\"lp-lifestyle-hero\">\n  {{ lifestyle_image | image_url: width: 2400 | image_tag: loading: 'lazy' }}\n</div>\n\n{% endif %}",
-        "color_scheme": "",
-        "section_width": "page-width",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
     }
   },
   "order": [
     "main",
     "custom_liquid_tnKrAU",
     "section_KRPpMk",
+    "custom_liquid_FkMnMn",
     "1763495531717164ae",
     "divider_iRQDXd",
     "17634957166372b8c3",
     "product_list_zR9Cym",
-    "176350314455f5c7dd",
-    "custom_liquid_FkMnMn"
+    "176350314455f5c7dd"
   ]
 }
