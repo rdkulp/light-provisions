@@ -26,6 +26,7 @@
     "type_size_h5": "16",
     "type_case_h5": "uppercase",
     "type_case_h6": "none",
+    "add_to_cart_animation": false,
     "button_border_radius_primary": 2,
     "button_font_weight_primary": "500",
     "button_text_case_primary": "uppercase",
