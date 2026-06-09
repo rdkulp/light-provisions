@@ -840,7 +840,7 @@
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": "{% if product.metafields.custom.makers_note != blank %}\n\n<style>\n  .makers-note {\n    max-width: 900px;\n    margin: 3rem auto;\n    padding: 2rem 0;\n    border-top: 1px solid #8A4B2A;\n    border-bottom: 1px solid #8A4B2A;\n  }\n\n  .makers-note__body {\n    max-width: 700px;\n    margin: 0 auto;\n    line-height: 1.8;\n  }\n\n  .makers-note__body p:first-of-type {\n    font-style: italic;\n  }\n</style>\n\n<div class=\"makers-note\">\n  <div class=\"makers-note__body\">\n    {{ product.metafields.custom.makers_note | metafield_tag }}\n  </div>\n</div>\n\n{% endif %}",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "section_width": "full-width",
         "padding-block-start": 0,
         "padding-block-end": 0
