@@ -909,6 +909,42 @@
         "padding-block-end": 48
       }
     },
+    "hero_QbKAe7": {
+      "type": "hero",
+      "disabled": true,
+      "name": "Hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "{{ product.metafields.custom.custom_lifestyle_image.value }}",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "large",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-5",
+        "toggle_overlay": true,
+        "overlay_color": "#00000026",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
     "1763495531717164ae": {
       "type": "_blocks",
       "blocks": {
@@ -1298,39 +1334,15 @@
         "padding-block-end": 60
       }
     },
-    "hero_QbKAe7": {
-      "type": "hero",
-      "name": "Hero",
+    "custom_liquid_FkMnMn": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
-        "media_type_1": "image",
-        "image_1": "{{ product.metafields.custom.custom_lifestyle_image.value }}",
-        "media_type_2": "image",
-        "stack_media_on_mobile": false,
-        "custom_mobile_media": false,
-        "media_type_1_mobile": "image",
-        "media_type_2_mobile": "image",
-        "link": "",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "custom_liquid": "{% if product.metafields.custom.lifestyle_image != blank %}\n\n<style>\n  .lp-lifestyle-image {\n    max-width: 1200px;\n    margin: 3rem auto;\n    padding: 0 1.5rem;\n  }\n\n  .lp-lifestyle-image img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n</style>\n\n<div class=\"lp-lifestyle-image\">\n  {{ product.metafields.custom.lifestyle_image | image_url: width: 1800 | image_tag: loading: 'lazy' }}\n</div>\n\n{% endif %}",
+        "color_scheme": "",
         "section_width": "page-width",
-        "section_height": "large",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-5",
-        "toggle_overlay": true,
-        "overlay_color": "#00000026",
-        "overlay_style": "gradient",
-        "gradient_direction": "to top",
-        "blurred_reflection": false,
-        "reflection_opacity": 75,
-        "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     }
   },
@@ -1343,6 +1355,7 @@
     "divider_iRQDXd",
     "17634957166372b8c3",
     "product_list_zR9Cym",
-    "176350314455f5c7dd"
+    "176350314455f5c7dd",
+    "custom_liquid_FkMnMn"
   ]
 }
