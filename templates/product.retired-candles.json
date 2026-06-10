@@ -817,157 +817,54 @@
         "padding-block-end": 32
       }
     },
-    "section_DD6z46": {
-      "type": "section",
+    "image_carousel_dH8FnU": {
+      "type": "image-carousel",
       "blocks": {
-        "group_LpLJHX": {
-          "type": "group",
+        "image_d3FH77": {
+          "type": "image",
           "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "space-between",
-            "gap": 32,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fill",
-            "custom_height": 100,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-5",
-            "background_media": "image",
-            "video_position": "cover",
-            "background_image": "shopify://shop_images/LP_-_Flagship-31.jpg",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "hero-apparel-2",
-            "padding-block-start": 40,
-            "padding-block-end": 40,
-            "padding-inline-start": 40,
-            "padding-inline-end": 40
-          },
-          "blocks": {
-            "spacer_9jkXaK": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 16,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "spacer_9jkXaK"
-          ]
+            "image": "shopify://shop_images/TW_Archive_2.png"
+          }
         },
-        "group_NyHEmm": {
-          "type": "group",
+        "image_hRcQFL": {
+          "type": "image",
           "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "space-between",
-            "gap": 32,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fill",
-            "custom_height": 100,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-5",
-            "background_media": "image",
-            "video_position": "cover",
-            "background_image": "shopify://shop_images/LP_-_Flagship-32.jpg",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "hero-apparel-1",
-            "padding-block-start": 40,
-            "padding-block-end": 40,
-            "padding-inline-start": 40,
-            "padding-inline-end": 40
-          },
-          "blocks": {
-            "spacer_wM3Wmd": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 16,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "spacer_wM3Wmd"
-          ]
+            "image": "shopify://shop_images/TW_archive_1.png"
+          }
+        },
+        "image_jP7YEX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TW_Archive_3.png"
+          }
+        },
+        "image_EcRjwp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TW_Archive_4.jpg"
+          }
+        },
+        "image_kXBMmw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TW_Archive_5.jpg"
+          }
         }
       },
       "block_order": [
-        "group_LpLJHX",
-        "group_NyHEmm"
+        "image_d3FH77",
+        "image_hRcQFL",
+        "image_jP7YEX",
+        "image_EcRjwp",
+        "image_kXBMmw"
       ],
-      "name": "Split showcase",
+      "name": "Image Carousel",
       "settings": {
-        "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 0,
-        "section_width": "full-width",
-        "section_height": "large",
-        "section_height_custom": 50,
-        "color_scheme": "",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "arrow_style": "arrow",
         "padding-block-start": 0,
-        "padding-block-end": 0
+        "padding-block-end": 31
       }
     },
     "17634957166372b8c3": {
@@ -1552,58 +1449,16 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
-    },
-    "image_carousel_dH8FnU": {
-      "type": "image-carousel",
-      "blocks": {
-        "image_EcRjwp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LP_-_Flagship-31.jpg"
-          }
-        },
-        "image_GWCxkf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LP_-_Flagship-32.jpg"
-          }
-        },
-        "image_9kbBG4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TW_TUM_TIN_1.jpg"
-          }
-        },
-        "image_hRcQFL": {
-          "type": "image",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "image_EcRjwp",
-        "image_GWCxkf",
-        "image_9kbBG4",
-        "image_hRcQFL"
-      ],
-      "name": "Image Carousel",
-      "settings": {
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrow_style": "arrow",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
     }
   },
   "order": [
     "main",
-    "section_DD6z46",
+    "image_carousel_dH8FnU",
     "17634957166372b8c3",
     "section_NaqU9X",
     "product_recommendations_Q4QpWU",
     "product_list_zR9Cym",
     "176350314455f5c7dd",
-    "17785136002dbf680b",
-    "image_carousel_dH8FnU"
+    "17785136002dbf680b"
   ]
 }
