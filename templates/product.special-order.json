@@ -911,7 +911,7 @@
         "text_VCCtH3": {
           "type": "text",
           "settings": {
-            "text": "<h3>Contact us</h3>",
+            "text": "<h3>Request Form</h3>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
