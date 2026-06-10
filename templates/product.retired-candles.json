@@ -373,6 +373,7 @@
         "image_EcRjwp",
         "image_kXBMmw"
       ],
+      "disabled": true,
       "name": "Image Carousel",
       "settings": {
         "autoplay": true,
