@@ -671,6 +671,7 @@
             "accordion_g8EVVp": {
               "type": "accordion",
               "name": "Accordion",
+              "disabled": true,
               "settings": {
                 "icon": "plus",
                 "dividers": true,
@@ -1016,6 +1017,7 @@
       "block_order": [
         "one_click_upsell_on_page_APX7Vi"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "content_direction": "column",
