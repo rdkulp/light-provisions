@@ -970,6 +970,9 @@
         "text_VCCtH3",
         "contact_form_aABYeR"
       ],
+      "custom_css": [
+        ".contact__fields + div:has(input[type=\"tel\"]),input[type=\"tel\"] {display: none !important;}"
+      ],
       "name": "Contact form",
       "settings": {
         "content_direction": "column",
