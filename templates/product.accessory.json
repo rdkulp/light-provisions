@@ -683,98 +683,20 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_VyFryh": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Sizes",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_McjMWz": {
-                      "type": "text",
-                      "settings": {
-                        "text": "{{ closest.product.metafields.custom.sizes | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-primary--family)",
-                        "font_size": "",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_McjMWz"
-                  ]
-                },
-                "accordion_row_aaFerA": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Ingredients",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_DNPAct": {
-                      "type": "text",
-                      "settings": {
-                        "text": "{{ closest.product.metafields.custom.ingredients | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-primary--family)",
-                        "font_size": "",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_DNPAct"
-                  ]
-                },
-                "accordion_row_rGipr6": {
+                "accordion_row_Xkx7hn": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "How Refills Work",
+                    "heading": "Features",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_ePekAc": {
+                    "text_mdtrBW": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.how_refills_work | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.features | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -798,7 +720,7 @@
                     }
                   },
                   "block_order": [
-                    "text_ePekAc"
+                    "text_mdtrBW"
                   ]
                 },
                 "accordion_row_r3eBWG": {
@@ -841,20 +763,20 @@
                     "text_xhzqCq"
                   ]
                 },
-                "accordion_row_nTYUi4": {
+                "accordion_row_8NLVXB": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Candle Care",
+                    "heading": "About the Maker",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_mEHiGB": {
+                    "text_jLtVGD": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.candle_care_burning_tups | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.about_the_maker | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -878,16 +800,55 @@
                     }
                   },
                   "block_order": [
-                    "text_mEHiGB"
+                    "text_jLtVGD"
+                  ]
+                },
+                "accordion_row_hrKyYF": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Care",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_rU47wB": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>{{ closest.product.metafields.custom.care | metafield_tag }}</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_rU47wB"
                   ]
                 }
               },
               "block_order": [
-                "accordion_row_VyFryh",
-                "accordion_row_aaFerA",
-                "accordion_row_rGipr6",
+                "accordion_row_Xkx7hn",
                 "accordion_row_r3eBWG",
-                "accordion_row_nTYUi4"
+                "accordion_row_8NLVXB",
+                "accordion_row_hrKyYF"
               ]
             }
           },
