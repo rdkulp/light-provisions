@@ -971,7 +971,7 @@
         "contact_form_aABYeR"
       ],
       "custom_css": [
-        ".contact__button button, button[type=\"submit\"] {border-radius: 22px !important;}"
+        ".contact__fields + div:has(input[type=\"tel\"]),input[type=\"tel\"] {display: none !important;}"
       ],
       "name": "Contact form",
       "settings": {
