@@ -726,6 +726,7 @@
                 "accordion_row_F9PT9K": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Scent Notes",
                     "open_by_default": false,
@@ -766,7 +767,6 @@
                 "accordion_row_Vz8c6h": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
-                  "disabled": true,
                   "settings": {
                     "heading": "Sample Tube",
                     "open_by_default": false,
