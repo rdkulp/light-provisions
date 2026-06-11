@@ -138,7 +138,7 @@
               "type": "text",
               "name": "Description",
               "settings": {
-                "text": "{{ closest.collection.description }}",
+                "text": "<p>{{ closest.collection.description }}</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -386,6 +386,9 @@
           ]
         }
       },
+      "custom_css": [
+        "/* Hide prices only for specific replacement parts by matching their product URLs */.grid__item:has(a[href*=\"queue-lighter-replacement-screw\"]) .price,.grid__item:has(a[href*=\"queue-lighter-flint-assembly\"]) .price {display: none !important;}"
+      ],
       "settings": {
         "layout_type": "grid",
         "product_card_size": "large",
