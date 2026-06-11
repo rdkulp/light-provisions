@@ -970,7 +970,9 @@
         "text_VCCtH3",
         "contact_form_aABYeR"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".contact__button button, button[type=\"submit\"] {border-radius: 22px !important;}"
+      ],
       "name": "Contact form",
       "settings": {
         "content_direction": "column",
