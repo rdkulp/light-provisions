@@ -12,6 +12,25 @@
     "ss_hero_23_6j9HkF": {
       "type": "ss-hero-23",
       "blocks": {
+        "slide_WinRxE": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/IYE_Glass_Recycling1.png",
+            "image_mobile": "shopify://shop_images/IYE_Glass_Recycling1.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Incense Holders",
+            "heading": "Recycled. Melted. Reborn.",
+            "button": "Shop now",
+            "url": "shopify://products/iye-reborn-square-incense-holder",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#ffffff",
+            "arrow_color": "#ffffff",
+            "dots_color": "#ffffff",
+            "border_color": "#ffffff"
+          }
+        },
         "slide_pi6GUY": {
           "type": "slide",
           "settings": {
@@ -49,31 +68,12 @@
             "dots_color": "#ffffff",
             "border_color": "#ffffff"
           }
-        },
-        "slide_WinRxE": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/IYE_Glass_Recycling1.png",
-            "image_mobile": "shopify://shop_images/IYE_Glass_Recycling1.png",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Incense Holders",
-            "heading": "Recycled. Melted. Reborn.",
-            "button": "Shop now",
-            "url": "shopify://products/iye-reborn-square-incense-holder",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#ffffff",
-            "arrow_color": "#ffffff",
-            "dots_color": "#ffffff",
-            "border_color": "#ffffff"
-          }
         }
       },
       "block_order": [
+        "slide_WinRxE",
         "slide_pi6GUY",
-        "slide_t7eQCp",
-        "slide_WinRxE"
+        "slide_t7eQCp"
       ],
       "name": "SS - Hero #23",
       "settings": {
