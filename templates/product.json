@@ -667,7 +667,6 @@
             "accordion_g8EVVp": {
               "type": "accordion",
               "name": "Accordion",
-              "disabled": true,
               "settings": {
                 "icon": "plus",
                 "dividers": true,
@@ -684,9 +683,169 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_XDMwaY": {
+                "accordion_row_QXFXja": {
                   "type": "_accordion-row",
-                  "name": "How to use",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Features",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_wwatTL": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.features | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_wwatTL"
+                  ]
+                },
+                "accordion_row_qe4iPa": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Craft & Materials",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_qDRVDj": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.craft_materials | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_qDRVDj"
+                  ]
+                },
+                "accordion_row_w7Qdtq": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "About the Maker",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_artcdg": {
+                      "type": "text",
+                      "settings": {
+                        "text": "{{ closest.product.metafields.custom.about_the_maker | metafield_tag }}",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_artcdg"
+                  ]
+                },
+                "accordion_row_R7PJAP": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Care",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_hircHF": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>{{ closest.product.metafields.custom.care | metafield_tag }}</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_hircHF"
+                  ]
+                },
+                "accordion_row_NwYcga": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
                   "settings": {
                     "heading": "How to Use",
                     "open_by_default": false,
@@ -694,10 +853,10 @@
                     "width": 20
                   },
                   "blocks": {
-                    "text_yp4rte": {
+                    "text_n8meCB": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>1. Open lighter and remove inner tank<br/><br/>2. Slowly fill cotton chamber until lightly saturated<br/><br/>3. Avoid overfilling<br/><br/>4. Allow excess fluid to evaporate before lighting</p>",
+                        "text": "{{ closest.product.metafields.custom.how_to_use | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -721,53 +880,16 @@
                     }
                   },
                   "block_order": [
-                    "text_yp4rte"
-                  ]
-                },
-                "accordion_row_U7tdCa": {
-                  "type": "_accordion-row",
-                  "name": "Compatibility",
-                  "settings": {
-                    "heading": "Compatibility",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_LtHFj4": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>Works with Tsubota Pearl petrol lighters</p><p>Compatible with Zippo-style wick lighters</p><p>Not for butane lighters</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_LtHFj4"
+                    "text_n8meCB"
                   ]
                 }
               },
               "block_order": [
-                "accordion_row_XDMwaY",
-                "accordion_row_U7tdCa"
+                "accordion_row_QXFXja",
+                "accordion_row_qe4iPa",
+                "accordion_row_w7Qdtq",
+                "accordion_row_R7PJAP",
+                "accordion_row_NwYcga"
               ]
             }
           },
