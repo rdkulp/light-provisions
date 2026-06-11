@@ -686,7 +686,6 @@
                 "accordion_row_w4DpY4": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
-                  "disabled": true,
                   "settings": {
                     "heading": "Details",
                     "open_by_default": false,
