@@ -387,7 +387,7 @@
         }
       },
       "custom_css": [
-        "/* Hide prices only for specific replacement parts by matching their product URLs */.grid__item:has(a[href*=\"queue-lighter-replacement-screw\"]) .price,.grid__item:has(a[href*=\"queue-lighter-flint-assembly\"]) .price {display: none !important;}"
+        "/* Target only the individual product card wrappers using a broader URL match */[class*=\"card\"]:has(a[href*=\"replacement-screw\"]) .price,[class*=\"card\"]:has(a[href*=\"flint-assembly\"]) .price {display: none !important;}"
       ],
       "settings": {
         "layout_type": "grid",
