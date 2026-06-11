@@ -68,6 +68,12 @@
             "padding-inline-end": 12
           },
           "blocks": {
+            "breadcrumbs_UngxRB": {
+              "type": "breadcrumbs",
+              "name": "Breadcrumbs",
+              "settings": {},
+              "blocks": {}
+            },
             "product_title_GnyQiN": {
               "type": "product-title",
               "name": "t:names.title",
@@ -895,6 +901,7 @@
             }
           },
           "block_order": [
+            "breadcrumbs_UngxRB",
             "product_title_GnyQiN",
             "judge_me_reviews_preview_badge_pPTagT",
             "price_a7krng",
