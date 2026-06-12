@@ -816,7 +816,7 @@
                     "text_D3ihrj": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ closest.product.metafields.custom.dimesions | metafield_tag }}</p>",
+                        "text": "{{ closest.product.metafields.custom.product_specs | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
