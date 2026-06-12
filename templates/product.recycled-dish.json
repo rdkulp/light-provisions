@@ -763,51 +763,11 @@
                     "text_xhzqCq"
                   ]
                 },
-                "accordion_row_8NLVXB": {
-                  "type": "_accordion-row",
-                  "name": "t:names.accordion_row",
-                  "settings": {
-                    "heading": "About the Maker",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_jLtVGD": {
-                      "type": "text",
-                      "settings": {
-                        "text": "{{ closest.product.metafields.custom.about_the_maker | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_jLtVGD"
-                  ]
-                },
                 "accordion_row_hrKyYF": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Care",
+                    "heading": "How to Use",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -816,7 +776,7 @@
                     "text_rU47wB": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ closest.product.metafields.custom.care | metafield_tag }}</p>",
+                        "text": "{{ closest.product.metafields.custom.how_to_use | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -842,13 +802,53 @@
                   "block_order": [
                     "text_rU47wB"
                   ]
+                },
+                "accordion_row_HkKkmd": {
+                  "type": "_accordion-row",
+                  "name": "t:names.accordion_row",
+                  "settings": {
+                    "heading": "Dimensions",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "width": 20
+                  },
+                  "blocks": {
+                    "text_D3ihrj": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>{{ closest.product.metafields.custom.dimesions | metafield_tag }}</p>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_D3ihrj"
+                  ]
                 }
               },
               "block_order": [
                 "accordion_row_Xkx7hn",
                 "accordion_row_r3eBWG",
-                "accordion_row_8NLVXB",
-                "accordion_row_hrKyYF"
+                "accordion_row_hrKyYF",
+                "accordion_row_HkKkmd"
               ]
             }
           },
@@ -887,6 +887,7 @@
       "block_order": [
         "one_click_upsell_on_page_APX7Vi"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "content_direction": "column",
