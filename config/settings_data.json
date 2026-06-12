@@ -109,7 +109,7 @@
         "settings": {
           "background": "#ffffff",
           "foreground_heading": "#a15736",
-          "foreground": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "foreground": "#414042",
           "primary": "#414042",
           "primary_hover": "#b15b32",
           "border": "#e6e6e6",
