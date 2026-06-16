@@ -128,6 +128,7 @@
           "settings": {
             "source": "uploaded",
             "video": "shopify://files/videos/Tumbler_Refill_10mb_11d504e8-2236-48a5-a3ee-d24061637b85.mp4",
+            "video_url": "",
             "video_autoplay": true,
             "video_loop": true,
             "alt": "",
@@ -665,12 +666,146 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "ss_feature_15_atJbU4": {
+      "type": "ss-feature-15",
+      "blocks": {
+        "item_Hm7hUG": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "heading": "Starts as a Freestanding Candle",
+            "text": "<p>Each refill begins as a freestanding candle designed to fit inside a compatible vessel. No permanent container is included, allowing you to choose the vessel that works best for your space.</p>"
+          }
+        },
+        "item_TXp9yw": {
+          "type": "item",
+          "settings": {
+            "icon": "shield",
+            "heading": "Settles Into Place",
+            "text": "<p>As the candle burns, the outer wax wall gradually softens and settles into the shape of the container. This creates the familiar experience of a traditional container candle.</p>"
+          }
+        },
+        "item_my3JNy": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "heading": "Burns Like a Traditional Candle",
+            "text": "<p>Once settled, the refill burns much like a conventional container candle while continuing to use the vessel you already own.</p>"
+          }
+        },
+        "item_gqwFEH": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "heading": "Ready for Another Refill",
+            "text": "<p>After the candle is finished, remove the remaining wax and wick tabs, clean the vessel, and begin again with a new scent.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Hm7hUG",
+        "item_TXp9yw",
+        "item_my3JNy",
+        "item_gqwFEH"
+      ],
+      "name": "SS - Feature #15",
+      "settings": {
+        "heading": "<h2>What makes it special?</h2>",
+        "heading_custom": false,
+        "heading_font": "serif",
+        "heading_size": 54,
+        "heading_size_mobile": 30,
+        "heading_height": 130,
+        "heading_align_mobile": "center",
+        "tabs_radius": 6,
+        "tabs_border_thickness": 0,
+        "tabs_mt_mobile": 24,
+        "tab_padding_vertical": 10,
+        "tab_padding_vertical_mobile": 10,
+        "tab_padding_horizontal": 14,
+        "tab_padding_horizontal_mobile": 14,
+        "tab_icon_size": 24,
+        "tab_icon_size_mobile": 24,
+        "tab_custom": false,
+        "tab_font": "josefin_sans_n4",
+        "tab_size": 14,
+        "tab_height": 100,
+        "slider_mt": 40,
+        "slider_mt_mobile": 40,
+        "slide_gap": 32,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 32,
+        "sub_heading_size_mobile": 30,
+        "sub_heading_height": 130,
+        "sub_heading_mt": 20,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 16,
+        "text_mt_mobile": 16,
+        "list_item_icon_size": 16,
+        "list_item_icon_size_mobile": 16,
+        "slide_image_position": "right",
+        "slide_image_radius": 12,
+        "slide_image_border_thickness": 0,
+        "slide_image_mt_mobile": 20,
+        "slide_image_ratio": "square",
+        "slide_image_ratio_mobile": "square",
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 1,
+        "arrow_hover_effect": "arrow",
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "tabs_border_color": "#000000",
+        "tab_color": "#000000",
+        "tab_hover_color": "#000000",
+        "tab_active_color": "#000000",
+        "tab_bg_color": "#F9F6F1",
+        "tab_bg_hover_color": "#ede6db",
+        "tab_bg_active_color": "#FBB163",
+        "slide_image_border_color": "#000000",
+        "sub_heading_color": "#000000",
+        "text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "",
+        "arrow_bg_hover_color": "",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 10,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "main",
     "section_dqH3Ye",
     "section_jTqFzc",
-    "section_EdpfCa"
+    "section_EdpfCa",
+    "ss_feature_15_atJbU4"
   ]
 }
