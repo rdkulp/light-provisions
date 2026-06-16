@@ -224,8 +224,9 @@
             "icon_UtUdgQ": {
               "type": "icon",
               "settings": {
-                "icon": "bottle",
-                "width": 32,
+                "icon": "none",
+                "image_upload": "shopify://shop_images/vessel_icon_baed10ab-68af-483f-b7f8-a60bc0d454ad.svg",
+                "width": 60,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -374,8 +375,9 @@
             "icon_PdcfEL": {
               "type": "icon",
               "settings": {
-                "icon": "fire",
-                "width": 32,
+                "icon": "none",
+                "image_upload": "shopify://shop_images/refill_burning_icon_fe758cb1-1bb6-4f68-9af2-922522bb9f9c.svg",
+                "width": 60,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -524,8 +526,9 @@
             "icon_pn89ed": {
               "type": "icon",
               "settings": {
-                "icon": "recycle",
-                "width": 32,
+                "icon": "none",
+                "image_upload": "shopify://shop_images/recycle_icon_fab98ad3-fa05-4eaa-a060-051f935b545c.svg",
+                "width": 60,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -1253,11 +1256,11 @@
         "arrow_show_mobile": false,
         "tabs_border_color": "#414042",
         "tab_color": "#414042",
-        "tab_hover_color": "#EDE6DB",
-        "tab_active_color": "#EDE6DB",
-        "tab_bg_color": "#EDE6DB",
-        "tab_bg_hover_color": "#C07A54",
-        "tab_bg_active_color": "#A15736",
+        "tab_hover_color": "#ede6db",
+        "tab_active_color": "#ede6db",
+        "tab_bg_color": "#ede6db",
+        "tab_bg_hover_color": "#c07a54",
+        "tab_bg_active_color": "#a15736",
         "slide_image_border_color": "#000000",
         "sub_heading_color": "#000000",
         "text_color": "#000000",
@@ -1268,7 +1271,7 @@
         "arrow_border_color": "#000000",
         "arrow_border_hover_color": "#000000",
         "heading_color": "#000000",
-        "background_color": "#F1EFEE",
+        "background_color": "#f1efee",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
