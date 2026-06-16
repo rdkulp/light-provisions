@@ -423,7 +423,7 @@
                 "text_hiK8nw": {
                   "type": "text",
                   "settings": {
-                    "text": "<h2>Designed to Settle</h2>",
+                    "text": "<h2>Designed to Collapse into Vessel</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -448,7 +448,7 @@
                 "text_JPBiDp": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>The refill softens and conforms to the shape of your vessel as it burns.</p>",
+                    "text": "<p>The refill softens, collapses, and conforms to the shape of your vessel as it burns.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -1165,7 +1165,7 @@
           "type": "item",
           "settings": {
             "icon": "shield",
-            "heading": "Settles Into Place",
+            "heading": "Collapses Into Place",
             "text": "<p>As the candle burns, the outer wax wall gradually softens and settles into the shape of the container. This creates the familiar experience of a traditional container candle.</p>",
             "image": "shopify://shop_images/Refill_Howdy_SS_2.png"
           }
@@ -1254,7 +1254,7 @@
         "tabs_border_color": "#414042",
         "tab_color": "#414042",
         "tab_hover_color": "#EDE6DB",
-        "tab_active_color": "#414042",
+        "tab_active_color": "#EDE6DB",
         "tab_bg_color": "#EDE6DB",
         "tab_bg_hover_color": "#A15736",
         "tab_bg_active_color": "#6E3C25",
