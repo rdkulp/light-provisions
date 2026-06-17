@@ -1292,6 +1292,180 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "ss_testimonials_39_ceWqiU": {
+      "type": "ss-testimonials-39",
+      "blocks": {
+        "video_card_eWgrMk": {
+          "type": "video_card",
+          "settings": {
+            "source": "uploaded",
+            "video": "shopify://files/videos/Ariel_Christine_Refill_Reel_.mp4",
+            "use_testimonials": false,
+            "stars_count": 5,
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
+          }
+        },
+        "card_PRPBKA": {
+          "type": "card",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
+            "author": "Author's name",
+            "card_bg_color": "#F3F3F3"
+          }
+        },
+        "image_card_VXJbiz": {
+          "type": "image_card",
+          "settings": {
+            "use_testimonials": true,
+            "stars_count": 5,
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
+          }
+        },
+        "video_card_XmxJd3": {
+          "type": "video_card",
+          "settings": {
+            "source": "uploaded",
+            "video": "shopify://files/videos/LBWL_refill_reel.mp4",
+            "video_url": "",
+            "use_testimonials": false,
+            "stars_count": 5,
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
+          }
+        },
+        "card_fbRgxe": {
+          "type": "card",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
+            "author": "Author's name",
+            "card_bg_color": "#F3F3F3"
+          }
+        },
+        "video_card_mXGD7f": {
+          "type": "video_card",
+          "settings": {
+            "source": "uploaded",
+            "video": "shopify://files/videos/Refill_Reel_LP.mp4",
+            "video_url": "",
+            "use_testimonials": false,
+            "stars_count": 5,
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
+          }
+        },
+        "image_card_3M4Niq": {
+          "type": "image_card",
+          "settings": {
+            "use_testimonials": true,
+            "stars_count": 5,
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "video_card_eWgrMk",
+        "card_PRPBKA",
+        "image_card_VXJbiz",
+        "video_card_XmxJd3",
+        "card_fbRgxe",
+        "video_card_mXGD7f",
+        "image_card_3M4Niq"
+      ],
+      "name": "SS - Testimonials #39",
+      "settings": {
+        "slider_view": 3,
+        "slider_view_mobile": 1.2,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "autoplay": true,
+        "autoplay_delay": 6,
+        "card_padding_horizontal": 36,
+        "card_padding_horizontal_mobile": 20,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 20,
+        "card_border_thickness": 3,
+        "card_radius": 20,
+        "card_ratio": "portrait",
+        "card_ratio_mobile": "portrait",
+        "regular_border": false,
+        "card_content_align": "center",
+        "card_content_align_mobile": "center",
+        "stars_size": 16,
+        "stars_size_mobile": 16,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "text_size_mobile": 20,
+        "text_height": 150,
+        "text_mt": 16,
+        "text_mt_mobile": 16,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 20,
+        "author_size_mobile": 20,
+        "author_height": 130,
+        "author_mt": 10,
+        "author_mt_mobile": 10,
+        "video_text_custom": false,
+        "video_text_font": "josefin_sans_n4",
+        "video_text_size": 16,
+        "video_text_size_mobile": 15,
+        "video_text_height": 150,
+        "video_text_mt": 16,
+        "video_text_mt_mobile": 16,
+        "use_controls": true,
+        "play_icon_size": 16,
+        "play_icon_size_mobile": 16,
+        "play_padding": 14,
+        "play_padding_mobile": 14,
+        "play_radius": 100,
+        "play_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "arrow_size": 48,
+        "arrow_size_mobile": 40,
+        "arrow_icon_size": 10,
+        "arrow_icon_size_mobile": 8,
+        "arrow_radius": 100,
+        "arrow_border_thickness": 0,
+        "arrow_hover_effect": "color",
+        "arrow_shadow": true,
+        "stars_color": "#121212",
+        "text_color": "#121212",
+        "author_color": "#121212",
+        "card_border_color": "#121212",
+        "video_text_color": "#121212",
+        "card_video_bg_color": "#FFFFFF",
+        "play_color": "#121212",
+        "play_hover_color": "#121212",
+        "play_bg_color": "#FFFFFF",
+        "play_bg_hover_color": "#F3F3F3",
+        "play_border_color": "#121212",
+        "play_border_hover_color": "#121212",
+        "arrow_color": "#121212",
+        "arrow_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#121212",
+        "arrow_border_color": "#121212",
+        "arrow_border_hover_color": "#121212",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -1300,6 +1474,7 @@
     "section_jTqFzc",
     "section_EdpfCa",
     "carousel_xNQxBt",
-    "ss_feature_15_atJbU4"
+    "ss_feature_15_atJbU4",
+    "ss_testimonials_39_ceWqiU"
   ]
 }
