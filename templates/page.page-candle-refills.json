@@ -56,6 +56,20 @@
         "padding-block-end": 80
       }
     },
+    "divider_hzF8Dc": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 50,
+        "padding-block-end": 50
+      }
+    },
     "section_dqH3Ye": {
       "type": "section",
       "blocks": {
@@ -797,20 +811,6 @@
         "padding-block-end": 50
       }
     },
-    "divider_hzF8Dc": {
-      "type": "divider",
-      "name": "Divider",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "section_width": "full-width",
-        "thickness": 1,
-        "corner_radius": "square",
-        "width_percent": 100,
-        "alignment_horizontal": "center",
-        "padding-block-start": 50,
-        "padding-block-end": 50
-      }
-    },
     "ss_feature_15_atJbU4": {
       "type": "ss-feature-15",
       "blocks": {
@@ -950,6 +950,20 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
+      }
+    },
+    "divider_3pJjee": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 25,
+        "padding-block-end": 25
       }
     },
     "ss_testimonials_39_ceWqiU": {
@@ -1112,7 +1126,7 @@
         "arrow_radius": 100,
         "arrow_border_thickness": 0,
         "arrow_hover_effect": "color",
-        "arrow_shadow": true,
+        "arrow_shadow": false,
         "stars_color": "#e8a543",
         "text_color": "#ede6db",
         "author_color": "#ffc761",
@@ -1133,9 +1147,9 @@
         "arrow_border_hover_color": "#121212",
         "background_color": "#F1EFEE",
         "background_gradient": "",
-        "border_color": "#414042",
-        "margin_top": 28,
-        "margin_bottom": 48,
+        "border_color": "#F1EFEE",
+        "margin_top": 0,
+        "margin_bottom": 0,
         "margin_horizontal": 0,
         "margin_horizontal_mobile": 0,
         "padding_top": 36,
@@ -1159,6 +1173,7 @@
     "ss_scrolling_images_4_mTztxf",
     "divider_VRNUFQ",
     "ss_feature_15_atJbU4",
+    "divider_3pJjee",
     "ss_testimonials_39_ceWqiU"
   ]
 }
