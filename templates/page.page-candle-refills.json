@@ -1277,7 +1277,7 @@
           "name": "Header",
           "static": true,
           "settings": {
-            "content_direction": "row",
+            "content_direction": "column",
             "vertical_on_mobile": false,
             "horizontal_alignment": "space-between",
             "vertical_alignment": "flex-end",
@@ -1339,7 +1339,7 @@
                 "text": "<h6>Browse fragrances currently available as candle refills. Select your preferred scent and choose the <strong>refill</strong> option on the product page.</h6>",
                 "width": "100%",
                 "max_width": "normal",
-                "alignment": "left",
+                "alignment": "center",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
