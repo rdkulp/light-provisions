@@ -1506,7 +1506,7 @@
         "background_gradient": "",
         "border_color": "#414042",
         "margin_top": 100,
-        "margin_bottom": 0,
+        "margin_bottom": 100,
         "margin_horizontal": 0,
         "margin_horizontal_mobile": 0,
         "padding_top": 36,
