@@ -222,6 +222,20 @@
         "padding-block-end": 80
       }
     },
+    "divider_cW9TEp": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 25,
+        "padding-block-end": 25
+      }
+    },
     "section_dqH3Ye": {
       "type": "section",
       "blocks": {
@@ -1058,20 +1072,6 @@
         "padding-block-end": 25
       }
     },
-    "divider_cW9TEp": {
-      "type": "divider",
-      "name": "Divider",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "section_width": "full-width",
-        "thickness": 1,
-        "corner_radius": "square",
-        "width_percent": 100,
-        "alignment_horizontal": "center",
-        "padding-block-start": 25,
-        "padding-block-end": 25
-      }
-    },
     "ss_testimonials_39_ceWqiU": {
       "type": "ss-testimonials-39",
       "blocks": {
@@ -1518,10 +1518,22 @@
             "image": "shopify://shop_images/Refill_Unique_Vessels_45.jpg"
           }
         },
+        "image_geGeya": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/s67_2026-06-02_0824336747C1FD0991.jpg"
+          }
+        },
         "image_MTQLHb": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Refill_Unique_Vessels_68.jpg"
+          }
+        },
+        "image_wrLbJj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Ivywild_42.jpg"
           }
         }
       },
@@ -1530,7 +1542,9 @@
         "image_ptdDEj",
         "image_UnTXFC",
         "image_GDPpAe",
-        "image_MTQLHb"
+        "image_geGeya",
+        "image_MTQLHb",
+        "image_wrLbJj"
       ],
       "name": "SS - Scrolling images #4",
       "settings": {
