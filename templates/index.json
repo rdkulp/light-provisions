@@ -1710,12 +1710,28 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "button_UH4Y3M": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://pages/candle-refills",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_TCkAjF",
             "text_mDGiDn",
-            "text_fiFJjk"
+            "text_fiFJjk",
+            "button_UH4Y3M"
           ]
         }
       },
@@ -1886,7 +1902,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "link": "",
+                "link": "https://www.lightprovisions.com/pages/candle-refills",
                 "open_in_new_tab": false,
                 "placeholder": "",
                 "padding-block-start": 0,
@@ -1941,7 +1957,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "image": "shopify://shop_images/Refill_Hand_1.png",
-                    "link": "",
+                    "link": "https://www.lightprovisions.com/pages/candle-refills",
                     "image_ratio": "portrait",
                     "width": "fill",
                     "custom_width": 100,
@@ -1964,7 +1980,7 @@
                   "name": "t:names.image",
                   "settings": {
                     "image": "shopify://shop_images/Refill_Wine_Tumbler_4.jpg",
-                    "link": "",
+                    "link": "https://www.lightprovisions.com/pages/candle-refills",
                     "image_ratio": "portrait",
                     "width": "fill",
                     "custom_width": 100,
