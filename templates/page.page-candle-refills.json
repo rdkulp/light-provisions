@@ -670,516 +670,117 @@
         "padding-block-end": 48
       }
     },
-    "carousel_xNQxBt": {
-      "type": "carousel",
+    "ss_scrolling_images_4_mTztxf": {
+      "type": "ss-scrolling-images-4",
       "blocks": {
-        "static-header": {
-          "type": "group",
-          "name": "Header",
-          "disabled": true,
-          "static": true,
+        "image_hcPi4A": {
+          "type": "image",
           "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": false,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-end",
-            "align_baseline": true,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 0,
-            "padding-block-end": 16,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "text_dtzy7g": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>Refill Gallery</h2>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_dtzy7g"
-          ]
+            "image": "shopify://shop_images/Moody_Tumbler_Refill_3.jpg"
+          }
         },
-        "static-carousel-content": {
-          "type": "_carousel-content",
-          "name": "Carousel content",
-          "static": true,
+        "image_zwh47h": {
+          "type": "image",
           "settings": {
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "height": "fit",
-            "position": "center",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "card_cgfPz3": {
-              "type": "_card",
-              "name": "Card",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "image_YDkC6U": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image": "shopify://shop_images/Refill_Unique_Vessels_37.jpg",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_YDkC6U"
-              ]
-            },
-            "card_L8RbkH": {
-              "type": "_card",
-              "name": "Card",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "image_w9pUFJ": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image": "shopify://shop_images/Ceramic_Refill_1.jpg",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_w9pUFJ"
-              ]
-            },
-            "card_dhNkzc": {
-              "type": "_card",
-              "name": "Card",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "image_enmDzg": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image": "shopify://shop_images/Moody_Tumbler_Refill_3.jpg",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_enmDzg"
-              ]
-            },
-            "card_zERmmC": {
-              "type": "_card",
-              "name": "Card",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "image_Rp7YXG": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image": "shopify://shop_images/Refill_Unique_Vessels_45.jpg",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_Rp7YXG"
-              ]
-            },
-            "card_YbyiPX": {
-              "type": "_card",
-              "name": "Card",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "image_RRz4TA": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image": "shopify://shop_images/palo-santo-refill-from-provision-bakery-358176.jpg",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_RRz4TA"
-              ]
-            },
-            "card_qd89JF": {
-              "type": "_card",
-              "name": "Card",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "image_tJXeUE": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image": "shopify://shop_images/Refill_Unique_Vessels_64.jpg",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_tJXeUE"
-              ]
-            },
-            "card_xBQhW9": {
-              "type": "_card",
-              "name": "Card",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "image_ABQWkX": {
-                  "type": "image",
-                  "name": "Image",
-                  "settings": {
-                    "image": "shopify://shop_images/refill-starter-pack-bundle-399825.jpg",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_ABQWkX"
-              ]
-            }
-          },
-          "block_order": [
-            "card_cgfPz3",
-            "card_L8RbkH",
-            "card_dhNkzc",
-            "card_zERmmC",
-            "card_YbyiPX",
-            "card_qd89JF",
-            "card_xBQhW9"
-          ]
+            "image": "shopify://shop_images/Refill_Ivywild_42.jpg"
+          }
+        },
+        "image_wGA9HX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ceramic_Refill_1.jpg"
+          }
+        },
+        "image_YxRRLV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Unique_Vessels_64.jpg"
+          }
+        },
+        "image_8RaHpi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Ivywild_24.jpg"
+          }
+        },
+        "image_kDQj3a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Unique_Vessels_37.jpg"
+          }
+        },
+        "image_8AkLzM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Unique_Vessels_45.jpg"
+          }
+        },
+        "image_E9Yzij": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Ivywild_55.jpg"
+          }
+        },
+        "image_fGYRcp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Ivywild_38.jpg"
+          }
+        },
+        "image_ykDLie": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Unique_Vessels_6.jpg"
+          }
+        },
+        "image_9EUqda": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Unique_Vessels_68.jpg"
+          }
         }
       },
-      "name": "Carousel",
+      "block_order": [
+        "image_hcPi4A",
+        "image_zwh47h",
+        "image_wGA9HX",
+        "image_YxRRLV",
+        "image_8RaHpi",
+        "image_kDQj3a",
+        "image_8AkLzM",
+        "image_E9Yzij",
+        "image_fGYRcp",
+        "image_ykDLie",
+        "image_9EUqda"
+      ],
+      "name": "SS - Scrolling images #4",
       "settings": {
-        "columns": 3,
-        "mobile_columns": "1",
-        "section_width": "page-width",
-        "columns_gap": 12,
-        "color_scheme": "",
-        "icons_style": "arrow",
-        "icons_shape": "none",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "scroll_speed": 0.5,
+        "body_gap": 16,
+        "body_gap_mobile": 8,
+        "image_width": 260,
+        "image_width_mobile": 130,
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "image_radius": 10,
+        "image_border_thickness": 0,
+        "image_border_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
       }
     },
     "ss_feature_15_atJbU4": {
@@ -1248,7 +849,7 @@
         "tab_padding_vertical_mobile": 18,
         "tab_padding_horizontal": 20,
         "tab_padding_horizontal_mobile": 24,
-        "tab_icon_size": 24,
+        "tab_icon_size": 28,
         "tab_icon_size_mobile": 24,
         "tab_custom": false,
         "tab_font": "mono",
@@ -1275,7 +876,7 @@
         "list_item_icon_size": 16,
         "list_item_icon_size_mobile": 16,
         "slide_image_position": "right",
-        "slide_image_radius": 4,
+        "slide_image_radius": 20,
         "slide_image_border_thickness": 0,
         "slide_image_mt_mobile": 20,
         "slide_image_ratio": "portrait",
@@ -1486,7 +1087,7 @@
         "arrow_shadow": true,
         "stars_color": "#e8a543",
         "text_color": "#ede6db",
-        "author_color": "#FFC761",
+        "author_color": "#ffc761",
         "card_border_color": "#121212",
         "video_text_color": "#121212",
         "card_video_bg_color": "#ffffff",
@@ -1499,7 +1100,7 @@
         "arrow_color": "#121212",
         "arrow_hover_color": "#ffffff",
         "arrow_bg_color": "#ffffff",
-        "arrow_bg_hover_color": "#EDE6DB",
+        "arrow_bg_hover_color": "#ede6db",
         "arrow_border_color": "#121212",
         "arrow_border_hover_color": "#121212",
         "background_color": "#ede6db",
@@ -1526,7 +1127,7 @@
     "section_dqH3Ye",
     "section_jTqFzc",
     "section_EdpfCa",
-    "carousel_xNQxBt",
+    "ss_scrolling_images_4_mTztxf",
     "ss_feature_15_atJbU4",
     "ss_testimonials_39_ceWqiU"
   ]
