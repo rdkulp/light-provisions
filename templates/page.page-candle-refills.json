@@ -1296,15 +1296,6 @@
     "ss_testimonials_39_ceWqiU": {
       "type": "ss-testimonials-39",
       "blocks": {
-        "card_pyWtwd": {
-          "type": "card",
-          "settings": {
-            "stars_count": 5,
-            "text": "<p>The refill candles are brilliant.<br/><br/>Thanks for this idea. The refill candles fit brilliantly in the containers I already have from Light Provisions. They also melt down to perfectly fill the glass and burn down all the way to the bottom.<br/><br/>Thank you so much for this option!</p>",
-            "author": "Dawn Anna",
-            "card_bg_color": "#f3f3f3"
-          }
-        },
         "video_card_eWgrMk": {
           "type": "video_card",
           "settings": {
@@ -1315,21 +1306,13 @@
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
           }
         },
-        "card_PRPBKA": {
+        "card_pyWtwd": {
           "type": "card",
           "settings": {
             "stars_count": 5,
-            "text": "<p>I honestly can't believe more companies haven't thought of this. Whatever, their loss. I like being able to use my own glasses, such as random rocks glasses I've thrifted or picked up at antique stores. Looking forward to more scents to be released!</p>",
-            "author": "Alan Rilkes",
-            "card_bg_color": "#F3F3F3"
-          }
-        },
-        "image_card_VXJbiz": {
-          "type": "image_card",
-          "settings": {
-            "use_testimonials": true,
-            "stars_count": 5,
-            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
+            "text": "<p>The refill candles are brilliant.<br/><br/>Thanks for this idea. The refill candles fit brilliantly in the containers I already have from Light Provisions. They also melt down to perfectly fill the glass and burn down all the way to the bottom.<br/><br/>Thank you so much for this option!</p>",
+            "author": "Dawn Anna",
+            "card_bg_color": "#A15736"
           }
         },
         "video_card_XmxJd3": {
@@ -1343,13 +1326,13 @@
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
           }
         },
-        "card_fbRgxe": {
+        "card_PRPBKA": {
           "type": "card",
           "settings": {
             "stars_count": 5,
-            "text": "<p><strong>WICK-ed genius!</strong></p><p>Creating a refill option for the glass tumblers (or other suitably sized container) is a genius move in the direction of sustainability for business and for the end user. Not only will it allow those of us to reuse our glass tumblers for candles. It will also allow someone to use their own container, saving them both money and the waste of extra packaging from purchasing a candle in a container.</p>",
-            "author": "Donnie Harrington",
-            "card_bg_color": "#F3F3F3"
+            "text": "<p>I honestly can't believe more companies haven't thought of this. Whatever, their loss. I like being able to use my own glasses, such as random rocks glasses I've thrifted or picked up at antique stores. Looking forward to more scents to be released!</p>",
+            "author": "Alan Rilkes",
+            "card_bg_color": "#956E41"
           }
         },
         "video_card_mXGD7f": {
@@ -1363,10 +1346,20 @@
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
           }
         },
+        "card_fbRgxe": {
+          "type": "card",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p><strong>WICK-ed genius!</strong></p><p>Creating a refill option for the glass tumblers (or other suitably sized container) is a genius move in the direction of sustainability for business and for the end user. Not only will it allow those of us to reuse our glass tumblers for candles. It will also allow someone to use their own container, saving them both money and the waste of extra packaging from purchasing a candle in a container.</p>",
+            "author": "Donnie Harrington",
+            "card_bg_color": "#45513E"
+          }
+        },
         "image_card_3M4Niq": {
           "type": "image_card",
           "settings": {
-            "use_testimonials": true,
+            "image": "shopify://shop_images/Screenshot_2026-06-17_at_9.14.28_AM.png",
+            "use_testimonials": false,
             "stars_count": 5,
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
           }
@@ -1377,20 +1370,29 @@
             "stars_count": 5,
             "text": "<p>These refill candles are amazing! It was mesmerizing watching them fill my chosen vessel! What a wonderful, sustainable, option!</p>",
             "author": "Brittany Riffle",
-            "card_bg_color": "#f3f3f3"
+            "card_bg_color": "#215166"
+          }
+        },
+        "image_card_VXJbiz": {
+          "type": "image_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-17_at_9.14.03_AM.png",
+            "use_testimonials": false,
+            "stars_count": 5,
+            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
           }
         }
       },
       "block_order": [
-        "card_pyWtwd",
         "video_card_eWgrMk",
-        "card_PRPBKA",
-        "image_card_VXJbiz",
+        "card_pyWtwd",
         "video_card_XmxJd3",
-        "card_fbRgxe",
+        "card_PRPBKA",
         "video_card_mXGD7f",
+        "card_fbRgxe",
         "image_card_3M4Niq",
-        "card_iDTFUp"
+        "card_iDTFUp",
+        "image_card_VXJbiz"
       ],
       "name": "SS - Testimonials #39",
       "settings": {
@@ -1398,11 +1400,11 @@
         "slider_view_mobile": 1.2,
         "slider_gap": 20,
         "slider_gap_mobile": 20,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_delay": 6,
         "card_padding_horizontal": 36,
         "card_padding_horizontal_mobile": 20,
-        "card_padding_vertical": 20,
+        "card_padding_vertical": 14,
         "card_padding_vertical_mobile": 20,
         "card_border_thickness": 3,
         "card_radius": 20,
@@ -1413,15 +1415,15 @@
         "card_content_align_mobile": "center",
         "stars_size": 16,
         "stars_size_mobile": 16,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 20,
-        "text_size_mobile": 20,
+        "text_custom": true,
+        "text_font": "system_ui_i4",
+        "text_size": 18,
+        "text_size_mobile": 18,
         "text_height": 150,
         "text_mt": 16,
         "text_mt_mobile": 16,
-        "author_custom": false,
-        "author_font": "josefin_sans_n4",
+        "author_custom": true,
+        "author_font": "sans_serif_n4",
         "author_size": 20,
         "author_size_mobile": 20,
         "author_height": 130,
@@ -1451,9 +1453,9 @@
         "arrow_border_thickness": 0,
         "arrow_hover_effect": "color",
         "arrow_shadow": true,
-        "stars_color": "#121212",
-        "text_color": "#121212",
-        "author_color": "#121212",
+        "stars_color": "#E8A543",
+        "text_color": "#EDE6DB",
+        "author_color": "#E8A543",
         "card_border_color": "#121212",
         "video_text_color": "#121212",
         "card_video_bg_color": "#FFFFFF",
@@ -1469,9 +1471,9 @@
         "arrow_bg_hover_color": "#121212",
         "arrow_border_color": "#121212",
         "arrow_border_hover_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#EDE6DB",
         "background_gradient": "",
-        "border_color": "#121212",
+        "border_color": "#414042",
         "margin_top": 0,
         "margin_bottom": 0,
         "margin_horizontal": 0,
@@ -1480,7 +1482,7 @@
         "padding_bottom": 36,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1,
-        "full_width": true,
+        "full_width": false,
         "content_width": 1200,
         "border_thickness": 0,
         "section_radius": 0,
