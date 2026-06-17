@@ -1296,6 +1296,15 @@
     "ss_testimonials_39_ceWqiU": {
       "type": "ss-testimonials-39",
       "blocks": {
+        "card_pyWtwd": {
+          "type": "card",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>The refill candles are brilliant.<br/><br/>Thanks for this idea. The refill candles fit brilliantly in the containers I already have from Light Provisions. They also melt down to perfectly fill the glass and burn down all the way to the bottom.<br/><br/>Thank you so much for this option!</p>",
+            "author": "Dawn Anna",
+            "card_bg_color": "#f3f3f3"
+          }
+        },
         "video_card_eWgrMk": {
           "type": "video_card",
           "settings": {
@@ -1310,8 +1319,8 @@
           "type": "card",
           "settings": {
             "stars_count": 5,
-            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
-            "author": "Author's name",
+            "text": "<p>I honestly can't believe more companies haven't thought of this. Whatever, their loss. I like being able to use my own glasses, such as random rocks glasses I've thrifted or picked up at antique stores. Looking forward to more scents to be released!</p>",
+            "author": "Alan Rilkes",
             "card_bg_color": "#F3F3F3"
           }
         },
@@ -1338,8 +1347,8 @@
           "type": "card",
           "settings": {
             "stars_count": 5,
-            "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>",
-            "author": "Author's name",
+            "text": "<p><strong>WICK-ed genius!</strong></p><p>Creating a refill option for the glass tumblers (or other suitably sized container) is a genius move in the direction of sustainability for business and for the end user. Not only will it allow those of us to reuse our glass tumblers for candles. It will also allow someone to use their own container, saving them both money and the waste of extra packaging from purchasing a candle in a container.</p>",
+            "author": "Donnie Harrington",
             "card_bg_color": "#F3F3F3"
           }
         },
@@ -1361,16 +1370,27 @@
             "stars_count": 5,
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
           }
+        },
+        "card_iDTFUp": {
+          "type": "card",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>These refill candles are amazing! It was mesmerizing watching them fill my chosen vessel! What a wonderful, sustainable, option!</p>",
+            "author": "Brittany Riffle",
+            "card_bg_color": "#f3f3f3"
+          }
         }
       },
       "block_order": [
+        "card_pyWtwd",
         "video_card_eWgrMk",
         "card_PRPBKA",
         "image_card_VXJbiz",
         "video_card_XmxJd3",
         "card_fbRgxe",
         "video_card_mXGD7f",
-        "image_card_3M4Niq"
+        "image_card_3M4Niq",
+        "card_iDTFUp"
       ],
       "name": "SS - Testimonials #39",
       "settings": {
@@ -1378,7 +1398,7 @@
         "slider_view_mobile": 1.2,
         "slider_gap": 20,
         "slider_gap_mobile": 20,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_delay": 6,
         "card_padding_horizontal": 36,
         "card_padding_horizontal_mobile": 20,
