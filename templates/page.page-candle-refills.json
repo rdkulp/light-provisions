@@ -1337,7 +1337,7 @@
               "name": "t:names.text",
               "settings": {
                 "text": "<h6>Browse fragrances currently available as candle refills. Select your preferred scent and choose the <strong>refill</strong> option on the product page.</h6>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
@@ -1484,7 +1484,7 @@
         "icons_style": "arrow",
         "icons_shape": "none",
         "section_width": "page-width",
-        "horizontal_alignment": "flex-start",
+        "horizontal_alignment": "center",
         "gap": 28,
         "color_scheme": "scheme-4",
         "padding-block-start": 48,
