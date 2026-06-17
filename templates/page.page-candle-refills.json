@@ -769,7 +769,7 @@
       ],
       "name": "SS - Scrolling images #4",
       "settings": {
-        "scroll_speed": 0.5,
+        "scroll_speed": 1,
         "body_gap": 16,
         "body_gap_mobile": 8,
         "image_width": 260,
