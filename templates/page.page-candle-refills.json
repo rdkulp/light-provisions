@@ -9,6 +9,66 @@
  */
 {
   "sections": {
+    "section_jTqFzc": {
+      "type": "section",
+      "blocks": {
+        "video_JTXdt9": {
+          "type": "video",
+          "name": "Video",
+          "settings": {
+            "source": "uploaded",
+            "video": "shopify://files/videos/Tumbler_Refill_10mb_11d504e8-2236-48a5-a3ee-d24061637b85.mp4",
+            "video_url": "",
+            "video_autoplay": true,
+            "video_loop": true,
+            "alt": "",
+            "custom_width": 100,
+            "custom_width_mobile": 100,
+            "aspect_ratio": "16/9",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "video_JTXdt9"
+      ],
+      "name": "Video",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-3",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 32,
+        "padding-block-end": 32
+      }
+    },
     "main": {
       "type": "main-page",
       "blocks": {
@@ -48,6 +108,7 @@
         "heading",
         "page-content"
       ],
+      "disabled": true,
       "settings": {
         "content_direction": "column",
         "gap": 32,
@@ -62,12 +123,12 @@
       "settings": {
         "color_scheme": "scheme-2",
         "section_width": "full-width",
-        "thickness": 1,
+        "thickness": 2,
         "corner_radius": "square",
         "width_percent": 100,
         "alignment_horizontal": "center",
-        "padding-block-start": 50,
-        "padding-block-end": 50
+        "padding-block-start": 26,
+        "padding-block-end": 26
       }
     },
     "section_dqH3Ye": {
@@ -131,66 +192,6 @@
         "gradient_direction": "to top",
         "padding-block-start": 48,
         "padding-block-end": 48
-      }
-    },
-    "section_jTqFzc": {
-      "type": "section",
-      "blocks": {
-        "video_JTXdt9": {
-          "type": "video",
-          "name": "Video",
-          "settings": {
-            "source": "uploaded",
-            "video": "shopify://files/videos/Tumbler_Refill_10mb_11d504e8-2236-48a5-a3ee-d24061637b85.mp4",
-            "video_url": "",
-            "video_autoplay": true,
-            "video_loop": true,
-            "alt": "",
-            "custom_width": 100,
-            "custom_width_mobile": 100,
-            "aspect_ratio": "16/9",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "video_JTXdt9"
-      ],
-      "name": "Video",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-3",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 32,
-        "padding-block-end": 32
       }
     },
     "section_EdpfCa": {
@@ -1455,13 +1456,118 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "section_CPcYrP": {
+      "type": "section",
+      "blocks": {
+        "text_RjArmz": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Candle Refills</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_CNVDM4": {
+          "type": "text",
+          "name": "Text",
+          "settings": {
+            "text": "<h6>A different way to enjoy candles. Candle refills allow you to reuse a favorite vessel while enjoying the same fragrances and craftsmanship found in our ready-to-burn collections.</h6>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_EiHX4a": {
+          "type": "button",
+          "name": "Button",
+          "settings": {
+            "label": "Shop now",
+            "link": "shopify://collections/available-refill-scents",
+            "open_in_new_tab": true,
+            "style_class": "button-secondary",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_RjArmz",
+        "text_CNVDM4",
+        "button_EiHX4a"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 25,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
     }
   },
   "order": [
+    "section_jTqFzc",
     "main",
     "divider_hzF8Dc",
     "section_dqH3Ye",
-    "section_jTqFzc",
     "section_EdpfCa",
     "ss_scrolling_images_4_mTztxf",
     "divider_VRNUFQ",
@@ -1469,6 +1575,7 @@
     "divider_3pJjee",
     "ss_testimonials_39_ceWqiU",
     "product_list_D6UX9G",
-    "ss_scrolling_images_4_cyVKMb"
+    "ss_scrolling_images_4_cyVKMb",
+    "section_CPcYrP"
   ]
 }
