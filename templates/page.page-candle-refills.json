@@ -177,7 +177,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -1380,9 +1380,80 @@
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
         "gap": 28,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "padding-block-start": 48,
         "padding-block-end": 48
+      }
+    },
+    "ss_scrolling_images_4_cyVKMb": {
+      "type": "ss-scrolling-images-4",
+      "blocks": {
+        "image_UmUhfq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Ivywild_55.jpg"
+          }
+        },
+        "image_ptdDEj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Unique_Vessels_6.jpg"
+          }
+        },
+        "image_UnTXFC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Unique_Vessels_37.jpg"
+          }
+        },
+        "image_GDPpAe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Unique_Vessels_45.jpg"
+          }
+        },
+        "image_MTQLHb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Unique_Vessels_68.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_UmUhfq",
+        "image_ptdDEj",
+        "image_UnTXFC",
+        "image_GDPpAe",
+        "image_MTQLHb"
+      ],
+      "name": "SS - Scrolling images #4",
+      "settings": {
+        "scroll_speed": 1,
+        "body_gap": 16,
+        "body_gap_mobile": 8,
+        "image_width": 260,
+        "image_width_mobile": 130,
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "image_radius": 10,
+        "image_border_thickness": 0,
+        "image_border_color": "#000000",
+        "background_color": "#F1EFEE",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
       }
     }
   },
@@ -1397,6 +1468,7 @@
     "ss_feature_15_atJbU4",
     "divider_3pJjee",
     "ss_testimonials_39_ceWqiU",
-    "product_list_D6UX9G"
+    "product_list_D6UX9G",
+    "ss_scrolling_images_4_cyVKMb"
   ]
 }
