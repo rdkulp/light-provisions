@@ -714,7 +714,37 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "text_dtzy7g": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2>Refill Gallery</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_dtzy7g"
+          ]
         },
         "static-carousel-content": {
           "type": "_carousel-content",
@@ -1301,6 +1331,7 @@
           "settings": {
             "source": "uploaded",
             "video": "shopify://files/videos/Ariel_Christine_Refill_Reel_.mp4",
+            "video_url": "",
             "use_testimonials": false,
             "stars_count": 5,
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
@@ -1312,7 +1343,7 @@
             "stars_count": 5,
             "text": "<p>The refill candles are brilliant.<br/><br/>Thanks for this idea. The refill candles fit brilliantly in the containers I already have from Light Provisions. They also melt down to perfectly fill the glass and burn down all the way to the bottom.<br/><br/>Thank you so much for this option!</p>",
             "author": "Dawn Anna",
-            "card_bg_color": "#A15736"
+            "card_bg_color": "#a15736"
           }
         },
         "video_card_XmxJd3": {
@@ -1332,7 +1363,7 @@
             "stars_count": 5,
             "text": "<p>I honestly can't believe more companies haven't thought of this. Whatever, their loss. I like being able to use my own glasses, such as random rocks glasses I've thrifted or picked up at antique stores. Looking forward to more scents to be released!</p>",
             "author": "Alan Rilkes",
-            "card_bg_color": "#956E41"
+            "card_bg_color": "#956e41"
           }
         },
         "video_card_mXGD7f": {
@@ -1352,7 +1383,7 @@
             "stars_count": 5,
             "text": "<p><strong>WICK-ed genius!</strong></p><p>Creating a refill option for the glass tumblers (or other suitably sized container) is a genius move in the direction of sustainability for business and for the end user. Not only will it allow those of us to reuse our glass tumblers for candles. It will also allow someone to use their own container, saving them both money and the waste of extra packaging from purchasing a candle in a container.</p>",
             "author": "Donnie Harrington",
-            "card_bg_color": "#45513E"
+            "card_bg_color": "#45513e"
           }
         },
         "image_card_3M4Niq": {
@@ -1453,25 +1484,25 @@
         "arrow_border_thickness": 0,
         "arrow_hover_effect": "color",
         "arrow_shadow": true,
-        "stars_color": "#E8A543",
-        "text_color": "#EDE6DB",
-        "author_color": "#E8A543",
+        "stars_color": "#e8a543",
+        "text_color": "#ede6db",
+        "author_color": "#e8a543",
         "card_border_color": "#121212",
         "video_text_color": "#121212",
-        "card_video_bg_color": "#FFFFFF",
+        "card_video_bg_color": "#ffffff",
         "play_color": "#121212",
         "play_hover_color": "#121212",
-        "play_bg_color": "#FFFFFF",
-        "play_bg_hover_color": "#F3F3F3",
+        "play_bg_color": "#ffffff",
+        "play_bg_hover_color": "#f3f3f3",
         "play_border_color": "#121212",
         "play_border_hover_color": "#121212",
         "arrow_color": "#121212",
-        "arrow_hover_color": "#FFFFFF",
-        "arrow_bg_color": "#FFFFFF",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
         "arrow_bg_hover_color": "#121212",
         "arrow_border_color": "#121212",
         "arrow_border_hover_color": "#121212",
-        "background_color": "#EDE6DB",
+        "background_color": "#ede6db",
         "background_gradient": "",
         "border_color": "#414042",
         "margin_top": 0,
