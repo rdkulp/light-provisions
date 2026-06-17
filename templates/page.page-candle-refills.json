@@ -102,10 +102,10 @@
           "type": "text",
           "name": "Text",
           "settings": {
-            "text": "<p>A different way to enjoy candles. </p><p>Candle refills let you reuse a favorite vessel, reducing the need for a new container with every burn while preserving the same fragrances and craftsmanship found in our ready-to-burn collections.</p>",
+            "text": "<h6>A different way to enjoy candles. </h6><h6>Candle refills let you reuse a favorite vessel, reducing the need for a new container with every burn while preserving the same fragrances and craftsmanship found in our ready-to-burn collections.</h6>",
             "width": "100%",
             "max_width": "normal",
-            "alignment": "left",
+            "alignment": "center",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
