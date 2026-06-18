@@ -679,7 +679,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>A fresh lineup of spring scents with bright florals, green woods, dry herbs, and soft coastal notes. Built for longer days, open windows, and rooms that need a little life again.</p>",
+                "text": "<p>From Japanese incense and recycled glass holders to refillable lighters and small everyday objects, these recent arrivals share a common thread: thoughtful design, lasting utility, and a slower approach to consumption.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -706,7 +706,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "shop the collection",
-                "link": "shopify://collections/spring-summer-collection",
+                "link": "shopify://collections/give-me-that-new-new",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -881,20 +881,20 @@
         "collection": "give-me-that-new-new",
         "layout_type": "carousel",
         "carousel_on_mobile": true,
-        "max_products": 5,
-        "columns": 3,
+        "max_products": 8,
+        "columns": 4,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
-        "columns_gap": 44,
+        "columns_gap": 27,
         "rows_gap": 12,
-        "icons_style": "chevron",
+        "icons_style": "arrow",
         "icons_shape": "circle",
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
         "gap": 32,
-        "color_scheme": "scheme-2",
-        "padding-block-start": 80,
-        "padding-block-end": 64
+        "color_scheme": "scheme-1",
+        "padding-block-start": 40,
+        "padding-block-end": 0
       }
     },
     "divider_r6ErzJ": {
