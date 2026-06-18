@@ -131,6 +131,102 @@
         "lazy": true
       }
     },
+    "product_hotspots_VcCTL8": {
+      "type": "product-hotspots",
+      "blocks": {
+        "hotspot_product_hGLrcU": {
+          "type": "_hotspot-product",
+          "name": "iye sandalwood",
+          "settings": {
+            "product": "iye-no-007-sandalwood-incense",
+            "x-position": 50,
+            "y-position": 23
+          },
+          "blocks": {}
+        },
+        "hotspot_product_YRmJc3": {
+          "type": "_hotspot-product",
+          "name": "tray",
+          "settings": {
+            "product": "acacia-wood-tray",
+            "x-position": 23,
+            "y-position": 58
+          },
+          "blocks": {}
+        },
+        "hotspot_product_w9Btwt": {
+          "type": "_hotspot-product",
+          "name": "wave lighter",
+          "settings": {
+            "product": "tsubota-pearl-aluminum-wave",
+            "x-position": 76,
+            "y-position": 65
+          },
+          "blocks": {}
+        },
+        "hotspot_product_pV8UVU": {
+          "type": "_hotspot-product",
+          "name": "iye reborn",
+          "settings": {
+            "product": "iye-reborn-square-incense-holder",
+            "x-position": 50,
+            "y-position": 66
+          },
+          "blocks": {}
+        },
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "static": true,
+          "settings": {
+            "text": "<h2><strong>Shop the set up</strong></h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "hotspot_product_hGLrcU",
+        "hotspot_product_YRmJc3",
+        "hotspot_product_w9Btwt",
+        "hotspot_product_pV8UVU"
+      ],
+      "name": "t:names.product_hotspots",
+      "settings": {
+        "image": "shopify://shop_images/Acacia_Wood_Tray_WIDE_copy.jpg",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "section_width": "page-width",
+        "section_height": "4 / 3",
+        "hotspot_color": "#FFFFFF57",
+        "bullseye_color": "#ffffff",
+        "color_scheme": "scheme-2",
+        "product_title_gap": 8,
+        "product_title_preset": "",
+        "product_price_preset": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
     "slideshow_C9edwc": {
       "type": "slideshow",
       "blocks": {
@@ -2595,6 +2691,7 @@
   },
   "order": [
     "ss_hero_23_6j9HkF",
+    "product_hotspots_VcCTL8",
     "slideshow_C9edwc",
     "product_list_EDUBdR",
     "divider_r6ErzJ",
