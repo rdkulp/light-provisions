@@ -1350,10 +1350,12 @@
             "card_bg_color": "#45513e"
           }
         },
-        "image_card_3M4Niq": {
-          "type": "image_card",
+        "video_card_VYFbdH": {
+          "type": "video_card",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2026-06-17_at_9.14.28_AM.png",
+            "source": "uploaded",
+            "video": "shopify://files/videos/video_review_HB_1.mp4",
+            "video_url": "",
             "use_testimonials": false,
             "stars_count": 5,
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
@@ -1394,7 +1396,7 @@
         "card_PRPBKA",
         "video_card_mXGD7f",
         "card_fbRgxe",
-        "image_card_3M4Niq",
+        "video_card_VYFbdH",
         "card_iDTFUp",
         "image_card_VXJbiz",
         "card_hwYebp"
