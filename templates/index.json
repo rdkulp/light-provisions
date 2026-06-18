@@ -2274,8 +2274,8 @@
         "image_3jLBjh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/bolbo-25-40.jpg",
-            "link": "",
+            "image": "shopify://shop_images/tsubota-pearl-bolbo-lighter-striped-edition-6360280.jpg",
+            "link": "https://www.lightprovisions.com/products/tsubota-pearl-bolbo-lighter-striped",
             "image_ratio": "portrait",
             "width": "fill",
             "custom_width": 100,
@@ -2387,7 +2387,7 @@
             "text_kt4Dkt": {
               "type": "text",
               "settings": {
-                "text": "<p>Crisp edges, deliberate weight, and a mechanism that rewards the hand with tactility. Rooted in Japanese craftsmanship, it is made to be used, made to be kept.</p><p>Shop <a href=\"https://www.lightprovisions.com/products/tsubota-pearl-bolbo?_pos=2&_sid=02fb29055&_ss=r\" target=\"_blank\" title=\"bolbo lighter in brass and silver\">Bolbo</a> by Tsubota Pearl</p>",
+                "text": "<p>Crisp edges, deliberate weight, and a mechanism that rewards the hand with tactility. Rooted in Japanese craftsmanship, it is made to be used, made to be kept.</p><p>Shop<a href=\"https://www.lightprovisions.com/products/tsubota-pearl-bolbo-lighter-striped\" target=\"_blank\" title=\"stripped bolbo lighter in gold or silver\"> Bolbo</a> by Tsubota Pearl</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
