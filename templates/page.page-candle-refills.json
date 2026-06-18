@@ -167,7 +167,7 @@
         "border_opacity": 100,
         "border_radius": 0,
         "toggle_overlay": true,
-        "overlay_color": "#45513E00",
+        "overlay_color": "rgba(0,0,0,0)",
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 30,
@@ -223,20 +223,6 @@
       }
     },
     "divider_cW9TEp": {
-      "type": "divider",
-      "name": "Divider",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "section_width": "full-width",
-        "thickness": 1,
-        "corner_radius": "square",
-        "width_percent": 100,
-        "alignment_horizontal": "center",
-        "padding-block-start": 25,
-        "padding-block-end": 25
-      }
-    },
-    "divider_zzUi7Y": {
       "type": "divider",
       "name": "Divider",
       "settings": {
@@ -802,6 +788,20 @@
         "gradient_direction": "to top",
         "padding-block-start": 48,
         "padding-block-end": 48
+      }
+    },
+    "divider_zzUi7Y": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 25,
+        "padding-block-end": 25
       }
     },
     "ss_scrolling_images_4_mTztxf": {
@@ -1562,7 +1562,7 @@
       ],
       "name": "SS - Scrolling images #4",
       "settings": {
-        "scroll_speed": 1,
+        "scroll_speed": 2,
         "body_gap": 16,
         "body_gap_mobile": 8,
         "image_width": 260,
@@ -1692,14 +1692,14 @@
         "button_bg_hover_color": "",
         "button_border_color": "#000000",
         "button_border_hover_color": "#555555",
-        "item_bg_color": "#FFFFFF",
+        "item_bg_color": "#ffffff",
         "item_border_color": "#000000",
         "item_heading_color": "#000000",
         "item_text_color": "#000000",
-        "text_link_underline_color": "#466CEF",
+        "text_link_underline_color": "#466cef",
         "item_icon_color": "#000000",
         "item_icon_hover_color": "#555555",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
