@@ -1218,7 +1218,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We partner with small workshops, craftspeople, and family-owned manufacturers whose work reflects care, skill, and intention.</p>",
+                    "text": "<p>Made by small workshops, craftspeople, and family-owned manufacturers who value quality over scale.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
