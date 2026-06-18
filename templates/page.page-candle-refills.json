@@ -1672,6 +1672,138 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "ss_text_block_2_UMwKEK": {
+      "type": "ss-text-block-2",
+      "blocks": {
+        "item_YTbLij": {
+          "type": "item",
+          "settings": {
+            "heading": "Shea Butter",
+            "text": "Natural moisturizer loved for its ability to soften and hydrate skin. It also has anti-inflammatory properties that can soothe irritation and redness.",
+            "url": ""
+          }
+        },
+        "item_xUijhB": {
+          "type": "item",
+          "settings": {
+            "heading": "Pomegranate",
+            "text": "Pomegranates are rich in antioxidants that fight free radicals, which can damage skin cells and contribute to wrinkles.",
+            "url": ""
+          }
+        },
+        "item_A7frd8": {
+          "type": "item",
+          "settings": {
+            "heading": "Vitamins C & E",
+            "text": "Vitamin C is a champion for a brighter, more even skin tone. It helps reduce hyperpigmentation and discoloration, leaving you with a radiant look.",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_YTbLij",
+        "item_xUijhB",
+        "item_A7frd8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 42px !important;}",
+        "@media screen and (max-width: 768px) {h2 {font-size: 36px !important; }}"
+      ],
+      "name": "SS - Text Block #2",
+      "settings": {
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<h2>Refill Candles</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 38,
+        "heading_size_mobile": 14,
+        "heading_height": 130,
+        "text": "<p><a>Shea Butter</a>, Cane Sugar, Avocado Butter, Green Tea, <a>Pomegranate</a>, Goji Fruit & Coffee Seed Extracts, Organic Blue Matcha, <a>Vitamins C & E.</a></p>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 44,
+        "text_size_mobile": 24,
+        "text_height": 150,
+        "text_mt": 40,
+        "text_mt_mobile": 32,
+        "button": "Our Process",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 18,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_mt": 60,
+        "button_mt_mobile": 40,
+        "button_padding_vertical": 12,
+        "button_padding_vertical_mobile": 12,
+        "button_padding_horizontal": 32,
+        "button_padding_horizontal_mobile": 32,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_style": "link",
+        "item_content_horizontal_align": "center",
+        "item_content_horizontal_align_mobile": "center",
+        "item_width": 260,
+        "item_width_mobile": 240,
+        "item_padding_vertical": 20,
+        "item_padding_vertical_mobile": 20,
+        "item_padding_horizontal": 20,
+        "item_padding_horizontal_mobile": 20,
+        "item_radius": 18,
+        "item_border_thickness": 1,
+        "item_heading_custom": false,
+        "item_heading_font": "josefin_sans_n4",
+        "item_heading_size": 20,
+        "item_heading_size_mobile": 18,
+        "item_heading_height": 130,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 14,
+        "item_text_size_mobile": 14,
+        "item_text_height": 150,
+        "item_text_mt": 16,
+        "item_text_mt_mobile": 16,
+        "item_icon_size": 28,
+        "item_icon_size_mobile": 28,
+        "item_icon_mt": 16,
+        "item_icon_mt_mobile": 16,
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_hover_color": "#555555",
+        "button_bg_color": "",
+        "button_bg_hover_color": "",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#555555",
+        "item_bg_color": "#FFFFFF",
+        "item_border_color": "#000000",
+        "item_heading_color": "#000000",
+        "item_text_color": "#000000",
+        "text_link_underline_color": "#466CEF",
+        "item_icon_color": "#000000",
+        "item_icon_hover_color": "#555555",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 10,
+        "padding_horizontal_mobile": 2.5,
+        "overlay": true,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -1690,6 +1822,7 @@
     "ss_testimonials_39_ceWqiU",
     "product_list_D6UX9G",
     "marquee_CVkEjW",
-    "ss_scrolling_images_4_cyVKMb"
+    "ss_scrolling_images_4_cyVKMb",
+    "ss_text_block_2_UMwKEK"
   ]
 }
