@@ -81,6 +81,9 @@
       "block_order": [
         "video_JTXdt9"
       ],
+      "custom_css": [
+        "& {margin-bottom: 0 !important; padding-bottom: 0 !important;}"
+      ],
       "name": "Video",
       "settings": {
         "content_direction": "column",
