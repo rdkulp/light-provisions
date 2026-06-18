@@ -1679,34 +1679,42 @@
         "item_YTbLij": {
           "type": "item",
           "settings": {
-            "heading": "Shea Butter",
-            "text": "Natural moisturizer loved for its ability to soften and hydrate skin. It also has anti-inflammatory properties that can soothe irritation and redness.",
+            "heading": "plant-based wax",
+            "text": "Our refill wax is made entirely from plant-derived materials and paired with a wick system developed specifically for the refill format.",
             "url": ""
           }
         },
-        "item_xUijhB": {
+        "item_MGQTXW": {
           "type": "item",
           "settings": {
-            "heading": "Pomegranate",
-            "text": "Pomegranates are rich in antioxidants that fight free radicals, which can damage skin cells and contribute to wrinkles.",
+            "heading": "collapse and settle",
+            "text": "The refill begins as a freestanding pillar. During the first burn, its outer wall gradually collapses and softens into the vessel, where it continues burning like a traditional container candle.",
             "url": ""
           }
         },
-        "item_A7frd8": {
+        "item_ECyNxf": {
           "type": "item",
           "settings": {
-            "heading": "Vitamins C & E",
-            "text": "Vitamin C is a champion for a brighter, more even skin tone. It helps reduce hyperpigmentation and discoloration, leaving you with a radiant look.",
+            "heading": "compatible vessel",
+            "text": "Use a heat-safe, straight-sided glass or ceramic vessel around 2.75 inches wide and 3 inches tall, with a capacity greater than 7 ounces. Mason jars, sturdy coffee mugs, and rocks glasses are often good options. Not sure? shoot us an email below for more ideas:",
+            "url": "shopify://pages/contact-us"
+          }
+        },
+        "item_EKbtXT": {
+          "type": "item",
+          "settings": {
+            "heading": "handmade in Colorado Springs",
+            "text": "Because each refill requires additional hands-on work, production stays intentionally small. When a scent sells out, back-in-stock requests help guide which fragrances are poured next and returned to the shop.",
             "url": ""
           }
         }
       },
       "block_order": [
         "item_YTbLij",
-        "item_xUijhB",
-        "item_A7frd8"
+        "item_MGQTXW",
+        "item_ECyNxf",
+        "item_EKbtXT"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {font-size: 42px !important;}",
         "@media screen and (max-width: 768px) {h2 {font-size: 36px !important; }}"
@@ -1721,7 +1729,7 @@
         "heading_size": 38,
         "heading_size_mobile": 14,
         "heading_height": 130,
-        "text": "<p><a>Shea Butter</a>, Cane Sugar, Avocado Butter, Green Tea, <a>Pomegranate</a>, Goji Fruit & Coffee Seed Extracts, Organic Blue Matcha, <a>Vitamins C & E.</a></p>",
+        "text": "<p>A refill is a <a href=\"#\" title=\"#\">plant-based wax</a> pillar candle designed to <a href=\"#\" title=\"#\">collapse and settle</a> inside a <a href=\"#\" title=\"#\">compatible vessel</a> as it burns. Each one is <a href=\"#\" title=\"#\">handmade in Colorado Springs</a> in very small batches, keeping favorite containers in use while reducing the need for a new one with every candle.</p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 44,
