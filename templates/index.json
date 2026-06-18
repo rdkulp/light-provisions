@@ -1245,7 +1245,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Made by small workshops, craftspeople, and family-owned manufacturers who value quality over scale.</p>",
+                    "text": "<p>Sourced from small workshops, indie makers, and family-owned manufacturers who value quality over scale.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
