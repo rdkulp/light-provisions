@@ -217,7 +217,7 @@
         "gradient_direction": "to top",
         "section_width": "page-width",
         "section_height": "4 / 3",
-        "hotspot_color": "#FFFFFF57",
+        "hotspot_color": "#ffffff57",
         "bullseye_color": "#ffffff",
         "color_scheme": "scheme-2",
         "product_title_gap": 8,
@@ -626,7 +626,6 @@
             "text_CAFDRL": {
               "type": "text",
               "name": "t:names.heading",
-              "disabled": true,
               "settings": {
                 "text": "<p>Featured Collection</p>",
                 "width": "fit-content",
@@ -654,7 +653,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2>Spring Candles</h2>",
+                "text": "<h2>New Arrivals</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -879,7 +878,7 @@
       ],
       "name": "Featured collection",
       "settings": {
-        "collection": "spring-summer-collection",
+        "collection": "give-me-that-new-new",
         "layout_type": "carousel",
         "carousel_on_mobile": true,
         "max_products": 5,
