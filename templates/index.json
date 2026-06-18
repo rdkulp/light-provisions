@@ -179,11 +179,11 @@
           "name": "t:names.heading",
           "static": true,
           "settings": {
-            "text": "<h2><strong>Build the Ritual</strong></h2>",
+            "text": "<h2><strong>Build the Ritual</strong></h2><p><strong>Small objects that bring warmth, fragrance, and function to everyday life.</strong></p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
-            "type_preset": "h2",
+            "type_preset": "rte",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
