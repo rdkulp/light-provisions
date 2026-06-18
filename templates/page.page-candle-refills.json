@@ -1717,6 +1717,47 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "marquee_CVkEjW": {
+      "type": "marquee",
+      "blocks": {
+        "text_fyUiej": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reuse, Refill, Repeat.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_fyUiej"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-2",
+        "padding-block-start": 44,
+        "padding-block-end": 44,
+        "gap_between_elements": 28
+      }
     }
   },
   "order": [
@@ -1733,6 +1774,7 @@
     "divider_3pJjee",
     "ss_testimonials_39_ceWqiU",
     "product_list_D6UX9G",
+    "marquee_CVkEjW",
     "ss_scrolling_images_4_cyVKMb",
     "ss_text_block_2_7Pxfzj"
   ]
