@@ -1376,6 +1376,15 @@
             "stars_count": 5,
             "text": "<p>Add customer reviews and testimonials to highlight the positive experiences they’ve had with your store.</p>"
           }
+        },
+        "card_hwYebp": {
+          "type": "card",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>I’m obsessed with these. I love being able to reuse old candle vessels to make my consumption more sustainable and eco-friendly, but these refills are also so high-quality. They smell great, they burn great, and i can’t wait to keep buying more. :)</p>",
+            "author": "Darci Miller",
+            "card_bg_color": "#A57052"
+          }
         }
       },
       "block_order": [
@@ -1387,7 +1396,8 @@
         "card_fbRgxe",
         "image_card_3M4Niq",
         "card_iDTFUp",
-        "image_card_VXJbiz"
+        "image_card_VXJbiz",
+        "card_hwYebp"
       ],
       "name": "SS - Testimonials #39",
       "settings": {
