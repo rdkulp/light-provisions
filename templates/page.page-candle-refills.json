@@ -116,15 +116,15 @@
         "item_YTbLij": {
           "type": "item",
           "settings": {
-            "heading": "plant-based wax",
-            "text": "Our refill wax is made entirely from plant-derived materials and paired with a wick system developed specifically for the refill format.",
+            "heading": "house blend",
+            "text": "We developed this entirely plant-based wax blend specifically for candle refills. As it burns, the wax is designed to soften, collapse, and settle inside a compatible vessel.",
             "url": ""
           }
         },
         "item_MGQTXW": {
           "type": "item",
           "settings": {
-            "heading": "collapse and settle",
+            "heading": "how it works",
             "text": "The refill begins as a freestanding pillar. During the first burn, its outer wall gradually collapses and softens into the vessel, where it continues burning like a traditional container candle.",
             "url": ""
           }
@@ -132,7 +132,7 @@
         "item_ECyNxf": {
           "type": "item",
           "settings": {
-            "heading": "compatible vessel",
+            "heading": "choosing the right vessel",
             "text": "Use a heat-safe, straight-sided glass or ceramic vessel around 2.75 inches wide and 3 inches tall, with a capacity greater than 7 ounces. Mason jars, sturdy coffee mugs, and rocks glasses are often good options. Not sure? shoot us an email below for more ideas:",
             "url": "shopify://pages/contact-us"
           }
@@ -140,7 +140,7 @@
         "item_EKbtXT": {
           "type": "item",
           "settings": {
-            "heading": "small batch",
+            "heading": "poured in super small batches",
             "text": "Because each refill requires additional hands-on work, production stays intentionally small. When a scent sells out, back-in-stock requests help guide which fragrances are poured next and returned to the shop.",
             "url": ""
           }
@@ -198,7 +198,7 @@
         "item_padding_vertical_mobile": 20,
         "item_padding_horizontal": 20,
         "item_padding_horizontal_mobile": 20,
-        "item_radius": 18,
+        "item_radius": 14,
         "item_border_thickness": 1,
         "item_heading_custom": false,
         "item_heading_font": "josefin_sans_n4",
