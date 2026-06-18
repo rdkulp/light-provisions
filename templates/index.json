@@ -996,7 +996,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
+            "gap": 26,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -1081,7 +1081,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Bespoke Glassware</h2>",
+                    "text": "<h2>Objects with Purpose</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1107,7 +1107,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Handmade by skilled glassblowers, intentionally crafted for brilliant illumination and infinite reusability.</p>",
+                    "text": "<p>Designed to be used often, maintained when possible, and kept for years.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1192,7 +1192,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Small Batch</h2>",
+                    "text": "<h2>Independent Makers</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1218,7 +1218,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Each collection is hand-poured by humans in our candle workshop located in Colorado Springs, Colorado.</p>",
+                    "text": "<p>We partner with small workshops, craftspeople, and family-owned manufacturers whose work reflects care, skill, and intention.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1303,7 +1303,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Narrative Notes</h2>",
+                    "text": "<h2>A Slower Approach</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1329,7 +1329,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Our fragrances are meticulously selected and blended in house, so each candle scent tells its own distinctive story.</p>",
+                    "text": "<p>Fewer products, smaller releases, and a focus on quality over constant consumption.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
