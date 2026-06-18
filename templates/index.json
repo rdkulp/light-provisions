@@ -2590,7 +2590,7 @@
           "static": true,
           "settings": {
             "alignment": "left",
-            "gap": 8,
+            "gap": 7,
             "inherit_color_scheme": true,
             "color_scheme": "",
             "border": "none",
