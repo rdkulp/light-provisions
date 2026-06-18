@@ -9,6 +9,47 @@
  */
 {
   "sections": {
+    "marquee_Ugc7gr": {
+      "type": "marquee",
+      "blocks": {
+        "text_9FHmEA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reuse, Refill, Repeat.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_9FHmEA"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-1",
+        "padding-block-start": 40,
+        "padding-block-end": 40,
+        "gap_between_elements": 30
+      }
+    },
     "section_jTqFzc": {
       "type": "section",
       "blocks": {
@@ -1762,6 +1803,7 @@
     }
   },
   "order": [
+    "marquee_Ugc7gr",
     "section_jTqFzc",
     "section_CPcYrP",
     "main",
