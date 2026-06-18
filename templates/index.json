@@ -149,8 +149,8 @@
           "name": "tray",
           "settings": {
             "product": "acacia-wood-tray",
-            "x-position": 23,
-            "y-position": 58
+            "x-position": 28,
+            "y-position": 57
           },
           "blocks": {}
         },
@@ -179,11 +179,11 @@
           "name": "t:names.heading",
           "static": true,
           "settings": {
-            "text": "<h2><strong>Shop the set up</strong></h2>",
+            "text": "<h2><strong>Build the Ritual</strong></h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
-            "type_preset": "h4",
+            "type_preset": "h2",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
