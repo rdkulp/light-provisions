@@ -179,7 +179,7 @@
           "name": "t:names.heading",
           "static": true,
           "settings": {
-            "text": "<h2><strong>Build the Ritual</strong></h2><p><strong>Small objects that bring warmth, fragrance, and function to everyday life.</strong></p>",
+            "text": "<h2><strong>Build your own ritual</strong></h2><p><strong>with Japanese incense, refillable lighters, handmade holders, and everyday objects designed to work together</strong></p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -1799,7 +1799,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Refill Candles<br/>      </h2>",
+                "text": "<h2>Built Around Reuse</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
