@@ -140,7 +140,7 @@
         "item_EKbtXT": {
           "type": "item",
           "settings": {
-            "heading": "handmade in Colorado Springs",
+            "heading": "small batch",
             "text": "Because each refill requires additional hands-on work, production stays intentionally small. When a scent sells out, back-in-stock requests help guide which fragrances are poured next and returned to the shop.",
             "url": ""
           }
@@ -166,7 +166,7 @@
         "heading_size": 38,
         "heading_size_mobile": 14,
         "heading_height": 130,
-        "text": "<p>A refill is a <a href=\"#\" title=\"#\">plant-based wax</a> pillar candle designed to <a href=\"#\" title=\"#\">collapse and settle</a> inside a <a href=\"#\" title=\"#\">compatible vessel</a> as it burns. Each one is <a href=\"#\" title=\"#\">handmade in Colorado Springs</a> in very small batches, keeping favorite containers in use while reducing the need for a new one with every candle.</p>",
+        "text": "<p>A refill is a <a href=\"#\" title=\"#\">plant-based wax</a> pillar candle designed to <a href=\"#\" title=\"#\">collapse and settle</a> inside a <a href=\"#\" title=\"#\">compatible vessel</a> as it burns. Each one is handmade in Colorado Springs in <a href=\"#\" title=\"#\">very small batches</a>, keeping favorite containers in use while reducing the need for a new one with every candle.</p>",
         "text_custom": true,
         "text_font": "mono",
         "text_size": 34,
