@@ -2317,57 +2317,50 @@
     "image_carousel_KYjeWH": {
       "type": "image-carousel",
       "blocks": {
-        "image_GMgang": {
+        "image_6MdMwW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC01204-2.jpg"
+            "image": "shopify://shop_images/IMG_8140.jpg"
           }
         },
-        "image_XzCdxD": {
+        "image_HiN988": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WHISKEY_TUM_9.jpg"
+            "image": "shopify://shop_images/ce8e6f76-287e-41c5-adc9-e4e474828a55.jpg"
           }
         },
-        "image_yBKJGk": {
+        "image_FagJgA": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LIT_TUMBLER_39.jpg"
-          }
-        },
-        "image_UQ9xCX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WHISKEY_TUM_3.jpg"
-          }
-        },
-        "image_kCXcWk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/C_TUM_5_2df9ab31-2b7e-4879-bf3e-68f6a692dd81.jpg"
+            "image": "shopify://shop_images/dclassic-2023-09-22-172439184.jpg"
           }
         },
         "image_yrrTnU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WHISKEY_TUM_12.jpg"
+            "image": "shopify://shop_images/Screenshot_2026-06-18_at_7.51.29_AM.png"
           }
         },
-        "image_67VcxG": {
+        "image_GMgang": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cocktail1.jpg"
+            "image": "shopify://shop_images/img-0832.jpg"
+          }
+        },
+        "image_UViXLC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cocktail1_4411c9aa-e51c-4956-966f-80efa77be95c.jpg"
           }
         }
       },
       "block_order": [
-        "image_GMgang",
-        "image_XzCdxD",
-        "image_yBKJGk",
-        "image_UQ9xCX",
-        "image_kCXcWk",
+        "image_6MdMwW",
+        "image_HiN988",
+        "image_FagJgA",
         "image_yrrTnU",
-        "image_67VcxG"
+        "image_GMgang",
+        "image_UViXLC"
       ],
       "name": "Image Carousel",
       "settings": {
