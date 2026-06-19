@@ -2048,13 +2048,29 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
+            },
+            "button_aqPqDp": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "LEARN MORE",
+                "link": "shopify://pages/candle-refills",
+                "open_in_new_tab": true,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_TCkAjF",
             "text_mDGiDn",
             "text_fiFJjk",
-            "button_UH4Y3M"
+            "button_UH4Y3M",
+            "button_aqPqDp"
           ]
         }
       },
