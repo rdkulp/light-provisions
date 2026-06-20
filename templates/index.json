@@ -2622,6 +2622,60 @@
         "padding-block-end": 40
       }
     },
+    "collection_links_jxMYAX": {
+      "type": "collection-links",
+      "blocks": {
+        "link": {
+          "type": "_collection-link",
+          "static": true,
+          "settings": {
+            "show_count": false
+          },
+          "blocks": {
+            "title": {
+              "type": "_inline-collection-title",
+              "name": "Title",
+              "static": true,
+              "settings": {
+                "font": "var(--font-subheading--family)",
+                "weight": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none"
+              },
+              "blocks": {}
+            },
+            "image": {
+              "type": "_image",
+              "static": true,
+              "settings": {
+                "height": "medium",
+                "ratio": "portrait",
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": []
+        }
+      },
+      "name": "Collection links: Spotlight",
+      "settings": {
+        "collection_list": [
+          "candles",
+          "tabletop",
+          "stick-incense",
+          "all-lighters"
+        ],
+        "layout": "spotlight",
+        "section_width": "page-width",
+        "alignment": "center",
+        "image_position": "right",
+        "color_scheme": "scheme-2",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
     "featured_blog_posts_TGKkiX": {
       "type": "featured-blog-posts",
       "blocks": {
@@ -2630,7 +2684,7 @@
           "name": "t:names.title",
           "static": true,
           "settings": {
-            "text": "<h2>{{ closest.blog.title }}</h2>",
+            "text": "<h2>Notes from the Studio</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -2781,6 +2835,7 @@
     "section_Td9WtH",
     "section_yMxyjq",
     "section_feVGA8",
+    "collection_links_jxMYAX",
     "featured_blog_posts_TGKkiX"
   ]
 }
