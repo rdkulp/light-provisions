@@ -2637,10 +2637,10 @@
               "name": "Title",
               "static": true,
               "settings": {
-                "font": "var(--font-subheading--family)",
+                "font": "var(--font-heading--family)",
                 "weight": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
+                "line_height": "loose",
+                "letter_spacing": "loose",
                 "case": "none"
               },
               "blocks": {}
@@ -2651,7 +2651,7 @@
               "settings": {
                 "height": "medium",
                 "ratio": "portrait",
-                "border_radius": 0
+                "border_radius": 1
               },
               "blocks": {}
             }
