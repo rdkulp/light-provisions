@@ -1,6 +1,672 @@
+{% doc %}
+  @prompt
+    Create a new Shopify section called "Process Story."
+    
+    The section should be designed specifically for vertical videos on desktop and mobile.
+    
+    Layout:
+    
+    * Two-column layout on desktop
+    * Vertical video on the left (9:16 aspect ratio)
+    * Heading, text, and process steps on the right
+    * Stack vertically on mobile
+    
+    Content:
+    
+    * Section heading
+    * Short introductory paragraph
+    * Four process steps with optional image support
+    * Each step should include a step number, title, and description
+    
+    Desktop layout example:
+    
+    [ Vertical Video ]   [ Heading ]
+    [ Intro Text ]
+    [ 01 Casting ]
+    [ 02 Finishing ]
+    [ 03 Assembly ]
+    [ 04 Final Form ]
+    
+    Design requirements:
+    
+    * Minimal, editorial appearance consistent with a premium home goods brand
+    * Generous whitespace
+    * Rounded image corners
+    * Optional color scheme support
+    * Works with Shopify theme editor blocks
+    * Each process step should be editable as a block
+    * Video should remain sticky while scrolling through process steps on desktop
+    * Mobile layout should place video above process steps
+    
+    Settings:
+    
+    * Video upload
+    * Heading
+    * Intro text
+    * Background color
+    * Text color
+    * Up to 6 process step blocks
+    * Optional process image for each step
+    
+    The purpose of this section is to tell the story behind handmade products and provide context around the making process rather than simply displaying a video.
+    , uploaded video is not showing
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-process-story-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+    padding: 80px 20px;
+  }
+
+  .ai-process-story-container-{{ ai_gen_id }} {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .ai-process-story-layout-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 80px;
+    align-items: start;
+  }
+
+  .ai-process-story-video-wrapper-{{ ai_gen_id }} {
+    position: sticky;
+    top: 100px;
+    width: 100%;
+  }
+
+  .ai-process-story-video-container-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: 177.78%;
+    background-color: #f4f4f4;
+    border-radius: {{ block.settings.video_border_radius }}px;
+    overflow: hidden;
+  }
+
+  .ai-process-story-video-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-process-story-video-placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+
+  .ai-process-story-video-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: auto;
+    opacity: 0.3;
+  }
+
+  .ai-process-story-content-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .ai-process-story-header-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ai-process-story-heading-{{ ai_gen_id }} {
+    font-size: 48px;
+    line-height: 1.1;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+
+  .ai-process-story-intro-{{ ai_gen_id }} {
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.9;
+    max-width: 600px;
+  }
+
+  .ai-process-story-steps-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+
+  .ai-process-story-step-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .ai-process-story-step-header-{{ ai_gen_id }} {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+  }
+
+  .ai-process-story-step-number-{{ ai_gen_id }} {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    min-width: 40px;
+  }
+
+  .ai-process-story-step-title-{{ ai_gen_id }} {
+    font-size: 24px;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  .ai-process-story-step-description-{{ ai_gen_id }} {
+    font-size: 16px;
+    line-height: 1.7;
+    opacity: 0.85;
+    margin-left: 56px;
+  }
+
+  .ai-process-story-step-image-{{ ai_gen_id }} {
+    margin-left: 56px;
+    margin-top: 16px;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    overflow: hidden;
+  }
+
+  .ai-process-story-step-image-{{ ai_gen_id }} img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-process-story-{{ ai_gen_id }} {
+      padding: 60px 20px;
+    }
+
+    .ai-process-story-layout-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 48px;
+    }
+
+    .ai-process-story-video-wrapper-{{ ai_gen_id }} {
+      position: relative;
+      top: 0;
+    }
+
+    .ai-process-story-heading-{{ ai_gen_id }} {
+      font-size: 36px;
+    }
+
+    .ai-process-story-intro-{{ ai_gen_id }} {
+      font-size: 16px;
+    }
+
+    .ai-process-story-steps-{{ ai_gen_id }} {
+      gap: 40px;
+    }
+
+    .ai-process-story-step-title-{{ ai_gen_id }} {
+      font-size: 20px;
+    }
+
+    .ai-process-story-step-description-{{ ai_gen_id }} {
+      margin-left: 0;
+      font-size: 15px;
+    }
+
+    .ai-process-story-step-image-{{ ai_gen_id }} {
+      margin-left: 0;
+    }
+
+    .ai-process-story-step-header-{{ ai_gen_id }} {
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .ai-process-story-step-number-{{ ai_gen_id }} {
+      font-size: 12px;
+    }
+  }
+{% endstyle %}
+
+<process-story-{{ ai_gen_id }} class="ai-process-story-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-process-story-container-{{ ai_gen_id }}">
+    <div class="ai-process-story-layout-{{ ai_gen_id }}">
+      <div class="ai-process-story-video-wrapper-{{ ai_gen_id }}">
+        <div class="ai-process-story-video-container-{{ ai_gen_id }}">
+          {% if block.settings.video != blank %}
+            <video
+              class="ai-process-story-video-{{ ai_gen_id }}"
+              autoplay
+              muted
+              loop
+              playsinline
+            >
+              {% for source in block.settings.video.sources %}
+                <source src="{{ source.url }}" type="{{ source.mime_type }}">
+              {% endfor %}
+            </video>
+          {% else %}
+            <div class="ai-process-story-video-placeholder-{{ ai_gen_id }}">
+              {{ 'hero-apparel-1' | placeholder_svg_tag }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="ai-process-story-content-{{ ai_gen_id }}">
+        <div class="ai-process-story-header-{{ ai_gen_id }}">
+          {% if block.settings.heading != blank %}
+            <h2 class="ai-process-story-heading-{{ ai_gen_id }}">
+              {{ block.settings.heading }}
+            </h2>
+          {% endif %}
+
+          {% if block.settings.intro_text != blank %}
+            <div class="ai-process-story-intro-{{ ai_gen_id }}">
+              {{ block.settings.intro_text }}
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="ai-process-story-steps-{{ ai_gen_id }}">
+          {% if block.settings.step_1_title != blank %}
+            <div class="ai-process-story-step-{{ ai_gen_id }}">
+              <div class="ai-process-story-step-header-{{ ai_gen_id }}">
+                <span class="ai-process-story-step-number-{{ ai_gen_id }}">01</span>
+                <h3 class="ai-process-story-step-title-{{ ai_gen_id }}">
+                  {{ block.settings.step_1_title }}
+                </h3>
+              </div>
+              {% if block.settings.step_1_description != blank %}
+                <div class="ai-process-story-step-description-{{ ai_gen_id }}">
+                  {{ block.settings.step_1_description }}
+                </div>
+              {% endif %}
+              {% if block.settings.step_1_image %}
+                <div class="ai-process-story-step-image-{{ ai_gen_id }}">
+                  <img
+                    src="{{ block.settings.step_1_image | image_url: width: 800 }}"
+                    alt="{{ block.settings.step_1_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ block.settings.step_1_image.width }}"
+                    height="{{ block.settings.step_1_image.height }}"
+                  >
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if block.settings.step_2_title != blank %}
+            <div class="ai-process-story-step-{{ ai_gen_id }}">
+              <div class="ai-process-story-step-header-{{ ai_gen_id }}">
+                <span class="ai-process-story-step-number-{{ ai_gen_id }}">02</span>
+                <h3 class="ai-process-story-step-title-{{ ai_gen_id }}">
+                  {{ block.settings.step_2_title }}
+                </h3>
+              </div>
+              {% if block.settings.step_2_description != blank %}
+                <div class="ai-process-story-step-description-{{ ai_gen_id }}">
+                  {{ block.settings.step_2_description }}
+                </div>
+              {% endif %}
+              {% if block.settings.step_2_image %}
+                <div class="ai-process-story-step-image-{{ ai_gen_id }}">
+                  <img
+                    src="{{ block.settings.step_2_image | image_url: width: 800 }}"
+                    alt="{{ block.settings.step_2_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ block.settings.step_2_image.width }}"
+                    height="{{ block.settings.step_2_image.height }}"
+                  >
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if block.settings.step_3_title != blank %}
+            <div class="ai-process-story-step-{{ ai_gen_id }}">
+              <div class="ai-process-story-step-header-{{ ai_gen_id }}">
+                <span class="ai-process-story-step-number-{{ ai_gen_id }}">03</span>
+                <h3 class="ai-process-story-step-title-{{ ai_gen_id }}">
+                  {{ block.settings.step_3_title }}
+                </h3>
+              </div>
+              {% if block.settings.step_3_description != blank %}
+                <div class="ai-process-story-step-description-{{ ai_gen_id }}">
+                  {{ block.settings.step_3_description }}
+                </div>
+              {% endif %}
+              {% if block.settings.step_3_image %}
+                <div class="ai-process-story-step-image-{{ ai_gen_id }}">
+                  <img
+                    src="{{ block.settings.step_3_image | image_url: width: 800 }}"
+                    alt="{{ block.settings.step_3_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ block.settings.step_3_image.width }}"
+                    height="{{ block.settings.step_3_image.height }}"
+                  >
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if block.settings.step_4_title != blank %}
+            <div class="ai-process-story-step-{{ ai_gen_id }}">
+              <div class="ai-process-story-step-header-{{ ai_gen_id }}">
+                <span class="ai-process-story-step-number-{{ ai_gen_id }}">04</span>
+                <h3 class="ai-process-story-step-title-{{ ai_gen_id }}">
+                  {{ block.settings.step_4_title }}
+                </h3>
+              </div>
+              {% if block.settings.step_4_description != blank %}
+                <div class="ai-process-story-step-description-{{ ai_gen_id }}">
+                  {{ block.settings.step_4_description }}
+                </div>
+              {% endif %}
+              {% if block.settings.step_4_image %}
+                <div class="ai-process-story-step-image-{{ ai_gen_id }}">
+                  <img
+                    src="{{ block.settings.step_4_image | image_url: width: 800 }}"
+                    alt="{{ block.settings.step_4_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ block.settings.step_4_image.width }}"
+                    height="{{ block.settings.step_4_image.height }}"
+                  >
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if block.settings.step_5_title != blank %}
+            <div class="ai-process-story-step-{{ ai_gen_id }}">
+              <div class="ai-process-story-step-header-{{ ai_gen_id }}">
+                <span class="ai-process-story-step-number-{{ ai_gen_id }}">05</span>
+                <h3 class="ai-process-story-step-title-{{ ai_gen_id }}">
+                  {{ block.settings.step_5_title }}
+                </h3>
+              </div>
+              {% if block.settings.step_5_description != blank %}
+                <div class="ai-process-story-step-description-{{ ai_gen_id }}">
+                  {{ block.settings.step_5_description }}
+                </div>
+              {% endif %}
+              {% if block.settings.step_5_image %}
+                <div class="ai-process-story-step-image-{{ ai_gen_id }}">
+                  <img
+                    src="{{ block.settings.step_5_image | image_url: width: 800 }}"
+                    alt="{{ block.settings.step_5_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ block.settings.step_5_image.width }}"
+                    height="{{ block.settings.step_5_image.height }}"
+                  >
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if block.settings.step_6_title != blank %}
+            <div class="ai-process-story-step-{{ ai_gen_id }}">
+              <div class="ai-process-story-step-header-{{ ai_gen_id }}">
+                <span class="ai-process-story-step-number-{{ ai_gen_id }}">06</span>
+                <h3 class="ai-process-story-step-title-{{ ai_gen_id }}">
+                  {{ block.settings.step_6_title }}
+                </h3>
+              </div>
+              {% if block.settings.step_6_description != blank %}
+                <div class="ai-process-story-step-description-{{ ai_gen_id }}">
+                  {{ block.settings.step_6_description }}
+                </div>
+              {% endif %}
+              {% if block.settings.step_6_image %}
+                <div class="ai-process-story-step-image-{{ ai_gen_id }}">
+                  <img
+                    src="{{ block.settings.step_6_image | image_url: width: 800 }}"
+                    alt="{{ block.settings.step_6_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ block.settings.step_6_image.width }}"
+                    height="{{ block.settings.step_6_image.height }}"
+                  >
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</process-story-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ProcessStory{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        const video = this.querySelector('.ai-process-story-video-{{ ai_gen_id }}');
+        if (video) {
+          video.play().catch(() => {});
+        }
+      }
+    }
+
+    customElements.define('process-story-{{ ai_gen_id }}', ProcessStory{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Process story",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Video"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Video"
+    },
+    {
+      "type": "range",
+      "id": "video_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Video border radius",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Our process"
+    },
+    {
+      "type": "richtext",
+      "id": "intro_text",
+      "label": "Introduction",
+      "default": "<p>Each piece is carefully crafted by hand, following a meticulous process that honors traditional techniques while embracing modern design.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#414042"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Step image border radius",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Step 1"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "step_1_title",
+      "label": "Title",
+      "default": "Casting"
+    },
+    {
+      "type": "richtext",
+      "id": "step_1_description",
+      "label": "Description",
+      "default": "<p>The molten material is carefully poured into precision molds, beginning the transformation from raw material to finished form.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "step_1_image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Step 2"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "step_2_title",
+      "label": "Title",
+      "default": "Finishing"
+    },
+    {
+      "type": "richtext",
+      "id": "step_2_description",
+      "label": "Description",
+      "default": "<p>Each piece is hand-finished to achieve the perfect surface texture and remove any imperfections from the casting process.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "step_2_image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Step 3"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "step_3_title",
+      "label": "Title",
+      "default": "Assembly"
+    },
+    {
+      "type": "richtext",
+      "id": "step_3_description",
+      "label": "Description",
+      "default": "<p>Components are carefully assembled by hand, ensuring proper alignment and structural integrity.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "step_3_image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Step 4"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "step_4_title",
+      "label": "Title",
+      "default": "Final form"
+    },
+    {
+      "type": "richtext",
+      "id": "step_4_description",
+      "label": "Description",
+      "default": "<p>The completed piece undergoes final inspection and quality control before being prepared for delivery.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "step_4_image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Step 5"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "step_5_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "step_5_description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "step_5_image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Step 6"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "step_6_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "step_6_description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "step_6_image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Process story"
+    }
+  ]
+}
 {% endschema %}
