@@ -917,6 +917,174 @@
         "padding-block-end": 32
       }
     },
+    "ss_text_block_2_dGBL7U": {
+      "type": "ss-text-block-2",
+      "blocks": {
+        "item_dWHNqR": {
+          "type": "item",
+          "settings": {
+            "heading": "Made in Korea",
+            "text": "Each piece is hand-cast, finished, and assembled in South Korea. Small variations in texture, weight, and finish reflect the handmade process.",
+            "url": ""
+          }
+        },
+        "item_AB96xG": {
+          "type": "item",
+          "settings": {
+            "heading": "LED",
+            "text": "A built-in rechargeable LED provides three brightness levels, allowing the piece to function as both an incense holder and a soft source of light. Runtime ranges from approximately 3–17 hours depending on brightness.",
+            "url": ""
+          }
+        },
+        "item_q9Qnp3": {
+          "type": "item",
+          "settings": {
+            "heading": "Solid Brass",
+            "text": "A removable solid brass insert sits at the center of the ceramic form and can be removed for cleaning or adjustment. The weight and durability of brass help keep incense secure during use.",
+            "url": ""
+          }
+        },
+        "item_PRiGnA": {
+          "type": "item",
+          "settings": {
+            "heading": "All Incense Types",
+            "text": "Designed to work with most stick incense, including thin Japanese coreless incense and standard bamboo-core varieties. Three aperture sizes accommodate different stick diameters without additional adapters.",
+            "url": ""
+          }
+        },
+        "item_WdhxeF": {
+          "type": "item",
+          "settings": {
+            "heading": "Entry Table",
+            "text": "Place it near the door to hold keys, a wallet, small daily essentials, or simply provide a welcoming glow when returning home.",
+            "url": ""
+          }
+        },
+        "item_QiQJfi": {
+          "type": "item",
+          "settings": {
+            "heading": "Dinner with Friends",
+            "text": "Use it as a subtle centerpiece for shared meals and gatherings. The warm glow creates atmosphere without overwhelming the table.",
+            "url": ""
+          }
+        },
+        "item_XNnCen": {
+          "type": "item",
+          "settings": {
+            "heading": "small source of light",
+            "text": "Use it without incense as a calming bedside light, reading companion, patio accent, or evening glow for quiet moments at home.",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_dWHNqR",
+        "item_AB96xG",
+        "item_q9Qnp3",
+        "item_PRiGnA",
+        "item_WdhxeF",
+        "item_QiQJfi",
+        "item_XNnCen"
+      ],
+      "custom_css": [
+        "h2 {font-size: 42px !important;}",
+        "@media screen and (max-width: 768px) {h2 {font-size: 36px !important; }}",
+        "h1 {color: #f4f1eb !important;}"
+      ],
+      "name": "SS - Text Block #2",
+      "settings": {
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<h2>A Light and an Incense Holder</h2>",
+        "heading_custom": false,
+        "heading_font": "serif",
+        "heading_size": 30,
+        "heading_size_mobile": 14,
+        "heading_height": 130,
+        "text": "<p><a href=\"#\" target=\"_blank\" title=\"#\">Handmade</a> in South Korea, this sculptural object combines a <a href=\"#\" target=\"_blank\" title=\"#\">rechargeable ambient light</a> with a <a href=\"#\" target=\"_blank\" title=\"#\">brass incense holder</a> designed for <a href=\"#\" target=\"_blank\" title=\"#\">many types of incense</a>. Place it on an <a href=\"#\" target=\"_blank\" title=\"#\">entry table</a>, beside a favorite chair, at <a href=\"#\" target=\"_blank\" title=\"#\">dinner with friends</a>, or anywhere a <a href=\"#\" target=\"_blank\" title=\"#\">small source of light</a> can make a space feel warmer.</p>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 44,
+        "text_size_mobile": 24,
+        "text_height": 150,
+        "text_mt": 40,
+        "text_mt_mobile": 32,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 18,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_mt": 60,
+        "button_mt_mobile": 40,
+        "button_padding_vertical": 12,
+        "button_padding_vertical_mobile": 12,
+        "button_padding_horizontal": 32,
+        "button_padding_horizontal_mobile": 32,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_style": "link",
+        "item_content_horizontal_align": "center",
+        "item_content_horizontal_align_mobile": "center",
+        "item_width": 260,
+        "item_width_mobile": 240,
+        "item_padding_vertical": 20,
+        "item_padding_vertical_mobile": 20,
+        "item_padding_horizontal": 20,
+        "item_padding_horizontal_mobile": 20,
+        "item_radius": 18,
+        "item_border_thickness": 1,
+        "item_heading_custom": false,
+        "item_heading_font": "josefin_sans_n4",
+        "item_heading_size": 20,
+        "item_heading_size_mobile": 18,
+        "item_heading_height": 130,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 14,
+        "item_text_size_mobile": 14,
+        "item_text_height": 150,
+        "item_text_mt": 16,
+        "item_text_mt_mobile": 16,
+        "item_icon_size": 28,
+        "item_icon_size_mobile": 28,
+        "item_icon_mt": 16,
+        "item_icon_mt_mobile": 16,
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_color": "#000000",
+        "button_hover_color": "#555555",
+        "button_bg_color": "",
+        "button_bg_hover_color": "",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#555555",
+        "item_bg_color": "#FFFFFF",
+        "item_border_color": "#000000",
+        "item_heading_color": "#000000",
+        "item_text_color": "#000000",
+        "text_link_underline_color": "#A15736",
+        "item_icon_color": "#000000",
+        "item_icon_hover_color": "#555555",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 10,
+        "padding_horizontal_mobile": 2.5,
+        "overlay": true,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "section_ax6UiD": {
       "type": "section",
       "blocks": {
@@ -961,7 +1129,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -1410,184 +1578,16 @@
         "padding-block-start": 60,
         "padding-block-end": 60
       }
-    },
-    "ss_text_block_2_dGBL7U": {
-      "type": "ss-text-block-2",
-      "blocks": {
-        "item_dWHNqR": {
-          "type": "item",
-          "settings": {
-            "heading": "Made in Korea",
-            "text": "Each piece is hand-cast, finished, and assembled in South Korea. Small variations in texture, weight, and finish reflect the handmade process.",
-            "url": ""
-          }
-        },
-        "item_AB96xG": {
-          "type": "item",
-          "settings": {
-            "heading": "LED",
-            "text": "A built-in rechargeable LED provides three brightness levels, allowing the piece to function as both an incense holder and a soft source of light. Runtime ranges from approximately 3–17 hours depending on brightness.",
-            "url": ""
-          }
-        },
-        "item_q9Qnp3": {
-          "type": "item",
-          "settings": {
-            "heading": "Solid Brass",
-            "text": "A removable solid brass insert sits at the center of the ceramic form and can be removed for cleaning or adjustment. The weight and durability of brass help keep incense secure during use.",
-            "url": ""
-          }
-        },
-        "item_PRiGnA": {
-          "type": "item",
-          "settings": {
-            "heading": "All Incense Types",
-            "text": "Designed to work with most stick incense, including thin Japanese coreless incense and standard bamboo-core varieties. Three aperture sizes accommodate different stick diameters without additional adapters.",
-            "url": ""
-          }
-        },
-        "item_WdhxeF": {
-          "type": "item",
-          "settings": {
-            "heading": "Entry Table",
-            "text": "Place it near the door to hold keys, a wallet, small daily essentials, or simply provide a welcoming glow when returning home.",
-            "url": ""
-          }
-        },
-        "item_QiQJfi": {
-          "type": "item",
-          "settings": {
-            "heading": "Dinner with Friends",
-            "text": "Use it as a subtle centerpiece for shared meals and gatherings. The warm glow creates atmosphere without overwhelming the table.",
-            "url": ""
-          }
-        },
-        "item_XNnCen": {
-          "type": "item",
-          "settings": {
-            "heading": "small source of light",
-            "text": "Use it without incense as a calming bedside light, reading companion, patio accent, or evening glow for quiet moments at home.",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_dWHNqR",
-        "item_AB96xG",
-        "item_q9Qnp3",
-        "item_PRiGnA",
-        "item_WdhxeF",
-        "item_QiQJfi",
-        "item_XNnCen"
-      ],
-      "custom_css": [
-        "h2 {font-size: 42px !important;}",
-        "@media screen and (max-width: 768px) {h2 {font-size: 36px !important; }}",
-        "h1 {color: #f4f1eb !important;}"
-      ],
-      "name": "SS - Text Block #2",
-      "settings": {
-        "content_horizontal_align": "center",
-        "content_horizontal_align_mobile": "center",
-        "heading": "<h2>A Light and an Incense Holder</h2>",
-        "heading_custom": false,
-        "heading_font": "serif",
-        "heading_size": 30,
-        "heading_size_mobile": 14,
-        "heading_height": 130,
-        "text": "<p><a href=\"#\" target=\"_blank\" title=\"#\">Handmade</a> in South Korea, this sculptural object combines a <a href=\"#\" target=\"_blank\" title=\"#\">rechargeable ambient light</a> with a <a href=\"#\" target=\"_blank\" title=\"#\">brass incense holder</a> designed for <a href=\"#\" target=\"_blank\" title=\"#\">many types of incense</a>. Place it on an <a href=\"#\" target=\"_blank\" title=\"#\">entry table</a>, beside a favorite chair, at <a href=\"#\" target=\"_blank\" title=\"#\">dinner with friends</a>, or anywhere a <a href=\"#\" target=\"_blank\" title=\"#\">small source of light</a> can make a space feel warmer.</p>",
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 44,
-        "text_size_mobile": 24,
-        "text_height": 150,
-        "text_mt": 40,
-        "text_mt_mobile": 32,
-        "button": "",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 18,
-        "button_size_mobile": 18,
-        "button_height": 100,
-        "button_mt": 60,
-        "button_mt_mobile": 40,
-        "button_padding_vertical": 12,
-        "button_padding_vertical_mobile": 12,
-        "button_padding_horizontal": 32,
-        "button_padding_horizontal_mobile": 32,
-        "button_radius": 0,
-        "button_border_thickness": 0,
-        "button_style": "link",
-        "item_content_horizontal_align": "center",
-        "item_content_horizontal_align_mobile": "center",
-        "item_width": 260,
-        "item_width_mobile": 240,
-        "item_padding_vertical": 20,
-        "item_padding_vertical_mobile": 20,
-        "item_padding_horizontal": 20,
-        "item_padding_horizontal_mobile": 20,
-        "item_radius": 18,
-        "item_border_thickness": 1,
-        "item_heading_custom": false,
-        "item_heading_font": "josefin_sans_n4",
-        "item_heading_size": 20,
-        "item_heading_size_mobile": 18,
-        "item_heading_height": 130,
-        "item_text_custom": false,
-        "item_text_font": "josefin_sans_n4",
-        "item_text_size": 14,
-        "item_text_size_mobile": 14,
-        "item_text_height": 150,
-        "item_text_mt": 16,
-        "item_text_mt_mobile": 16,
-        "item_icon_size": 28,
-        "item_icon_size_mobile": 28,
-        "item_icon_mt": 16,
-        "item_icon_mt_mobile": 16,
-        "heading_color": "#000000",
-        "text_color": "#000000",
-        "button_color": "#000000",
-        "button_hover_color": "#555555",
-        "button_bg_color": "",
-        "button_bg_hover_color": "",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#555555",
-        "item_bg_color": "#FFFFFF",
-        "item_border_color": "#000000",
-        "item_heading_color": "#000000",
-        "item_text_color": "#000000",
-        "text_link_underline_color": "#466CEF",
-        "item_icon_color": "#000000",
-        "item_icon_hover_color": "#555555",
-        "background_color": "#FFFFFF",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 10,
-        "padding_horizontal_mobile": 2.5,
-        "overlay": true,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
     }
   },
   "order": [
     "main",
+    "ss_text_block_2_dGBL7U",
     "section_ax6UiD",
     "1763495531717164ae",
     "17634957166372b8c3",
     "section_NaqU9X",
     "product_list_zR9Cym",
-    "176350314455f5c7dd",
-    "ss_text_block_2_dGBL7U"
+    "176350314455f5c7dd"
   ]
 }
