@@ -922,56 +922,63 @@
       "blocks": {
         "item_dWHNqR": {
           "type": "item",
+          "name": "Handmade",
           "settings": {
-            "heading": "Made in Korea",
+            "heading": "From Clay to Finished Form",
             "text": "Each piece is hand-cast, finished, and assembled in South Korea. Small variations in texture, weight, and finish reflect the handmade process.",
             "url": ""
           }
         },
         "item_AB96xG": {
           "type": "item",
+          "name": "Ambient Light",
           "settings": {
-            "heading": "LED",
+            "heading": "3 Levels of Light",
             "text": "A built-in rechargeable LED provides three brightness levels, allowing the piece to function as both an incense holder and a soft source of light. Runtime ranges from approximately 3–17 hours depending on brightness.",
             "url": ""
           }
         },
         "item_q9Qnp3": {
           "type": "item",
+          "name": "Brass Incense Holder",
           "settings": {
-            "heading": "Solid Brass",
+            "heading": "Solid Brass Holder",
             "text": "A removable solid brass insert sits at the center of the ceramic form and can be removed for cleaning or adjustment. The weight and durability of brass help keep incense secure during use.",
             "url": ""
           }
         },
         "item_PRiGnA": {
           "type": "item",
+          "name": "Many Types of Incense",
           "settings": {
-            "heading": "All Incense Types",
+            "heading": "Built for Different Sticks",
             "text": "Designed to work with most stick incense, including thin Japanese coreless incense and standard bamboo-core varieties. Three aperture sizes accommodate different stick diameters without additional adapters.",
             "url": ""
           }
         },
         "item_WdhxeF": {
           "type": "item",
+          "name": "Entry Table",
           "settings": {
-            "heading": "Entry Table",
+            "heading": "A Place for Daily Rituals",
             "text": "Place it near the door to hold keys, a wallet, small daily essentials, or simply provide a welcoming glow when returning home.",
             "url": ""
           }
         },
         "item_QiQJfi": {
           "type": "item",
+          "name": "Dinner with Friends",
           "settings": {
-            "heading": "Dinner with Friends",
+            "heading": "Gather Around the Table",
             "text": "Use it as a subtle centerpiece for shared meals and gatherings. The warm glow creates atmosphere without overwhelming the table.",
             "url": ""
           }
         },
         "item_XNnCen": {
           "type": "item",
+          "name": "Small Source of Light",
           "settings": {
-            "heading": "small source of light",
+            "heading": "Beyond Incense",
             "text": "Use it without incense as a calming bedside light, reading companion, patio accent, or evening glow for quiet moments at home.",
             "url": ""
           }
