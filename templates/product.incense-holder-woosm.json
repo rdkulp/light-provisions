@@ -696,7 +696,7 @@
                     "text_kxfbpk": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.craft_materials | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.open_box | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
