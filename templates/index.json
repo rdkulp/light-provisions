@@ -1453,12 +1453,13 @@
             "corner_styling": "soft",
             "header_text_color": "#000000",
             "text_color": "#000000",
-            "card_color": "#F9F9F9",
+            "card_color": "#f9f9f9",
             "stars_color": "",
             "arrows_color": "#000000",
             "transition_speed": 7,
             "header_text": "Notes from Customers",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         }
       },
@@ -2817,6 +2818,66 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "178214291200f21443": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_e8fc296_BwNhYh": {
+          "type": "ai_gen_block_e8fc296",
+          "settings": {
+            "video_border_radius": 12,
+            "heading": "Our process",
+            "intro_text": "<p>Each piece is carefully crafted by hand, following a meticulous process that honors traditional techniques while embracing modern design.</p>",
+            "background_color": "#ffffff",
+            "text_color": "#414042",
+            "image_border_radius": 8,
+            "step_1_title": "Casting",
+            "step_1_description": "<p>The molten material is carefully poured into precision molds, beginning the transformation from raw material to finished form.</p>",
+            "step_2_title": "Finishing",
+            "step_2_description": "<p>Each piece is hand-finished to achieve the perfect surface texture and remove any imperfections from the casting process.</p>",
+            "step_3_title": "Assembly",
+            "step_3_description": "<p>Components are carefully assembled by hand, ensuring proper alignment and structural integrity.</p>",
+            "step_4_title": "Final form",
+            "step_4_description": "<p>The completed piece undergoes final inspection and quality control before being prepared for delivery.</p>",
+            "step_5_title": "",
+            "step_5_description": "",
+            "step_6_title": "",
+            "step_6_description": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_e8fc296_BwNhYh"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -2836,6 +2897,7 @@
     "section_yMxyjq",
     "section_feVGA8",
     "collection_links_jxMYAX",
-    "featured_blog_posts_TGKkiX"
+    "featured_blog_posts_TGKkiX",
+    "178214291200f21443"
   ]
 }
