@@ -1107,66 +1107,6 @@
         "padding-block-end": 40
       }
     },
-    "section_ax6UiD": {
-      "type": "section",
-      "blocks": {
-        "video_RAGhdz": {
-          "type": "video",
-          "name": "Video",
-          "settings": {
-            "source": "uploaded",
-            "video": "shopify://files/videos/Woosm_compressed.mp4",
-            "video_url": "",
-            "video_autoplay": true,
-            "video_loop": true,
-            "alt": "",
-            "custom_width": 46,
-            "custom_width_mobile": 100,
-            "aspect_ratio": "16/9",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "video_RAGhdz"
-      ],
-      "name": "Video",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 32,
-        "padding-block-end": 32
-      }
-    },
     "1763495531717164ae": {
       "type": "_blocks",
       "blocks": {
@@ -1667,12 +1607,11 @@
     "main",
     "ss_text_block_2_dGBL7U",
     "divider_x6HtbW",
-    "section_ax6UiD",
+    "blocks_QKYzEz",
     "1763495531717164ae",
     "17634957166372b8c3",
     "section_NaqU9X",
     "product_list_zR9Cym",
-    "176350314455f5c7dd",
-    "blocks_QKYzEz"
+    "176350314455f5c7dd"
   ]
 }
