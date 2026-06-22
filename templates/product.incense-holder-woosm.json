@@ -1480,6 +1480,11 @@
         "item_QiQJfi",
         "item_XNnCen"
       ],
+      "custom_css": [
+        "h2 {font-size: 42px !important;}",
+        "@media screen and (max-width: 768px) {h2 {font-size: 36px !important; }}",
+        "h1 {color: #f4f1eb !important;}"
+      ],
       "name": "SS - Text Block #2",
       "settings": {
         "content_horizontal_align": "center",
