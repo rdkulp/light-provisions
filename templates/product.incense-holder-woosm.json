@@ -1103,7 +1103,7 @@
             "video_border_radius": 12,
             "heading": "Process",
             "intro_text": "<p>Handmade objects carry the marks of their making. Explore the process behind each sculptural incense holder and light, from the first pour to the final glow.</p><h3></h3>",
-            "background_color": "#ffffff",
+            "background_color": "#F5F2EA",
             "text_color": "#414042",
             "image_border_radius": 8,
             "step_1_title": "Casting",
@@ -1165,6 +1165,7 @@
       "block_order": [
         "one_click_upsell_on_page_APX7Vi"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "content_direction": "column",
@@ -1516,7 +1517,7 @@
       },
       "name": "Featured collection",
       "settings": {
-        "collection": "stick-incense",
+        "collection": "incense-holders",
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "max_products": 4,
