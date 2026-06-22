@@ -1076,7 +1076,7 @@
         "item_icon_hover_color": "#555555",
         "background_color": "#215166",
         "background_gradient": "",
-        "border_color": "#000000",
+        "border_color": "#D4A15A",
         "margin_top": 0,
         "margin_bottom": 0,
         "margin_horizontal": 0,
@@ -1085,10 +1085,10 @@
         "padding_bottom": 80,
         "padding_horizontal": 10,
         "padding_horizontal_mobile": 1.5,
-        "overlay": true,
+        "overlay": false,
         "full_width": false,
         "content_width": 120,
-        "border_thickness": 0,
+        "border_thickness": 2,
         "section_radius": 0,
         "lazy": true
       }
