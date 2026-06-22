@@ -1453,6 +1453,22 @@
             "text": "Place it near the door to hold keys, a wallet, small daily essentials, or simply provide a welcoming glow when returning home.",
             "url": ""
           }
+        },
+        "item_QiQJfi": {
+          "type": "item",
+          "settings": {
+            "heading": "Dinner with Friends",
+            "text": "Use it as a subtle centerpiece for shared meals and gatherings. The warm glow creates atmosphere without overwhelming the table.",
+            "url": ""
+          }
+        },
+        "item_XNnCen": {
+          "type": "item",
+          "settings": {
+            "heading": "small source of light",
+            "text": "Use it without incense as a calming bedside light, reading companion, patio accent, or evening glow for quiet moments at home.",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -1460,7 +1476,9 @@
         "item_AB96xG",
         "item_q9Qnp3",
         "item_PRiGnA",
-        "item_WdhxeF"
+        "item_WdhxeF",
+        "item_QiQJfi",
+        "item_XNnCen"
       ],
       "name": "SS - Text Block #2",
       "settings": {
@@ -1472,7 +1490,7 @@
         "heading_size": 30,
         "heading_size_mobile": 14,
         "heading_height": 130,
-        "text": "<p><a href=\"#\" target=\"_blank\" title=\"#\">Handmade</a> in South Korea, this sculptural object combines a <a href=\"#\" target=\"_blank\" title=\"#\">rechargeable ambient light</a> with a <a href=\"#\" target=\"_blank\" title=\"#\">brass incense holder</a> designed for<a href=\"#\" target=\"_blank\" title=\"#\"> many types of incense</a>. Use it on an <a href=\"#\" target=\"_blank\" title=\"#\">entry table</a>, beside a favorite chair, at dinner with friends, or anywhere a small source of light can make a space feel warmer.</p>",
+        "text": "<p><a href=\"#\" target=\"_blank\" title=\"#\">Handmade</a> in South Korea, this sculptural object combines a <a href=\"#\" target=\"_blank\" title=\"#\">rechargeable ambient light</a> with a <a href=\"#\" target=\"_blank\" title=\"#\">brass incense holder</a> designed for <a href=\"#\" target=\"_blank\" title=\"#\">many types of incense</a>. Place it on an <a href=\"#\" target=\"_blank\" title=\"#\">entry table</a>, beside a favorite chair, at <a href=\"#\" target=\"_blank\" title=\"#\">dinner with friends</a>, or anywhere a <a href=\"#\" target=\"_blank\" title=\"#\">small source of light</a> can make a space feel warmer.</p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 44,
