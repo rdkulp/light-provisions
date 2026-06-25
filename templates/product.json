@@ -1273,7 +1273,7 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p><em>Pairs well with:</em></p>",
+            "text": "<p><em>Finish the setup</em></p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -1469,7 +1469,7 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p><em>Similar Pieces</em></p>",
+            "text": "<p><em>More to collect</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1513,7 +1513,7 @@
               "type": "_product-card-gallery",
               "name": "Media",
               "settings": {
-                "image_ratio": "adapt",
+                "image_ratio": "portrait",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
