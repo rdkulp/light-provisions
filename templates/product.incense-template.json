@@ -1017,7 +1017,7 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p><em>Don't Forget a Holder</em></p>",
+            "text": "<p><em>Choose Your Incense</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1212,7 +1212,7 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p><em>Complete the Ritual</em></p>",
+            "text": "<p><em>Catch the Ash</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
