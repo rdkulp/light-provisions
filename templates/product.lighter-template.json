@@ -1228,7 +1228,7 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p><em>More Refillable Lighters</em></p>",
+            "text": "<p><em>Light Something New</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
