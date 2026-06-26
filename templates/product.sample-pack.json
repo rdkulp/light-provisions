@@ -1078,7 +1078,7 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p><em>Complete Your Candle</em></p>",
+            "text": "<p><em>Find a Home for Your Sample</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1234,7 +1234,7 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p><em>Explore Similar Scents</em></p>",
+            "text": "<p><em>Explore Similar Scents & Collections</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
