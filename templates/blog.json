@@ -42,7 +42,7 @@
           "type": "_blog-post-card",
           "static": true,
           "settings": {
-            "alignment": "left"
+            "alignment": "center"
           },
           "blocks": {
             "heading": {
@@ -57,7 +57,7 @@
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "pretty",
-                "color": "var(--color-foreground)",
+                "color": "var(--color-foreground-heading)",
                 "text": "",
                 "read_only": true,
                 "alignment": "left",
@@ -109,7 +109,7 @@
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 4
+                "border_radius": 15
               },
               "blocks": {}
             }
