@@ -1362,6 +1362,20 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "divider_cn7zAM": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "section_width": "page-width",
+        "thickness": 3,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
+      }
     }
   },
   "order": [
@@ -1374,6 +1388,7 @@
     "17634957166372b8c3",
     "product_recommendations_6A4DDy",
     "176350314455f5c7dd",
-    "product_recommendations_LLkbRy"
+    "product_recommendations_LLkbRy",
+    "divider_cn7zAM"
   ]
 }
