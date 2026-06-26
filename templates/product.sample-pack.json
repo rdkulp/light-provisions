@@ -1078,7 +1078,7 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p><em>Find a Home for Your Sample</em></p>",
+            "text": "<p><em>Find a Holder for Your Sample</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
