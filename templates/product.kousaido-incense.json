@@ -980,60 +980,6 @@
         "padding-block-end": 0
       }
     },
-    "176350314455f5c7dd": {
-      "type": "_blocks",
-      "blocks": {
-        "planet_shopify_planet_Pt8V7h": {
-          "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
-          "settings": {
-            "badgeMode": "info",
-            "customText": "",
-            "showMoreInfo": "modal",
-            "showLogo": true,
-            "showStats": true,
-            "showProjects": true,
-            "backgroundColor": "#f1f8f5",
-            "textColor": "#1d4136",
-            "borderColor": "#95c9b4",
-            "fullWidth": true,
-            "marginTop": 0,
-            "marginBottom": 0,
-            "borderRadius": 20
-          }
-        }
-      },
-      "block_order": [
-        "planet_shopify_planet_Pt8V7h"
-      ],
-      "name": "planet",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 60,
-        "padding-block-end": 60
-      }
-    },
     "product_recommendations_kNwQhR": {
       "type": "product-recommendations",
       "blocks": {
@@ -1041,11 +987,11 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p>Related product</p>",
+            "text": "<p><em>Similar Incense</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "rte",
+            "type_preset": "h2",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -1183,11 +1129,11 @@
           "type": "text",
           "name": "Header",
           "settings": {
-            "text": "<p>Related product</p>",
-            "width": "fit-content",
+            "text": "<p><em>Choose Your Holder</em></p>",
+            "width": "100%",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "rte",
+            "type_preset": "h2",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -1313,9 +1259,77 @@
         "icons_shape": "none",
         "section_width": "page-width",
         "gap": 28,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "padding-block-start": 48,
         "padding-block-end": 48
+      }
+    },
+    "divider_bEhxya": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "page-width",
+        "thickness": 3,
+        "corner_radius": "rounded",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
+      }
+    },
+    "176350314455f5c7dd": {
+      "type": "_blocks",
+      "blocks": {
+        "planet_shopify_planet_Pt8V7h": {
+          "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "settings": {
+            "badgeMode": "info",
+            "customText": "",
+            "showMoreInfo": "modal",
+            "showLogo": true,
+            "showStats": true,
+            "showProjects": true,
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
+            "fullWidth": true,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "borderRadius": 20
+          }
+        }
+      },
+      "block_order": [
+        "planet_shopify_planet_Pt8V7h"
+      ],
+      "name": "planet",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
       }
     }
   },
@@ -1323,8 +1337,9 @@
     "main",
     "17634957166372b8c3",
     "section_NaqU9X",
-    "176350314455f5c7dd",
     "product_recommendations_kNwQhR",
-    "product_recommendations_C86hYr"
+    "product_recommendations_C86hYr",
+    "divider_bEhxya",
+    "176350314455f5c7dd"
   ]
 }
