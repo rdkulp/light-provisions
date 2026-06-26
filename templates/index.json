@@ -12,15 +12,15 @@
     "ss_hero_23_6j9HkF": {
       "type": "ss-hero-23",
       "blocks": {
-        "slide_WinRxE": {
+        "slide_pi6GUY": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/IYE_Glass_Recycling1.png",
-            "image_mobile": "shopify://shop_images/IYE_Glass_Recycling1.png",
+            "image": "shopify://shop_images/Reborn_Black_Tray_11.jpg",
+            "image_mobile": "shopify://shop_images/Reborn_Black_Tray_12.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "sub_heading": "Incense Holders",
-            "heading": "Recycled. Melted. Reborn.",
+            "heading": "Recycled Glass, Made Beautiful",
             "button": "Shop now",
             "url": "shopify://products/iye-reborn-square-incense-holder",
             "heading_color": "#ffffff",
@@ -31,15 +31,15 @@
             "border_color": "#ffffff"
           }
         },
-        "slide_pi6GUY": {
+        "slide_WinRxE": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Reborn_Black_Tray_11.jpg",
-            "image_mobile": "shopify://shop_images/Reborn_Black_Tray_12.jpg",
+            "image": "shopify://shop_images/IYE_Glass_Recycling1.png",
+            "image_mobile": "shopify://shop_images/IYE_Glass_Recycling1.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "sub_heading": "Incense Holders",
-            "heading": "Recycled Glass, Made Beautiful",
+            "heading": "Recycled. Melted. Reborn.",
             "button": "Shop now",
             "url": "shopify://products/iye-reborn-square-incense-holder",
             "heading_color": "#ffffff",
@@ -71,8 +71,8 @@
         }
       },
       "block_order": [
-        "slide_WinRxE",
         "slide_pi6GUY",
+        "slide_WinRxE",
         "slide_t7eQCp"
       ],
       "name": "SS - Hero #23",
