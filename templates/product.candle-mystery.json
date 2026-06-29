@@ -50,6 +50,20 @@
         "gap_between_elements": 24
       }
     },
+    "divider_fqPPyz": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "full-width",
+        "thickness": 0.5,
+        "corner_radius": "rounded",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
+      }
+    },
     "main": {
       "type": "product-information",
       "blocks": {
@@ -1625,6 +1639,7 @@
   },
   "order": [
     "marquee_VD3gY8",
+    "divider_fqPPyz",
     "main",
     "1763495531717164ae",
     "section_rXEffG",
