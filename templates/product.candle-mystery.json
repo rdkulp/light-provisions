@@ -9,6 +9,47 @@
  */
 {
   "sections": {
+    "marquee_VD3gY8": {
+      "type": "marquee",
+      "blocks": {
+        "text_NVGEQK": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>🎉 Mystery Candle Event. Buy One, Get One Free.</h5>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_NVGEQK"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-3",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
     "main": {
       "type": "product-information",
       "blocks": {
@@ -924,6 +965,67 @@
         "padding-block-end": 0
       }
     },
+    "section_rXEffG": {
+      "type": "section",
+      "blocks": {
+        "text_ykQdyB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buy two Mystery Candles and one is on us.</p><p>Your discount is applied automatically at checkout - no code required</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_ykQdyB"
+      ],
+      "name": "Pull quote",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-3",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 64,
+        "padding-block-end": 64
+      }
+    },
     "17785136002dbf680b": {
       "type": "_blocks",
       "blocks": {
@@ -1505,53 +1607,13 @@
         "padding-block-start": 60,
         "padding-block-end": 60
       }
-    },
-    "marquee_VD3gY8": {
-      "type": "marquee",
-      "blocks": {
-        "text_NVGEQK": {
-          "type": "text",
-          "settings": {
-            "text": "<h5>🎉 Mystery Candle Event. Buy One, Get One Free.</h5>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h3",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "nowrap",
-            "color": "var(--color-foreground-heading)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_NVGEQK"
-      ],
-      "name": "Marquee",
-      "settings": {
-        "movement_direction": "normal",
-        "color_scheme": "",
-        "padding-block-start": 24,
-        "padding-block-end": 24,
-        "gap_between_elements": 24
-      }
     }
   },
   "order": [
     "marquee_VD3gY8",
     "main",
     "1763495531717164ae",
+    "section_rXEffG",
     "17785136002dbf680b",
     "17634957166372b8c3",
     "section_NaqU9X",
