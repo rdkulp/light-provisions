@@ -985,7 +985,7 @@
         "text_ykQdyB": {
           "type": "text",
           "settings": {
-            "text": "<p>Buy two Mystery Candles and one is on us!</p><p>Your discount is applied automatically at checkout,</p><p>no code required.</p>",
+            "text": "<p>Buy two Mystery Candles and one is on us!</p><p>Your discount is applied automatically at checkout,</p><p>no code required | sale ends July 3</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
