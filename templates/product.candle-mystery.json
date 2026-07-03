@@ -41,6 +41,7 @@
       "block_order": [
         "text_NVGEQK"
       ],
+      "disabled": true,
       "name": "Marquee",
       "settings": {
         "movement_direction": "normal",
@@ -1011,6 +1012,7 @@
       "block_order": [
         "text_ykQdyB"
       ],
+      "disabled": true,
       "name": "Pull quote",
       "settings": {
         "content_direction": "column",
