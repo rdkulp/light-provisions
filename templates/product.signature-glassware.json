@@ -1076,18 +1076,65 @@
         "padding-block-end": 0
       }
     },
-    "product_recommendations_M7kCj9": {
-      "type": "product-recommendations",
+    "section_6pmGUK": {
+      "type": "section",
       "blocks": {
-        "text_nhCpMV": {
+        "text_b78pTL": {
           "type": "text",
-          "name": "Header",
           "settings": {
-            "text": "<p><em>Fire & Ash</em></p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
+            "text": "<p>Built for a Lifetime</p><p>✦</p>",
+            "width": "100%",
+            "max_width": "narrow",
+            "alignment": "center",
             "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "image_yh88k7": {
+          "type": "image",
+          "name": "t:names.image",
+          "settings": {
+            "image": "shopify://shop_images/Refill_Ivywild_24.jpg",
+            "link": "",
+            "image_ratio": "square",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 19,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_8qi76w": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>We hope this glass outlives the candle that introduced it. </em></p><p><em>Refill it, pour a drink, fill it with flowers, or pass it along someday. </em></p><p><em>The best objects earn their place by being used.</em></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h4",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -1104,118 +1151,54 @@
             "padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "static-product-card": {
-          "type": "_product-card",
-          "name": "Product card",
-          "static": true,
-          "settings": {
-            "product_card_gap": 4,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_jddbH7": {
-              "type": "_product-card-gallery",
-              "name": "Media",
-              "settings": {
-                "image_ratio": "adapt",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "product_title_iE7kGn": {
-              "type": "product-title",
-              "name": "Product title",
-              "settings": {
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 4,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "price_FRFkxk": {
-              "type": "price",
-              "name": "Price",
-              "settings": {
-                "show_sale_price_first": true,
-                "show_installments": false,
-                "show_tax_info": false,
-                "type_preset": "h6",
-                "width": "100%",
-                "alignment": "left",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "color": "var(--color-foreground)",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_card_gallery_jddbH7",
-            "product_title_iE7kGn",
-            "price_FRFkxk"
-          ]
         }
       },
       "block_order": [
-        "text_nhCpMV"
+        "text_b78pTL",
+        "image_yh88k7",
+        "text_8qi76w"
       ],
-      "name": "Recommended products",
+      "name": "Pull quote",
       "settings": {
-        "product": "{{ closest.product }}",
-        "recommendation_type": "complementary",
-        "layout_type": "carousel",
-        "carousel_on_mobile": false,
-        "max_products": 4,
-        "columns": 4,
-        "mobile_columns": "2",
-        "columns_gap": 12,
-        "rows_gap": 24,
-        "icons_style": "chevron",
-        "icons_shape": "circle",
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
         "section_width": "page-width",
-        "gap": 28,
-        "color_scheme": "scheme-3",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 78,
+        "padding-block-end": 83
+      }
+    },
+    "divider_AfBAeh": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "page-width",
+        "thickness": 3,
+        "corner_radius": "rounded",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
       }
     },
     "product_recommendations_QyGjAJ": {
@@ -1340,6 +1323,7 @@
       "block_order": [
         "text_enTmVJ"
       ],
+      "disabled": true,
       "name": "Recommended products",
       "settings": {
         "product": "{{ closest.product }}",
@@ -1356,6 +1340,175 @@
         "section_width": "page-width",
         "gap": 28,
         "color_scheme": "scheme-1",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "collection_list_JhdmPy": {
+      "type": "collection-list",
+      "blocks": {
+        "group_eXB9tD": {
+          "type": "group",
+          "name": "Header",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_nKPQba": {
+              "type": "text",
+              "name": "Text",
+              "settings": {
+                "text": "<h3>Continue the Ritual</h3>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 16,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_nKPQba"
+          ]
+        },
+        "static-collection-card": {
+          "type": "_collection-card",
+          "name": "Collection card",
+          "static": true,
+          "settings": {
+            "placement": "below_image",
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "collection_card_gap": 8,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0
+          },
+          "blocks": {
+            "collection_title_r6gCN3": {
+              "type": "collection-title",
+              "name": "Collection title",
+              "settings": {
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "name": "Image",
+              "static": true,
+              "settings": {
+                "image_ratio": "adapt",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "collection_title_r6gCN3"
+          ]
+        }
+      },
+      "block_order": [
+        "group_eXB9tD"
+      ],
+      "name": "Collection list: Carousel",
+      "settings": {
+        "collection_list": [
+          "available-refill-scents",
+          "flagship",
+          "incense-holders",
+          "spring-summer-collection",
+          "winter-collection"
+        ],
+        "layout_type": "carousel",
+        "carousel_on_mobile": false,
+        "columns": 3,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "bento_gap": 8,
+        "rows_gap": 8,
+        "max_collections": 4,
+        "icons_style": "arrow",
+        "icons_shape": "circle",
+        "section_width": "page-width",
+        "gap": 12,
+        "color_scheme": "scheme-2",
         "padding-block-start": 48,
         "padding-block-end": 48
       }
@@ -1434,8 +1587,10 @@
     "1763495531717164ae",
     "17634957166372b8c3",
     "section_NaqU9X",
-    "product_recommendations_M7kCj9",
+    "section_6pmGUK",
+    "divider_AfBAeh",
     "product_recommendations_QyGjAJ",
+    "collection_list_JhdmPy",
     "176350314455f5c7dd",
     "divider_wwDPyi"
   ]
