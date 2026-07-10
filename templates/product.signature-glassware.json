@@ -1391,7 +1391,7 @@
               "type": "text",
               "name": "Text",
               "settings": {
-                "text": "<h3>Continue the Ritual</h3>",
+                "text": "<h3>Keep the Glass in Rotation</h3><p></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1412,10 +1412,37 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "text_ikdFrQ": {
+              "type": "text",
+              "name": "Text",
+              "settings": {
+                "text": "<p><strong>A beautiful vessel deserves a long life.</strong> Whether you're discovering a new fragrance, refreshing your glass with a refill, or exploring the quieter ritual of Japanese incense, these collections were chosen to accompany it.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 32,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_nKPQba"
+            "text_nKPQba",
+            "text_ikdFrQ"
           ]
         },
         "static-collection-card": {
@@ -1424,7 +1451,7 @@
           "static": true,
           "settings": {
             "placement": "below_image",
-            "horizontal_alignment": "flex-start",
+            "horizontal_alignment": "center",
             "vertical_alignment": "center",
             "collection_card_gap": 8,
             "inherit_color_scheme": true,
@@ -1432,7 +1459,7 @@
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 0
+            "border_radius": 20
           },
           "blocks": {
             "collection_title_r6gCN3": {
@@ -1453,7 +1480,7 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
+                "padding-block-start": 15,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -1465,7 +1492,7 @@
               "name": "Image",
               "static": true,
               "settings": {
-                "image_ratio": "adapt",
+                "image_ratio": "portrait",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
@@ -1491,9 +1518,9 @@
         "collection_list": [
           "available-refill-scents",
           "flagship",
-          "incense-holders",
           "spring-summer-collection",
-          "winter-collection"
+          "winter-collection",
+          "incense-holders"
         ],
         "layout_type": "carousel",
         "carousel_on_mobile": false,
