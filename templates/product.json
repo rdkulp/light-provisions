@@ -173,6 +173,10 @@
               },
               "block_order": []
             },
+            "one_click_upsell_on_page_cross_sell_xwkChK": {
+              "type": "shopify://apps/one-click-upsell/blocks/on-page-cross-sell/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+              "settings": {}
+            },
             "product_description_LfDYCg": {
               "type": "product-description",
               "name": "t:names.product_description",
@@ -906,6 +910,7 @@
             "price_a7krng",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
+            "one_click_upsell_on_page_cross_sell_xwkChK",
             "product_description_LfDYCg",
             "group_X39hBc",
             "accordion_g8EVVp"
