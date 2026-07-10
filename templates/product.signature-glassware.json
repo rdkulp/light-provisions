@@ -1417,7 +1417,7 @@
               "type": "text",
               "name": "Text",
               "settings": {
-                "text": "<p><strong>A beautiful vessel deserves a long life.</strong> Whether you're discovering a new fragrance, refreshing your glass with a refill, or exploring the quieter ritual of Japanese incense, these collections were chosen to accompany it.</p>",
+                "text": "<p><strong>A beautiful vessel deserves a long life. </strong>Whether you're discovering a new fragrance, refreshing your glass with a refill, or exploring the quieter ritual of Japanese incense, these collections help keep it in use for years to come.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
