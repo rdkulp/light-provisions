@@ -15,7 +15,7 @@
         "text_NVGEQK": {
           "type": "text",
           "settings": {
-            "text": "<h5>🎉 Mystery Candle Event. Buy One, Get One Free.</h5>",
+            "text": "<h5>-- Buy One, Get One 50% off --</h5>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -41,11 +41,10 @@
       "block_order": [
         "text_NVGEQK"
       ],
-      "disabled": true,
       "name": "Marquee",
       "settings": {
         "movement_direction": "normal",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
         "padding-block-start": 24,
         "padding-block-end": 24,
         "gap_between_elements": 24
@@ -986,7 +985,7 @@
         "text_ykQdyB": {
           "type": "text",
           "settings": {
-            "text": "<p>Buy two Mystery Candles and one is on us!</p><p>Your discount is applied automatically at checkout,</p><p>no code required | sale ends July 3</p>",
+            "text": "<p><strong>Buy two Mystery Candles and your second is 50% off.</strong><br/><br/>One might become your new favorite. The other might end up in the guest bathroom. Either way, the discount helps make the gamble a little more fun.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -1012,7 +1011,6 @@
       "block_order": [
         "text_ykQdyB"
       ],
-      "disabled": true,
       "name": "Pull quote",
       "settings": {
         "content_direction": "column",
@@ -1026,7 +1024,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
