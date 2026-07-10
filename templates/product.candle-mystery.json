@@ -9,20 +9,6 @@
  */
 {
   "sections": {
-    "divider_nMb7RK": {
-      "type": "divider",
-      "name": "Divider",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "section_width": "full-width",
-        "thickness": 0.5,
-        "corner_radius": "rounded",
-        "width_percent": 100,
-        "alignment_horizontal": "center",
-        "padding-block-start": 16,
-        "padding-block-end": 16
-      }
-    },
     "marquee_VD3gY8": {
       "type": "marquee",
       "blocks": {
@@ -1652,7 +1638,6 @@
     }
   },
   "order": [
-    "divider_nMb7RK",
     "marquee_VD3gY8",
     "divider_fqPPyz",
     "main",
