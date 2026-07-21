@@ -57,20 +57,20 @@
         "padding-block-end": 80
       }
     },
-    "section_xBHPbR": {
+    "section_TJkQXC": {
       "type": "section",
       "blocks": {
-        "text_mykPMi": {
+        "text_AkABiV": {
           "type": "text",
           "name": "Heading",
           "settings": {
-            "text": "<h2>New arrivals</h2>",
+            "text": "<h2>Light, Thoughtfully Made</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
-            "font_size": "1rem",
+            "font_size": "",
             "line_height": "normal",
             "letter_spacing": "normal",
             "case": "none",
@@ -86,17 +86,17 @@
           },
           "blocks": {}
         },
-        "text_3trTFn": {
+        "text_FaNYXY": {
           "type": "text",
           "name": "Text",
           "settings": {
-            "text": "<p>Make things better extended</p>",
+            "text": "<p>Light Provisions began in the winter of 2015, inside a dim Victorian house in Colorado Springs. Living in a home that rarely felt bright made one thing clear. Light has a remarkable ability to shape how a space feels. A single candle could make an ordinary evening feel warmer, quieter, and more inviting. What started as a search for better light and fragrance gradually became something much larger.</p><p>In the beginning, we obsessed over scent. After months of blending, testing, and refining, we developed fragrances with the same balance and layering found in a well-made cocktail. Grounded woods, resins, herbs, and citrus are carefully combined to create fragrances that unfold throughout the burn while remaining clean and balanced.</p><p>Over time, Light Provisions grew beyond fragrance alone. A candle offers warmth, light, and a reason to slow down. It becomes part of a quiet morning, a dinner shared with friends, or the last hour before bed.</p><p>That philosophy shaped the objects themselves. Our refillable candles are hand-poured into custom-designed rippled crystal vessels that scatter light across nearby surfaces. Each glass is made to remain in your home long after the first candle has burned away. Simply replace the wax and enjoy it again.</p><p>Today, Light Provisions creates thoughtfully made objects centered around light, fragrance, and lasting design. We hope they bring a little more warmth to the spaces where life happens every day.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
-            "font_size": "1rem",
+            "font_size": "",
             "line_height": "normal",
             "letter_spacing": "normal",
             "case": "none",
@@ -109,29 +109,13 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "button_7FRfgj": {
-          "type": "button",
-          "name": "Button",
-          "settings": {
-            "label": "Shop now",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "text_mykPMi",
-        "text_3trTFn",
-        "button_7FRfgj"
+        "text_AkABiV",
+        "text_FaNYXY"
       ],
       "name": "Rich text",
       "settings": {
@@ -161,69 +145,10 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
-    },
-    "media_with_content_KBjwec": {
-      "type": "media-with-content",
-      "blocks": {
-        "media": {
-          "type": "_media-without-appearance",
-          "static": true,
-          "settings": {
-            "media_type": "image",
-            "link": "",
-            "video_loop": true,
-            "video_autoplay": false,
-            "image_position": "cover",
-            "video_position": "cover"
-          },
-          "blocks": {}
-        },
-        "content": {
-          "type": "_content-without-appearance",
-          "static": true,
-          "settings": {
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "flex-end",
-            "gap": 24
-          },
-          "blocks": {
-            "jumbo_text_VyetBV": {
-              "type": "jumbo-text",
-              "name": "Jumbo text",
-              "settings": {
-                "text": "Up the ante",
-                "font": "heading",
-                "alignment": "center",
-                "line_height": "1",
-                "letter_spacing": "-0.03em",
-                "case": "uppercase",
-                "text_effect": "none",
-                "animation_repeat": false
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "jumbo_text_VyetBV"
-          ]
-        }
-      },
-      "name": "Editorial: Jumbo text",
-      "settings": {
-        "media_position": "right",
-        "media_width": "medium",
-        "media_height": "60svh",
-        "section_width": "full-width",
-        "extend_media": true,
-        "color_scheme": "scheme-3",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
     }
   },
   "order": [
     "main",
-    "section_xBHPbR",
-    "media_with_content_KBjwec"
+    "section_TJkQXC"
   ]
 }
