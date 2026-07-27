@@ -39,7 +39,7 @@ nav a span {
   }
 }
 
-nav .menu-list__list-item .mega-menu__column:nth-last-child(-n+3) ul a span.mega-menu__link-title {
+nav .menu-list__list-item .mega-menu__column ul a span.mega-menu__link-title {
   font-family: "freightneocnd-pro";
   font-size: 32px;
   line-height: 1.2;
@@ -50,6 +50,15 @@ nav .menu-list__list-item .mega-menu__column:nth-last-child(-n+2) a span.mega-me
   font-family: "soleil";
 }
 
+nav .menu-list__list-item .mega-menu__column:first-child a span.mega-menu__link-title {
+  font-family: "soleil";
+}
+
+/* Single column: it's both :first-child and :nth-last-child(-n+2), so the soleil rules
+   above would otherwise win. These menus are flat, so don't require a nested ul. */
+nav .menu-list__list-item .mega-menu__list .mega-menu__column:only-child a span.mega-menu__link-title {
+  font-family: "freightneocnd-pro";
+}
 
 nav .menu-list__list-item:first-of-type .mega-menu__column:first-child ul li:nth-last-child(-n+2) { 
   margin-top: 36px;
