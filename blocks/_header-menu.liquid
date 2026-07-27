@@ -144,7 +144,7 @@
         on:pointerleave="/deactivate"
       >
         <button role="menuitem" class="button menu-list__link button-unstyled">
-          <span class="menu-list__link-title">{{ 'actions.more' | t }}</span>
+          <span class="menu-list__link-title">More</span>
         </button>
       </li>
     {% endcapture %}
@@ -700,29 +700,29 @@
 
 {% schema %}
 {
-  "name": "t:names.menu",
+  "name": "Menu",
   "tag": null,
   "settings": [
     {
       "type": "link_list",
       "id": "menu",
-      "label": "t:settings.menu",
+      "label": "Menu",
       "default": "main-menu"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:settings.color_scheme",
+      "label": "Color scheme",
       "default": "primary"
     },
     {
       "type": "header",
-      "content": "t:content.typography"
+      "content": "Typography"
     },
     {
       "type": "select",
       "id": "type_font_primary_size",
-      "label": "t:settings.top_level_size",
+      "label": "Top level size",
       "options": [
         {
           "value": "0.625rem",
@@ -750,19 +750,19 @@
     {
       "type": "select",
       "id": "menu_font_style",
-      "label": "t:settings.submenu_size",
+      "label": "Submenu size",
       "options": [
         {
           "value": "regular",
-          "label": "t:options.small"
+          "label": "Small"
         },
         {
           "value": "inverse",
-          "label": "t:options.medium"
+          "label": "Medium"
         },
         {
           "value": "inverse_large",
-          "label": "t:options.large"
+          "label": "Large"
         }
       ],
       "default": "inverse"
@@ -770,23 +770,23 @@
     {
       "type": "select",
       "id": "type_font_primary_link",
-      "label": "t:settings.font",
+      "label": "Font",
       "options": [
         {
           "value": "body",
-          "label": "t:options.body"
+          "label": "Body"
         },
         {
           "value": "subheading",
-          "label": "t:options.subheading"
+          "label": "Subheading"
         },
         {
           "value": "heading",
-          "label": "t:options.heading"
+          "label": "Heading"
         },
         {
           "value": "accent",
-          "label": "t:options.accent"
+          "label": "Accent"
         }
       ],
       "default": "heading"
@@ -794,44 +794,44 @@
     {
       "type": "select",
       "id": "type_case_primary_link",
-      "label": "t:settings.text_case",
+      "label": "Case",
       "options": [
         {
           "value": "none",
-          "label": "t:options.default"
+          "label": "Default"
         },
         {
           "value": "uppercase",
-          "label": "t:options.uppercase"
+          "label": "Uppercase"
         }
       ],
       "default": "none"
     },
     {
       "type": "header",
-      "content": "t:content.submenu_feature"
+      "content": "Submenu feature"
     },
     {
       "type": "select",
       "id": "menu_style",
-      "label": "t:settings.media_type",
-      "info": "t:info.media_type_info",
+      "label": "Media type",
+      "info": "Choose what displays alongside the submenu links.",
       "options": [
         {
           "value": "text",
-          "label": "t:options.none"
+          "label": "None"
         },
         {
           "value": "collection_images",
-          "label": "t:options.collection_images"
+          "label": "Collection images"
         },
         {
           "value": "featured_products",
-          "label": "t:options.featured_products"
+          "label": "Featured products"
         },
         {
           "value": "featured_collections",
-          "label": "t:options.featured_collections"
+          "label": "Featured collections"
         }
       ],
       "default": "collection_images"
@@ -839,19 +839,19 @@
     {
       "type": "select",
       "id": "featured_products_aspect_ratio",
-      "label": "t:settings.image_ratio",
+      "label": "Image ratio",
       "options": [
         {
           "value": "adapt",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "4 / 5",
-          "label": "t:options.portrait"
+          "label": "Portrait"
         },
         {
           "value": "1 / 1",
-          "label": "t:options.square"
+          "label": "Square"
         }
       ],
       "default": "4 / 5",
@@ -860,19 +860,19 @@
     {
       "type": "select",
       "id": "featured_collections_aspect_ratio",
-      "label": "t:settings.image_ratio",
+      "label": "Image ratio",
       "options": [
         {
           "value": "adapt",
-          "label": "t:options.auto"
+          "label": "Auto"
         },
         {
           "value": "16 / 9",
-          "label": "t:options.landscape"
+          "label": "Landscape"
         },
         {
           "value": "1 / 1",
-          "label": "t:options.square"
+          "label": "Square"
         }
       ],
       "default": "16 / 9",
@@ -881,7 +881,7 @@
     {
       "type": "range",
       "id": "image_border_radius",
-      "label": "t:settings.image_border_radius",
+      "label": "Image corner radius",
       "min": 0,
       "max": 32,
       "step": 1,
@@ -891,37 +891,37 @@
     },
     {
       "type": "header",
-      "content": "t:content.mobile_layout"
+      "content": "Mobile layout"
     },
     {
       "type": "checkbox",
       "id": "navigation_bar",
-      "label": "t:settings.navigation_bar"
+      "label": "Navigation bar"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme_navigation_bar",
-      "label": "t:settings.navigation_bar_color_scheme",
+      "label": "Navigation bar color scheme",
       "default": "primary",
       "visible_if": "{{ block.settings.navigation_bar }}"
     },
     {
       "type": "checkbox",
       "id": "drawer_accordion",
-      "label": "t:settings.accordion",
+      "label": "Accordion",
       "default": false
     },
     {
       "type": "checkbox",
       "id": "drawer_accordion_expand_first",
-      "label": "t:settings.expand_first_group",
+      "label": "Expand first group",
       "default": false,
       "visible_if": "{{ block.settings.drawer_accordion == true }}"
     },
     {
       "type": "checkbox",
       "id": "drawer_dividers",
-      "label": "t:settings.dividers",
+      "label": "Dividers",
       "default": false
     }
   ]
