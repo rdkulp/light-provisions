@@ -958,7 +958,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><strong>SHOP VALUES</strong></p>",
+                "text": "<p><strong>WHAT WE MAKE ROOM FOR</strong></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -984,7 +984,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Since 2016, Light Provisions has centered around light, fragrance, and the rituals that surround them. What began with handcrafted candles has gradually expanded to include incense, refillable lighters, and everyday objects selected with the same focus on craftsmanship, utility, and longevity.</p>",
+                "text": "",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1108,7 +1108,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Independent Makers</h2>",
+                    "text": "<h2>Made in Good Company</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1134,7 +1134,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Sourced from small workshops, indie makers, and family-owned manufacturers focused on quality over scale.</p>",
+                    "text": "<p>We work with independent makers and small workshops that care about the details.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1219,7 +1219,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Objects with Purpose</h2>",
+                    "text": "<h2>Made to Be Kept</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1245,7 +1245,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Designed to be used often, maintained when possible, and kept for years.</p>",
+                    "text": "<p>Objects chosen for daily use, simple upkeep and a longer life at home.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1356,7 +1356,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Fewer products, smaller releases, and a focus on quality over constant consumption.</p>",
+                    "text": "<p>Fewer, better releases made to be lived with, not rushed through.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1413,7 +1413,7 @@
         "color_scheme": "scheme-4",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/Untitled_design.jpg",
+        "background_image": "shopify://shop_images/LIT_5.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
@@ -2766,7 +2766,7 @@
             "instafeed_margin_sides": 30,
             "show_instagram_link": true,
             "link_alignment": "center",
-            "link_color": "#A15736",
+            "link_color": "#a15736",
             "background_color": "",
             "feed_id": "",
             "html_area": ""
