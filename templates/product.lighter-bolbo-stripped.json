@@ -1016,7 +1016,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Sometimes the smallest details are easiest to appreciate in motion.</p>",
+            "text": "<p>Some details only make sense once they're in hand.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
