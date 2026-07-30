@@ -970,6 +970,7 @@
     },
     "divider_iRQDXd": {
       "type": "divider",
+      "disabled": true,
       "name": "Divider",
       "settings": {
         "color_scheme": "scheme-2",
@@ -980,6 +981,119 @@
         "alignment_horizontal": "center",
         "padding-block-start": 16,
         "padding-block-end": 16
+      }
+    },
+    "section_dG4YTn": {
+      "type": "section",
+      "blocks": {
+        "text_gWBKHe": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<p><em>A Closer Look </em></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h1",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_dpYnty": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Sometimes the smallest details are easiest to appreciate in motion.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "video_jRi8qi": {
+          "type": "video",
+          "name": "Video",
+          "settings": {
+            "source": "uploaded",
+            "video": "shopify://files/videos/_Bolbo_Gold_UGC_Captioned_ 10mb.mp4",
+            "video_autoplay": true,
+            "video_loop": true,
+            "alt": "",
+            "custom_width": 41,
+            "custom_width_mobile": 100,
+            "aspect_ratio": "16/9",
+            "border": "none",
+            "border_width": 0,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_gWBKHe",
+        "text_dpYnty",
+        "video_jRi8qi"
+      ],
+      "name": "Video",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 71,
+        "padding-block-end": 32
       }
     },
     "17634957166372b8c3": {
@@ -1385,6 +1499,7 @@
     "custom_liquid_FkMnMn",
     "1763495531717164ae",
     "divider_iRQDXd",
+    "section_dG4YTn",
     "17634957166372b8c3",
     "product_recommendations_6A4DDy",
     "176350314455f5c7dd",
