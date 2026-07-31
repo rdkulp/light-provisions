@@ -2552,7 +2552,7 @@
               "type": "text",
               "name": "Text",
               "settings": {
-                "text": "<h1><em>Shop by Collection</em></h1>",
+                "text": "<h1><em>Featured Collections</em></h1>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2585,13 +2585,13 @@
           "static": true,
           "settings": {
             "placement": "on_image",
-            "horizontal_alignment": "flex-start",
+            "horizontal_alignment": "center",
             "vertical_alignment": "flex-end",
             "collection_card_gap": 8,
             "inherit_color_scheme": true,
             "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
+            "border": "solid",
+            "border_width": 6,
             "border_opacity": 100,
             "border_radius": 0
           },
@@ -2649,7 +2649,14 @@
       ],
       "name": "Collection list: Bento",
       "settings": {
-        "collection_list": [],
+        "collection_list": [
+          "available-refill-scents",
+          "hard-edge-lighters",
+          "incense-trays-ash-dishes",
+          "on-rotation",
+          "stick-incense",
+          "vintage"
+        ],
         "layout_type": "bento",
         "carousel_on_mobile": false,
         "columns": 4,
@@ -2663,7 +2670,7 @@
         "icons_shape": "none",
         "section_width": "page-width",
         "gap": 12,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "padding-block-start": 24,
         "padding-block-end": 24
       }
