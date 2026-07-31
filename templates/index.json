@@ -1425,7 +1425,7 @@
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
         "gap": 32,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-8",
         "padding-block-start": 40,
         "padding-block-end": 0
       }
@@ -1784,225 +1784,6 @@
         "gradient_direction": "to top",
         "padding-block-start": 0,
         "padding-block-end": 0
-      }
-    },
-    "section_cwmCm3": {
-      "type": "section",
-      "blocks": {
-        "group_DVyNpm": {
-          "type": "group",
-          "name": "t:names.group",
-          "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "link": "",
-            "open_in_new_tab": false,
-            "placeholder": "",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "text_ke4bt7": {
-              "type": "text",
-              "name": "t:names.heading",
-              "disabled": true,
-              "settings": {
-                "text": "<p>candle now | cocktail later</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h5",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_6WqzAA": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h2>Candle Now, Cocktail Later</h2>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_gbTM8R": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>Designed to stay in use long after the candle is gone.</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_ke4bt7",
-            "text_6WqzAA",
-            "text_gbTM8R"
-          ]
-        }
-      },
-      "block_order": [
-        "group_DVyNpm"
-      ],
-      "name": "Lookbook Header",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 48,
-        "padding-block-end": 24
-      }
-    },
-    "image_carousel_KYjeWH": {
-      "type": "image-carousel",
-      "blocks": {
-        "image_6MdMwW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8140.jpg"
-          }
-        },
-        "image_HiN988": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ce8e6f76-287e-41c5-adc9-e4e474828a55.jpg"
-          }
-        },
-        "image_FagJgA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/dclassic-2023-09-22-172439184.jpg"
-          }
-        },
-        "image_yrrTnU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2026-06-18_at_7.51.29_AM.png"
-          }
-        },
-        "image_GMgang": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/img-0832.jpg"
-          }
-        },
-        "image_UViXLC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/cocktail1_4411c9aa-e51c-4956-966f-80efa77be95c.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_6MdMwW",
-        "image_HiN988",
-        "image_FagJgA",
-        "image_yrrTnU",
-        "image_GMgang",
-        "image_UViXLC"
-      ],
-      "name": "Image Carousel",
-      "settings": {
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrow_style": "arrow",
-        "padding-block-start": 0,
-        "padding-block-end": 84
       }
     },
     "section_rqDEn3": {
@@ -2657,60 +2438,6 @@
         "padding-block-end": 40
       }
     },
-    "collection_links_jxMYAX": {
-      "type": "collection-links",
-      "blocks": {
-        "link": {
-          "type": "_collection-link",
-          "static": true,
-          "settings": {
-            "show_count": false
-          },
-          "blocks": {
-            "title": {
-              "type": "_inline-collection-title",
-              "name": "Title",
-              "static": true,
-              "settings": {
-                "font": "var(--font-heading--family)",
-                "weight": "",
-                "line_height": "loose",
-                "letter_spacing": "loose",
-                "case": "none"
-              },
-              "blocks": {}
-            },
-            "image": {
-              "type": "_image",
-              "static": true,
-              "settings": {
-                "height": "medium",
-                "ratio": "portrait",
-                "border_radius": 1
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": []
-        }
-      },
-      "name": "Collection links: Spotlight",
-      "settings": {
-        "collection_list": [
-          "candles",
-          "tabletop",
-          "stick-incense",
-          "all-lighters"
-        ],
-        "layout": "spotlight",
-        "section_width": "page-width",
-        "alignment": "center",
-        "image_position": "right",
-        "color_scheme": "scheme-2",
-        "padding-block-start": 40,
-        "padding-block-end": 40
-      }
-    },
     "divider_9wgqMf": {
       "type": "divider",
       "name": "Divider",
@@ -2723,66 +2450,6 @@
         "alignment_horizontal": "center",
         "padding-block-start": 16,
         "padding-block-end": 16
-      }
-    },
-    "178214291200f21443": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_e8fc296_BwNhYh": {
-          "type": "ai_gen_block_e8fc296",
-          "settings": {
-            "video_border_radius": 12,
-            "heading": "Our process",
-            "intro_text": "<p>Each piece is carefully crafted by hand, following a meticulous process that honors traditional techniques while embracing modern design.</p>",
-            "background_color": "#ffffff",
-            "text_color": "#414042",
-            "image_border_radius": 8,
-            "step_1_title": "Casting",
-            "step_1_description": "<p>The molten material is carefully poured into precision molds, beginning the transformation from raw material to finished form.</p>",
-            "step_2_title": "Finishing",
-            "step_2_description": "<p>Each piece is hand-finished to achieve the perfect surface texture and remove any imperfections from the casting process.</p>",
-            "step_3_title": "Assembly",
-            "step_3_description": "<p>Components are carefully assembled by hand, ensuring proper alignment and structural integrity.</p>",
-            "step_4_title": "Final form",
-            "step_4_description": "<p>The completed piece undergoes final inspection and quality control before being prepared for delivery.</p>",
-            "step_5_title": "",
-            "step_5_description": "",
-            "step_6_title": "",
-            "step_6_description": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_e8fc296_BwNhYh"
-      ],
-      "disabled": true,
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
       }
     },
     "178250464212dd66d3": {
@@ -2837,6 +2504,169 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "collection_list_FrzcwU": {
+      "type": "collection-list",
+      "blocks": {
+        "group_CXJVyk": {
+          "type": "group",
+          "name": "Header",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_XJ3gaX": {
+              "type": "text",
+              "name": "Text",
+              "settings": {
+                "text": "<h1><em>Shop by Collection</em></h1>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 16,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_XJ3gaX"
+          ]
+        },
+        "static-collection-card": {
+          "type": "_collection-card",
+          "name": "Collection card",
+          "static": true,
+          "settings": {
+            "placement": "on_image",
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-end",
+            "collection_card_gap": 8,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0
+          },
+          "blocks": {
+            "collection_title_Me7dR9": {
+              "type": "collection-title",
+              "name": "Collection title",
+              "settings": {
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": true,
+                "background_color": "#ffffff",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 4,
+                "padding-inline-start": 8,
+                "padding-inline-end": 8
+              },
+              "blocks": {}
+            },
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "name": "Image",
+              "static": true,
+              "settings": {
+                "image_ratio": "adapt",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "collection_title_Me7dR9"
+          ]
+        }
+      },
+      "block_order": [
+        "group_CXJVyk"
+      ],
+      "name": "Collection list: Bento",
+      "settings": {
+        "collection_list": [],
+        "layout_type": "bento",
+        "carousel_on_mobile": false,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "bento_gap": 8,
+        "rows_gap": 8,
+        "max_collections": 4,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 12,
+        "color_scheme": "",
+        "padding-block-start": 24,
+        "padding-block-end": 24
+      }
     }
   },
   "order": [
@@ -2850,15 +2680,12 @@
     "divider_r6ErzJ",
     "17818237098d89a63b",
     "section_7TKdhh",
-    "section_cwmCm3",
-    "image_carousel_KYjeWH",
     "section_rqDEn3",
     "section_Td9WtH",
     "section_yMxyjq",
     "section_feVGA8",
-    "collection_links_jxMYAX",
     "divider_9wgqMf",
-    "178214291200f21443",
-    "178250464212dd66d3"
+    "178250464212dd66d3",
+    "collection_list_FrzcwU"
   ]
 }
