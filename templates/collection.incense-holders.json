@@ -405,10 +405,133 @@
         "padding-block-start": 0,
         "padding-block-end": 32
       }
+    },
+    "ss_hero_23_Xck7nG": {
+      "type": "ss-hero-23",
+      "blocks": {
+        "slide_E8haKj": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Reborn_Blue_Holder.jpg",
+            "image_mobile": "shopify://shop_images/Square_IYE_close_up.heic",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Incense Holders",
+            "heading": "Yesterday's Glass. Today's Ritual.",
+            "button": "Shop now",
+            "url": "shopify://products/iye-reborn-square-incense-holder",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#ffffff",
+            "arrow_color": "#ffffff",
+            "dots_color": "#ffffff",
+            "border_color": "#ffffff"
+          }
+        },
+        "slide_XBWyDi": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/IYE_Glass_Recycling1.png",
+            "image_mobile": "shopify://shop_images/IYE_Glass_Recycling1.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Incense Holders",
+            "heading": "Recycled. Recast. Reborn.",
+            "button": "Shop now",
+            "url": "shopify://products/iye-reborn-square-incense-holder",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#ffffff",
+            "arrow_color": "#ffffff",
+            "dots_color": "#ffffff",
+            "border_color": "#ffffff"
+          }
+        },
+        "slide_8KEjNb": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Reborn_Blue_Oct_2025_25.jpg",
+            "image_mobile": "shopify://shop_images/719adc8c-d21b-4da9-bf2b-143a136b1df0.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Incense Holders",
+            "heading": "Finished by Hand in Japan.",
+            "button": "Shop now",
+            "url": "shopify://products/iye-reborn-square-incense-holder",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#215166",
+            "arrow_color": "#ffffff",
+            "dots_color": "#ffffff",
+            "border_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "slide_E8haKj",
+        "slide_XBWyDi",
+        "slide_8KEjNb"
+      ],
+      "name": "SS - Hero #23",
+      "settings": {
+        "hero_height": "adapt_first",
+        "hero_fixed_height": 450,
+        "hero_fixed_height_mobile": 400,
+        "autoplay": true,
+        "autoplay_delay": 6,
+        "overlay": 0.2,
+        "use_gradient": false,
+        "content_align": "left",
+        "content_align_mobile": "left",
+        "sub_heading_custom": true,
+        "sub_heading_font": "system_ui_i4",
+        "sub_heading_size": 14,
+        "sub_heading_size_mobile": 15,
+        "sub_heading_height": 130,
+        "heading_custom": true,
+        "heading_font": "system_ui_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 28,
+        "heading_height": 120,
+        "heading_mt": 14,
+        "heading_mt_mobile": 8,
+        "link_custom": false,
+        "link_font": "mono",
+        "link_size": 13,
+        "link_size_mobile": 16,
+        "link_height": 130,
+        "link_mt": 12,
+        "link_mt_mobile": 8,
+        "arrow_size": 32,
+        "arrow_size_mobile": 16,
+        "arrow_show_desktop": false,
+        "arrow_show_mobile": false,
+        "dots_size": 8,
+        "dots_size_mobile": 8,
+        "dots_show_desktop": true,
+        "dots_show_mobile": true,
+        "overlay_color": "rgba(0,0,0,0)",
+        "background_color": "#f1efee",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "section",
-    "main"
+    "main",
+    "ss_hero_23_Xck7nG"
   ]
 }
