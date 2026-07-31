@@ -12,68 +12,84 @@
     "ss_hero_23_6j9HkF": {
       "type": "ss-hero-23",
       "blocks": {
-        "slide_pi6GUY": {
+        "slide_eHGdBT": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Reborn_Blue_Holder.jpg",
-            "image_mobile": "shopify://shop_images/Square_IYE_close_up.heic",
+            "image": "shopify://shop_images/Refill_Desk_14.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Incense Holders",
-            "heading": "Yesterday's Glass. Today's Ritual.",
-            "button": "Shop now",
-            "url": "shopify://products/iye-reborn-square-incense-holder",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#ffffff",
-            "arrow_color": "#ffffff",
-            "dots_color": "#ffffff",
-            "border_color": "#ffffff"
+            "sub_heading": "A candle designed around a glass you'll keep for years.",
+            "heading": "Made to Stay",
+            "button": "Learn More",
+            "url": "shopify://pages/candle-refills",
+            "heading_color": "#F1EFEE",
+            "sub_heading_color": "#F1EFEE",
+            "link_color": "#F1EFEE",
+            "arrow_color": "#F1EFEE",
+            "dots_color": "#F1EFEE",
+            "border_color": "#F1EFEE"
           }
         },
-        "slide_WinRxE": {
+        "slide_RxnMDe": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/IYE_Glass_Recycling1.png",
-            "image_mobile": "shopify://shop_images/IYE_Glass_Recycling1.png",
+            "image": "shopify://shop_images/Refill_Desk_5.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Incense Holders",
-            "heading": "Recycled. Recast. Reborn.",
-            "button": "Shop now",
-            "url": "shopify://products/iye-reborn-square-incense-holder",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#ffffff",
-            "arrow_color": "#ffffff",
-            "dots_color": "#ffffff",
-            "border_color": "#ffffff"
+            "sub_heading": "Our sustainable refill candles fit inside your original vessel, so only the wax gets replaced.",
+            "heading": "Replace the Wax",
+            "button": "Shop Refill Candles",
+            "url": "shopify://collections/available-refill-scents",
+            "heading_color": "#F1EFEE",
+            "sub_heading_color": "#F1EFEE",
+            "link_color": "#F5F2EA",
+            "arrow_color": "#F1EFEE",
+            "dots_color": "#F1EFEE",
+            "border_color": "#F5F2EA"
           }
         },
-        "slide_t7eQCp": {
+        "slide_exgnBk": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Reborn_Blue_Oct_2025_25.jpg",
-            "image_mobile": "shopify://shop_images/719adc8c-d21b-4da9-bf2b-143a136b1df0.jpg",
+            "image": "shopify://shop_images/Refill_Desk_2.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Incense Holders",
-            "heading": "Finished by Hand in Japan.",
-            "button": "Shop now",
-            "url": "shopify://products/iye-reborn-square-incense-holder",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#215166",
-            "arrow_color": "#ffffff",
-            "dots_color": "#ffffff",
-            "border_color": "#ffffff"
+            "sub_heading": "When the candle is finished, clean the glass and start again.",
+            "heading": "Burn Every Last Drop",
+            "button": "Shop Refill Candles",
+            "url": "shopify://collections/available-refill-scents",
+            "heading_color": "#F1EFEE",
+            "sub_heading_color": "#F1EFEE",
+            "link_color": "#F1EFEE",
+            "arrow_color": "#F1EFEE",
+            "dots_color": "#F1EFEE",
+            "border_color": "#F1EFEE"
+          }
+        },
+        "slide_yhGXXB": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/35mm_tumbler_sharp.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Cocktails. Coffee. Sparkling water. However you use it next is entirely up to you.",
+            "heading": "Or Pour Something Else",
+            "button": "Shop Glassware",
+            "url": "shopify://products/signature-crystal-tumbler",
+            "heading_color": "#F5F2EA",
+            "sub_heading_color": "#F5F2EA",
+            "link_color": "#F5F2EA",
+            "arrow_color": "#F5F2EA",
+            "dots_color": "#F5F2EA",
+            "border_color": "#F5F2EA"
           }
         }
       },
       "block_order": [
-        "slide_pi6GUY",
-        "slide_WinRxE",
-        "slide_t7eQCp"
+        "slide_eHGdBT",
+        "slide_RxnMDe",
+        "slide_exgnBk",
+        "slide_yhGXXB"
       ],
       "name": "SS - Hero #23",
       "settings": {
@@ -208,6 +224,7 @@
         "hotspot_product_w9Btwt",
         "hotspot_product_pV8UVU"
       ],
+      "disabled": true,
       "name": "t:names.product_hotspots",
       "settings": {
         "image": "shopify://shop_images/Acacia_Wood_Tray_WIDE_copy.jpg",
