@@ -244,6 +244,20 @@
         "padding-block-end": 40
       }
     },
+    "divider_Jwpdhw": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-8",
+        "section_width": "page-width",
+        "thickness": 0.5,
+        "corner_radius": "square",
+        "width_percent": 5,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
+      }
+    },
     "section_UcDgem": {
       "type": "section",
       "blocks": {
@@ -756,20 +770,6 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
-    "divider_UpMFpy": {
-      "type": "divider",
-      "name": "t:names.divider_section",
-      "settings": {
-        "color_scheme": "",
-        "section_width": "full-width",
-        "thickness": 1,
-        "corner_radius": "square",
-        "width_percent": 100,
-        "alignment_horizontal": "center",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
@@ -1428,6 +1428,20 @@
         "color_scheme": "scheme-2",
         "padding-block-start": 40,
         "padding-block-end": 0
+      }
+    },
+    "divider_bQwejR": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "page-width",
+        "thickness": 5,
+        "corner_radius": "rounded",
+        "width_percent": 90,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
       }
     },
     "divider_r6ErzJ": {
@@ -2711,20 +2725,6 @@
         "padding-block-end": 16
       }
     },
-    "divider_bQwejR": {
-      "type": "divider",
-      "name": "Divider",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "section_width": "page-width",
-        "thickness": 5,
-        "corner_radius": "rounded",
-        "width_percent": 90,
-        "alignment_horizontal": "center",
-        "padding-block-start": 16,
-        "padding-block-end": 16
-      }
-    },
     "178214291200f21443": {
       "type": "_blocks",
       "blocks": {
@@ -2842,8 +2842,8 @@
   "order": [
     "ss_hero_23_6j9HkF",
     "product_hotspots_VcCTL8",
+    "divider_Jwpdhw",
     "section_UcDgem",
-    "divider_UpMFpy",
     "slideshow_C9edwc",
     "product_list_EDUBdR",
     "divider_bQwejR",
