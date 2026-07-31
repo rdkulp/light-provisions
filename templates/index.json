@@ -2652,30 +2652,30 @@
         "padding-block-end": 24
       }
     },
-    "1785535079c1fb1bae": {
+    "1785539703db753f79": {
       "type": "_blocks",
       "blocks": {
-        "instafeed_app_block_dnx64T": {
+        "instafeed_app_block_pqcLXY": {
           "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size_v2": 0,
+            "title": "Follow us into the light",
+            "title_color": "#A15736",
+            "title_size_v2": 54,
             "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
+            "instafeed_margin_top": 25,
+            "instafeed_margin_bottom": 25,
             "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
+            "show_instagram_link": true,
             "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
+            "link_color": "#A15736",
+            "background_color": "#F5F2EA",
             "feed_id": "",
             "html_area": ""
           }
         }
       },
       "block_order": [
-        "instafeed_app_block_dnx64T"
+        "instafeed_app_block_pqcLXY"
       ],
       "settings": {
         "content_direction": "column",
@@ -2724,6 +2724,6 @@
     "divider_9wgqMf",
     "178250464212dd66d3",
     "collection_list_FrzcwU",
-    "1785535079c1fb1bae"
+    "1785539703db753f79"
   ]
 }
