@@ -177,6 +177,32 @@
               },
               "block_order": []
             },
+            "text_tP8TUi": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><em><strong>Made in small batches.</strong></em><em> We occasionally let flagship scents rest between production runs. If this one becomes unavailable, join the waitlist and we'll use requests to help plan the next batch.</em></p><p> ────────────────</p>",
+                "width": "fit-content",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 22,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "product_description_LfDYCg": {
               "type": "product-description",
               "name": "t:names.product_description",
@@ -991,6 +1017,7 @@
             "price_a7krng",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
+            "text_tP8TUi",
             "product_description_LfDYCg",
             "group_X39hBc",
             "accordion_g8EVVp"
