@@ -181,7 +181,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><em><strong>Made in small batches.</strong></em><em> We occasionally let flagship scents rest between production runs. If this one becomes unavailable, join the waitlist and we'll use requests to help plan the next batch.</em></p><p> ────────────────</p>",
+                "text": "<p><em><strong>Made in small batches.</strong></em><em> We occasionally allow Flagship scents to rest between production runs. If this one becomes unavailable, join the waitlist and we'll use requests to help plan the next batch.</em></p><p> ────────────────</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
