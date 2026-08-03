@@ -22,12 +22,12 @@
             "heading": "Made to Stay",
             "button": "Learn More",
             "url": "shopify://pages/candle-refills",
-            "heading_color": "#F1EFEE",
-            "sub_heading_color": "#F1EFEE",
-            "link_color": "#F1EFEE",
-            "arrow_color": "#F1EFEE",
-            "dots_color": "#F1EFEE",
-            "border_color": "#F1EFEE"
+            "heading_color": "#f1efee",
+            "sub_heading_color": "#f1efee",
+            "link_color": "#f1efee",
+            "arrow_color": "#f1efee",
+            "dots_color": "#f1efee",
+            "border_color": "#f1efee"
           }
         },
         "slide_RxnMDe": {
@@ -40,12 +40,12 @@
             "heading": "Replace the Wax",
             "button": "Shop Refill Candles",
             "url": "shopify://collections/available-refill-scents",
-            "heading_color": "#F1EFEE",
-            "sub_heading_color": "#F1EFEE",
-            "link_color": "#F5F2EA",
-            "arrow_color": "#F1EFEE",
-            "dots_color": "#F1EFEE",
-            "border_color": "#F5F2EA"
+            "heading_color": "#f1efee",
+            "sub_heading_color": "#f1efee",
+            "link_color": "#f5f2ea",
+            "arrow_color": "#f1efee",
+            "dots_color": "#f1efee",
+            "border_color": "#f5f2ea"
           }
         },
         "slide_exgnBk": {
@@ -58,12 +58,12 @@
             "heading": "Burn Every Last Drop",
             "button": "Shop Refill Candles",
             "url": "shopify://collections/available-refill-scents",
-            "heading_color": "#F1EFEE",
-            "sub_heading_color": "#F1EFEE",
-            "link_color": "#F1EFEE",
-            "arrow_color": "#F1EFEE",
-            "dots_color": "#F1EFEE",
-            "border_color": "#F1EFEE"
+            "heading_color": "#f1efee",
+            "sub_heading_color": "#f1efee",
+            "link_color": "#f1efee",
+            "arrow_color": "#f1efee",
+            "dots_color": "#f1efee",
+            "border_color": "#f1efee"
           }
         },
         "slide_yhGXXB": {
@@ -76,12 +76,12 @@
             "heading": "Or Pour Something Else",
             "button": "Shop Glassware",
             "url": "shopify://products/signature-crystal-tumbler",
-            "heading_color": "#F5F2EA",
-            "sub_heading_color": "#F5F2EA",
-            "link_color": "#F5F2EA",
-            "arrow_color": "#F5F2EA",
-            "dots_color": "#F5F2EA",
-            "border_color": "#F5F2EA"
+            "heading_color": "#f5f2ea",
+            "sub_heading_color": "#f5f2ea",
+            "link_color": "#f5f2ea",
+            "arrow_color": "#f5f2ea",
+            "dots_color": "#f5f2ea",
+            "border_color": "#f5f2ea"
           }
         }
       },
@@ -129,7 +129,7 @@
         "dots_size_mobile": 8,
         "dots_show_desktop": true,
         "dots_show_mobile": true,
-        "overlay_color": "#CAA97C",
+        "overlay_color": "#caa97c",
         "background_color": "#f1efee",
         "border_color": "#000000",
         "margin_top": 0,
@@ -1212,7 +1212,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>A small collection of pieces nearing the end of their time here. Seasonal favorites, final batches, and discontinued designs, offered before they quietly leave the shop.</p>",
+                "text": "<p>A small collection of pieces nearing the end of their time here. Seasonal favorites, final batches, and discontinued designs, offered before they leave the shop.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2673,7 +2673,7 @@
           "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "Follow us into the light",
-            "title_color": "#A15736",
+            "title_color": "#a15736",
             "title_size_v2": 54,
             "alignment": "center",
             "instafeed_margin_top": 25,
@@ -2681,8 +2681,8 @@
             "instafeed_margin_sides": 0,
             "show_instagram_link": true,
             "link_alignment": "left",
-            "link_color": "#A15736",
-            "background_color": "#F1EFEE",
+            "link_color": "#a15736",
+            "background_color": "#f1efee",
             "feed_id": "",
             "html_area": ""
           }
