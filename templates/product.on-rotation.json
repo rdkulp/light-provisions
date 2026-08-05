@@ -683,101 +683,20 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "accordion_row_VyFryh": {
-                  "type": "_accordion-row",
-                  "disabled": true,
-                  "settings": {
-                    "heading": "Sizes",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_McjMWz": {
-                      "type": "text",
-                      "settings": {
-                        "text": "{{ closest.product.metafields.custom.sizes | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-primary--family)",
-                        "font_size": "",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_McjMWz"
-                  ]
-                },
-                "accordion_row_aaFerA": {
-                  "type": "_accordion-row",
-                  "disabled": true,
-                  "settings": {
-                    "heading": "Ingredients",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_DNPAct": {
-                      "type": "text",
-                      "settings": {
-                        "text": "{{ closest.product.metafields.custom.ingredients | metafield_tag }}",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-primary--family)",
-                        "font_size": "",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_DNPAct"
-                  ]
-                },
-                "accordion_row_rGipr6": {
+                "accordion_row_7YmWkT": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
-                  "disabled": true,
                   "settings": {
-                    "heading": "How Refills Work",
+                    "heading": "About the Colors",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
                   },
                   "blocks": {
-                    "text_ePekAc": {
+                    "text_ymcAVj": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.how_refills_work | metafield_tag }}",
+                        "text": "{{ closest.product.metafields.custom.about_the_colors | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -801,13 +720,12 @@
                     }
                   },
                   "block_order": [
-                    "text_ePekAc"
+                    "text_ymcAVj"
                   ]
                 },
                 "accordion_row_r3eBWG": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
-                  "disabled": true,
                   "settings": {
                     "heading": "Craft & Materials",
                     "open_by_default": false,
@@ -848,9 +766,8 @@
                 "accordion_row_nTYUi4": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
-                  "disabled": true,
                   "settings": {
-                    "heading": "Candle Care",
+                    "heading": "Care",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -859,7 +776,7 @@
                     "text_mEHiGB": {
                       "type": "text",
                       "settings": {
-                        "text": "{{ closest.product.metafields.custom.candle_care_burning_tups | metafield_tag }}",
+                        "text": "<p>{{ closest.product.metafields.custom.care | metafield_tag }}</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -888,9 +805,7 @@
                 }
               },
               "block_order": [
-                "accordion_row_VyFryh",
-                "accordion_row_aaFerA",
-                "accordion_row_rGipr6",
+                "accordion_row_7YmWkT",
                 "accordion_row_r3eBWG",
                 "accordion_row_nTYUi4"
               ]
@@ -918,46 +833,6 @@
         "color_scheme": "scheme-2",
         "padding-block-start": 0,
         "padding-block-end": 32
-      }
-    },
-    "1763495531717164ae": {
-      "type": "_blocks",
-      "blocks": {
-        "one_click_upsell_on_page_APX7Vi": {
-          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "one_click_upsell_on_page_APX7Vi"
-      ],
-      "custom_css": [],
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 0,
-        "section_width": "page-width",
-        "section_height": "custom",
-        "section_height_custom": 0,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
       }
     },
     "17634957166372b8c3": {
@@ -1357,7 +1232,6 @@
   },
   "order": [
     "main",
-    "1763495531717164ae",
     "17634957166372b8c3",
     "section_NaqU9X",
     "product_list_zR9Cym",
