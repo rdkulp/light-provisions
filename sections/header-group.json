@@ -14,14 +14,28 @@
     "header_announcements_WbCTVz": {
       "type": "header-announcements",
       "blocks": {
+        "announcement_MXCdxR": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "<em>The Woods Chapter has arrived. Explore four studies in wood.</em>",
+            "link": "shopify://collections/woods-chapter",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "weight": "700",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
         "announcement_mxxhta": {
           "type": "_announcement",
           "settings": {
-            "text": "Free shipping on orders over $100",
+            "text": "<em>Free shipping on orders over $100</em>",
             "link": "shopify://collections/all",
             "font": "var(--font-primary--family)",
             "font_size": "var(--font-size--body-md)",
-            "weight": "",
+            "weight": "700",
             "letter_spacing": "normal",
             "case": "none"
           },
@@ -29,13 +43,14 @@
         }
       },
       "block_order": [
+        "announcement_MXCdxR",
         "announcement_mxxhta"
       ],
       "name": "t:names.announcement_bar",
       "settings": {
         "speed": 5,
         "section_width": "full-width",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "divider_width": 0,
         "padding-block-start": 15,
         "padding-block-end": 15
