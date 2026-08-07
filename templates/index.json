@@ -14,7 +14,6 @@
       "blocks": {
         "slide_4XBNtf": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal_5.jpg",
@@ -53,7 +52,6 @@
         },
         "slide_N8gRYH": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/28_WS_Woods_Sony_OPT_b8af1abc-d88d-4875-bb40-d9e59e05ffe2.jpg",
@@ -73,7 +71,6 @@
         },
         "slide_JVdYfE": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/34-ps-woods-sony-vsco.jpg",
@@ -123,22 +120,22 @@
         "heading_mt_mobile": 8,
         "link_custom": false,
         "link_font": "josefin_sans_n4",
-        "link_size": 14,
+        "link_size": 17,
         "link_size_mobile": 14,
         "link_height": 130,
         "link_mt": 12,
         "link_mt_mobile": 8,
-        "arrow_size": 32,
+        "arrow_size": 14,
         "arrow_size_mobile": 32,
         "arrow_show_desktop": true,
         "arrow_show_mobile": false,
         "dots_size": 8,
         "dots_size_mobile": 8,
-        "dots_show_desktop": false,
+        "dots_show_desktop": true,
         "dots_show_mobile": true,
-        "overlay_color": "#000000",
+        "overlay_color": "#A15736",
         "background_color": "#FFFFFF",
-        "border_color": "#000000",
+        "border_color": "#F5F2EA",
         "margin_top": 0,
         "margin_bottom": 0,
         "margin_horizontal": 0,
@@ -151,7 +148,7 @@
         "content_width": 1200,
         "border_thickness": 0,
         "section_radius": 0,
-        "lazy": false
+        "lazy": true
       }
     },
     "product_hotspots_VcCTL8": {
