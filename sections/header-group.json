@@ -28,13 +28,14 @@
           },
           "blocks": {}
         },
-        "announcement_mxxhta": {
+        "announcement_DtHygU": {
           "type": "_announcement",
+          "name": "t:names.announcement",
           "settings": {
-            "text": "<em>Free shipping on orders over $100</em>",
-            "link": "shopify://collections/all",
-            "font": "var(--font-primary--family)",
-            "font_size": "var(--font-size--body-md)",
+            "text": "<em>Free Shipping on US orders over $100</em>",
+            "link": "shopify://collections/woods-chapter",
+            "font": "var(--font-body--family)",
+            "font_size": "",
             "weight": "700",
             "letter_spacing": "normal",
             "case": "none"
@@ -44,11 +45,11 @@
       },
       "block_order": [
         "announcement_MXCdxR",
-        "announcement_mxxhta"
+        "announcement_DtHygU"
       ],
       "name": "t:names.announcement_bar",
       "settings": {
-        "speed": 5,
+        "speed": 4,
         "section_width": "full-width",
         "color_scheme": "scheme-3",
         "divider_width": 0,
