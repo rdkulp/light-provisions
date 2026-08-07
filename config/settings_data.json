@@ -45,6 +45,7 @@
     "quick_add_color_scheme": "scheme-1",
     "product_corner_radius": 10,
     "card_corner_radius": 10,
+    "show_variant_image": true,
     "variant_button_radius": 2,
     "variant_button_width": "equal-width-buttons",
     "content_for_index": [],
