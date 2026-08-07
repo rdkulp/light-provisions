@@ -2704,6 +2704,141 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "ss_hero_23_UN3xzN": {
+      "type": "ss-hero-23",
+      "blocks": {
+        "slide_4XBNtf": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Woods Chapter",
+            "heading": "Sandalwood",
+            "button": "Shop now",
+            "url": "",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
+          }
+        },
+        "slide_8G3D3M": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Woods Chapter",
+            "heading": "Cedarwood",
+            "button": "Shop now",
+            "url": "",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
+          }
+        },
+        "slide_N8gRYH": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Woods Chapter",
+            "heading": "Woodsmoke",
+            "button": "Shop now",
+            "url": "",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
+          }
+        },
+        "slide_JVdYfE": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Woods Chapter",
+            "heading": "Palo Santo",
+            "button": "Shop now",
+            "url": "",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "slide_4XBNtf",
+        "slide_8G3D3M",
+        "slide_N8gRYH",
+        "slide_JVdYfE"
+      ],
+      "disabled": true,
+      "name": "SS - Hero #23",
+      "settings": {
+        "hero_height": "adapt_first",
+        "hero_fixed_height": 600,
+        "hero_fixed_height_mobile": 400,
+        "autoplay": true,
+        "autoplay_delay": 6,
+        "overlay": 0.2,
+        "use_gradient": true,
+        "content_align": "left",
+        "content_align_mobile": "left",
+        "sub_heading_custom": true,
+        "sub_heading_font": "courier_new_n7",
+        "sub_heading_size": 12,
+        "sub_heading_size_mobile": 12,
+        "sub_heading_height": 130,
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 20,
+        "heading_size_mobile": 20,
+        "heading_height": 130,
+        "heading_mt": 12,
+        "heading_mt_mobile": 8,
+        "link_custom": false,
+        "link_font": "josefin_sans_n4",
+        "link_size": 14,
+        "link_size_mobile": 14,
+        "link_height": 130,
+        "link_mt": 12,
+        "link_mt_mobile": 8,
+        "arrow_size": 32,
+        "arrow_size_mobile": 32,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 8,
+        "dots_size_mobile": 8,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "overlay_color": "#000000",
+        "background_color": "#FFFFFF",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": false
+      }
     }
   },
   "order": [
@@ -2724,6 +2859,7 @@
     "178250464212dd66d3",
     "collection_list_FrzcwU",
     "divider_jN37wf",
-    "1785539703db753f79"
+    "1785539703db753f79",
+    "ss_hero_23_UN3xzN"
   ]
 }
