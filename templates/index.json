@@ -2712,11 +2712,13 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
+            "image": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal_5.jpg",
+            "image_mobile": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "sub_heading": "Woods Chapter",
             "heading": "Sandalwood",
             "button": "Shop now",
-            "url": "",
+            "url": "shopify://products/on-rotation-sandalwood",
             "heading_color": "#000000",
             "sub_heading_color": "#000000",
             "link_color": "#000000",
@@ -2783,7 +2785,6 @@
         "slide_N8gRYH",
         "slide_JVdYfE"
       ],
-      "disabled": true,
       "name": "SS - Hero #23",
       "settings": {
         "hero_height": "adapt_first",
