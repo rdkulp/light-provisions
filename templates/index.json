@@ -9,128 +9,132 @@
  */
 {
   "sections": {
-    "ss_hero_23_6j9HkF": {
+    "ss_hero_23_UN3xzN": {
       "type": "ss-hero-23",
       "blocks": {
-        "slide_eHGdBT": {
+        "slide_4XBNtf": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Refill_Desk_14.jpg",
+            "image": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal_5.jpg",
+            "image_mobile": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "A candle designed around a glass you'll keep for years.",
-            "heading": "Made to Stay",
-            "button": "Learn More",
-            "url": "shopify://pages/candle-refills",
-            "heading_color": "#f1efee",
-            "sub_heading_color": "#f1efee",
-            "link_color": "#f1efee",
-            "arrow_color": "#f1efee",
-            "dots_color": "#f1efee",
-            "border_color": "#f1efee"
+            "sub_heading": "Woods Chapter",
+            "heading": "Sandalwood",
+            "button": "Shop now",
+            "url": "shopify://products/on-rotation-sandalwood",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
           }
         },
-        "slide_RxnMDe": {
+        "slide_8G3D3M": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Refill_Desk_5.jpg",
+            "image": "shopify://shop_images/cedar-sony-vsco-13.jpg",
+            "image_mobile": "shopify://shop_images/cedar-sony-vsco-16_ec85d531-62a0-4dcb-8e3f-6e914ac428ad.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Our sustainable refill candles fit inside your original vessel, so only the wax gets replaced.",
-            "heading": "Replace the Wax",
-            "button": "Shop Refill Candles",
-            "url": "shopify://collections/available-refill-scents",
-            "heading_color": "#f1efee",
-            "sub_heading_color": "#f1efee",
-            "link_color": "#f5f2ea",
-            "arrow_color": "#f1efee",
-            "dots_color": "#f1efee",
-            "border_color": "#f5f2ea"
+            "sub_heading": "Woods Chapter",
+            "heading": "Cedarwood",
+            "button": "Shop now",
+            "url": "shopify://products/on-rotation-cedarwood",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
           }
         },
-        "slide_exgnBk": {
+        "slide_N8gRYH": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Refill_Desk_2.jpg",
+            "image": "shopify://shop_images/28_WS_Woods_Sony_OPT_b8af1abc-d88d-4875-bb40-d9e59e05ffe2.jpg",
+            "image_mobile": "shopify://shop_images/9_WS_Woods_Sony_OPT.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "When the candle is finished, clean the glass and start again.",
-            "heading": "Burn Every Last Drop",
-            "button": "Shop Refill Candles",
-            "url": "shopify://collections/available-refill-scents",
-            "heading_color": "#f1efee",
-            "sub_heading_color": "#f1efee",
-            "link_color": "#f1efee",
-            "arrow_color": "#f1efee",
-            "dots_color": "#f1efee",
-            "border_color": "#f1efee"
+            "sub_heading": "Woods Chapter",
+            "heading": "Woodsmoke",
+            "button": "Shop now",
+            "url": "shopify://products/on-rotation-woodsmoke",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
           }
         },
-        "slide_yhGXXB": {
+        "slide_JVdYfE": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/35mm_tumbler_sharp.png",
+            "image": "shopify://shop_images/34-ps-woods-sony-vsco.jpg",
+            "image_mobile": "shopify://shop_images/43-ps-woods-sony-vsco.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Cocktails. Coffee. Sparkling water. However you use it next is entirely up to you.",
-            "heading": "Or Pour Something Else",
-            "button": "Shop Glassware",
-            "url": "shopify://products/signature-crystal-tumbler",
-            "heading_color": "#f5f2ea",
-            "sub_heading_color": "#f5f2ea",
-            "link_color": "#f5f2ea",
-            "arrow_color": "#f5f2ea",
-            "dots_color": "#f5f2ea",
-            "border_color": "#f5f2ea"
+            "sub_heading": "Woods Chapter",
+            "heading": "Palo Santo",
+            "button": "Shop now",
+            "url": "shopify://products/on-rotation-palo-santo",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
           }
         }
       },
       "block_order": [
-        "slide_eHGdBT",
-        "slide_RxnMDe",
-        "slide_exgnBk",
-        "slide_yhGXXB"
+        "slide_4XBNtf",
+        "slide_8G3D3M",
+        "slide_N8gRYH",
+        "slide_JVdYfE"
       ],
-      "name": "SS - Hero #23",
+      "name": "Woods Chapter Hero",
       "settings": {
         "hero_height": "adapt_first",
-        "hero_fixed_height": 450,
+        "hero_fixed_height": 600,
         "hero_fixed_height_mobile": 400,
         "autoplay": true,
-        "autoplay_delay": 8,
-        "overlay": 0.2,
+        "autoplay_delay": 6,
+        "overlay": 0.1,
         "use_gradient": false,
         "content_align": "left",
         "content_align_mobile": "left",
         "sub_heading_custom": true,
-        "sub_heading_font": "system_ui_i4",
-        "sub_heading_size": 18,
-        "sub_heading_size_mobile": 15,
+        "sub_heading_font": "courier_new_n7",
+        "sub_heading_size": 12,
+        "sub_heading_size_mobile": 12,
         "sub_heading_height": 130,
-        "heading_custom": true,
-        "heading_font": "system_ui_n4",
-        "heading_size": 40,
-        "heading_size_mobile": 28,
-        "heading_height": 120,
-        "heading_mt": 8,
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 20,
+        "heading_size_mobile": 20,
+        "heading_height": 130,
+        "heading_mt": 12,
         "heading_mt_mobile": 8,
         "link_custom": false,
-        "link_font": "mono",
-        "link_size": 18,
-        "link_size_mobile": 16,
-        "link_height": 50,
+        "link_font": "josefin_sans_n4",
+        "link_size": 14,
+        "link_size_mobile": 14,
+        "link_height": 130,
         "link_mt": 12,
         "link_mt_mobile": 8,
         "arrow_size": 32,
-        "arrow_size_mobile": 16,
-        "arrow_show_desktop": false,
+        "arrow_size_mobile": 32,
+        "arrow_show_desktop": true,
         "arrow_show_mobile": false,
         "dots_size": 8,
         "dots_size_mobile": 8,
-        "dots_show_desktop": true,
+        "dots_show_desktop": false,
         "dots_show_mobile": true,
-        "overlay_color": "#caa97c",
-        "background_color": "#f1efee",
+        "overlay_color": "#000000",
+        "background_color": "#FFFFFF",
         "border_color": "#000000",
         "margin_top": 0,
         "margin_bottom": 0,
@@ -144,7 +148,7 @@
         "content_width": 1200,
         "border_thickness": 0,
         "section_radius": 0,
-        "lazy": true
+        "lazy": false
       }
     },
     "product_hotspots_VcCTL8": {
@@ -1996,6 +2000,7 @@
       "block_order": [
         "video_H8fHye"
       ],
+      "disabled": true,
       "name": "Refill Video",
       "settings": {
         "content_direction": "column",
@@ -2212,6 +2217,7 @@
       "block_order": [
         "group_qzmpih"
       ],
+      "disabled": true,
       "name": "Media Grid",
       "settings": {
         "content_direction": "column",
@@ -2424,18 +2430,142 @@
         "padding-block-end": 40
       }
     },
-    "divider_9wgqMf": {
-      "type": "divider",
-      "name": "Divider",
+    "ss_hero_23_6j9HkF": {
+      "type": "ss-hero-23",
+      "blocks": {
+        "slide_eHGdBT": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Refill_Desk_14.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "A candle designed around a glass you'll keep for years.",
+            "heading": "Made to Stay",
+            "button": "Learn More",
+            "url": "shopify://pages/candle-refills",
+            "heading_color": "#f1efee",
+            "sub_heading_color": "#f1efee",
+            "link_color": "#f1efee",
+            "arrow_color": "#f1efee",
+            "dots_color": "#f1efee",
+            "border_color": "#f1efee"
+          }
+        },
+        "slide_RxnMDe": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Refill_Desk_5.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Our sustainable refill candles fit inside your original vessel, so only the wax gets replaced.",
+            "heading": "Replace the Wax",
+            "button": "Shop Refill Candles",
+            "url": "shopify://collections/available-refill-scents",
+            "heading_color": "#f1efee",
+            "sub_heading_color": "#f1efee",
+            "link_color": "#f5f2ea",
+            "arrow_color": "#f1efee",
+            "dots_color": "#f1efee",
+            "border_color": "#f5f2ea"
+          }
+        },
+        "slide_exgnBk": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Refill_Desk_2.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "When the candle is finished, clean the glass and start again.",
+            "heading": "Burn Every Last Drop",
+            "button": "Shop Refill Candles",
+            "url": "shopify://collections/available-refill-scents",
+            "heading_color": "#f1efee",
+            "sub_heading_color": "#f1efee",
+            "link_color": "#f1efee",
+            "arrow_color": "#f1efee",
+            "dots_color": "#f1efee",
+            "border_color": "#f1efee"
+          }
+        },
+        "slide_yhGXXB": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/35mm_tumbler_sharp.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Cocktails. Coffee. Sparkling water. However you use it next is entirely up to you.",
+            "heading": "Or Pour Something Else",
+            "button": "Shop Glassware",
+            "url": "shopify://products/signature-crystal-tumbler",
+            "heading_color": "#f5f2ea",
+            "sub_heading_color": "#f5f2ea",
+            "link_color": "#f5f2ea",
+            "arrow_color": "#f5f2ea",
+            "dots_color": "#f5f2ea",
+            "border_color": "#f5f2ea"
+          }
+        }
+      },
+      "block_order": [
+        "slide_eHGdBT",
+        "slide_RxnMDe",
+        "slide_exgnBk",
+        "slide_yhGXXB"
+      ],
+      "name": "Refill Hero",
       "settings": {
-        "color_scheme": "scheme-2",
-        "section_width": "page-width",
-        "thickness": 5,
-        "corner_radius": "rounded",
-        "width_percent": 90,
-        "alignment_horizontal": "center",
-        "padding-block-start": 16,
-        "padding-block-end": 16
+        "hero_height": "adapt_first",
+        "hero_fixed_height": 450,
+        "hero_fixed_height_mobile": 400,
+        "autoplay": true,
+        "autoplay_delay": 8,
+        "overlay": 0.2,
+        "use_gradient": false,
+        "content_align": "left",
+        "content_align_mobile": "left",
+        "sub_heading_custom": true,
+        "sub_heading_font": "system_ui_i4",
+        "sub_heading_size": 18,
+        "sub_heading_size_mobile": 15,
+        "sub_heading_height": 130,
+        "heading_custom": true,
+        "heading_font": "system_ui_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 28,
+        "heading_height": 120,
+        "heading_mt": 8,
+        "heading_mt_mobile": 8,
+        "link_custom": false,
+        "link_font": "mono",
+        "link_size": 18,
+        "link_size_mobile": 16,
+        "link_height": 50,
+        "link_mt": 12,
+        "link_mt_mobile": 8,
+        "arrow_size": 32,
+        "arrow_size_mobile": 16,
+        "arrow_show_desktop": false,
+        "arrow_show_mobile": false,
+        "dots_size": 8,
+        "dots_size_mobile": 8,
+        "dots_show_desktop": true,
+        "dots_show_mobile": true,
+        "overlay_color": "#caa97c",
+        "background_color": "#f1efee",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
       }
     },
     "178250464212dd66d3": {
@@ -2704,155 +2834,10 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
-    },
-    "ss_hero_23_UN3xzN": {
-      "type": "ss-hero-23",
-      "blocks": {
-        "slide_4XBNtf": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal_5.jpg",
-            "image_mobile": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Woods Chapter",
-            "heading": "Sandalwood",
-            "button": "Shop now",
-            "url": "shopify://products/on-rotation-sandalwood",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
-          }
-        },
-        "slide_8G3D3M": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/cedar-sony-vsco-13.jpg",
-            "image_mobile": "shopify://shop_images/cedar-sony-vsco-16_ec85d531-62a0-4dcb-8e3f-6e914ac428ad.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Woods Chapter",
-            "heading": "Cedarwood",
-            "button": "Shop now",
-            "url": "shopify://products/on-rotation-cedarwood",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
-          }
-        },
-        "slide_N8gRYH": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/28_WS_Woods_Sony_OPT_b8af1abc-d88d-4875-bb40-d9e59e05ffe2.jpg",
-            "image_mobile": "shopify://shop_images/9_WS_Woods_Sony_OPT.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Woods Chapter",
-            "heading": "Woodsmoke",
-            "button": "Shop now",
-            "url": "shopify://products/on-rotation-woodsmoke",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
-          }
-        },
-        "slide_JVdYfE": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/34-ps-woods-sony-vsco.jpg",
-            "image_mobile": "shopify://shop_images/43-ps-woods-sony-vsco.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Woods Chapter",
-            "heading": "Palo Santo",
-            "button": "Shop now",
-            "url": "shopify://products/on-rotation-palo-santo",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "slide_4XBNtf",
-        "slide_8G3D3M",
-        "slide_N8gRYH",
-        "slide_JVdYfE"
-      ],
-      "name": "SS - Hero #23",
-      "settings": {
-        "hero_height": "adapt_first",
-        "hero_fixed_height": 600,
-        "hero_fixed_height_mobile": 400,
-        "autoplay": true,
-        "autoplay_delay": 6,
-        "overlay": 0.2,
-        "use_gradient": true,
-        "content_align": "left",
-        "content_align_mobile": "left",
-        "sub_heading_custom": true,
-        "sub_heading_font": "courier_new_n7",
-        "sub_heading_size": 12,
-        "sub_heading_size_mobile": 12,
-        "sub_heading_height": 130,
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 20,
-        "heading_size_mobile": 20,
-        "heading_height": 130,
-        "heading_mt": 12,
-        "heading_mt_mobile": 8,
-        "link_custom": false,
-        "link_font": "josefin_sans_n4",
-        "link_size": 14,
-        "link_size_mobile": 14,
-        "link_height": 130,
-        "link_mt": 12,
-        "link_mt_mobile": 8,
-        "arrow_size": 32,
-        "arrow_size_mobile": 32,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "dots_size": 8,
-        "dots_size_mobile": 8,
-        "dots_show_desktop": false,
-        "dots_show_mobile": true,
-        "overlay_color": "#000000",
-        "background_color": "#FFFFFF",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 1200,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": false
-      }
     }
   },
   "order": [
-    "ss_hero_23_6j9HkF",
+    "ss_hero_23_UN3xzN",
     "product_hotspots_VcCTL8",
     "divider_Jwpdhw",
     "section_UcDgem",
@@ -2865,11 +2850,10 @@
     "section_Td9WtH",
     "section_yMxyjq",
     "section_feVGA8",
-    "divider_9wgqMf",
+    "ss_hero_23_6j9HkF",
     "178250464212dd66d3",
     "collection_list_FrzcwU",
     "divider_jN37wf",
-    "1785539703db753f79",
-    "ss_hero_23_UN3xzN"
+    "1785539703db753f79"
   ]
 }
