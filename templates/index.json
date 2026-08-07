@@ -80,12 +80,12 @@
             "heading": "Palo Santo",
             "button": "Shop now",
             "url": "shopify://products/on-rotation-palo-santo",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
+            "heading_color": "#F5F2EA",
+            "sub_heading_color": "#F1EFEE",
+            "link_color": "#F1EFEE",
+            "arrow_color": "#F1EFEE",
+            "dots_color": "#F5F2EA",
+            "border_color": "#F5F2EA"
           }
         }
       },
