@@ -33,7 +33,6 @@
         },
         "slide_8G3D3M": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/cedar-sony-vsco-13.jpg",
@@ -53,7 +52,6 @@
         },
         "slide_N8gRYH": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/28_WS_Woods_Sony_OPT_b8af1abc-d88d-4875-bb40-d9e59e05ffe2.jpg",
@@ -73,7 +71,6 @@
         },
         "slide_JVdYfE": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/34-ps-woods-sony-vsco.jpg",
