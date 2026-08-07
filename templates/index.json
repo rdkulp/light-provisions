@@ -1985,6 +1985,7 @@
         "slide_exgnBk",
         "slide_yhGXXB"
       ],
+      "disabled": true,
       "name": "Refill Hero",
       "settings": {
         "hero_height": "adapt_first",
@@ -3134,6 +3135,20 @@
         "padding-block-start": 40,
         "padding-block-end": 0
       }
+    },
+    "divider_TE7YbJ": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "scheme-8",
+        "section_width": "page-width",
+        "thickness": 3,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 42,
+        "padding-block-end": 42
+      }
     }
   },
   "order": [
@@ -3154,6 +3169,7 @@
     "section_UcDgem",
     "divider_jN37wf",
     "1785539703db753f79",
-    "product_list_EDUBdR"
+    "product_list_EDUBdR",
+    "divider_TE7YbJ"
   ]
 }
