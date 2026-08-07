@@ -14,6 +14,7 @@
       "blocks": {
         "slide_4XBNtf": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal_5.jpg",
@@ -42,16 +43,17 @@
             "heading": "Cedarwood",
             "button": "Shop now",
             "url": "shopify://products/on-rotation-cedarwood",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
+            "heading_color": "#F5F2EA",
+            "sub_heading_color": "#F5F2EA",
+            "link_color": "#F5F2EA",
+            "arrow_color": "#F5F2EA",
+            "dots_color": "#F5F2EA",
+            "border_color": "#F5F2EA"
           }
         },
         "slide_N8gRYH": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/28_WS_Woods_Sony_OPT_b8af1abc-d88d-4875-bb40-d9e59e05ffe2.jpg",
@@ -71,6 +73,7 @@
         },
         "slide_JVdYfE": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/34-ps-woods-sony-vsco.jpg",
