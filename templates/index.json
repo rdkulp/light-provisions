@@ -442,7 +442,7 @@
       "custom_css": [
         ":not(.dialog-zoomed-gallery) > .product-media-container,.product-media {aspect-ratio: 0.55 !important;}"
       ],
-      "name": "Featured: Last Chance",
+      "name": "Featured: Woods Chapter",
       "settings": {
         "collection": "sale-items",
         "layout_type": "carousel",
@@ -937,7 +937,7 @@
             "display_order": "most_recent",
             "no_image_fallback": "review_text_only",
             "max_reviews": 13,
-            "review_length": "small",
+            "review_length": "large",
             "text_size": "large",
             "image_ratio": "1.33",
             "reviews_shown": 5,
@@ -947,11 +947,11 @@
             "arrows_position": "bottom",
             "max_width": 1100,
             "corner_styling": "soft",
-            "header_text_color": "#000000",
-            "text_color": "#000000",
-            "card_color": "#f9f9f9",
-            "stars_color": "",
-            "arrows_color": "#000000",
+            "header_text_color": "#F1EFEE",
+            "text_color": "#F1EFEE",
+            "card_color": "#A15736",
+            "stars_color": "#CAA97C",
+            "arrows_color": "#A15736",
             "transition_speed": 7,
             "header_text": "Notes from Customers",
             "show_average_rating": true,
@@ -2109,7 +2109,7 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 0,
+            "padding-block-start": 93,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -2239,7 +2239,7 @@
         "gap": 12,
         "color_scheme": "scheme-2",
         "padding-block-start": 24,
-        "padding-block-end": 24
+        "padding-block-end": 84
       }
     },
     "section_UcDgem": {
@@ -2768,8 +2768,8 @@
         "corner_radius": "rounded",
         "width_percent": 90,
         "alignment_horizontal": "center",
-        "padding-block-start": 16,
-        "padding-block-end": 16
+        "padding-block-start": 45,
+        "padding-block-end": 44
       }
     },
     "1785539703db753f79": {
