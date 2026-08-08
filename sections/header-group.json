@@ -17,6 +17,7 @@
         "announcement_MXCdxR": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "<em>The Woods Chapter has arrived. Explore four studies in wood.</em>",
             "link": "shopify://collections/woods-chapter",
