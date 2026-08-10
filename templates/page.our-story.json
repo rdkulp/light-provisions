@@ -126,11 +126,11 @@
           "type": "text",
           "name": "Text",
           "settings": {
-            "text": "<p><em>Light Provisions began in the winter of 2015, inside a dim Victorian house in Colorado Springs. What started as a search for better light and fragrance gradually became a larger exploration of the objects, scents, and rituals that make a space feel like home.</em></p>",
-            "width": "fit-content",
+            "text": "<p><em>What started in the winter of 2015 as a search for better light and fragrance has gradually become a larger exploration of the objects, scents, and rituals that make a space feel like home.</em></p>",
+            "width": "100%",
             "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h3",
+            "alignment": "center",
+            "type_preset": "h2",
             "font": "var(--font-body--family)",
             "font_size": "",
             "line_height": "normal",
@@ -178,8 +178,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-start": 75,
+        "padding-block-end": 75
       }
     },
     "section_mzqAKf": {
