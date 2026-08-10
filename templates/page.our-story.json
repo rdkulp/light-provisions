@@ -358,8 +358,8 @@
             "text": "<p><strong>On Brand</strong> | By spring, the lighthouse logo, blue labels, and custom lettering had given the brand its first real identity, and by the end of the year our candles were being carried by shops around Colorado, including The Broadmoor.</p>",
             "image": "shopify://shop_images/2016_Studio_Photos_Light_Provisions_31_copy.jpg",
             "image_width": 260,
-            "image_ratio": "portrait",
-            "image_ratio_mobile": "portrait"
+            "image_ratio": "original",
+            "image_ratio_mobile": "original"
           }
         },
         "slide_tgYaEX": {
@@ -369,7 +369,7 @@
             "text": "<p><strong>A glass worth keeping</strong> | We moved into heavy rocks glasses with gold rims and a hidden logo underneath, our first real attempt to make the vessel something you'd want to keep and use after the candle was gone.</p>",
             "image": "shopify://shop_images/2018_LB_gold_tumbler_1_copy.jpg",
             "image_width": 260,
-            "image_ratio": "portrait",
+            "image_ratio": "original",
             "image_ratio_mobile": "portrait"
           }
         },
@@ -380,7 +380,7 @@
             "text": "<p><strong>Growing Beyond Colorado</strong> | After years spent at makers markets, farmers markets, and holiday fairs, Light Provisions had grown from a table at local events to more than 60 retailers around the country.</p>",
             "image": "shopify://shop_images/IMG_4148_copy.jpg",
             "image_width": 260,
-            "image_ratio": "portrait",
+            "image_ratio": "square",
             "image_ratio_mobile": "portrait"
           }
         },
@@ -402,7 +402,7 @@
             "text": "<p><strong>Looking beyond candles</strong> | <a href=\"/collections/tsubota-pearl\" target=\"_blank\" title=\"Tsubota Pearl\">Tsubota Pearl</a> became the first outside maker carried by Light Provisions, while a small run of Special Edition candles introduced the idea that would eventually become On Rotation.</p>",
             "image": "shopify://shop_images/IMG_7705.jpg",
             "image_width": 190,
-            "image_ratio": "original",
+            "image_ratio": "square",
             "image_ratio_mobile": "original"
           }
         },
@@ -421,11 +421,11 @@
           "type": "slide",
           "settings": {
             "date": "2025 → Today",
-            "text": "<p>Made here, found elsewhere | Light Provisions has continued to grow into a mix of things I make and things I find, from candles and locally sourced glass to Japanese incense, lighters, vintage pieces, and objects chosen around the same ideas of home, warmth, light, and ritual.</p>",
+            "text": "<p><strong>Made here, found elsewhere</strong> | Light Provisions has continued to grow into a mix of things I make and things I find, from candles and locally sourced glass to Japanese incense, lighters, vintage pieces, and objects chosen around the same ideas of home, warmth, light, and ritual.</p>",
             "image": "shopify://shop_images/lit-tumbler-48.jpg",
             "image_width": 260,
-            "image_ratio": "original",
-            "image_ratio_mobile": "original"
+            "image_ratio": "portrait",
+            "image_ratio_mobile": "portrait"
           }
         },
         "slide_jP7fkA": {
