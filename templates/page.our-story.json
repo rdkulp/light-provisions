@@ -342,6 +342,7 @@
       "blocks": {
         "slide_9GVi4i": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "date": "2015",
             "text": "<p><strong>The First Candles</strong> | Light Provisions began at the end of 2015 with a makers market, a very new Instagram account, and two fragrances: Campfire and Lavender Balsam. Both are still here today.</p>",
@@ -351,14 +352,38 @@
             "image_ratio_mobile": "landscape"
           }
         },
+        "slide_AJ8V7j": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "date": "2016",
+            "text": "<p><strong>On Brand</strong> | By spring, the lighthouse logo, blue labels, and custom lettering had given the brand its first real identity, and by the end of the year our candles were being carried by shops around Colorado, including The Broadmoor.</p>",
+            "image": "shopify://shop_images/2016_Studio_Photos_Light_Provisions_31_copy.jpg",
+            "image_width": 260,
+            "image_ratio": "portrait",
+            "image_ratio_mobile": "portrait"
+          }
+        },
+        "slide_tgYaEX": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "date": "2018",
+            "text": "<p><strong>A glass worth keeping</strong> | We moved into heavy rocks glasses with gold rims and a hidden logo underneath, our first real attempt to make the vessel something you'd want to keep and use after the candle was gone.</p>",
+            "image": "shopify://shop_images/2018_LB_gold_tumbler_1_copy.jpg",
+            "image_width": 220,
+            "image_ratio": "portrait",
+            "image_ratio_mobile": "portrait"
+          }
+        },
         "slide_L3kzPL": {
           "type": "slide",
           "settings": {
             "date": "2020",
             "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
-            "image_width": 200,
-            "image_ratio": "square",
-            "image_ratio_mobile": "square"
+            "image_width": 210,
+            "image_ratio": "portrait",
+            "image_ratio_mobile": "portrait"
           }
         },
         "slide_Jm3gL6": {
@@ -414,6 +439,8 @@
       },
       "block_order": [
         "slide_9GVi4i",
+        "slide_AJ8V7j",
+        "slide_tgYaEX",
         "slide_L3kzPL",
         "slide_Jm3gL6",
         "slide_bgTyyX",
@@ -421,7 +448,6 @@
         "slide_CHib8c",
         "slide_jP7fkA"
       ],
-      "disabled": true,
       "name": "SS - Timeline #4",
       "settings": {
         "heading": "<h2>Light Provisions, so far.</h2>",
