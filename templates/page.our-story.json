@@ -336,12 +336,182 @@
         "padding-block-start": 40,
         "padding-block-end": 40
       }
+    },
+    "ss_timeline_4_EjNL3U": {
+      "type": "ss-timeline-4",
+      "blocks": {
+        "slide_9GVi4i": {
+          "type": "slide",
+          "settings": {
+            "date": "2015",
+            "text": "<p><strong>The First Candles</strong> | Light Provisions began at the end of 2015 with a makers market, a very new Instagram account, and two fragrances: Campfire and Lavender Balsam. Both are still here today.</p>",
+            "image": "shopify://shop_images/IMG_7693.heic",
+            "image_width": 260,
+            "image_ratio": "original",
+            "image_ratio_mobile": "landscape"
+          }
+        },
+        "slide_L3kzPL": {
+          "type": "slide",
+          "settings": {
+            "date": "2020",
+            "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
+            "image_width": 200,
+            "image_ratio": "square",
+            "image_ratio_mobile": "square"
+          }
+        },
+        "slide_Jm3gL6": {
+          "type": "slide",
+          "settings": {
+            "date": "2020",
+            "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
+            "image_width": 280,
+            "image_ratio": "landscape",
+            "image_ratio_mobile": "landscape"
+          }
+        },
+        "slide_bgTyyX": {
+          "type": "slide",
+          "settings": {
+            "date": "2020",
+            "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
+            "image_width": 190,
+            "image_ratio": "landscape",
+            "image_ratio_mobile": "landscape"
+          }
+        },
+        "slide_peD3An": {
+          "type": "slide",
+          "settings": {
+            "date": "2020",
+            "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
+            "image_width": 190,
+            "image_ratio": "portrait",
+            "image_ratio_mobile": "portrait"
+          }
+        },
+        "slide_CHib8c": {
+          "type": "slide",
+          "settings": {
+            "date": "2020",
+            "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
+            "image_width": 140,
+            "image_ratio": "portrait",
+            "image_ratio_mobile": "portrait"
+          }
+        },
+        "slide_jP7fkA": {
+          "type": "slide",
+          "settings": {
+            "date": "2020",
+            "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
+            "image_width": 200,
+            "image_ratio": "square",
+            "image_ratio_mobile": "square"
+          }
+        }
+      },
+      "block_order": [
+        "slide_9GVi4i",
+        "slide_L3kzPL",
+        "slide_Jm3gL6",
+        "slide_bgTyyX",
+        "slide_peD3An",
+        "slide_CHib8c",
+        "slide_jP7fkA"
+      ],
+      "disabled": true,
+      "name": "SS - Timeline #4",
+      "settings": {
+        "heading": "<h2>Light Provisions, so far.</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 48,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "dots_size": 8,
+        "dots_size_mobile": 8,
+        "dots_mt": 20,
+        "dots_mt_mobile": 16,
+        "dots_show_desktop": true,
+        "dots_show_mobile": true,
+        "dots_align": "center",
+        "dots_align_mobile": "center",
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_mt": 32,
+        "slider_mt_mobile": 24,
+        "image_radius": 10,
+        "image_border_thickness": 0,
+        "slide_content_gap": 30,
+        "slide_content_gap_mobile": 12,
+        "slide_content_mt": 32,
+        "slide_content_mt_mobile": 20,
+        "slide_content_align": "left",
+        "slide_content_align_mobile": "left",
+        "date_custom": false,
+        "date_font": "josefin_sans_n4",
+        "date_size": 72,
+        "date_size_mobile": 42,
+        "date_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "text_height": 150,
+        "arrow_size": 48,
+        "arrow_size_mobile": 38,
+        "arrow_icon_size": 10,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 1,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "arrow_mt": 40,
+        "arrow_mt_mobile": 24,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "arrow_align": "center",
+        "arrow_align_mobile": "center",
+        "heading_color": "#121212",
+        "heading_highlight_color": "#AFAFAF",
+        "image_border_color": "#121212",
+        "date_color": "#121212",
+        "text_color": "#121212",
+        "text_highlight_color": "#AFAFAF",
+        "arrow_color": "#121212",
+        "arrow_hover_color": "#121212",
+        "arrow_bg_color": "",
+        "arrow_bg_hover_color": "",
+        "arrow_border_color": "#C7C7C7",
+        "arrow_border_hover_color": "#C7C7C7",
+        "dots_color": "#121212",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "hero_fqwXmQ",
     "main",
     "section_TJkQXC",
-    "section_mzqAKf"
+    "section_mzqAKf",
+    "ss_timeline_4_EjNL3U"
   ]
 }
