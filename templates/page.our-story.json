@@ -371,7 +371,7 @@
             "date": "2018",
             "text": "<p><strong>A glass worth keeping</strong> | We moved into heavy rocks glasses with gold rims and a hidden logo underneath, our first real attempt to make the vessel something you'd want to keep and use after the candle was gone.</p>",
             "image": "shopify://shop_images/2018_LB_gold_tumbler_1_copy.jpg",
-            "image_width": 220,
+            "image_width": 260,
             "image_ratio": "portrait",
             "image_ratio_mobile": "portrait"
           }
@@ -379,9 +379,10 @@
         "slide_L3kzPL": {
           "type": "slide",
           "settings": {
-            "date": "2020",
-            "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
-            "image_width": 210,
+            "date": "2019",
+            "text": "<p><strong>Growing Beyond Colorado</strong> | After years spent at makers markets, farmers markets, and holiday fairs, Light Provisions had grown from a table at local events to more than 60 retailers around the country.</p>",
+            "image": "shopify://shop_images/IMG_4148_copy.jpg",
+            "image_width": 260,
             "image_ratio": "portrait",
             "image_ratio_mobile": "portrait"
           }
