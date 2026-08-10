@@ -378,6 +378,7 @@
         },
         "slide_L3kzPL": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "date": "2019",
             "text": "<p><strong>Growing Beyond Colorado</strong> | After years spent at makers markets, farmers markets, and holiday fairs, Light Provisions had grown from a table at local events to more than 60 retailers around the country.</p>",
@@ -389,28 +390,32 @@
         },
         "slide_Jm3gL6": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "date": "2020",
-            "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
-            "image_width": 280,
-            "image_ratio": "landscape",
-            "image_ratio_mobile": "landscape"
+            "date": "2021",
+            "text": "<p><strong>Starting over, on purpose</strong> | We retired the jars and rebuilt the collection around custom rippled crystal glassware, new packaging, and a simpler idea: the candle should leave you with something better than an empty candle jar.</p>",
+            "image": "shopify://shop_images/cocktail_tumbler.jpg",
+            "image_width": 260,
+            "image_ratio": "portrait",
+            "image_ratio_mobile": "portrait"
           }
         },
         "slide_bgTyyX": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "date": "2020",
-            "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
+            "date": "2023",
+            "text": "<p><strong>Looking beyond candles</strong> | <a href=\"/collections/tsubota-pearl\" target=\"_blank\" title=\"Tsubota Pearl\">Tsubota Pearl</a> became the first outside maker carried by Light Provisions, while a small run of Special Edition candles introduced the idea that would eventually become On Rotation.</p>",
+            "image": "shopify://shop_images/IMG_7705.jpg",
             "image_width": 190,
-            "image_ratio": "landscape",
-            "image_ratio_mobile": "landscape"
+            "image_ratio": "original",
+            "image_ratio_mobile": "original"
           }
         },
         "slide_peD3An": {
           "type": "slide",
           "settings": {
-            "date": "2020",
+            "date": "2024",
             "text": "<p>Add text content about <strong>a certain step</strong> your company has taken to get here</p>",
             "image_width": 190,
             "image_ratio": "portrait",
