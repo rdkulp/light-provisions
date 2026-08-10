@@ -98,6 +98,7 @@
         "text_AkABiV": {
           "type": "text",
           "name": "Heading",
+          "disabled": true,
           "settings": {
             "text": "<h2>Light, Thoughtfully Made</h2>",
             "width": "fit-content",
@@ -125,11 +126,11 @@
           "type": "text",
           "name": "Text",
           "settings": {
-            "text": "<p>Light Provisions began in the winter of 2015, inside a dim Victorian house in Colorado Springs. Living in a home that rarely felt bright made one thing clear. Light has a remarkable ability to shape how a space feels. A single candle could make an ordinary evening feel warmer, quieter, and more inviting. What started as a search for better light and fragrance gradually became something much larger.</p><p>In the beginning, we obsessed over scent. After months of blending, testing, and refining, we developed fragrances with the same balance and layering found in a well-made cocktail. Grounded woods, resins, herbs, and citrus are carefully combined to create fragrances that unfold throughout the burn while remaining clean and balanced.</p><p>Over time, Light Provisions grew beyond fragrance alone. A candle offers warmth, light, and a reason to slow down. It becomes part of a quiet morning, a dinner shared with friends, or the last hour before bed.</p><p>That philosophy shaped the objects themselves. Our refillable candles are hand-poured into custom-designed rippled crystal vessels that scatter light across nearby surfaces. Each glass is made to remain in your home long after the first candle has burned away. Simply replace the wax and enjoy it again.</p><p>Today, Light Provisions creates thoughtfully made objects centered around light, fragrance, and lasting design. We hope they bring a little more warmth to the spaces where life happens every day.</p>",
+            "text": "<p><em>Light Provisions began in the winter of 2015, inside a dim Victorian house in Colorado Springs. What started as a search for better light and fragrance gradually became a larger exploration of the objects, scents, and rituals that make a space feel like home.</em></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "rte",
+            "type_preset": "h3",
             "font": "var(--font-body--family)",
             "font_size": "",
             "line_height": "normal",
@@ -163,9 +164,9 @@
         "vertical_alignment_flex_direction_column": "center",
         "gap": 25,
         "section_width": "page-width",
-        "section_height": "small",
-        "section_height_custom": 50,
-        "color_scheme": "",
+        "section_height": "custom",
+        "section_height_custom": 27,
+        "color_scheme": "scheme-2",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -177,14 +178,170 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_mzqAKf": {
+      "type": "section",
+      "blocks": {
+        "image_m7PYAk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2016_Studio_Photos_Light_Provisions_36.jpg",
+            "link": "",
+            "image_ratio": "portrait",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_hhdW49": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "custom",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_VhBWrC": {
+              "type": "text",
+              "name": "Heading",
+              "settings": {
+                "text": "<p><em>Made at home, for home</em></p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 36,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_AW33tD": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Light Provisions began in an old Victorian house in Colorado Springs, and ten years later, I still make candles at home. I don’t really see that as something the business was supposed to outgrow. Making products in the same kind of space they’re ultimately meant to live in keeps me close to what matters: how they burn, how they smell, how they look on a table, and whether they actually make a room feel better.</p><p><strong>That closeness to the product is also what shaped the fragrances themselves.</strong> I kept reaching for scents that were woodier, smokier, and more grounded than what I was finding elsewhere, so I started blending my own. Over time, those experiments developed into a house style built around balance and layering, with woods, resins, herbs, citrus, smoke, and other materials combined more like a well-made cocktail than a single-note fragrance.</p>",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 75,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_VhBWrC",
+            "text_AW33tD"
+          ]
+        }
+      },
+      "block_order": [
+        "image_m7PYAk",
+        "group_hhdW49"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-3",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 40
       }
     }
   },
   "order": [
     "hero_fqwXmQ",
     "main",
-    "section_TJkQXC"
+    "section_TJkQXC",
+    "section_mzqAKf"
   ]
 }
