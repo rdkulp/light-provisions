@@ -453,7 +453,7 @@
       ],
       "name": "SS - Timeline #4",
       "settings": {
-        "heading": "<h2>Light Provisions, so far.</h2>",
+        "heading": "<h2><em>Light Provisions, so far.</em></h2>",
         "heading_custom": false,
         "heading_font": "alegreya_sans_n4",
         "heading_size": 48,
