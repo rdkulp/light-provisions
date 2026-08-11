@@ -534,6 +534,245 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "1786451857569258fb": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_ed8fbec_YyVfAH": {
+          "type": "ai_gen_block_ed8fbec",
+          "settings": {
+            "title": "Meet Brett",
+            "intro_text": "<p>Hi, I’m Brett Owens. I started Light Provisions in 2015 and still have a hand in nearly every part of it, from developing fragrances and pouring candles to choosing the things we carry, photographing products in my home, and packing plenty of orders.</p>",
+            "fact_1_label": "Based in",
+            "fact_1_value": "Colorado Springs, Colorado",
+            "fact_2_label": "Founded",
+            "fact_2_value": "2015",
+            "fact_3_label": "Usually Burning",
+            "fact_3_value": "Something in every room 🫠",
+            "fact_4_label": "Currently Collecting",
+            "fact_4_value": "Vintage glass, specifically \"Depression era\"",
+            "fact_5_label": "Favorite scent",
+            "fact_5_value": "Sandalwood candle | Guaiacwood incense",
+            "fact_6_label": "Current Hobbies",
+            "fact_6_value": "Stephen King books",
+            "background_color": "#F1EFEE",
+            "heading_color": "#a15736",
+            "text_color": "#414042",
+            "accent_color": "#8a6a38",
+            "title_size": 48,
+            "text_size": 18,
+            "label_size_desktop": 11,
+            "fact_size_desktop": 16,
+            "label_size_mobile": 10,
+            "fact_size_mobile": 14,
+            "section_padding": 60,
+            "content_gap": 60,
+            "fact_gap": 30,
+            "mobile_gap": 40
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_ed8fbec_YyVfAH"
+      ],
+      "name": "About Section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "product_recommendations_LganMA": {
+      "type": "product-recommendations",
+      "blocks": {
+        "text_XAt3PA": {
+          "type": "text",
+          "name": "Header",
+          "settings": {
+            "text": "<h3>Start Here:</h3>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_7Y4JpG": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h6>A few of the things that best represent Light Provisions today</h6>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "Product card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 4,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_7pTJzG": {
+              "type": "_product-card-gallery",
+              "name": "Media",
+              "settings": {
+                "image_ratio": "adapt",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_aRBihH": {
+              "type": "product-title",
+              "name": "Product title",
+              "settings": {
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_MQBceV": {
+              "type": "price",
+              "name": "Price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "color": "var(--color-foreground)",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_7pTJzG",
+            "product_title_aRBihH",
+            "price_MQBceV"
+          ]
+        }
+      },
+      "block_order": [
+        "text_XAt3PA",
+        "text_7Y4JpG"
+      ],
+      "name": "Recommended products",
+      "settings": {
+        "product": "{{ closest.product }}",
+        "recommendation_type": "related",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 12,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 28,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
     }
   },
   "order": [
@@ -541,6 +780,8 @@
     "main",
     "section_TJkQXC",
     "section_mzqAKf",
-    "ss_timeline_4_EjNL3U"
+    "ss_timeline_4_EjNL3U",
+    "1786451857569258fb",
+    "product_recommendations_LganMA"
   ]
 }
