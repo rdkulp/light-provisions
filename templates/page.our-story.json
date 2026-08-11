@@ -453,7 +453,7 @@
       ],
       "name": "SS - Timeline #4",
       "settings": {
-        "heading": "<h2><em>Light Provisions, so far.</em></h2>",
+        "heading": "<h3><em>Light Provisions, so far.</em></h3>",
         "heading_custom": false,
         "heading_font": "alegreya_sans_n4",
         "heading_size": 48,
@@ -606,60 +606,116 @@
         "padding-block-end": 0
       }
     },
-    "product_recommendations_LganMA": {
-      "type": "product-recommendations",
+    "product_list_9mRXhz": {
+      "type": "product-list",
       "blocks": {
-        "text_XAt3PA": {
-          "type": "text",
+        "static-header": {
+          "type": "_product-list-content",
           "name": "Header",
+          "static": true,
           "settings": {
-            "text": "<h3>Start Here</h3>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
+            "content_direction": "column",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 0,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
-        },
-        "text_7Y4JpG": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p>A few things that best represent Light Provisions today, from things I make to things I’ve found along the way.</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+          "blocks": {
+            "product_list_text_7mDkyj": {
+              "type": "_product-list-text",
+              "name": "Collection title",
+              "settings": {
+                "text": "<h2>{{ closest.collection.title }}</h2>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_GjBMxT": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>If you’re new here, these are a few good places to start. They span the things I make by hand, objects from makers I admire, and vintage finds that have found a second life at Light Provisions.</p>",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 19,
+                "padding-block-end": 8,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_HUGMrA": {
+              "type": "_product-list-button",
+              "name": "View all button",
+              "disabled": true,
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
           },
-          "blocks": {}
+          "block_order": [
+            "product_list_text_7mDkyj",
+            "text_GjBMxT",
+            "product_list_button_HUGMrA"
+          ]
         },
         "static-product-card": {
           "type": "_product-card",
@@ -679,7 +735,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "product_card_gallery_7pTJzG": {
+            "product_card_gallery_qtDX6H": {
               "type": "_product-card-gallery",
               "name": "Media",
               "settings": {
@@ -695,7 +751,7 @@
               },
               "blocks": {}
             },
-            "product_title_aRBihH": {
+            "product_title_TVYTGy": {
               "type": "product-title",
               "name": "Product title",
               "settings": {
@@ -720,7 +776,7 @@
               },
               "blocks": {}
             },
-            "price_MQBceV": {
+            "price_NVttP4": {
               "type": "price",
               "name": "Price",
               "settings": {
@@ -745,30 +801,27 @@
             }
           },
           "block_order": [
-            "product_card_gallery_7pTJzG",
-            "product_title_aRBihH",
-            "price_MQBceV"
+            "product_card_gallery_qtDX6H",
+            "product_title_TVYTGy",
+            "price_NVttP4"
           ]
         }
       },
-      "block_order": [
-        "text_XAt3PA",
-        "text_7Y4JpG"
-      ],
-      "name": "Recommended products",
+      "name": "Featured collection: Grid",
       "settings": {
-        "product": "{{ closest.product }}",
-        "recommendation_type": "related",
+        "collection": "start-here",
         "layout_type": "grid",
         "carousel_on_mobile": false,
-        "max_products": 4,
+        "max_products": 8,
         "columns": 4,
         "mobile_columns": "2",
-        "columns_gap": 12,
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
         "rows_gap": 24,
         "icons_style": "arrow",
         "icons_shape": "none",
         "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
         "gap": 28,
         "color_scheme": "scheme-1",
         "padding-block-start": 48,
@@ -783,6 +836,6 @@
     "section_mzqAKf",
     "ss_timeline_4_EjNL3U",
     "1786451857569258fb",
-    "product_recommendations_LganMA"
+    "product_list_9mRXhz"
   ]
 }
