@@ -381,7 +381,7 @@
             "image": "shopify://shop_images/IMG_4148_copy.jpg",
             "image_width": 260,
             "image_ratio": "square",
-            "image_ratio_mobile": "portrait"
+            "image_ratio_mobile": "landscape"
           }
         },
         "slide_Jm3gL6": {
@@ -1298,7 +1298,7 @@
         "slide_DUPc6G",
         "slide_wPanQg"
       ],
-      "name": "Slideshow: Full frame",
+      "name": "Studio Slideshow",
       "settings": {
         "display_mode": "full_frame",
         "section_width": "full-width",
