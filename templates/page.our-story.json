@@ -1071,11 +1071,11 @@
             "icon_wEbnax"
           ]
         },
-        "slide_tjfamE": {
+        "slide_hNkACP": {
           "type": "_slide",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/on_rotation_banner_1_a8978d85-cc2b-4f90-bdac-87788f6371f8.jpg",
+            "image_1": "shopify://shop_images/b_w_studio_9.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -1095,7 +1095,24 @@
             "padding-inline-start": 48,
             "padding-inline-end": 48
           },
-          "blocks": {}
+          "blocks": {
+            "icon_4G8fph": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "disabled": true,
+              "settings": {
+                "icon": "none",
+                "image_upload": "shopify://shop_images/LP_Monogram_-_white.png",
+                "width": 80,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_4G8fph"
+          ]
         },
         "slide_7zdENa": {
           "type": "_slide",
@@ -1149,11 +1166,11 @@
           },
           "blocks": {}
         },
-        "slide_DUPc6G": {
+        "slide_tjfamE": {
           "type": "_slide",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/b_w_banner.jpg",
+            "image_1": "shopify://shop_images/on_rotation_banner_1_a8978d85-cc2b-4f90-bdac-87788f6371f8.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -1174,14 +1191,112 @@
             "padding-inline-end": 48
           },
           "blocks": {}
+        },
+        "slide_EGgYUV": {
+          "type": "_slide",
+          "settings": {
+            "media_type_1": "image",
+            "image_1": "shopify://shop_images/b_w_studio_8.jpg",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-6",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 48,
+            "padding-block-end": 48,
+            "padding-inline-start": 48,
+            "padding-inline-end": 48
+          },
+          "blocks": {}
+        },
+        "slide_DUPc6G": {
+          "type": "_slide",
+          "settings": {
+            "media_type_1": "image",
+            "image_1": "shopify://shop_images/b_w_studio_5.jpg",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-6",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 48,
+            "padding-block-end": 48,
+            "padding-inline-start": 48,
+            "padding-inline-end": 48
+          },
+          "blocks": {}
+        },
+        "slide_wPanQg": {
+          "type": "_slide",
+          "settings": {
+            "media_type_1": "image",
+            "image_1": "shopify://shop_images/b_w_studio_7.jpg",
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-6",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 48,
+            "padding-block-end": 48,
+            "padding-inline-start": 48,
+            "padding-inline-end": 48
+          },
+          "blocks": {
+            "icon_CQBxkh": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "disabled": true,
+              "settings": {
+                "icon": "none",
+                "image_upload": "shopify://shop_images/Light_House_-_bwhite_cad3eb10-8f30-47b4-b5b8-fd17fa6ad1b2.png",
+                "width": 200,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_CQBxkh"
+          ]
         }
       },
       "block_order": [
         "slide_6W6nER",
-        "slide_tjfamE",
+        "slide_hNkACP",
         "slide_7zdENa",
         "slide_MqqHke",
-        "slide_DUPc6G"
+        "slide_tjfamE",
+        "slide_EGgYUV",
+        "slide_DUPc6G",
+        "slide_wPanQg"
       ],
       "name": "Slideshow: Full frame",
       "settings": {
