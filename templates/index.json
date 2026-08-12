@@ -2123,12 +2123,24 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 0,
+            "padding-block-start": 35,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
           "blocks": {
+            "icon_6CGphG": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/LP_Monogram_-_white.png",
+                "width": 24,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
             "text_XEcCPH": {
               "type": "text",
               "name": "t:names.text",
@@ -2183,6 +2195,7 @@
             }
           },
           "block_order": [
+            "icon_6CGphG",
             "text_XEcCPH",
             "text_xLwaAg"
           ]
@@ -2221,8 +2234,8 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 100,
-            "padding-block-end": 100,
+            "padding-block-start": 61,
+            "padding-block-end": 49,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
