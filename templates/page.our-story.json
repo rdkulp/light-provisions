@@ -504,22 +504,22 @@
         "arrow_show_mobile": false,
         "arrow_align": "center",
         "arrow_align_mobile": "center",
-        "heading_color": "#FFFFFF",
-        "heading_highlight_color": "#AFAFAF",
+        "heading_color": "#ffffff",
+        "heading_highlight_color": "#afafaf",
         "image_border_color": "#121212",
-        "date_color": "#FFFFFF",
+        "date_color": "#ffffff",
         "text_color": "#414042",
-        "text_highlight_color": "#A15736",
+        "text_highlight_color": "#a15736",
         "arrow_color": "#121212",
         "arrow_hover_color": "#121212",
         "arrow_bg_color": "",
         "arrow_bg_hover_color": "",
-        "arrow_border_color": "#A15736",
-        "arrow_border_hover_color": "#A15736",
+        "arrow_border_color": "#a15736",
+        "arrow_border_hover_color": "#a15736",
         "dots_color": "#121212",
-        "background_color": "#C8A476",
+        "background_color": "#c8a476",
         "background_gradient": "",
-        "border_color": "#A15736",
+        "border_color": "#a15736",
         "margin_top": 0,
         "margin_bottom": 0,
         "margin_horizontal": 0,
@@ -1339,7 +1339,7 @@
             "fact_5_value": "Sandalwood candle & Guaiacwood incense",
             "fact_6_label": "On the Turntable",
             "fact_6_value": "Stan Getz & Astrud Gilberto",
-            "background_color": "#F1EFEE",
+            "background_color": "#f1efee",
             "heading_color": "#a15736",
             "text_color": "#414042",
             "accent_color": "#8a6a38",
@@ -1590,7 +1590,7 @@
           ]
         }
       },
-      "name": "Featured collection: Grid",
+      "name": "Start here: Collection",
       "settings": {
         "collection": "start-here",
         "layout_type": "grid",
@@ -1610,6 +1610,188 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "media_with_content_EE3LtF": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/12759abd-8aad-4bdb-a80d-f49ce4a6c5ad-690d1951-9fdc-47be-a2d7-3d2346b546a4.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false,
+            "image_position": "contain",
+            "video_position": "cover"
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 24
+          },
+          "blocks": {
+            "text_EbyQU7": {
+              "type": "text",
+              "name": "Caption",
+              "settings": {
+                "text": "<p>From the Colorado Springs Gazette</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group_LCjtMG": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_GimQ38": {
+                  "type": "text",
+                  "name": "Heading",
+                  "settings": {
+                    "text": "<p><em>“There’s an importance of lighting a candle. There’s a beauty in it.”</em></p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_eh8C8a": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Made with care extended</p>",
+                    "width": "fit-content",
+                    "max_width": "narrow",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_GimQ38",
+                "text_eh8C8a"
+              ]
+            },
+            "button_FwxzRA": {
+              "type": "button",
+              "settings": {
+                "label": "Read the full story",
+                "link": "https://gazette.com/2020/10/01/colorado-springs-mans-creative-craft-candles-have-ignited-a-strong-following",
+                "open_in_new_tab": true,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_EbyQU7",
+            "group_LCjtMG",
+            "button_FwxzRA"
+          ]
+        }
+      },
+      "name": "Editorial",
+      "settings": {
+        "media_position": "left",
+        "media_width": "medium",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "scheme-4",
+        "padding-block-start": 26,
+        "padding-block-end": 26
+      }
     }
   },
   "order": [
@@ -1621,6 +1803,7 @@
     "section_EXqVRq",
     "slideshow_DzYcrF",
     "1786451857569258fb",
+    "media_with_content_EE3LtF",
     "product_list_9mRXhz"
   ]
 }
