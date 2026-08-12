@@ -215,6 +215,47 @@
         "padding-block-end": 32
       }
     },
+    "marquee_BjJgRE": {
+      "type": "marquee",
+      "blocks": {
+        "text_EG4mBU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hand Poured in Colorado Springs</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.5rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "balance",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_EG4mBU"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-3",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -409,6 +450,7 @@
   },
   "order": [
     "section",
+    "marquee_BjJgRE",
     "main"
   ]
 }
