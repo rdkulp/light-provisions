@@ -893,8 +893,49 @@
         "corner_radius": "rounded",
         "width_percent": 100,
         "alignment_horizontal": "center",
-        "padding-block-start": 55,
-        "padding-block-end": 55
+        "padding-block-start": 25,
+        "padding-block-end": 25
+      }
+    },
+    "marquee_UnkU8A": {
+      "type": "marquee",
+      "blocks": {
+        "text_YaF3Mp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Made in Hyogo, Japan</em></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 24,
+            "padding-inline-end": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_YaF3Mp"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-8",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
       }
     },
     "section_NaqU9X": {
@@ -1214,6 +1255,7 @@
   "order": [
     "main",
     "divider_4qCNgY",
+    "marquee_UnkU8A",
     "section_NaqU9X",
     "17634957166372b8c3",
     "product_recommendations_kQ9qYc",
