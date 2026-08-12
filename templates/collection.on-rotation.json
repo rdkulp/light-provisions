@@ -16,10 +16,11 @@
           "type": "ai_gen_block_baed1e4",
           "settings": {
             "image_desktop": "shopify://shop_images/on_rotation_banner_1_a8978d85-cc2b-4f90-bdac-87788f6371f8.jpg",
+            "image_mobile": "shopify://shop_images/9dfb16bd-70d3-42d0-bb63-e348f978988d_c9de3107-f8c5-4dae-84a0-5cee67bf1d72.jpg",
             "image_position_x": 65,
-            "image_position_y": 20,
+            "image_position_y": 35,
             "banner_height_desktop": 400,
-            "banner_height_mobile": 300,
+            "banner_height_mobile": 380,
             "show_overlay": true,
             "overlay_color": "#000000",
             "overlay_opacity": 20,
