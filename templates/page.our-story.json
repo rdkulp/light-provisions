@@ -1397,8 +1397,8 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/12759abd-8aad-4bdb-a80d-f49ce4a6c5ad-690d1951-9fdc-47be-a2d7-3d2346b546a4.jpg",
-            "link": "",
+            "image": "shopify://shop_images/colorado_springs_gazette.jpg",
+            "link": "https://gazette.com/2020/10/01/colorado-springs-mans-creative-craft-candles-have-ignited-a-strong-following",
             "video_loop": true,
             "video_autoplay": false,
             "image_position": "contain",
@@ -1419,7 +1419,7 @@
               "type": "text",
               "name": "Caption",
               "settings": {
-                "text": "<p>From the Colorado Springs Gazette</p>",
+                "text": "<p>FROM THE ARCHIVES · THE COLORADO SPRINGS GAZETTE</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1544,7 +1544,7 @@
                 "label": "Read the full story",
                 "link": "https://gazette.com/2020/10/01/colorado-springs-mans-creative-craft-candles-have-ignited-a-strong-following",
                 "open_in_new_tab": true,
-                "style_class": "button-secondary",
+                "style_class": "link",
                 "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "fit-content",
