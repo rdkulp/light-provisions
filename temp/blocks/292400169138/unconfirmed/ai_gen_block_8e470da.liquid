@@ -1,6 +1,645 @@
+{% doc %}
+  @prompt
+    Create a custom Shopify section called **Customer Homes Grid**.
+    
+    I want an editorial-style grid that mixes customer photos and customer quotes.
+    
+    Include three block types:
+    
+    1. **Photo only**
+    2. **Quote only**
+    3. **Photo + quote**
+    
+    Each block should be independent. Do not automatically connect nearby photos and quotes unless I use the Photo + Quote block.
+    
+    Requirements:
+    
+    * Add, remove, and reorder blocks in the theme editor
+    * Mixed portrait, landscape, and square images
+    * Editorial grid with generous spacing
+    * Avoid making every block the same size
+    * Optional section heading and intro text
+    * Responsive mobile layout
+    * Use my theme typography and styling
+    * No product links, prices, buttons, or review integrations
+    
+    The goal is a flexible visual social-proof section that feels like a lookbook, not a standard testimonial grid.
+    
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-customer-homes-grid-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding: {{ block.settings.section_padding_top }}px 0 {{ block.settings.section_padding_bottom }}px;
+  }
+
+  .ai-customer-homes-grid__header-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    margin-bottom: {{ block.settings.header_spacing }}px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+  }
+
+  .ai-customer-homes-grid__heading-{{ ai_gen_id }} {
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 16px;
+    font-size: {{ block.settings.heading_size }}px;
+  }
+
+  .ai-customer-homes-grid__intro-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.intro_size }}px;
+    line-height: 1.6;
+  }
+
+  .ai-customer-homes-grid__container-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: {{ block.settings.grid_gap }}px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-customer-homes-grid__item-{{ ai_gen_id }} {
+    position: relative;
+    overflow: hidden;
+    border-radius: {{ block.settings.item_border_radius }}px;
+    background-color: {{ block.settings.item_background }};
+  }
+
+  .ai-customer-homes-grid__item--photo-{{ ai_gen_id }} {
+    aspect-ratio: 1;
+  }
+
+  .ai-customer-homes-grid__item--quote-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: {{ block.settings.quote_padding }}px;
+    min-height: 300px;
+  }
+
+  .ai-customer-homes-grid__item--photo-quote-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ai-customer-homes-grid__image-wrapper-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .ai-customer-homes-grid__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ai-customer-homes-grid__placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-customer-homes-grid__placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-customer-homes-grid__empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-customer-homes-grid__quote-content-{{ ai_gen_id }} {
+    text-align: center;
+  }
+
+  .ai-customer-homes-grid__quote-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.quote_text_size }}px;
+    line-height: 1.5;
+    color: {{ block.settings.quote_text_color }};
+    margin: 0 0 16px;
+    font-style: italic;
+  }
+
+  .ai-customer-homes-grid__quote-author-{{ ai_gen_id }} {
+    font-size: {{ block.settings.author_text_size }}px;
+    color: {{ block.settings.author_text_color }};
+    font-weight: 500;
+  }
+
+  .ai-customer-homes-grid__photo-quote-image-{{ ai_gen_id }} {
+    flex: 1;
+    min-height: 250px;
+  }
+
+  .ai-customer-homes-grid__photo-quote-quote-{{ ai_gen_id }} {
+    padding: {{ block.settings.quote_padding }}px;
+    background-color: {{ block.settings.item_background }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-customer-homes-grid__container-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+      gap: {{ block.settings.grid_gap_mobile }}px;
+      padding: 0 16px;
+    }
+
+    .ai-customer-homes-grid__heading-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.7);
+    }
+
+    .ai-customer-homes-grid__intro-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.intro_size }}px * 0.9);
+    }
+
+    .ai-customer-homes-grid__quote-text-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.quote_text_size }}px * 0.9);
+    }
+
+    .ai-customer-homes-grid__item--quote-{{ ai_gen_id }} {
+      min-height: 250px;
+      padding: {{ block.settings.quote_padding | times: 0.7 }}px;
+    }
+
+    .ai-customer-homes-grid__photo-quote-quote-{{ ai_gen_id }} {
+      padding: {{ block.settings.quote_padding | times: 0.7 }}px;
+    }
+  }
+{% endstyle %}
+
+<customer-homes-grid-{{ ai_gen_id }}
+  class="ai-customer-homes-grid-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.heading != blank or block.settings.intro_text != blank %}
+    <div class="ai-customer-homes-grid__header-{{ ai_gen_id }}">
+      {% if block.settings.heading != blank %}
+        <h2 class="ai-customer-homes-grid__heading-{{ ai_gen_id }}">
+          {{ block.settings.heading }}
+        </h2>
+      {% endif %}
+      {% if block.settings.intro_text != blank %}
+        <div class="ai-customer-homes-grid__intro-{{ ai_gen_id }}">
+          {{ block.settings.intro_text }}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="ai-customer-homes-grid__container-{{ ai_gen_id }}">
+    {% if block.settings.photo_1 != blank %}
+      <div class="ai-customer-homes-grid__item-{{ ai_gen_id }} ai-customer-homes-grid__item--photo-{{ ai_gen_id }}">
+        <div class="ai-customer-homes-grid__image-wrapper-{{ ai_gen_id }}">
+          <img
+            src="{{ block.settings.photo_1 | image_url: width: 800 }}"
+            alt="{{ block.settings.photo_1.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.photo_1.width }}"
+            height="{{ block.settings.photo_1.height }}"
+            class="ai-customer-homes-grid__image-{{ ai_gen_id }}"
+          >
+        </div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.quote_1_text != blank %}
+      <div class="ai-customer-homes-grid__item-{{ ai_gen_id }} ai-customer-homes-grid__item--quote-{{ ai_gen_id }}">
+        <div class="ai-customer-homes-grid__quote-content-{{ ai_gen_id }}">
+          <blockquote class="ai-customer-homes-grid__quote-text-{{ ai_gen_id }}">
+            {{ block.settings.quote_1_text }}
+          </blockquote>
+          {% if block.settings.quote_1_author != blank %}
+            <cite class="ai-customer-homes-grid__quote-author-{{ ai_gen_id }}">
+              {{ block.settings.quote_1_author }}
+            </cite>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.photo_2 != blank %}
+      <div class="ai-customer-homes-grid__item-{{ ai_gen_id }} ai-customer-homes-grid__item--photo-{{ ai_gen_id }}">
+        <div class="ai-customer-homes-grid__image-wrapper-{{ ai_gen_id }}">
+          <img
+            src="{{ block.settings.photo_2 | image_url: width: 800 }}"
+            alt="{{ block.settings.photo_2.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.photo_2.width }}"
+            height="{{ block.settings.photo_2.height }}"
+            class="ai-customer-homes-grid__image-{{ ai_gen_id }}"
+          >
+        </div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.quote_2_text != blank %}
+      <div class="ai-customer-homes-grid__item-{{ ai_gen_id }} ai-customer-homes-grid__item--quote-{{ ai_gen_id }}">
+        <div class="ai-customer-homes-grid__quote-content-{{ ai_gen_id }}">
+          <blockquote class="ai-customer-homes-grid__quote-text-{{ ai_gen_id }}">
+            {{ block.settings.quote_2_text }}
+          </blockquote>
+          {% if block.settings.quote_2_author != blank %}
+            <cite class="ai-customer-homes-grid__quote-author-{{ ai_gen_id }}">
+              {{ block.settings.quote_2_author }}
+            </cite>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.photo_3 != blank %}
+      <div class="ai-customer-homes-grid__item-{{ ai_gen_id }} ai-customer-homes-grid__item--photo-{{ ai_gen_id }}">
+        <div class="ai-customer-homes-grid__image-wrapper-{{ ai_gen_id }}">
+          <img
+            src="{{ block.settings.photo_3 | image_url: width: 800 }}"
+            alt="{{ block.settings.photo_3.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.photo_3.width }}"
+            height="{{ block.settings.photo_3.height }}"
+            class="ai-customer-homes-grid__image-{{ ai_gen_id }}"
+          >
+        </div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.combo_1_photo != blank or block.settings.combo_1_quote != blank %}
+      <div class="ai-customer-homes-grid__item-{{ ai_gen_id }} ai-customer-homes-grid__item--photo-quote-{{ ai_gen_id }}">
+        <div class="ai-customer-homes-grid__photo-quote-image-{{ ai_gen_id }}">
+          {% if block.settings.combo_1_photo != blank %}
+            <img
+              src="{{ block.settings.combo_1_photo | image_url: width: 800 }}"
+              alt="{{ block.settings.combo_1_photo.alt | escape }}"
+              loading="lazy"
+              width="{{ block.settings.combo_1_photo.width }}"
+              height="{{ block.settings.combo_1_photo.height }}"
+              class="ai-customer-homes-grid__image-{{ ai_gen_id }}"
+              style="width: 100%; height: 100%; object-fit: cover;"
+            >
+          {% else %}
+            <div class="ai-customer-homes-grid__placeholder-{{ ai_gen_id }}">
+              {{ 'image' | placeholder_svg_tag }}
+            </div>
+          {% endif %}
+        </div>
+        {% if block.settings.combo_1_quote != blank %}
+          <div class="ai-customer-homes-grid__photo-quote-quote-{{ ai_gen_id }}">
+            <div class="ai-customer-homes-grid__quote-content-{{ ai_gen_id }}">
+              <blockquote class="ai-customer-homes-grid__quote-text-{{ ai_gen_id }}">
+                {{ block.settings.combo_1_quote }}
+              </blockquote>
+              {% if block.settings.combo_1_author != blank %}
+                <cite class="ai-customer-homes-grid__quote-author-{{ ai_gen_id }}">
+                  {{ block.settings.combo_1_author }}
+                </cite>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</customer-homes-grid-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class CustomerHomesGrid{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.style.display = 'block';
+      }
+    }
+
+    customElements.define('customer-homes-grid-{{ ai_gen_id }}', CustomerHomesGrid{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Customer homes grid",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section header"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "intro_text",
+      "label": "Intro text"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 20,
+      "max": 72,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "intro_size",
+      "label": "Intro text size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "header_spacing",
+      "label": "Header spacing",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Grid layout"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Columns on desktop",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "label": "Grid gap",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "grid_gap_mobile",
+      "label": "Grid gap on mobile",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Item style"
+    },
+    {
+      "type": "range",
+      "id": "item_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "color",
+      "id": "item_background",
+      "label": "Background color",
+      "default": "#f1efee"
+    },
+    {
+      "type": "header",
+      "content": "Quote style"
+    },
+    {
+      "type": "range",
+      "id": "quote_padding",
+      "label": "Quote padding",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "quote_text_size",
+      "label": "Quote text size",
+      "min": 14,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "quote_text_color",
+      "label": "Quote text color",
+      "default": "#414042"
+    },
+    {
+      "type": "range",
+      "id": "author_text_size",
+      "label": "Author text size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "author_text_color",
+      "label": "Author text color",
+      "default": "#a15736"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#a15736"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#414042"
+    },
+    {
+      "type": "header",
+      "content": "Photo 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "photo_1",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Quote 1"
+    },
+    {
+      "type": "textarea",
+      "id": "quote_1_text",
+      "label": "Quote text"
+    },
+    {
+      "type": "text",
+      "id": "quote_1_author",
+      "label": "Author name"
+    },
+    {
+      "type": "header",
+      "content": "Photo 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "photo_2",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Quote 2"
+    },
+    {
+      "type": "textarea",
+      "id": "quote_2_text",
+      "label": "Quote text"
+    },
+    {
+      "type": "text",
+      "id": "quote_2_author",
+      "label": "Author name"
+    },
+    {
+      "type": "header",
+      "content": "Photo 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "photo_3",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Photo + quote combo 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "combo_1_photo",
+      "label": "Image"
+    },
+    {
+      "type": "textarea",
+      "id": "combo_1_quote",
+      "label": "Quote text"
+    },
+    {
+      "type": "text",
+      "id": "combo_1_author",
+      "label": "Author name"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "label": "Top padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    }
+  ],
+  "presets": [
+    {
+      "name": "Customer homes grid"
+    }
+  ]
+}
 {% endschema %}
