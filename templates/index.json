@@ -947,7 +947,7 @@
             "arrows_position": "sides",
             "max_width": 1100,
             "corner_styling": "soft",
-            "header_text_color": "#302F2F",
+            "header_text_color": "#302f2f",
             "text_color": "#f1efee",
             "card_color": "#a15736",
             "stars_color": "#caa97c",
@@ -2299,6 +2299,32 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "text_4yM364": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h2><em>Poured by hand in Colorado Springs </em></h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_XEcCPH": {
               "type": "text",
               "name": "t:names.text",
@@ -2353,6 +2379,7 @@
             }
           },
           "block_order": [
+            "text_4yM364",
             "text_XEcCPH",
             "text_xLwaAg"
           ]
@@ -3140,7 +3167,7 @@
         "columns_gap": 13,
         "rows_gap": 12,
         "icons_style": "chevron_large",
-        "icons_shape": "circle",
+        "icons_shape": "none",
         "section_width": "page-width",
         "horizontal_alignment": "center",
         "gap": 32,
@@ -3179,8 +3206,8 @@
     "ss_hero_23_6j9HkF",
     "178250464212dd66d3",
     "divider_KiD9Mb",
-    "collection_list_FrzcwU",
     "section_UcDgem",
+    "collection_list_FrzcwU",
     "divider_jN37wf",
     "1785539703db753f79",
     "product_list_EDUBdR",
