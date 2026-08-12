@@ -1,6 +1,441 @@
+{% doc %}
+  @prompt
+    Create a custom banner section for the On Rotation collection page.
+    
+    I want it to function like a simplified, narrow hero banner. About half the height of a typical hero section. It should be primarily visual, with no product links, buttons, headings, or body copy required.
+    
+    The section should include:
+    
+    * An image or background image setting
+    * The ability to upload and display a separate icon, logo, or graphic over the banner
+    * Controls for the icon/graphic size and position
+    * Desktop and mobile image options if possible
+    * Adjustable banner height for desktop and mobile
+    * Adjustable image focal point or positioning
+    * Optional overlay opacity control
+    * Adjustable top and bottom spacing
+    * Full-width layout
+    
+    The uploaded icon/graphic should preserve transparency and sit cleanly over the background image. In my case, I’ll be using the On Rotation logo/wordmark as the graphic.
+    
+    Please keep the section lightweight and visually simple. I do not need buttons, headings, text blocks, shoppable links, or other standard hero features.
+    
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-visual-banner-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: {{ block.settings.spacing_top }}px;
+    margin-bottom: {{ block.settings.spacing_bottom }}px;
+    display: block;
+  }
+
+  .ai-visual-banner-container-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: {{ block.settings.banner_height_desktop }}px;
+  }
+
+  .ai-visual-banner-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: {{ block.settings.image_position_x }}% {{ block.settings.image_position_y }}%;
+    display: block;
+  }
+
+  .ai-visual-banner-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-visual-banner-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .ai-visual-banner-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-visual-banner-overlay-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: {{ block.settings.overlay_color }};
+    opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
+    pointer-events: none;
+  }
+
+  .ai-visual-banner-icon-wrapper-{{ ai_gen_id }} {
+    position: absolute;
+    z-index: 2;
+    {% if block.settings.icon_position == 'center' %}
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    {% elsif block.settings.icon_position == 'top-left' %}
+      top: {{ block.settings.icon_offset_vertical }}px;
+      left: {{ block.settings.icon_offset_horizontal }}px;
+    {% elsif block.settings.icon_position == 'top-center' %}
+      top: {{ block.settings.icon_offset_vertical }}px;
+      left: 50%;
+      transform: translateX(-50%);
+    {% elsif block.settings.icon_position == 'top-right' %}
+      top: {{ block.settings.icon_offset_vertical }}px;
+      right: {{ block.settings.icon_offset_horizontal }}px;
+    {% elsif block.settings.icon_position == 'bottom-left' %}
+      bottom: {{ block.settings.icon_offset_vertical }}px;
+      left: {{ block.settings.icon_offset_horizontal }}px;
+    {% elsif block.settings.icon_position == 'bottom-center' %}
+      bottom: {{ block.settings.icon_offset_vertical }}px;
+      left: 50%;
+      transform: translateX(-50%);
+    {% elsif block.settings.icon_position == 'bottom-right' %}
+      bottom: {{ block.settings.icon_offset_vertical }}px;
+      right: {{ block.settings.icon_offset_horizontal }}px;
+    {% endif %}
+  }
+
+  .ai-visual-banner-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_width_desktop }}px;
+    height: auto;
+    display: block;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-visual-banner-container-{{ ai_gen_id }} {
+      height: {{ block.settings.banner_height_mobile }}px;
+    }
+
+    .ai-visual-banner-icon-{{ ai_gen_id }} {
+      width: {{ block.settings.icon_width_mobile }}px;
+    }
+
+    .ai-visual-banner-icon-wrapper-{{ ai_gen_id }} {
+      {% if block.settings.icon_position == 'top-left' %}
+        top: {{ block.settings.icon_offset_vertical_mobile }}px;
+        left: {{ block.settings.icon_offset_horizontal_mobile }}px;
+      {% elsif block.settings.icon_position == 'top-center' %}
+        top: {{ block.settings.icon_offset_vertical_mobile }}px;
+      {% elsif block.settings.icon_position == 'top-right' %}
+        top: {{ block.settings.icon_offset_vertical_mobile }}px;
+        right: {{ block.settings.icon_offset_horizontal_mobile }}px;
+      {% elsif block.settings.icon_position == 'bottom-left' %}
+        bottom: {{ block.settings.icon_offset_vertical_mobile }}px;
+        left: {{ block.settings.icon_offset_horizontal_mobile }}px;
+      {% elsif block.settings.icon_position == 'bottom-center' %}
+        bottom: {{ block.settings.icon_offset_vertical_mobile }}px;
+      {% elsif block.settings.icon_position == 'bottom-right' %}
+        bottom: {{ block.settings.icon_offset_vertical_mobile }}px;
+        right: {{ block.settings.icon_offset_horizontal_mobile }}px;
+      {% endif %}
+    }
+  }
+{% endstyle %}
+
+<visual-banner-{{ ai_gen_id }} class="ai-visual-banner-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-visual-banner-container-{{ ai_gen_id }}">
+    {% if block.settings.image_desktop %}
+      <picture>
+        {% if block.settings.image_mobile %}
+          <source
+            media="(max-width: 749px)"
+            srcset="{{ block.settings.image_mobile | image_url: width: 1500 }}"
+          >
+        {% endif %}
+        <img
+          src="{{ block.settings.image_desktop | image_url: width: 3000 }}"
+          alt="{{ block.settings.image_desktop.alt | escape }}"
+          loading="lazy"
+          width="{{ block.settings.image_desktop.width }}"
+          height="{{ block.settings.image_desktop.height }}"
+          class="ai-visual-banner-image-{{ ai_gen_id }}"
+        >
+      </picture>
+    {% else %}
+      <div class="ai-visual-banner-placeholder-{{ ai_gen_id }}">
+        {{ 'hero-apparel-1' | placeholder_svg_tag }}
+        <div class="ai-visual-banner-empty-state-{{ ai_gen_id }}">
+          Add a background image
+        </div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.show_overlay %}
+      <div class="ai-visual-banner-overlay-{{ ai_gen_id }}"></div>
+    {% endif %}
+
+    {% if block.settings.icon_image %}
+      <div class="ai-visual-banner-icon-wrapper-{{ ai_gen_id }}">
+        <img
+          src="{{ block.settings.icon_image | image_url: width: 1000 }}"
+          alt="{{ block.settings.icon_image.alt | escape }}"
+          loading="lazy"
+          width="{{ block.settings.icon_image.width }}"
+          height="{{ block.settings.icon_image.height }}"
+          class="ai-visual-banner-icon-{{ ai_gen_id }}"
+        >
+      </div>
+    {% endif %}
+  </div>
+</visual-banner-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class VisualBanner{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+    }
+
+    customElements.define('visual-banner-{{ ai_gen_id }}', VisualBanner{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Visual banner",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_desktop",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Mobile image"
+    },
+    {
+      "type": "range",
+      "id": "image_position_x",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Horizontal focal point",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "image_position_y",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Vertical focal point",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Banner height"
+    },
+    {
+      "type": "range",
+      "id": "banner_height_desktop",
+      "min": 200,
+      "max": 800,
+      "step": 20,
+      "unit": "px",
+      "label": "Desktop height",
+      "default": 400
+    },
+    {
+      "type": "range",
+      "id": "banner_height_mobile",
+      "min": 150,
+      "max": 600,
+      "step": 10,
+      "unit": "px",
+      "label": "Mobile height",
+      "default": 300
+    },
+    {
+      "type": "header",
+      "content": "Overlay"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_overlay",
+      "label": "Show overlay",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Overlay opacity",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Icon or graphic"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "select",
+      "id": "icon_position",
+      "label": "Icon position",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "top-left",
+          "label": "Top left"
+        },
+        {
+          "value": "top-center",
+          "label": "Top center"
+        },
+        {
+          "value": "top-right",
+          "label": "Top right"
+        },
+        {
+          "value": "bottom-left",
+          "label": "Bottom left"
+        },
+        {
+          "value": "bottom-center",
+          "label": "Bottom center"
+        },
+        {
+          "value": "bottom-right",
+          "label": "Bottom right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "icon_width_desktop",
+      "min": 50,
+      "max": 800,
+      "step": 10,
+      "unit": "px",
+      "label": "Desktop icon width",
+      "default": 300
+    },
+    {
+      "type": "range",
+      "id": "icon_width_mobile",
+      "min": 50,
+      "max": 400,
+      "step": 10,
+      "unit": "px",
+      "label": "Mobile icon width",
+      "default": 200
+    },
+    {
+      "type": "range",
+      "id": "icon_offset_horizontal",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "label": "Desktop horizontal offset",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "icon_offset_vertical",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "label": "Desktop vertical offset",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "icon_offset_horizontal_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Mobile horizontal offset",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "icon_offset_vertical_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Mobile vertical offset",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "spacing_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top spacing",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "spacing_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom spacing",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Visual banner"
+    }
+  ]
+}
 {% endschema %}
