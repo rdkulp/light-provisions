@@ -383,7 +383,7 @@
         "button_bg_hover_color": "",
         "button_border_color": "#000000",
         "button_border_hover_color": "#555555",
-        "item_bg_color": "#FFFFFF",
+        "item_bg_color": "#F1EFEE",
         "item_border_color": "#000000",
         "item_heading_color": "#000000",
         "item_text_color": "#000000",
@@ -614,6 +614,47 @@
         "padding-block-end": 16
       }
     },
+    "marquee_BjJgRE": {
+      "type": "marquee",
+      "blocks": {
+        "text_EG4mBU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hand Poured in Colorado Springs</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1.5rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "balance",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_EG4mBU"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-3",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
     "1786541388087d0276": {
       "type": "_blocks",
       "blocks": {
@@ -683,47 +724,6 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
-    },
-    "marquee_BjJgRE": {
-      "type": "marquee",
-      "blocks": {
-        "text_EG4mBU": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Hand Poured in Colorado Springs</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-accent--family)",
-            "font_size": "1.5rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "balance",
-            "color": "var(--color-foreground-heading)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_EG4mBU"
-      ],
-      "name": "Marquee",
-      "settings": {
-        "movement_direction": "normal",
-        "color_scheme": "scheme-3",
-        "padding-block-start": 24,
-        "padding-block-end": 24,
-        "gap_between_elements": 24
-      }
     }
   },
   "order": [
@@ -732,7 +732,7 @@
     "ss_text_block_2_aM4QG3",
     "main",
     "divider_ancH8x",
-    "1786541388087d0276",
-    "marquee_BjJgRE"
+    "marquee_BjJgRE",
+    "1786541388087d0276"
   ]
 }
