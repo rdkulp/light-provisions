@@ -1772,7 +1772,7 @@
             "image_7_link": "",
             "image_8": "shopify://shop_images/Customer_Testimonial_Glass_6.jpg",
             "image_8_link": "",
-            "scroll_speed": 40,
+            "scroll_speed": 30,
             "scroll_direction": "left",
             "image_gap": 15,
             "pause_on_hover": true,
