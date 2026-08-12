@@ -1163,6 +1163,7 @@
         "image_yh88k7",
         "text_8qi76w"
       ],
+      "disabled": true,
       "name": "Pull quote",
       "settings": {
         "content_direction": "column",
@@ -1192,11 +1193,193 @@
         "padding-block-end": 83
       }
     },
+    "media_with_content_qgkpEw": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Refill_Ivywild_24.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false,
+            "image_position": "cover",
+            "video_position": "cover"
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 76
+          },
+          "blocks": {
+            "text_epQTD6": {
+              "type": "text",
+              "name": "Caption",
+              "settings": {
+                "text": "<p>Built for a Lifetime</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group_7gjLa6": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_4LyMcq": {
+                  "type": "text",
+                  "name": "Heading",
+                  "settings": {
+                    "text": "<p>✦</p><p><em>We hope this glass outlives the candle that introduced it. </em></p><p><em>Refill it, pour a drink, fill it with flowers, or pass it along someday. </em></p><p><em>The best objects earn their place by being used.</em></p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_cENpGF": {
+                  "type": "text",
+                  "disabled": true,
+                  "settings": {
+                    "text": "<p>Made with care extended</p>",
+                    "width": "fit-content",
+                    "max_width": "narrow",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_4LyMcq",
+                "text_cENpGF"
+              ]
+            }
+          },
+          "block_order": [
+            "text_epQTD6",
+            "group_7gjLa6"
+          ]
+        }
+      },
+      "name": "Editorial",
+      "settings": {
+        "media_position": "left",
+        "media_width": "medium",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "scheme-4",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "divider_AfBAeh": {
       "type": "divider",
       "name": "Divider",
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-4",
+        "section_width": "page-width",
+        "thickness": 3,
+        "corner_radius": "rounded",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
+      }
+    },
+    "divider_am3pVC": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-4",
         "section_width": "page-width",
         "thickness": 3,
         "corner_radius": "rounded",
@@ -1518,6 +1701,7 @@
       "block_order": [
         "group_eXB9tD"
       ],
+      "disabled": true,
       "name": "Collection list: Carousel",
       "settings": {
         "collection_list": [
@@ -1619,8 +1803,10 @@
     "1763495531717164ae",
     "17634957166372b8c3",
     "section_NaqU9X",
-    "section_6pmGUK",
     "divider_AfBAeh",
+    "section_6pmGUK",
+    "media_with_content_qgkpEw",
+    "divider_am3pVC",
     "product_recommendations_QyGjAJ",
     "collection_list_JhdmPy",
     "176350314455f5c7dd",
