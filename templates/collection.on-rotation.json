@@ -614,6 +614,98 @@
         "padding-block-end": 16
       }
     },
+    "ss_scrolling_images_4_qnhUyC": {
+      "type": "ss-scrolling-images-4",
+      "blocks": {
+        "image_P7dWxa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal_12.jpg"
+          }
+        },
+        "image_iFxYfP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48_WS_Woods_Sony_OPT.jpg"
+          }
+        },
+        "image_KEi6pG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/B06B54F0-8AB1-4730-86AC-F193D4F00EC8.jpg"
+          }
+        },
+        "image_mYryxW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/OR_Woods_iphone_OPT_9.jpg"
+          }
+        },
+        "image_XBJKCy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/OR_Open_Range_26.jpg"
+          }
+        },
+        "image_YaX9yw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal_18.jpg"
+          }
+        },
+        "image_WxaDFw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3edcb241-34ce-4949-8df9-afdef596f968.jpg"
+          }
+        },
+        "image_hKaGwL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_WS_Woods_Sony_OPT.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_P7dWxa",
+        "image_iFxYfP",
+        "image_KEi6pG",
+        "image_mYryxW",
+        "image_XBJKCy",
+        "image_YaX9yw",
+        "image_WxaDFw",
+        "image_hKaGwL"
+      ],
+      "name": "SS - Scrolling images #4",
+      "settings": {
+        "scroll_speed": 1.9,
+        "body_gap": 6,
+        "body_gap_mobile": 4,
+        "image_width": 260,
+        "image_width_mobile": 130,
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "image_radius": 6,
+        "image_border_thickness": 0,
+        "image_border_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 16,
+        "margin_bottom": 16,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "marquee_BjJgRE": {
       "type": "marquee",
       "blocks": {
@@ -648,7 +740,7 @@
       ],
       "name": "Marquee",
       "settings": {
-        "movement_direction": "normal",
+        "movement_direction": "reverse",
         "color_scheme": "scheme-3",
         "padding-block-start": 24,
         "padding-block-end": 24,
@@ -732,6 +824,7 @@
     "ss_text_block_2_aM4QG3",
     "main",
     "divider_ancH8x",
+    "ss_scrolling_images_4_qnhUyC",
     "marquee_BjJgRE",
     "1786541388087d0276"
   ]
