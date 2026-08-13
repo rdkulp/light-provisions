@@ -296,8 +296,8 @@
         "toggle_overlay": true,
         "overlay_color": "#00000026",
         "overlay_style": "gradient",
-        "gradient_direction": "to top",
-        "blurred_reflection": false,
+        "gradient_direction": "to bottom",
+        "blurred_reflection": true,
         "reflection_opacity": 75,
         "padding-block-start": 40,
         "padding-block-end": 40
@@ -309,24 +309,24 @@
         "item_WVAU88": {
           "type": "item",
           "settings": {
-            "heading": "Shea Butter",
-            "text": "Natural moisturizer loved for its ability to soften and hydrate skin. It also has anti-inflammatory properties that can soothe irritation and redness.",
+            "heading": "Bio-based packing peanuts",
+            "text": "Made from corn starch rather than conventional polystyrene foam. These lightweight pieces protect fragile glassware, dissolve in water, and are intended to biodegrade. Disposal options can vary, so follow local guidance—and please don’t use extra water solely to dissolve them.",
             "url": ""
           }
         },
         "item_eXhQX6": {
           "type": "item",
           "settings": {
-            "heading": "Pomegranate",
-            "text": "Pomegranates are rich in antioxidants that fight free radicals, which can damage skin cells and contribute to wrinkles.",
+            "heading": "Recycled kraft paper",
+            "text": "Our shipping boxes and kraft void fill use recycled fiber and can usually return to the paper recycling stream when clean and accepted locally. We also reuse sound paper from incoming supplier shipments whenever practical.",
             "url": ""
           }
         },
         "item_wHDeGy": {
           "type": "item",
           "settings": {
-            "heading": "Vitamins C & E",
-            "text": "Vitamin C is a champion for a brighter, more even skin tone. It helps reduce hyperpigmentation and discoloration, leaving you with a radiant look.",
+            "heading": "Recycled paper air cushions",
+            "text": "Our paper air cushions are made from 100% post-consumer recycled paper with a potato-starch-based adhesive. They’re designed to be recyclable and compostable, though local collection and composting rules still apply.",
             "url": ""
           }
         }
@@ -340,13 +340,13 @@
       "settings": {
         "content_horizontal_align": "center",
         "content_horizontal_align_mobile": "center",
-        "heading": "<h2>TELL YOUR STORY</h2>",
+        "heading": "<p>WHAT’S INSIDE THE BOX</p>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 14,
         "heading_size_mobile": 14,
         "heading_height": 130,
-        "text": "<p><a>Shea Butter</a>, Cane Sugar, Avocado Butter, Green Tea, <a>Pomegranate</a>, Goji Fruit & Coffee Seed Extracts, Organic Blue Matcha, <a>Vitamins C & E.</a></p>",
+        "text": "<p><a href=\"#\" title=\"#\">Bio-based packing peanuts</a>, <a href=\"#\" title=\"#\">recycled kraft paper</a>, and <a href=\"#\" title=\"#\">recycled paper air cushions</a></p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 44,
@@ -354,7 +354,7 @@
         "text_height": 150,
         "text_mt": 40,
         "text_mt_mobile": 32,
-        "button": "Our Process",
+        "button": "",
         "button_url": "",
         "button_custom": false,
         "button_font": "josefin_sans_n4",
