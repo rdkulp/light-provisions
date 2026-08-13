@@ -180,7 +180,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<h2>Introducing</h2>",
+                    "text": "<p>A LITTLE LESS WASTE</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -206,7 +206,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<h1>New arrivals</h1>",
+                    "text": "<p>Keep the good stuff around.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -238,7 +238,7 @@
               "type": "text",
               "name": "Text",
               "settings": {
-                "text": "<p>Make things better extended</p>",
+                "text": "<p>I’d rather make something you have a reason to keep than another thing you have to throw away. That means candles you can refill, glasses you can reuse, and finding new purposes for materials that have already lived one life.</p>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -287,7 +287,7 @@
         "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "flex-end",
+        "vertical_alignment_flex_direction_column": "flex-start",
         "gap": 16,
         "section_width": "page-width",
         "section_height": "large",
