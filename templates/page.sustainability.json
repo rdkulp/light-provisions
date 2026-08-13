@@ -649,7 +649,7 @@
         "ai_gen_block_f40c1f1_7YiFhc": {
           "type": "ai_gen_block_f40c1f1",
           "settings": {
-            "heading": "From Candle to Cocktail",
+            "heading": "Another Round",
             "heading_font": "serif",
             "heading_size": 40,
             "heading_alignment": "left",
@@ -732,6 +732,20 @@
         "padding-block-end": 0
       }
     },
+    "divider_f6Pyrj": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "page-width",
+        "thickness": 2.5,
+        "corner_radius": "square",
+        "width_percent": 86,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
+      }
+    },
     "ss_text_block_2_gdyAWw": {
       "type": "ss-text-block-2",
       "blocks": {
@@ -782,7 +796,7 @@
         "heading": "<p>WHAT'S IN THE BOX</p>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
-        "heading_size": 14,
+        "heading_size": 32,
         "heading_size_mobile": 14,
         "heading_height": 200,
         "text": "<p>I pack every order myself, and over the years I’ve learned that the simplest-looking packaging isn’t always the least wasteful. Glass needs protection, and sometimes a small amount of cushioning means using much less of everything else, so I use what makes sense: <a href=\"#\" title=\"#\">Bio-based packing peanuts</a>, <a href=\"#\" title=\"#\">recycled kraft paper</a>, and the occasional <a href=\"#\" title=\"#\">reused bubble wrap.</a></p>",
@@ -877,6 +891,7 @@
     "ss_feature_15_M4hyVz",
     "ss_tabs_slide_out_czRdXt",
     "blocks_jnBXM8",
+    "divider_f6Pyrj",
     "ss_text_block_2_gdyAWw"
   ]
 }
