@@ -447,7 +447,7 @@
           "settings": {
             "tab_title": "Candle Glass After the Burn",
             "title": "<h3>Still useful when the candle is gone</h3>",
-            "text": "<p>The glass is made to stay in your home after the last burn. Clean it out and use it for cocktails, coffee, dessert, small objects, or whatever gives it a reason to stick around. </p>",
+            "text": "<p>The <a href=\"https://www.lightprovisions.com/products/signature-crystal-tumbler\" target=\"_blank\" title=\"signature glassware\">glass</a> is made to stay in your home after the last burn. Clean it out and use it for cocktails, coffee, dessert, small objects, or whatever gives it a reason to stick around. </p>",
             "sub_text": "<p><em>I’d rather make a vessel worth keeping than another piece of single-use glass headed straight for the trash. </em></p>",
             "background_color": "#F1EFEE",
             "background_gradient": ""
@@ -459,7 +459,7 @@
           "settings": {
             "tab_title": "Refills Without Another Vessel",
             "title": "<h3>Keep the glass. Replace the candle.</h3>",
-            "text": "<p>Refill candles let you use the same vessel again instead of starting over with another piece of glass. Once the original candle is finished, clean the vessel, add a refill, and keep it going.</p>",
+            "text": "<p><a href=\"/pages/candle-refills\" target=\"_blank\" title=\"Refill Candles\">Refill</a> candles let you use the same vessel again instead of starting over with another piece of glass. Once the original candle is finished, clean the vessel, add a refill, and keep it going.</p>",
             "sub_text": "<p><em> It’s one of the simplest ways I’ve found to make candle buying a little less wasteful.</em></p>",
             "background_color": "#CAC6AE",
             "background_gradient": ""
@@ -471,9 +471,9 @@
           "settings": {
             "tab_title": "Recycled Glass With Another Life",
             "title": "<h3>Glass that already existed</h3>",
-            "text": "<p>Some pieces in the shop begin with glass that has already served another purpose. Wine bottles collected locally are cut down and turned into candle vessels, while select incense holders are made from recycled glass in Japan. </p>",
+            "text": "<p>Some pieces in the shop begin with glass that has already served another purpose. Wine bottles collected locally are cut down and turned into <a href=\"/collections/on-rotation\" target=\"_blank\" title=\"On Rotation\">candle vessels</a>, while select <a href=\"/products/iye-reborn-square-incense-holder\" target=\"_blank\" title=\"Recycled Glass Incense Holder by IYÉ\">incense holders</a> are made from recycled glass in Japan. </p>",
             "sub_text": "<p><em>New use, less need for newly made material.</em></p>",
-            "background_color": "#FDDFD8",
+            "background_color": "#C2CED5",
             "background_gradient": ""
           }
         },
@@ -483,9 +483,9 @@
           "settings": {
             "tab_title": "Vintage That Still Has Work to Do",
             "title": "<h3>Old things, new jobs</h3>",
-            "text": "<p>I have a soft spot for objects that have already been around awhile. Vintage bowls, trays, and dishes occasionally make their way into the shop as incense holders, catchalls, and other useful pieces. Nothing new had to be made. </p><h2></h2>",
+            "text": "<p>I have a soft spot for objects that have already been around awhile. <a href=\"https://www.lightprovisions.com/collections/incense-trays-ash-dishes\" target=\"_blank\" title=\"vintage trays and dishes\">Vintage bowls, trays, and dishes </a>occasionally make their way into the shop as incense holders, catchalls, and other useful pieces - nothing new had to be made. </p><h2></h2>",
             "sub_text": "<p><em>They just needed another reason to stay in circulation.</em></p>",
-            "background_color": "#d4e4cb",
+            "background_color": "#FDDFD8",
             "background_gradient": ""
           }
         },
@@ -495,8 +495,8 @@
           "settings": {
             "tab_title": "Lighters Made to Be Refilled",
             "title": "<h3>Keep it working</h3>",
-            "text": "<p>A lighter shouldn’t be finished because the fuel runs out or a flint wears down. The refillable lighters I carry are made to be fueled again, and many can be maintained with replacement flints, wicks, and a little basic care. </p>",
-            "sub_text": "<p><em>Small parts wear out. The whole lighter doesn’t have to.</em></p>",
+            "text": "<p>A lighter shouldn’t be finished because the fuel runs out or a flint wears down. The <a href=\"/collections/all-lighters\" target=\"_blank\" title=\"Lighters\">refillable lighters</a> I carry are made to be fueled again, and can be maintained with replacement <a href=\"/products/flint-replacement-pack\" target=\"_blank\" title=\"Tsubota Pearl 20 Piece Flint Replacement Pack\">flints</a>, wicks, and a little basic care. </p>",
+            "sub_text": "<p><em>Small parts wear out. The whole lighter doesn’t have to.</em><a href=\"/products/queue-bolbo-wick\" target=\"_blank\" title=\"Queue & Bolbo Lighter Replacement Wick\">/products/queue-bolbo-wick</a></p>",
             "background_color": "#F8E7A8",
             "background_gradient": ""
           }
