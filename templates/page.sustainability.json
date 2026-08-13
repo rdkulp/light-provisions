@@ -582,10 +582,10 @@
           "name": "Candle Glass After the Burn",
           "settings": {
             "tab_title": "Candle Glass After the Burn",
-            "title": "<p><strong>Still useful when the candle is gone</strong></p>",
+            "title": "<h3>Still useful when the candle is gone</h3>",
             "text": "<p>The glass is made to stay in your home after the last burn. Clean it out and use it for cocktails, coffee, dessert, small objects, or whatever gives it a reason to stick around. </p>",
             "sub_text": "<p><em>I’d rather make a vessel worth keeping than another piece of single-use glass headed straight for the trash. </em></p>",
-            "background_color": "#FFFFFF",
+            "background_color": "#F1EFEE",
             "background_gradient": ""
           }
         },
@@ -594,10 +594,10 @@
           "name": "Refills Without Another Vessel",
           "settings": {
             "tab_title": "Refills Without Another Vessel",
-            "title": "<p><strong>Keep the glass. Replace the candle.</strong></p>",
+            "title": "<h3>Keep the glass. Replace the candle.</h3>",
             "text": "<p>Refill candles let you use the same vessel again instead of starting over with another piece of glass. Once the original candle is finished, clean the vessel, add a refill, and keep it going.</p>",
             "sub_text": "<p><em> It’s one of the simplest ways I’ve found to make candle buying a little less wasteful.</em></p>",
-            "background_color": "#cbd1e4",
+            "background_color": "#CAC6AE",
             "background_gradient": ""
           }
         },
@@ -606,10 +606,10 @@
           "name": "Recycled Glass With Another Life",
           "settings": {
             "tab_title": "Recycled Glass With Another Life",
-            "title": "<p><strong>Glass that already existed</strong></p>",
+            "title": "<h3>Glass that already existed</h3>",
             "text": "<p>Some pieces in the shop begin with glass that has already served another purpose. Wine bottles collected locally are cut down and turned into candle vessels, while select incense holders are made from recycled glass in Japan. </p>",
             "sub_text": "<p><em>New use, less need for newly made material.</em></p>",
-            "background_color": "#FFFFFF",
+            "background_color": "#FDDFD8",
             "background_gradient": ""
           }
         },
@@ -618,7 +618,7 @@
           "name": "Vintage That Still Has Work to Do",
           "settings": {
             "tab_title": "Vintage That Still Has Work to Do",
-            "title": "<p>Old things, new jobs</p>",
+            "title": "<h3>Old things, new jobs</h3>",
             "text": "<p>I have a soft spot for objects that have already been around awhile. Vintage bowls, trays, and dishes occasionally make their way into the shop as incense holders, catchalls, and other useful pieces. Nothing new had to be made. </p><h2></h2>",
             "sub_text": "<p><em>They just needed another reason to stay in circulation.</em></p>",
             "background_color": "#d4e4cb",
@@ -630,10 +630,10 @@
           "name": "Lighters Made to Be Refilled",
           "settings": {
             "tab_title": "Lighters Made to Be Refilled",
-            "title": "<p>Keep it working</p>",
+            "title": "<h3>Keep it working</h3>",
             "text": "<p>A lighter shouldn’t be finished because the fuel runs out or a flint wears down. The refillable lighters I carry are made to be fueled again, and many can be maintained with replacement flints, wicks, and a little basic care. </p>",
             "sub_text": "<p><em>Small parts wear out. The whole lighter doesn’t have to.</em></p>",
-            "background_color": "#bbe4ea",
+            "background_color": "#F8E7A8",
             "background_gradient": ""
           }
         },
@@ -660,7 +660,7 @@
       ],
       "name": "SS - Tabs (slide out)",
       "settings": {
-        "heading": "<h3>A few ways I keep things going</h3><p></p>",
+        "heading": "<h3>A few ways we keep things going</h3><p></p>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 40,
@@ -718,8 +718,8 @@
         "text_mt_mobile": 12,
         "sub_text_custom": false,
         "sub_text_font": "josefin_sans_n4",
-        "sub_text_size": 14,
-        "sub_text_size_mobile": 14,
+        "sub_text_size": 17,
+        "sub_text_size_mobile": 15,
         "sub_text_height": 150,
         "sub_text_mt": 16,
         "sub_text_mt_mobile": 12,
@@ -739,12 +739,12 @@
         "button_mt": 32,
         "button_mt_mobile": 24,
         "button_style": "non_outline",
-        "tab_title_color": "#000000",
-        "tab_border_color": "#000000",
+        "tab_title_color": "#3A3838",
+        "tab_border_color": "#3A3838",
         "arrow_color": "#7B7B7B",
         "arrow_hover_color": "#FFFFFF",
         "arrow_bg_color": "#EBEBEB",
-        "arrow_bg_hover_color": "#000000",
+        "arrow_bg_hover_color": "#A15736",
         "arrow_border_color": "#C7C7C7",
         "arrow_border_hover_color": "#C7C7C7",
         "title_color": "#000000",
