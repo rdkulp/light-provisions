@@ -303,53 +303,63 @@
         "padding-block-end": 40
       }
     },
-    "ss_text_block_2_PE7GFA": {
+    "ss_text_block_2_gdyAWw": {
       "type": "ss-text-block-2",
       "blocks": {
-        "item_WVAU88": {
+        "item_9wndMR": {
           "type": "item",
           "settings": {
             "heading": "Bio-based packing peanuts",
-            "text": "Made from corn starch rather than conventional polystyrene foam. These lightweight pieces protect fragile glassware, dissolve in water, and are intended to biodegrade. Disposal options can vary, so follow local guidance—and please don’t use extra water solely to dissolve them.",
+            "text": "These packing peanuts are made from corn starch instead of polystyrene foam. They’re lightweight, protect all that glass we ship, and will break down over time. They also dissolve in water, though there’s no need to run the faucet just to watch them disappear.",
             "url": ""
           }
         },
-        "item_eXhQX6": {
+        "item_37J8ic": {
           "type": "item",
           "settings": {
             "heading": "Recycled kraft paper",
-            "text": "Our shipping boxes and kraft void fill use recycled fiber and can usually return to the paper recycling stream when clean and accepted locally. We also reuse sound paper from incoming supplier shipments whenever practical.",
+            "text": "Our shipping boxes and kraft packing paper are made with recycled fiber and can usually head right back into paper recycling. I also save clean paper from shipments coming into the studio and use it again.",
             "url": ""
           }
         },
-        "item_wHDeGy": {
+        "item_VqQyYJ": {
           "type": "item",
           "settings": {
+            "heading": "reused bubble wrap",
+            "text": "I don’t buy bubble wrap for shipping, but it occasionally arrives with supply orders. Rather than throw perfectly good material away, I save it and use it again when an especially heavy or fragile order could use the extra protection. It may not be the prettiest thing in the box, but giving it another trip through the mail seems better than sending it straight to the trash.",
+            "url": ""
+          }
+        },
+        "item_qWhe9M": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
             "heading": "Recycled paper air cushions",
-            "text": "Our paper air cushions are made from 100% post-consumer recycled paper with a potato-starch-based adhesive. They’re designed to be recyclable and compostable, though local collection and composting rules still apply.",
+            "text": "These paper cushions are made from 100% PCR paper and use a potato-starch-based glue. They can be recycled or composted where accepted. They give fragile pieces some extra protection without adding another piece of plastic to the box.",
             "url": ""
           }
         }
       },
       "block_order": [
-        "item_WVAU88",
-        "item_eXhQX6",
-        "item_wHDeGy"
+        "item_9wndMR",
+        "item_37J8ic",
+        "item_VqQyYJ",
+        "item_qWhe9M"
       ],
       "name": "SS - Text Block #2",
       "settings": {
         "content_horizontal_align": "center",
         "content_horizontal_align_mobile": "center",
-        "heading": "<p>WHAT’S INSIDE THE BOX</p>",
+        "heading": "<p>WHAT'S IN THE BOX</p>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 14,
         "heading_size_mobile": 14,
-        "heading_height": 130,
-        "text": "<p><a href=\"#\" title=\"#\">Bio-based packing peanuts</a>, <a href=\"#\" title=\"#\">recycled kraft paper</a>, and <a href=\"#\" title=\"#\">recycled paper air cushions</a></p>",
+        "heading_height": 200,
+        "text": "<p>I pack every order myself, and over the years I’ve learned that the simplest-looking packaging isn’t always the least wasteful. Glass needs protection, and sometimes a small amount of cushioning means using much less of everything else, so I use what makes sense: <a href=\"#\" title=\"#\">Bio-based packing peanuts</a>, <a href=\"#\" title=\"#\">recycled kraft paper</a>, and the occasional <a href=\"#\" title=\"#\">reused bubble wrap.</a></p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
-        "text_size": 44,
+        "text_size": 28,
         "text_size_mobile": 24,
         "text_height": 150,
         "text_mt": 40,
@@ -568,7 +578,7 @@
     "main",
     "section_dqH3Ye",
     "hero_3cA9Rj",
-    "ss_text_block_2_PE7GFA",
+    "ss_text_block_2_gdyAWw",
     "ss_feature_15_M4hyVz"
   ]
 }
