@@ -449,7 +449,7 @@
             "title": "<h3>Still useful when the candle is gone</h3>",
             "text": "<p>The <a href=\"https://www.lightprovisions.com/products/signature-crystal-tumbler\" target=\"_blank\" title=\"signature glassware\">glass</a> is made to stay in your home after the last burn. Clean it out and use it for cocktails, coffee, dessert, small objects, or whatever gives it a reason to stick around. </p>",
             "sub_text": "<p><em>I’d rather make a vessel worth keeping than another piece of single-use glass headed straight for the trash. </em></p>",
-            "background_color": "#F1EFEE",
+            "background_color": "#f1efee",
             "background_gradient": ""
           }
         },
@@ -461,7 +461,7 @@
             "title": "<h3>Keep the glass. Replace the candle.</h3>",
             "text": "<p><a href=\"/pages/candle-refills\" target=\"_blank\" title=\"Refill Candles\">Refill</a> candles let you use the same vessel again instead of starting over with another piece of glass. Once the original candle is finished, clean the vessel, add a refill, and keep it going.</p>",
             "sub_text": "<p><em> It’s one of the simplest ways I’ve found to make candle buying a little less wasteful.</em></p>",
-            "background_color": "#CAC6AE",
+            "background_color": "#cac6ae",
             "background_gradient": ""
           }
         },
@@ -473,7 +473,7 @@
             "title": "<h3>Glass that already existed</h3>",
             "text": "<p>Some pieces in the shop begin with glass that has already served another purpose. Wine bottles collected locally are cut down and turned into <a href=\"/collections/on-rotation\" target=\"_blank\" title=\"On Rotation\">candle vessels</a>, while select <a href=\"/products/iye-reborn-square-incense-holder\" target=\"_blank\" title=\"Recycled Glass Incense Holder by IYÉ\">incense holders</a> are made from recycled glass in Japan. </p>",
             "sub_text": "<p><em>New use, less need for newly made material.</em></p>",
-            "background_color": "#C2CED5",
+            "background_color": "#c2ced5",
             "background_gradient": ""
           }
         },
@@ -485,7 +485,7 @@
             "title": "<h3>Old things, new jobs</h3>",
             "text": "<p>I have a soft spot for objects that have already been around awhile. <a href=\"https://www.lightprovisions.com/collections/incense-trays-ash-dishes\" target=\"_blank\" title=\"vintage trays and dishes\">Vintage bowls, trays, and dishes </a>occasionally make their way into the shop as incense holders, catchalls, and other useful pieces - nothing new had to be made. </p><h2></h2>",
             "sub_text": "<p><em>They just needed another reason to stay in circulation.</em></p>",
-            "background_color": "#FDDFD8",
+            "background_color": "#fddfd8",
             "background_gradient": ""
           }
         },
@@ -496,8 +496,8 @@
             "tab_title": "Lighters Made to Be Refilled",
             "title": "<h3>Keep it working</h3>",
             "text": "<p>A lighter shouldn’t be finished because the fuel runs out or a flint wears down. The <a href=\"/collections/all-lighters\" target=\"_blank\" title=\"Lighters\">refillable lighters</a> I carry are made to be fueled again, and can be maintained with replacement <a href=\"/products/flint-replacement-pack\" target=\"_blank\" title=\"Tsubota Pearl 20 Piece Flint Replacement Pack\">flints</a>, wicks, and a little basic care. </p>",
-            "sub_text": "<p><em>Small parts wear out. The whole lighter doesn’t have to.</em><a href=\"/products/queue-bolbo-wick\" target=\"_blank\" title=\"Queue & Bolbo Lighter Replacement Wick\">/products/queue-bolbo-wick</a></p>",
-            "background_color": "#F8E7A8",
+            "sub_text": "<p><em>Small parts wear out. The whole lighter doesn’t have to.</em></p>",
+            "background_color": "#f8e7a8",
             "background_gradient": ""
           }
         },
@@ -603,30 +603,30 @@
         "button_mt": 32,
         "button_mt_mobile": 24,
         "button_style": "non_outline",
-        "tab_title_color": "#3A3838",
-        "tab_border_color": "#3A3838",
-        "arrow_color": "#7B7B7B",
-        "arrow_hover_color": "#FFFFFF",
-        "arrow_bg_color": "#EBEBEB",
-        "arrow_bg_hover_color": "#A15736",
-        "arrow_border_color": "#C7C7C7",
-        "arrow_border_hover_color": "#C7C7C7",
+        "tab_title_color": "#3a3838",
+        "tab_border_color": "#3a3838",
+        "arrow_color": "#7b7b7b",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#ebebeb",
+        "arrow_bg_hover_color": "#a15736",
+        "arrow_border_color": "#c7c7c7",
+        "arrow_border_hover_color": "#c7c7c7",
         "title_color": "#000000",
         "text_color": "#000000",
         "sub_text_color": "#000000",
-        "modal_inner_bg_color": "#FFFFFF",
+        "modal_inner_bg_color": "#ffffff",
         "modal_overlay_color": "#000000",
         "modal_close_icon_color": "#000000",
-        "modal_close_icon_color_hover": "#FFFFFF",
-        "modal_close_color": "#EBEBEB",
+        "modal_close_icon_color_hover": "#ffffff",
+        "modal_close_color": "#ebebeb",
         "modal_close_color_hover": "#000000",
         "button_color": "#000000",
         "button_hover_color": "#000000",
-        "button_bg_color": "#FFCE70",
-        "button_bg_hover_color": "#F5BD50",
+        "button_bg_color": "#ffce70",
+        "button_bg_hover_color": "#f5bd50",
         "button_border_color": "#000000",
         "button_border_hover_color": "#000000",
-        "heading_color": "#A57052",
+        "heading_color": "#a57052",
         "border_color": "#000000",
         "margin_top": 0,
         "margin_bottom": 0,
@@ -695,7 +695,7 @@
             "padding_bottom": 40,
             "margin_top": 0,
             "margin_bottom": 0,
-            "background_color": "#F1EFEE"
+            "background_color": "#f1efee"
           },
           "blocks": {}
         }
