@@ -367,6 +367,27 @@
           "settings": {}
         }
       }
+    },
+    "17818237098d89a63b": {
+      "settings": {},
+      "blocks": {
+        "judge_me_reviews_cards_carousel_4i8nBm": {
+          "settings": {
+            "products": [
+              "hard-edge-flip-top-replacement-wick",
+              "queue-bolbo-wick",
+              "flint-replacement-pack",
+              "tsubota-pearl-bolbo-lighter-striped",
+              "hard-edge-latitude-lighter-clear",
+              "queue-stick-lighter",
+              "hard-edge-marble-lighter",
+              "zippo-lighter-fluid",
+              "hibi-incense-matches",
+              "pocket-screwdriver"
+            ]
+          }
+        }
+      }
     }
   },
   "order": [
