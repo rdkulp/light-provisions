@@ -8,20 +8,9 @@
  * ------------------------------------------------------------
  */
 {
-  "context": {
-    "market": "canada"
-  },
-  "parent": "header-group.json",
-  "sections": {
-    "header_announcements_WbCTVz": {
-      "settings": {},
-      "blocks": {
-        "announcement_DtHygU": {
-          "settings": {
-            "text": "<em>Free shipping to Canada on orders over $275 CAD</em>"
-          }
-        }
-      }
+  "markets": {
+    "canada": {
+      "parent": "@default"
     }
   }
 }
