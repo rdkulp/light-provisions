@@ -12,5 +12,69 @@
     "market": "canada"
   },
   "parent": "index.json",
-  "sections": {}
+  "sections": {
+    "ss_hero_23_UN3xzN": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "section_7TKdhh": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "section_rqDEn3": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "section_Td9WtH": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "section_yMxyjq": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "section_feVGA8": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
+    },
+    "ss_hero_23_6j9HkF": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "product_hotspots_VcCTL8": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
+    }
+  },
+  "order": [
+    "product_hotspots_VcCTL8",
+    "slideshow_C9edwc",
+    "ss_hero_23_UN3xzN",
+    "section_feVGA8",
+    "product_list_LgKajd",
+    "divider_r6ErzJ",
+    "17818237098d89a63b",
+    "section_7TKdhh",
+    "section_rqDEn3",
+    "section_Td9WtH",
+    "section_yMxyjq",
+    "ss_hero_23_6j9HkF",
+    "178250464212dd66d3",
+    "divider_KiD9Mb",
+    "section_UcDgem",
+    "collection_list_FrzcwU",
+    "divider_jN37wf",
+    "1785539703db753f79",
+    "product_list_EDUBdR",
+    "divider_TE7YbJ",
+    "17865560331319b296"
+  ]
 }
