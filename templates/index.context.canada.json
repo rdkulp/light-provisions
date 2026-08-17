@@ -384,7 +384,9 @@
               "zippo-lighter-fluid",
               "hibi-incense-matches",
               "pocket-screwdriver"
-            ]
+            ],
+            "star_rating": "4_to_5_star",
+            "display_order": "media_first"
           }
         }
       }
