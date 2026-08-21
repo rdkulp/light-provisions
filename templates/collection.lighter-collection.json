@@ -215,6 +215,47 @@
         "padding-block-end": 32
       }
     },
+    "marquee_GtAHmk": {
+      "type": "marquee",
+      "blocks": {
+        "text_NkMa4M": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Hand-Made in Japan</em></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-heading--family)",
+            "font_size": "1.5rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_NkMa4M"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-5",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -563,45 +604,171 @@
         "padding-block-end": 48
       }
     },
-    "marquee_GtAHmk": {
-      "type": "marquee",
+    "media_with_content_aKYxw6": {
+      "type": "media-with-content",
       "blocks": {
-        "text_NkMa4M": {
-          "type": "text",
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
           "settings": {
-            "text": "<p><em>Hand-Made in Japan</em></p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-heading--family)",
-            "font_size": "1.5rem",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "nowrap",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "media_type": "image",
+            "image": "shopify://shop_images/LightProvisions-27.jpg",
+            "link": "shopify://blogs/blog/tsubota-pearl-lighter-history",
+            "video_loop": true,
+            "video_autoplay": false,
+            "image_position": "cover",
+            "video_position": "cover"
           },
           "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 24
+          },
+          "blocks": {
+            "text_Wk7dCa": {
+              "type": "text",
+              "name": "Caption",
+              "settings": {
+                "text": "<p><a href=\"/blogs/blog\" target=\"_blank\" title=\"Blog\">Blog</a></p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group_MK9MKT": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "text_KJJdDi": {
+                  "type": "text",
+                  "name": "Heading",
+                  "settings": {
+                    "text": "<p><a href=\"/blogs/blog/tsubota-pearl-lighter-history\" target=\"_blank\" title=\"The Legacy of Tsubota Pearl\">The Story Behind Tsubota Pearl<br/></a></p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_bkcWjC": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Japanese lighter design, made since 1952.</p>",
+                    "width": "fit-content",
+                    "max_width": "narrow",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_KJJdDi",
+                "text_bkcWjC"
+              ]
+            }
+          },
+          "block_order": [
+            "text_Wk7dCa",
+            "group_MK9MKT"
+          ]
         }
       },
-      "block_order": [
-        "text_NkMa4M"
-      ],
-      "name": "Marquee",
+      "name": "Editorial",
       "settings": {
-        "movement_direction": "normal",
-        "color_scheme": "scheme-5",
-        "padding-block-start": 24,
-        "padding-block-end": 24,
-        "gap_between_elements": 24
+        "media_position": "left",
+        "media_width": "medium",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "scheme-4",
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     }
   },
@@ -610,6 +777,7 @@
     "marquee_GtAHmk",
     "main",
     "divider_FgHxyL",
-    "product_recommendations_F98KHP"
+    "product_recommendations_F98KHP",
+    "media_with_content_aKYxw6"
   ]
 }
