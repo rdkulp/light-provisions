@@ -616,7 +616,7 @@
             "link": "shopify://blogs/blog/tsubota-pearl-lighter-history",
             "video_loop": true,
             "video_autoplay": false,
-            "image_position": "cover",
+            "image_position": "contain",
             "video_position": "cover"
           },
           "blocks": {}
@@ -766,9 +766,23 @@
         "media_height": "60svh",
         "section_width": "full-width",
         "extend_media": true,
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-5",
         "padding-block-start": 0,
         "padding-block-end": 0
+      }
+    },
+    "divider_kGUMKg": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "page-width",
+        "thickness": 3,
+        "corner_radius": "rounded",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 16,
+        "padding-block-end": 16
       }
     }
   },
@@ -778,6 +792,7 @@
     "main",
     "divider_FgHxyL",
     "product_recommendations_F98KHP",
-    "media_with_content_aKYxw6"
+    "media_with_content_aKYxw6",
+    "divider_kGUMKg"
   ]
 }
