@@ -420,76 +420,6 @@
         "padding-block-end": 16
       }
     },
-    "178654785497fa668b": {
-      "type": "_blocks",
-      "blocks": {
-        "judge_me_reviews_testimonials_carousel_Yxwg46": {
-          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "show_sample_reviews": true,
-            "reviews_selection": "current_collection",
-            "products": [],
-            "filter_pinned": false,
-            "filter_featured": false,
-            "filter_custom_tags": "",
-            "star_rating": "5_star",
-            "max_reviews": 20,
-            "quote_marks_size": "hidden",
-            "product_name_text_size": "medium",
-            "verified_badge_style": "text",
-            "card_height": "compact",
-            "text_size": "small",
-            "stars_size": "small",
-            "arrows_position": "sides",
-            "max_width": 1100,
-            "corner_styling": "soft",
-            "quote_marks_style": "serif",
-            "card_color": "#F9F9F9",
-            "stars_and_quote_marks_color": "#A15736",
-            "text_color": "#3A3838",
-            "arrows_color": "#A15736",
-            "show_border": false,
-            "border_color": "#108474",
-            "show_drop_shadow": false,
-            "transition_speed": 4,
-            "header_text": "Kind Words",
-            "show_average_rating": true,
-            "rating_display": "default"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_testimonials_carousel_Yxwg46"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "product_recommendations_F98KHP": {
       "type": "product-recommendations",
       "blocks": {
@@ -632,13 +562,54 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "marquee_GtAHmk": {
+      "type": "marquee",
+      "blocks": {
+        "text_NkMa4M": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Hand-Made in Japan</em></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-heading--family)",
+            "font_size": "1.5rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_NkMa4M"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-5",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
     }
   },
   "order": [
     "section",
+    "marquee_GtAHmk",
     "main",
     "divider_FgHxyL",
-    "178654785497fa668b",
     "product_recommendations_F98KHP"
   ]
 }
