@@ -3143,7 +3143,7 @@
       ],
       "name": "Featured: Last Chance",
       "settings": {
-        "collection": "sale-items",
+        "collection": "sale",
         "layout_type": "carousel",
         "carousel_on_mobile": true,
         "max_products": 8,
