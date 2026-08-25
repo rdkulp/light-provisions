@@ -1102,13 +1102,13 @@
       "blocks": {
         "tab_cfEja6": {
           "type": "tab",
-          "name": "Empty",
+          "name": "Ships Empty",
           "settings": {
             "tab_title": "📦 Ships empty",
             "title": "<p>📦 Ships empty</p>",
             "text": "<p>Petrol lighters cannot be shipped filled with fuel.</p>",
             "sub_text": "<p>You can find lighter fluid <a href=\"/products/zippo-lighter-fluid\" target=\"_blank\" title=\"Zippo Lighter Fluid | 4 oz\">here</a> or at your local hardware store</p>",
-            "background_color": "#FFFFFF",
+            "background_color": "#F8E7A8",
             "background_gradient": ""
           }
         },
