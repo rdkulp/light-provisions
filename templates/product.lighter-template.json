@@ -853,6 +853,198 @@
         "padding-block-end": 0
       }
     },
+    "ss_tabs_slide_out_BbhFan": {
+      "type": "ss-tabs-slide-out",
+      "blocks": {
+        "tab_cEY9kh": {
+          "type": "tab",
+          "name": "Empty",
+          "settings": {
+            "tab_title": "📦 Ships empty",
+            "title": "",
+            "text": "<p>Petrol lighters cannot be shipped filled with fuel.</p>",
+            "sub_text": "<p>You can find lighter fluid <a href=\"/products/zippo-lighter-fluid\" target=\"_blank\" title=\"Zippo Lighter Fluid | 4 oz\">here</a> or at your local hardware store</p>",
+            "background_color": "#FFFFFF",
+            "background_gradient": ""
+          }
+        },
+        "tab_jhd4Dw": {
+          "type": "tab",
+          "name": "Fluid",
+          "settings": {
+            "tab_title": "💧 Requires Lighter Fluid",
+            "title": "<p>💧 Requires Lighter Fluid</p>",
+            "text": "<p>Fill with Zippo-style <a href=\"/products/zippo-lighter-fluid\" target=\"_blank\" title=\"Zippo Lighter Fluid | 4 oz\">lighter fluid</a> before use and refill as needed.</p>",
+            "sub_text": "",
+            "background_color": "#cbd1e4",
+            "background_gradient": ""
+          }
+        },
+        "tab_gMARN9": {
+          "type": "tab",
+          "name": "Maintained",
+          "settings": {
+            "tab_title": "🛠️  Built to be maintained",
+            "title": "",
+            "text": "<p>The flint and wick are replaceable, helping your lighter stay in use for years.</p>",
+            "sub_text": "",
+            "background_color": "#d4e4cb",
+            "background_gradient": ""
+          }
+        },
+        "tab_KCKeN8": {
+          "type": "tab",
+          "name": "Curve",
+          "settings": {
+            "tab_title": "🔄 Expect a short learning curve",
+            "title": "",
+            "text": "<p>If you've only used disposable lighters, using a refillable petrol lighter may feel different at first. After a few fills, it quickly becomes second nature.</p>",
+            "sub_text": "",
+            "background_color": "#bbe4ea",
+            "background_gradient": ""
+          }
+        },
+        "tab_jzTXDJ": {
+          "type": "tab",
+          "name": "Questions?",
+          "settings": {
+            "tab_title": "✉️ Questions?",
+            "title": "",
+            "text": "<p>Not sure if a petrol lighter is right for you? Send us a note at <a href=\"mailto:hello@lightprovisions.com\">hello@lightprovisions.com</a></p>",
+            "sub_text": "<p>Ask us about upkeep, replacement parts, or which lighters we reach for most.</p>",
+            "background_color": "#e4d8ef",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_cEY9kh",
+        "tab_jhd4Dw",
+        "tab_gMARN9",
+        "tab_KCKeN8",
+        "tab_jzTXDJ"
+      ],
+      "name": "SS - Tabs (slide out)",
+      "settings": {
+        "heading": "<p><strong>Before Your First Light ⭐</strong></p>",
+        "heading_custom": true,
+        "heading_font": "serif",
+        "heading_size": 16,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "tabs_mt": 24,
+        "tabs_mt_mobile": 18,
+        "tab_padding_horizontal": 16,
+        "tab_padding_horizontal_mobile": 16,
+        "tab_padding_vertical": 12,
+        "tab_padding_vertical_mobile": 12,
+        "tab_border_thickness": 1,
+        "tab_title_custom": true,
+        "tab_title_font": "serif",
+        "tab_title_size": 80,
+        "tab_title_size_mobile": 40,
+        "tab_title_height": 130,
+        "tab_title_align": "center",
+        "tab_title_align_mobile": "center",
+        "tab_title_use_hover": true,
+        "arrow_size": 48,
+        "arrow_size_mobile": 38,
+        "arrow_icon_size": 10,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "fill",
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "modal_inner_width": 500,
+        "modal_inner_padding_horizontal": 32,
+        "modal_inner_padding_horizontal_mobile": 24,
+        "modal_inner_padding_vertical": 32,
+        "modal_inner_padding_vertical_mobile": 24,
+        "modal_overlay": 0.5,
+        "modal_content_align": "left",
+        "modal_content_align_mobile": "left",
+        "modal_close_size": 56,
+        "modal_close_size_mobile": 56,
+        "modal_close_roundness": 100,
+        "modal_close_hover": true,
+        "title_custom": false,
+        "title_font": "serif",
+        "title_size": 32,
+        "title_size_mobile": 32,
+        "title_height": 130,
+        "text_custom": false,
+        "text_font": "mono",
+        "text_size": 24,
+        "text_size_mobile": 20,
+        "text_height": 150,
+        "text_mt": 16,
+        "text_mt_mobile": 12,
+        "sub_text_custom": false,
+        "sub_text_font": "mono",
+        "sub_text_size": 17,
+        "sub_text_size_mobile": 17,
+        "sub_text_height": 150,
+        "sub_text_mt": 16,
+        "sub_text_mt_mobile": 12,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_horizontal": 24,
+        "button_padding_horizontal_mobile": 24,
+        "button_padding_vertical": 18,
+        "button_padding_vertical_mobile": 18,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_mt": 32,
+        "button_mt_mobile": 24,
+        "button_style": "non_outline",
+        "tab_title_color": "#000000",
+        "tab_border_color": "#000000",
+        "arrow_color": "#7B7B7B",
+        "arrow_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#EBEBEB",
+        "arrow_bg_hover_color": "#000000",
+        "arrow_border_color": "#C7C7C7",
+        "arrow_border_hover_color": "#C7C7C7",
+        "title_color": "#000000",
+        "text_color": "#000000",
+        "sub_text_color": "#000000",
+        "modal_inner_bg_color": "#FFFFFF",
+        "modal_overlay_color": "#000000",
+        "modal_close_icon_color": "#000000",
+        "modal_close_icon_color_hover": "#FFFFFF",
+        "modal_close_color": "#EBEBEB",
+        "modal_close_color_hover": "#000000",
+        "button_color": "#000000",
+        "button_hover_color": "#000000",
+        "button_bg_color": "#FFCE70",
+        "button_bg_hover_color": "#F5BD50",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "heading_color": "#000000",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "section_KRPpMk": {
       "type": "section",
       "blocks": {
@@ -1168,59 +1360,6 @@
         "padding-block-end": 48
       }
     },
-    "176350314455f5c7dd": {
-      "type": "_blocks",
-      "blocks": {
-        "planet_shopify_planet_Pt8V7h": {
-          "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
-          "settings": {
-            "badgeMode": "info",
-            "customText": "",
-            "showMoreInfo": "modal",
-            "showLogo": true,
-            "showStats": true,
-            "showProjects": true,
-            "backgroundColor": "#f1f8f5",
-            "textColor": "#1d4136",
-            "borderColor": "#95c9b4",
-            "fullWidth": true,
-            "marginTop": 0,
-            "marginBottom": 0,
-            "borderRadius": 20
-          }
-        }
-      },
-      "block_order": [
-        "planet_shopify_planet_Pt8V7h"
-      ],
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-8",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 60,
-        "padding-block-end": 60
-      }
-    },
     "product_recommendations_LLkbRy": {
       "type": "product-recommendations",
       "blocks": {
@@ -1367,7 +1506,7 @@
       "type": "divider",
       "name": "Divider",
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-2",
         "section_width": "page-width",
         "thickness": 3,
         "corner_radius": "square",
@@ -1376,19 +1515,73 @@
         "padding-block-start": 16,
         "padding-block-end": 16
       }
+    },
+    "176350314455f5c7dd": {
+      "type": "_blocks",
+      "blocks": {
+        "planet_shopify_planet_Pt8V7h": {
+          "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "settings": {
+            "badgeMode": "info",
+            "customText": "",
+            "showMoreInfo": "modal",
+            "showLogo": true,
+            "showStats": true,
+            "showProjects": true,
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
+            "fullWidth": true,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "borderRadius": 20
+          }
+        }
+      },
+      "block_order": [
+        "planet_shopify_planet_Pt8V7h"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 60,
+        "padding-block-end": 60
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_tnKrAU",
+    "ss_tabs_slide_out_BbhFan",
     "section_KRPpMk",
     "custom_liquid_FkMnMn",
     "1763495531717164ae",
     "divider_iRQDXd",
     "17634957166372b8c3",
     "product_recommendations_6A4DDy",
-    "176350314455f5c7dd",
     "product_recommendations_LLkbRy",
-    "divider_cn7zAM"
+    "divider_cn7zAM",
+    "176350314455f5c7dd"
   ]
 }
