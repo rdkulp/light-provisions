@@ -861,7 +861,7 @@
           "name": "Empty",
           "settings": {
             "tab_title": "📦 Ships empty",
-            "title": "",
+            "title": "<p>📦 Ships empty</p>",
             "text": "<p>Petrol lighters cannot be shipped filled with fuel.</p>",
             "sub_text": "<p>You can find lighter fluid <a href=\"/products/zippo-lighter-fluid\" target=\"_blank\" title=\"Zippo Lighter Fluid | 4 oz\">here</a> or at your local hardware store</p>",
             "background_color": "#FFFFFF",
@@ -885,7 +885,7 @@
           "name": "Maintained",
           "settings": {
             "tab_title": "🛠️  Built to be maintained",
-            "title": "",
+            "title": "<p>🛠️  Built to be maintained</p>",
             "text": "<p>The flint and wick are replaceable, helping your lighter stay in use for years.</p>",
             "sub_text": "",
             "background_color": "#d4e4cb",
@@ -897,7 +897,7 @@
           "name": "Curve",
           "settings": {
             "tab_title": "🔄 Expect a short learning curve",
-            "title": "",
+            "title": "<p>🔄 Expect a short learning curve</p>",
             "text": "<p>If you've only used disposable lighters, using a refillable petrol lighter may feel different at first. After a few fills, it quickly becomes second nature.</p>",
             "sub_text": "",
             "background_color": "#bbe4ea",
@@ -909,7 +909,7 @@
           "name": "Questions?",
           "settings": {
             "tab_title": "✉️ Questions?",
-            "title": "",
+            "title": "<p>✉️ Questions?</p>",
             "text": "<p>Not sure if a petrol lighter is right for you? Send us a note at <a href=\"mailto:hello@lightprovisions.com\">hello@lightprovisions.com</a></p>",
             "sub_text": "<p>Ask us about upkeep, replacement parts, or which lighters we reach for most.</p>",
             "background_color": "#e4d8ef",
