@@ -1170,7 +1170,7 @@
       ],
       "name": "SS - Tabs (slide out)",
       "settings": {
-        "heading": "<p><strong>Before Your First Light ⭐</strong></p>",
+        "heading": "<p><em><strong>Before Your First Light ⭐</strong></em></p>",
         "heading_custom": true,
         "heading_font": "serif",
         "heading_size": 32,
