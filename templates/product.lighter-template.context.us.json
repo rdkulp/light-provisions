@@ -12,5 +12,77 @@
     "market": "us"
   },
   "parent": "product.lighter-template.json",
-  "sections": {}
+  "sections": {
+    "ss_tabs_slide_out_BbhFan": {
+      "settings": {
+        "heading": "<p><em><strong>Before Your First Light ⭐</strong></em></p>",
+        "heading_size": 34
+      },
+      "blocks": {
+        "tab_cEY9kh": {
+          "settings": {
+            "background_color": "#F1EFEE"
+          }
+        },
+        "tab_KCKeN8": {
+          "settings": {
+            "background_color": "#5B6A52"
+          }
+        },
+        "tab_gMARN9": {
+          "settings": {
+            "background_color": "#636C90"
+          }
+        },
+        "tab_jhd4Dw": {
+          "settings": {
+            "background_color": "#E0C192"
+          }
+        },
+        "tab_jzTXDJ": {
+          "settings": {
+            "background_color": "#CAC6AE"
+          }
+        }
+      }
+    },
+    "custom_liquid_tnKrAU": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "divider_cNyDEz": {
+      "type": "divider",
+      "disabled": false,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_width": "page-width",
+        "thickness": 3,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "header-dabc72f6fa1555f6ab761cbe1dc8b010": null,
+        "padding-block-start": 16,
+        "padding-block-end": 16
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Divider"
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_tnKrAU",
+    "divider_cNyDEz",
+    "ss_tabs_slide_out_BbhFan",
+    "section_KRPpMk",
+    "custom_liquid_FkMnMn",
+    "1763495531717164ae",
+    "divider_iRQDXd",
+    "17634957166372b8c3",
+    "product_recommendations_6A4DDy",
+    "product_recommendations_LLkbRy",
+    "divider_cn7zAM",
+    "176350314455f5c7dd"
+  ]
 }
