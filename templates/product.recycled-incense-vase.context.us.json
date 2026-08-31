@@ -12,5 +12,12 @@
     "market": "us"
   },
   "parent": "product.recycled-incense-vase.json",
-  "sections": {}
+  "sections": {
+    "product_recommendations_4qphx9": {
+      "settings": {
+        "columns": 3
+      },
+      "blocks": {}
+    }
+  }
 }
