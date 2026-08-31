@@ -878,6 +878,7 @@
     },
     "divider_6eQkPW": {
       "type": "divider",
+      "disabled": true,
       "name": "Divider",
       "settings": {
         "color_scheme": "scheme-2",
