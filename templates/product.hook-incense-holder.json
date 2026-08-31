@@ -175,6 +175,7 @@
             },
             "one_click_upsell_on_page_cross_sell_xwkChK": {
               "type": "shopify://apps/one-click-upsell/blocks/on-page-cross-sell/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+              "disabled": true,
               "settings": {}
             },
             "product_description_LfDYCg": {
