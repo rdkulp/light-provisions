@@ -697,6 +697,7 @@
                 "accordion_row_QXFXja": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Features",
                     "open_by_default": false,
@@ -737,6 +738,7 @@
                 "accordion_row_qe4iPa": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Craft & Materials",
                     "open_by_default": false,
@@ -777,6 +779,7 @@
                 "accordion_row_w7Qdtq": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "About the Maker",
                     "open_by_default": false,
@@ -817,6 +820,7 @@
                 "accordion_row_R7PJAP": {
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
+                  "disabled": true,
                   "settings": {
                     "heading": "Care",
                     "open_by_default": false,
