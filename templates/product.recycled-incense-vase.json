@@ -12,6 +12,10 @@
     "main": {
       "type": "product-information",
       "blocks": {
+        "one_click_upsell_on_page_cross_sell_XXYxPW": {
+          "type": "shopify://apps/one-click-upsell/blocks/on-page-cross-sell/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+          "settings": {}
+        },
         "media-gallery": {
           "type": "_product-media-gallery",
           "static": true,
@@ -864,6 +868,9 @@
           ]
         }
       },
+      "block_order": [
+        "one_click_upsell_on_page_cross_sell_XXYxPW"
+      ],
       "settings": {
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
@@ -993,47 +1000,6 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      }
-    },
-    "1763495531717164ae": {
-      "type": "_blocks",
-      "blocks": {
-        "one_click_upsell_on_page_APX7Vi": {
-          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "one_click_upsell_on_page_APX7Vi"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 0,
-        "section_width": "page-width",
-        "section_height": "custom",
-        "section_height_custom": 0,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
       }
     },
     "17634957166372b8c3": {
@@ -1496,7 +1462,6 @@
     "main",
     "divider_6eQkPW",
     "section_UK6Xbk",
-    "1763495531717164ae",
     "17634957166372b8c3",
     "section_NaqU9X",
     "product_recommendations_4qphx9",
