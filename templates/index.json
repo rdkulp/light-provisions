@@ -12,17 +12,17 @@
     "ss_hero_23_UN3xzN": {
       "type": "ss-hero-23",
       "blocks": {
-        "slide_4XBNtf": {
+        "slide_N8gRYH": {
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal_5.jpg",
-            "image_mobile": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal.jpg",
+            "image": "shopify://shop_images/28_WS_Woods_Sony_OPT_b8af1abc-d88d-4875-bb40-d9e59e05ffe2.jpg",
+            "image_mobile": "shopify://shop_images/9_WS_Woods_Sony_OPT.jpg",
             "video_url": "",
             "sub_heading": "Woods Chapter:",
-            "heading": "Sandalwood",
+            "heading": "Woodsmoke",
             "button": "Shop now",
-            "url": "shopify://products/on-rotation-sandalwood",
+            "url": "shopify://products/on-rotation-woodsmoke",
             "heading_color": "#f5f2ea",
             "sub_heading_color": "#f5f2ea",
             "link_color": "#f5f2ea",
@@ -50,25 +50,6 @@
             "border_color": "#f5f2ea"
           }
         },
-        "slide_N8gRYH": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/28_WS_Woods_Sony_OPT_b8af1abc-d88d-4875-bb40-d9e59e05ffe2.jpg",
-            "image_mobile": "shopify://shop_images/9_WS_Woods_Sony_OPT.jpg",
-            "video_url": "",
-            "sub_heading": "Woods Chapter:",
-            "heading": "Woodsmoke",
-            "button": "Shop now",
-            "url": "shopify://products/on-rotation-woodsmoke",
-            "heading_color": "#f5f2ea",
-            "sub_heading_color": "#f5f2ea",
-            "link_color": "#f5f2ea",
-            "arrow_color": "#f5f2ea",
-            "dots_color": "#f5f2ea",
-            "border_color": "#f5f2ea"
-          }
-        },
         "slide_JVdYfE": {
           "type": "slide",
           "settings": {
@@ -87,13 +68,32 @@
             "dots_color": "#f5f2ea",
             "border_color": "#f5f2ea"
           }
+        },
+        "slide_4XBNtf": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal_5.jpg",
+            "image_mobile": "shopify://shop_images/Sony_VSCO_Edit_OPT_Sandal.jpg",
+            "video_url": "",
+            "sub_heading": "Woods Chapter:",
+            "heading": "Sandalwood",
+            "button": "Shop now",
+            "url": "shopify://products/on-rotation-sandalwood",
+            "heading_color": "#f5f2ea",
+            "sub_heading_color": "#f5f2ea",
+            "link_color": "#f5f2ea",
+            "arrow_color": "#f5f2ea",
+            "dots_color": "#f5f2ea",
+            "border_color": "#f5f2ea"
+          }
         }
       },
       "block_order": [
-        "slide_4XBNtf",
-        "slide_8G3D3M",
         "slide_N8gRYH",
-        "slide_JVdYfE"
+        "slide_8G3D3M",
+        "slide_JVdYfE",
+        "slide_4XBNtf"
       ],
       "name": "Woods Chapter Hero",
       "settings": {
