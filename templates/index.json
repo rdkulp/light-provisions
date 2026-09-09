@@ -3634,7 +3634,7 @@
         "group_7mXVWY",
         "group_GbYWmh"
       ],
-      "name": "Hero: Bottom aligned",
+      "name": "Autumn Hero Banner",
       "settings": {
         "media_type_1": "image",
         "image_1": "shopify://shop_images/autumn_collection_-_group.png",
@@ -3670,8 +3670,7 @@
     }
   },
   "order": [
-    "ss_hero_23_UN3xzN",
-    "product_list_LgKajd",
+    "hero_wb9LDx",
     "product_hotspots_VcCTL8",
     "slideshow_C9edwc",
     "divider_r6ErzJ",
@@ -3686,11 +3685,12 @@
     "divider_KiD9Mb",
     "section_UcDgem",
     "collection_list_FrzcwU",
+    "ss_hero_23_UN3xzN",
+    "product_list_LgKajd",
     "divider_jN37wf",
     "1785539703db753f79",
     "product_list_EDUBdR",
     "divider_TE7YbJ",
-    "17865560331319b296",
-    "hero_wb9LDx"
+    "17865560331319b296"
   ]
 }
