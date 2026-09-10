@@ -12,14 +12,15 @@
     "main": {
       "type": "main-page",
       "blocks": {
-        "product_title_rHYqPe": {
-          "type": "product-title",
-          "name": "Sustainability",
+        "text_TyAnpK": {
+          "type": "text",
+          "name": "Title",
           "settings": {
-            "width": "fit-content",
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
             "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
+            "alignment": "center",
+            "type_preset": "h1",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -39,20 +40,21 @@
         },
         "page-content": {
           "type": "page-content",
+          "disabled": true,
           "settings": {},
           "blocks": {}
         }
       },
       "block_order": [
-        "product_title_rHYqPe",
+        "text_TyAnpK",
         "page-content"
       ],
       "settings": {
         "content_direction": "column",
         "gap": 32,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "padding-block-start": 40,
-        "padding-block-end": 80
+        "padding-block-end": 37
       }
     },
     "section_dqH3Ye": {
