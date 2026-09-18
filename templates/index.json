@@ -3675,10 +3675,11 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/dry_leaves_8b46c23d-a484-40c1-8315-53e822e22119.png",
+            "image": "shopify://shop_images/dry_leaves.png",
+            "image_mobile": "shopify://shop_images/dry-leaves-cardamom-1839559.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Slide subheading",
-            "heading": "Slide heading",
+            "sub_heading": "Autumn Collection",
+            "heading": "Dry Leaves & Cardamom",
             "button": "Shop now",
             "url": "",
             "heading_color": "#FFFFFF",
@@ -3694,17 +3695,18 @@
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/patchouli_nutmeg_d4615ef8-774a-4193-bcfb-4a1c081024e9.png",
+            "image_mobile": "shopify://shop_images/lp-patchouli-nutmeg-4x5-1_60f70828-9046-42f5-8734-e38c6933eb4a.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Slide subheading",
-            "heading": "Slide heading",
+            "sub_heading": "Autumn Collection",
+            "heading": "Patchouli & Nutmeg",
             "button": "Shop now",
             "url": "",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
+            "heading_color": "#FFFFFF",
+            "sub_heading_color": "#FFFFFF",
+            "link_color": "#FFFEFE",
+            "arrow_color": "#FFFFFF",
+            "dots_color": "#FFFEFE",
+            "border_color": "#D2B07C"
           }
         },
         "slide_YHNcKX": {
@@ -3712,17 +3714,18 @@
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/Autumn_Twiligh_a13587a4-c0c3-4579-bbc4-8f4ab60ea164.png",
+            "image_mobile": "shopify://shop_images/lp-autumn-twilight-4x5-4_14b39d21-c481-4fa4-ada6-2f9cf87849c0.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Slide subheading",
-            "heading": "Slide heading",
+            "sub_heading": "Autumn Collection",
+            "heading": "Autumn Twilight",
             "button": "Shop now",
             "url": "",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
+            "heading_color": "#FFFFFF",
+            "sub_heading_color": "#FFFFFF",
+            "link_color": "#FFFEFE",
+            "arrow_color": "#FFFEFE",
+            "dots_color": "#FFFFFF",
+            "border_color": "#D2B07C"
           }
         },
         "slide_GTfd7h": {
@@ -3730,17 +3733,18 @@
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/harvest_f599fcf2-07e1-49f1-bf75-cf19f2333ce7.png",
+            "image_mobile": "shopify://shop_images/harvest-7571393.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Slide subheading",
-            "heading": "Slide heading",
+            "sub_heading": "Autumn Collection",
+            "heading": "Harvest",
             "button": "Shop now",
             "url": "",
-            "heading_color": "#000000",
-            "sub_heading_color": "#000000",
-            "link_color": "#000000",
-            "arrow_color": "#000000",
-            "dots_color": "#000000",
-            "border_color": "#000000"
+            "heading_color": "#FFFFFF",
+            "sub_heading_color": "#FFFFFF",
+            "link_color": "#FFFFFF",
+            "arrow_color": "#FFFFFF",
+            "dots_color": "#FFFFFF",
+            "border_color": "#D2B07C"
           }
         }
       },
@@ -3750,12 +3754,11 @@
         "slide_YHNcKX",
         "slide_GTfd7h"
       ],
-      "disabled": true,
-      "name": "SS - Hero #23",
+      "name": "Autumn Slideshow",
       "settings": {
         "hero_height": "adapt_first",
         "hero_fixed_height": 600,
-        "hero_fixed_height_mobile": 400,
+        "hero_fixed_height_mobile": 200,
         "autoplay": true,
         "autoplay_delay": 6,
         "overlay": 0.2,
@@ -3769,7 +3772,7 @@
         "sub_heading_height": 130,
         "heading_custom": true,
         "heading_font": "dm_serif_display_n4",
-        "heading_size": 20,
+        "heading_size": 26,
         "heading_size_mobile": 20,
         "heading_height": 130,
         "heading_mt": 12,
@@ -3789,9 +3792,9 @@
         "dots_size_mobile": 8,
         "dots_show_desktop": false,
         "dots_show_mobile": true,
-        "overlay_color": "#000000",
+        "overlay_color": "#D2B07C",
         "background_color": "#FFFFFF",
-        "border_color": "#000000",
+        "border_color": "#FFFFFF",
         "margin_top": 0,
         "margin_bottom": 0,
         "margin_horizontal": 0,
@@ -3802,7 +3805,7 @@
         "padding_horizontal_mobile": 0,
         "full_width": true,
         "content_width": 1200,
-        "border_thickness": 0,
+        "border_thickness": 9,
         "section_radius": 0,
         "lazy": true
       }
