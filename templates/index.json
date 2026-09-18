@@ -31,25 +31,6 @@
             "border_color": "#ffffff"
           }
         },
-        "slide_bnaChb": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/patchouli_nutmeg_banner.png",
-            "image_mobile": "shopify://shop_images/lp-patchouli-nutmeg-4x5-1_60f70828-9046-42f5-8734-e38c6933eb4a.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Autumn Collection",
-            "heading": "Patchouli & Nutmeg",
-            "button": "Shop now",
-            "url": "shopify://products/patchouli-nutmeg",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#fffefe",
-            "arrow_color": "#ffffff",
-            "dots_color": "#fffefe",
-            "border_color": "#d2b07c"
-          }
-        },
         "slide_YHNcKX": {
           "type": "slide",
           "settings": {
@@ -66,6 +47,25 @@
             "link_color": "#fffefe",
             "arrow_color": "#fffefe",
             "dots_color": "#ffffff",
+            "border_color": "#d2b07c"
+          }
+        },
+        "slide_bnaChb": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/patchouli_nutmeg_banner.png",
+            "image_mobile": "shopify://shop_images/lp-patchouli-nutmeg-4x5-1_60f70828-9046-42f5-8734-e38c6933eb4a.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Autumn Collection",
+            "heading": "Patchouli & Nutmeg",
+            "button": "Shop now",
+            "url": "shopify://products/patchouli-nutmeg",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#fffefe",
+            "arrow_color": "#ffffff",
+            "dots_color": "#fffefe",
             "border_color": "#d2b07c"
           }
         },
@@ -91,8 +91,8 @@
       },
       "block_order": [
         "slide_kFPehn",
-        "slide_bnaChb",
         "slide_YHNcKX",
+        "slide_bnaChb",
         "slide_GTfd7h"
       ],
       "name": "Autumn Slideshow",
