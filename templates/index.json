@@ -3667,6 +3667,145 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "ss_hero_23_KPg8AH": {
+      "type": "ss-hero-23",
+      "blocks": {
+        "slide_kFPehn": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/dry_leaves_8b46c23d-a484-40c1-8315-53e822e22119.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Slide subheading",
+            "heading": "Slide heading",
+            "button": "Shop now",
+            "url": "",
+            "heading_color": "#FFFFFF",
+            "sub_heading_color": "#FDFDFD",
+            "link_color": "#FDFDFD",
+            "arrow_color": "#FFFFFF",
+            "dots_color": "#FFFEFE",
+            "border_color": "#FFFFFF"
+          }
+        },
+        "slide_bnaChb": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/patchouli_nutmeg_d4615ef8-774a-4193-bcfb-4a1c081024e9.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Slide subheading",
+            "heading": "Slide heading",
+            "button": "Shop now",
+            "url": "",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
+          }
+        },
+        "slide_YHNcKX": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Autumn_Twiligh_a13587a4-c0c3-4579-bbc4-8f4ab60ea164.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Slide subheading",
+            "heading": "Slide heading",
+            "button": "Shop now",
+            "url": "",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
+          }
+        },
+        "slide_GTfd7h": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/harvest_f599fcf2-07e1-49f1-bf75-cf19f2333ce7.png",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Slide subheading",
+            "heading": "Slide heading",
+            "button": "Shop now",
+            "url": "",
+            "heading_color": "#000000",
+            "sub_heading_color": "#000000",
+            "link_color": "#000000",
+            "arrow_color": "#000000",
+            "dots_color": "#000000",
+            "border_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kFPehn",
+        "slide_bnaChb",
+        "slide_YHNcKX",
+        "slide_GTfd7h"
+      ],
+      "disabled": true,
+      "name": "SS - Hero #23",
+      "settings": {
+        "hero_height": "adapt_first",
+        "hero_fixed_height": 600,
+        "hero_fixed_height_mobile": 400,
+        "autoplay": true,
+        "autoplay_delay": 6,
+        "overlay": 0.2,
+        "use_gradient": false,
+        "content_align": "left",
+        "content_align_mobile": "left",
+        "sub_heading_custom": true,
+        "sub_heading_font": "mono",
+        "sub_heading_size": 12,
+        "sub_heading_size_mobile": 12,
+        "sub_heading_height": 130,
+        "heading_custom": true,
+        "heading_font": "dm_serif_display_n4",
+        "heading_size": 20,
+        "heading_size_mobile": 20,
+        "heading_height": 130,
+        "heading_mt": 12,
+        "heading_mt_mobile": 8,
+        "link_custom": true,
+        "link_font": "dm_serif_text_n4",
+        "link_size": 14,
+        "link_size_mobile": 14,
+        "link_height": 130,
+        "link_mt": 12,
+        "link_mt_mobile": 8,
+        "arrow_size": 32,
+        "arrow_size_mobile": 32,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 8,
+        "dots_size_mobile": 8,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "overlay_color": "#000000",
+        "background_color": "#FFFFFF",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -3691,6 +3830,7 @@
     "1785539703db753f79",
     "product_list_EDUBdR",
     "divider_TE7YbJ",
-    "17865560331319b296"
+    "17865560331319b296",
+    "ss_hero_23_KPg8AH"
   ]
 }
