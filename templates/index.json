@@ -12,25 +12,6 @@
     "ss_hero_23_KPg8AH": {
       "type": "ss-hero-23",
       "blocks": {
-        "slide_kFPehn": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/dry_leaves.png",
-            "image_mobile": "shopify://shop_images/dry-leaves-cardamom-1839559.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Autumn Collection",
-            "heading": "Dry Leaves & Cardamom",
-            "button": "Shop now",
-            "url": "shopify://products/dry-leaves-and-cardamom",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#FDFDFD",
-            "link_color": "#fdfdfd",
-            "arrow_color": "#ffffff",
-            "dots_color": "#fffefe",
-            "border_color": "#D2B07C"
-          }
-        },
         "slide_YHNcKX": {
           "type": "slide",
           "settings": {
@@ -87,13 +68,32 @@
             "dots_color": "#ffffff",
             "border_color": "#d2b07c"
           }
+        },
+        "slide_kFPehn": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/dry_leaves.png",
+            "image_mobile": "shopify://shop_images/dry-leaves-cardamom-1839559.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Autumn Collection",
+            "heading": "Dry Leaves & Cardamom",
+            "button": "Shop now",
+            "url": "shopify://products/dry-leaves-and-cardamom",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#fdfdfd",
+            "link_color": "#fdfdfd",
+            "arrow_color": "#ffffff",
+            "dots_color": "#fffefe",
+            "border_color": "#d2b07c"
+          }
         }
       },
       "block_order": [
-        "slide_kFPehn",
         "slide_YHNcKX",
         "slide_bnaChb",
-        "slide_GTfd7h"
+        "slide_GTfd7h",
+        "slide_kFPehn"
       ],
       "name": "Autumn Slideshow",
       "settings": {
