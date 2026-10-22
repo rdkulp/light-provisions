@@ -21,7 +21,7 @@
             "text": "<a href=\"/collections/winter-collection\" target=\"_blank\" title=\"Winter Collection\"><em><strong>Winter Collection</strong></em></a> coming soon!",
             "link": "shopify://collections/woods-chapter",
             "font": "var(--font-body--family)",
-            "font_size": "1.5rem",
+            "font_size": "1.125rem",
             "weight": "700",
             "letter_spacing": "loose",
             "case": "none"
@@ -35,7 +35,7 @@
             "text": "<em><strong>Free Shipping </strong></em><em>on US orders over $100</em>",
             "link": "shopify://collections/woods-chapter",
             "font": "var(--font-body--family)",
-            "font_size": "1.5rem",
+            "font_size": "1.125rem",
             "weight": "700",
             "letter_spacing": "normal",
             "case": "none"
