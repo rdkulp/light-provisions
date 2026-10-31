@@ -151,6 +151,29 @@
         "lazy": true
       }
     },
+    "ss_scrolling_text_Pe6Pcd": {
+      "type": "ss-scrolling-text",
+      "name": "SS - Scrolling text",
+      "settings": {
+        "text": "Daylight Saving Sale | 25% off all candles | Nov. 1-4",
+        "icon_width": 0,
+        "link": "",
+        "direction": "left",
+        "inside_padding": 6,
+        "text_font": "arvo_n4",
+        "text_size": 52,
+        "text_size_mobile": 40,
+        "scrolling_speed": 86,
+        "scrolling_speed_mobile": 79,
+        "text_spacing": true,
+        "pause_hover": true,
+        "text_color": "#FFFEFE",
+        "text_gradient": "",
+        "background_color": "#D2B07C",
+        "background_gradient": "",
+        "direction_rtl": false
+      }
+    },
     "product_hotspots_VcCTL8": {
       "type": "product-hotspots",
       "blocks": {
@@ -1330,7 +1353,6 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/Refill_Hand_1.png",
                     "link": "https://www.lightprovisions.com/pages/candle-refills",
                     "image_ratio": "portrait",
                     "width": "fill",
@@ -3361,6 +3383,7 @@
   },
   "order": [
     "ss_hero_23_KPg8AH",
+    "ss_scrolling_text_Pe6Pcd",
     "product_hotspots_VcCTL8",
     "slideshow_C9edwc",
     "divider_r6ErzJ",
