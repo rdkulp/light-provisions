@@ -18,8 +18,8 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "<a href=\"/collections/winter-collection\" target=\"_blank\" title=\"Winter Collection\"><em><strong>Winter Collection</strong></em></a> coming soon!",
-            "link": "shopify://collections/woods-chapter",
+            "text": "<a href=\"/collections/winter-collection\" target=\"_blank\" title=\"Winter Collection\"><em><strong>Winter Collection</strong></em></a> is now live!",
+            "link": "shopify://collections/winter-collection",
             "font": "var(--font-body--family)",
             "font_size": "1.125rem",
             "weight": "700",
