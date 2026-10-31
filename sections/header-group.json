@@ -57,6 +57,53 @@
         "padding-block-end": 15
       }
     },
+    "header_announcements_ehMtTU": {
+      "type": "header-announcements",
+      "blocks": {
+        "announcement_CVe7wm": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "Daylight Saving Sale - 25% off all candles - Nov. 1-4",
+            "link": "",
+            "font": "var(--font-body--family)",
+            "font_size": "1.125rem",
+            "weight": "700",
+            "letter_spacing": "loose",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_QB7fqy": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "disabled": true,
+          "settings": {
+            "text": "<em><strong>Free Shipping </strong></em><em>on US orders over $100</em>",
+            "link": "shopify://collections/woods-chapter",
+            "font": "var(--font-body--family)",
+            "font_size": "1.125rem",
+            "weight": "700",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "announcement_CVe7wm",
+        "announcement_QB7fqy"
+      ],
+      "name": "t:names.announcement_bar",
+      "settings": {
+        "speed": 4,
+        "section_width": "full-width",
+        "color_scheme": "scheme-7",
+        "divider_width": 0,
+        "padding-block-start": 39,
+        "padding-block-end": 40
+      }
+    },
     "header_section": {
       "type": "header",
       "blocks": {
@@ -133,6 +180,7 @@
   },
   "order": [
     "header_announcements_WbCTVz",
+    "header_announcements_ehMtTU",
     "header_section"
   ]
 }
