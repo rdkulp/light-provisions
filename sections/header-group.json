@@ -57,6 +57,37 @@
         "padding-block-end": 15
       }
     },
+    "header_announcements_DcXyT3": {
+      "type": "header-announcements",
+      "blocks": {
+        "announcement_h8QCCg": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "Our biggest candle sale of the year | 25% off all candles thru Wednesday&nbsp;",
+            "link": "shopify://collections/candles",
+            "font": "var(--font-body--family)",
+            "font_size": "1.125rem",
+            "weight": "700",
+            "letter_spacing": "loose",
+            "case": "uppercase"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "announcement_h8QCCg"
+      ],
+      "name": "t:names.announcement_bar",
+      "settings": {
+        "speed": 4,
+        "section_width": "full-width",
+        "color_scheme": "scheme-7",
+        "divider_width": 0,
+        "padding-block-start": 15,
+        "padding-block-end": 15
+      }
+    },
     "header_section": {
       "type": "header",
       "blocks": {
@@ -133,6 +164,7 @@
   },
   "order": [
     "header_announcements_WbCTVz",
+    "header_announcements_DcXyT3",
     "header_section"
   ]
 }
