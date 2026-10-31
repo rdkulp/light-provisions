@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/DSS_-_2026_blurred_arch.png",
+            "image": "shopify://shop_images/DSS_-_2026_blurred_arch_height_adjusted.png",
             "image_mobile": "shopify://shop_images/DSS_-_2026.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "sub_heading": "",
@@ -137,7 +137,7 @@
         "dots_show_desktop": false,
         "dots_show_mobile": false,
         "overlay_color": "rgba(0,0,0,0)",
-        "background_color": "#F1EFEE",
+        "background_color": "#f1efee",
         "border_color": "#ffffff",
         "margin_top": 0,
         "margin_bottom": 0,
