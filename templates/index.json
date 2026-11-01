@@ -763,15 +763,18 @@
           "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "show_sample_reviews": true,
-            "reviews_selection": "all",
+            "reviews_selection": "custom_products",
             "products": [
-              "beeswax-taper-candle",
-              "autumn-twilight",
-              "cypress-lemon",
-              "dry-leaves-and-cardamom",
-              "hard-edge-marble-lighter",
+              "tsubota-pearl-bolbo",
               "tsubota-pearl-bolbo-lighter-striped",
-              "tsubota-pearl-bolbo"
+              "tsubota-pearl-aluminum-wave",
+              "hard-edge-marble-lighter",
+              "campfire",
+              "lavender-balsam",
+              "bitter-orange-clove",
+              "bay-leaf-smoked-vanilla",
+              "anise-evergreen",
+              "amberwood-eucalyptus"
             ],
             "filter_pinned": false,
             "filter_featured": false,
