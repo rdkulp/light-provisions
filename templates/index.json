@@ -783,7 +783,7 @@
             "show_review_media": true,
             "display_order": "media_first",
             "no_image_fallback": "review_text_only",
-            "max_reviews": 13,
+            "max_reviews": 10,
             "review_length": "medium",
             "text_size": "large",
             "image_ratio": "0.75",
