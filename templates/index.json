@@ -2603,20 +2603,6 @@
         "padding-block-end": 0
       }
     },
-    "divider_KiD9Mb": {
-      "type": "divider",
-      "name": "Divider",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "section_width": "page-width",
-        "thickness": 5,
-        "corner_radius": "rounded",
-        "width_percent": 90,
-        "alignment_horizontal": "center",
-        "padding-block-start": 45,
-        "padding-block-end": 44
-      }
-    },
     "ss_hero_23_KPg8AH": {
       "type": "ss-hero-23",
       "blocks": {
@@ -3655,7 +3641,6 @@
     "section_feVGA8",
     "ss_hero_23_6j9HkF",
     "178250464212dd66d3",
-    "divider_KiD9Mb",
     "ss_hero_23_KPg8AH",
     "product_list_LgKajd",
     "ss_hero_23_UN3xzN",
