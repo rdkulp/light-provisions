@@ -817,7 +817,7 @@
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 12,
-        "section_width": "page-width",
+        "section_width": "full-width",
         "section_height": "",
         "section_height_custom": 50,
         "color_scheme": "scheme-2",
@@ -1094,6 +1094,20 @@
         "padding-block-end": 0
       }
     },
+    "divider_zdAPmN": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "ss_featured_coll_ss_feat_24318956_4JgfqK": {
       "type": "ss-featured-coll--ss-feat-24318956",
       "blocks": {
@@ -1139,7 +1153,7 @@
         "layout_gap_mobile": 20,
         "content_align": "left",
         "content_align_mobile": "left",
-        "heading": "<h2>Featured Collections</h2>",
+        "heading": "<h2>Featured Collections on Sale</h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 46,
@@ -3693,6 +3707,7 @@
     "divider_r6ErzJ",
     "17818237098d89a63b",
     "section_7TKdhh",
+    "divider_zdAPmN",
     "ss_featured_coll_ss_feat_24318956_4JgfqK",
     "section_rqDEn3",
     "section_Td9WtH",
