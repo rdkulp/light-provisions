@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/DSS_-_2026_blurred_arch_height_adjusted.png",
+            "image": "shopify://shop_images/DSS_Banner_Light_Leak.jpg",
             "image_mobile": "shopify://shop_images/DSS_-_MOBILE_2.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "sub_heading": "",
@@ -28,7 +28,7 @@
             "link_color": "#fffefe",
             "arrow_color": "#fffefe",
             "dots_color": "#ffffff",
-            "border_color": "#d2b07c"
+            "border_color": "rgba(0,0,0,0)"
           }
         },
         "slide_qBBE8c": {
