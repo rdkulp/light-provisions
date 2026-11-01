@@ -30,73 +30,10 @@
             "dots_color": "#ffffff",
             "border_color": "rgba(0,0,0,0)"
           }
-        },
-        "slide_qBBE8c": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/patchouli_nutmeg_banner.png",
-            "image_mobile": "shopify://shop_images/lp-patchouli-nutmeg-4x5-1_60f70828-9046-42f5-8734-e38c6933eb4a.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Autumn Collection",
-            "heading": "Patchouli & Nutmeg",
-            "button": "Shop now",
-            "url": "shopify://products/patchouli-nutmeg",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#fffefe",
-            "arrow_color": "#ffffff",
-            "dots_color": "#fffefe",
-            "border_color": "#d2b07c"
-          }
-        },
-        "slide_xe6j3F": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/harvest_banner.png",
-            "image_mobile": "shopify://shop_images/harvest-4x5.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Autumn Collection",
-            "heading": "Harvest",
-            "button": "Shop now",
-            "url": "shopify://products/harvest-candle",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#ffffff",
-            "arrow_color": "#ffffff",
-            "dots_color": "#ffffff",
-            "border_color": "#d2b07c"
-          }
-        },
-        "slide_LzKgGH": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/dry_leaves.png",
-            "image_mobile": "shopify://shop_images/dry-leaves-cardamom-1839559.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Autumn Collection",
-            "heading": "Dry Leaves & Cardamom",
-            "button": "Shop now",
-            "url": "shopify://products/dry-leaves-and-cardamom",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#fdfdfd",
-            "link_color": "#fdfdfd",
-            "arrow_color": "#ffffff",
-            "dots_color": "#fffefe",
-            "border_color": "#d2b07c"
-          }
         }
       },
       "block_order": [
-        "slide_eKi7kW",
-        "slide_qBBE8c",
-        "slide_xe6j3F",
-        "slide_LzKgGH"
+        "slide_eKi7kW"
       ],
       "name": "DSS Banner",
       "settings": {
@@ -243,6 +180,7 @@
         "slide_6fAGpF",
         "slide_Bx6Aje"
       ],
+      "disabled": true,
       "name": "Winter Slideshow",
       "settings": {
         "hero_height": "adapt_first",
@@ -3702,14 +3640,15 @@
   },
   "order": [
     "ss_hero_23_NDgKTG",
+    "ss_featured_coll_ss_feat_24318956_4JgfqK",
     "ss_hero_23_pLVLgJ",
     "product_hotspots_VcCTL8",
     "slideshow_C9edwc",
     "divider_r6ErzJ",
+    "section_UcDgem",
     "17818237098d89a63b",
     "section_7TKdhh",
     "divider_zdAPmN",
-    "ss_featured_coll_ss_feat_24318956_4JgfqK",
     "section_rqDEn3",
     "section_Td9WtH",
     "section_yMxyjq",
@@ -3717,7 +3656,6 @@
     "ss_hero_23_6j9HkF",
     "178250464212dd66d3",
     "divider_KiD9Mb",
-    "section_UcDgem",
     "ss_hero_23_KPg8AH",
     "product_list_LgKajd",
     "ss_hero_23_UN3xzN",
