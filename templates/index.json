@@ -240,16 +240,6 @@
     "ss_featured_coll_ss_feat_24318956_4JgfqK": {
       "type": "ss-featured-coll--ss-feat-24318956",
       "blocks": {
-        "tab_93dkYD": {
-          "type": "tab",
-          "settings": {
-            "tab": "Winter Collection",
-            "collection": "winter-collection",
-            "collection_show": 6,
-            "products": [],
-            "tab_bg_hover_active_color": "#45513e"
-          }
-        },
         "tab_AAbXBU": {
           "type": "tab",
           "settings": {
@@ -269,12 +259,22 @@
             "products": [],
             "tab_bg_hover_active_color": "#5b6a52"
           }
+        },
+        "tab_93dkYD": {
+          "type": "tab",
+          "settings": {
+            "tab": "Winter Collection",
+            "collection": "winter-collection",
+            "collection_show": 6,
+            "products": [],
+            "tab_bg_hover_active_color": "#45513e"
+          }
         }
       },
       "block_order": [
-        "tab_93dkYD",
         "tab_AAbXBU",
-        "tab_RHXmBB"
+        "tab_RHXmBB",
+        "tab_93dkYD"
       ],
       "name": "SS - Featured collecti AI",
       "settings": {
