@@ -9,6 +9,151 @@
  */
 {
   "sections": {
+    "ss_hero_23_pLVLgJ": {
+      "type": "ss-hero-23",
+      "blocks": {
+        "slide_am8Ujr": {
+          "type": "slide",
+          "name": "Winter Pine",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/winter-collection-winter-pine.jpg",
+            "image_mobile": "shopify://shop_images/winter-pine-candle-2663224.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Winter Collection",
+            "heading": "Winter Pine",
+            "button": "Shop now",
+            "url": "shopify://products/winter-pine-candle",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#fffefe",
+            "arrow_color": "#fffefe",
+            "dots_color": "#ffffff",
+            "border_color": "#d2b07c"
+          }
+        },
+        "slide_3PzmrU": {
+          "type": "slide",
+          "name": "Bitter Orange Clove",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/winter-collection-bitter-orange-clove.jpg",
+            "image_mobile": "shopify://shop_images/bitter-orange-clove-candle-1796629.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Winter Collection",
+            "heading": "Bitter Orange & Clove",
+            "button": "Shop now",
+            "url": "shopify://products/bitter-orange-clove",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#fffefe",
+            "arrow_color": "#ffffff",
+            "dots_color": "#fffefe",
+            "border_color": "#d2b07c"
+          }
+        },
+        "slide_6fAGpF": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/winter-collection-red-tea-sandalwood.jpg",
+            "image_mobile": "shopify://shop_images/red-tea-sandalwood-candle-2710578.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Winter Collection",
+            "heading": "Red Tea & Sandalwood",
+            "button": "Shop now",
+            "url": "shopify://products/red-tea-sandalwood",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#ffffff",
+            "arrow_color": "#ffffff",
+            "dots_color": "#ffffff",
+            "border_color": "#d2b07c"
+          }
+        },
+        "slide_Bx6Aje": {
+          "type": "slide",
+          "name": "Bay Leaf",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/winter-collection-bay-leaf-smoked-vanilla.jpg",
+            "image_mobile": "shopify://shop_images/bay-leaf-smoked-vanilla-candle-2363692.jpg",
+            "video_url": "",
+            "sub_heading": "Winter Collection",
+            "heading": "Bay Leaf & Smoked Vanilla",
+            "button": "Shop now",
+            "url": "shopify://products/bay-leaf-smoked-vanilla",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#fdfdfd",
+            "link_color": "#fdfdfd",
+            "arrow_color": "#ffffff",
+            "dots_color": "#fffefe",
+            "border_color": "#d2b07c"
+          }
+        }
+      },
+      "block_order": [
+        "slide_am8Ujr",
+        "slide_3PzmrU",
+        "slide_6fAGpF",
+        "slide_Bx6Aje"
+      ],
+      "name": "Winter Slideshow",
+      "settings": {
+        "hero_height": "adapt_first",
+        "hero_fixed_height": 600,
+        "hero_fixed_height_mobile": 200,
+        "autoplay": true,
+        "autoplay_delay": 6,
+        "overlay": 0.2,
+        "use_gradient": false,
+        "content_align": "left",
+        "content_align_mobile": "center",
+        "sub_heading_custom": true,
+        "sub_heading_font": "mono",
+        "sub_heading_size": 15,
+        "sub_heading_size_mobile": 14,
+        "sub_heading_height": 130,
+        "heading_custom": true,
+        "heading_font": "dm_serif_display_n4",
+        "heading_size": 30,
+        "heading_size_mobile": 22,
+        "heading_height": 130,
+        "heading_mt": 12,
+        "heading_mt_mobile": 8,
+        "link_custom": true,
+        "link_font": "dm_serif_text_n4",
+        "link_size": 14,
+        "link_size_mobile": 16,
+        "link_height": 130,
+        "link_mt": 12,
+        "link_mt_mobile": 8,
+        "arrow_size": 32,
+        "arrow_size_mobile": 32,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 8,
+        "dots_size_mobile": 6,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "overlay_color": "rgba(0,0,0,0)",
+        "background_color": "#f1efee",
+        "border_color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 9,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "ss_hero_23_NDgKTG": {
       "type": "ss-hero-23",
       "blocks": {
@@ -35,6 +180,7 @@
       "block_order": [
         "slide_eKi7kW"
       ],
+      "disabled": true,
       "name": "DSS Banner",
       "settings": {
         "hero_height": "adapt_first",
@@ -101,7 +247,7 @@
             "collection": "winter-collection",
             "collection_show": 6,
             "products": [],
-            "tab_bg_hover_active_color": "#45513E"
+            "tab_bg_hover_active_color": "#45513e"
           }
         },
         "tab_AAbXBU": {
@@ -111,7 +257,7 @@
             "collection": "autumn-collection",
             "collection_show": 4,
             "products": [],
-            "tab_bg_hover_active_color": "#45513E"
+            "tab_bg_hover_active_color": "#45513e"
           }
         },
         "tab_RHXmBB": {
@@ -136,7 +282,7 @@
         "layout_gap_mobile": 20,
         "content_align": "left",
         "content_align_mobile": "left",
-        "heading": "<h2>Featured Collections on Sale!</h2>",
+        "heading": "<h2>Featured Collections</h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 46,
@@ -291,152 +437,6 @@
         "full_width": true,
         "content_width": 1200,
         "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
-    },
-    "ss_hero_23_pLVLgJ": {
-      "type": "ss-hero-23",
-      "blocks": {
-        "slide_am8Ujr": {
-          "type": "slide",
-          "name": "Winter Pine",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/winter-collection-winter-pine.jpg",
-            "image_mobile": "shopify://shop_images/winter-pine-candle-2663224.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Winter Collection",
-            "heading": "Winter Pine",
-            "button": "Shop now",
-            "url": "shopify://products/winter-pine-candle",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#fffefe",
-            "arrow_color": "#fffefe",
-            "dots_color": "#ffffff",
-            "border_color": "#d2b07c"
-          }
-        },
-        "slide_3PzmrU": {
-          "type": "slide",
-          "name": "Bitter Orange Clove",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/winter-collection-bitter-orange-clove.jpg",
-            "image_mobile": "shopify://shop_images/bitter-orange-clove-candle-1796629.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Winter Collection",
-            "heading": "Bitter Orange & Clove",
-            "button": "Shop now",
-            "url": "shopify://products/bitter-orange-clove",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#fffefe",
-            "arrow_color": "#ffffff",
-            "dots_color": "#fffefe",
-            "border_color": "#d2b07c"
-          }
-        },
-        "slide_6fAGpF": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/winter-collection-red-tea-sandalwood.jpg",
-            "image_mobile": "shopify://shop_images/red-tea-sandalwood-candle-2710578.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Winter Collection",
-            "heading": "Red Tea & Sandalwood",
-            "button": "Shop now",
-            "url": "shopify://products/red-tea-sandalwood",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#ffffff",
-            "arrow_color": "#ffffff",
-            "dots_color": "#ffffff",
-            "border_color": "#d2b07c"
-          }
-        },
-        "slide_Bx6Aje": {
-          "type": "slide",
-          "name": "Bay Leaf",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/winter-collection-bay-leaf-smoked-vanilla.jpg",
-            "image_mobile": "shopify://shop_images/bay-leaf-smoked-vanilla-candle-2363692.jpg",
-            "video_url": "",
-            "sub_heading": "Winter Collection",
-            "heading": "Bay Leaf & Smoked Vanilla",
-            "button": "Shop now",
-            "url": "shopify://products/bay-leaf-smoked-vanilla",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#fdfdfd",
-            "link_color": "#fdfdfd",
-            "arrow_color": "#ffffff",
-            "dots_color": "#fffefe",
-            "border_color": "#d2b07c"
-          }
-        }
-      },
-      "block_order": [
-        "slide_am8Ujr",
-        "slide_3PzmrU",
-        "slide_6fAGpF",
-        "slide_Bx6Aje"
-      ],
-      "disabled": true,
-      "name": "Winter Slideshow",
-      "settings": {
-        "hero_height": "adapt_first",
-        "hero_fixed_height": 600,
-        "hero_fixed_height_mobile": 200,
-        "autoplay": true,
-        "autoplay_delay": 6,
-        "overlay": 0.2,
-        "use_gradient": false,
-        "content_align": "left",
-        "content_align_mobile": "center",
-        "sub_heading_custom": true,
-        "sub_heading_font": "mono",
-        "sub_heading_size": 15,
-        "sub_heading_size_mobile": 14,
-        "sub_heading_height": 130,
-        "heading_custom": true,
-        "heading_font": "dm_serif_display_n4",
-        "heading_size": 30,
-        "heading_size_mobile": 22,
-        "heading_height": 130,
-        "heading_mt": 12,
-        "heading_mt_mobile": 8,
-        "link_custom": true,
-        "link_font": "dm_serif_text_n4",
-        "link_size": 14,
-        "link_size_mobile": 16,
-        "link_height": 130,
-        "link_mt": 12,
-        "link_mt_mobile": 8,
-        "arrow_size": 32,
-        "arrow_size_mobile": 32,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "dots_size": 8,
-        "dots_size_mobile": 6,
-        "dots_show_desktop": false,
-        "dots_show_mobile": true,
-        "overlay_color": "rgba(0,0,0,0)",
-        "background_color": "#f1efee",
-        "border_color": "#ffffff",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 1200,
-        "border_thickness": 9,
         "section_radius": 0,
         "lazy": true
       }
@@ -3625,9 +3625,9 @@
     }
   },
   "order": [
+    "ss_hero_23_pLVLgJ",
     "ss_hero_23_NDgKTG",
     "ss_featured_coll_ss_feat_24318956_4JgfqK",
-    "ss_hero_23_pLVLgJ",
     "product_hotspots_VcCTL8",
     "slideshow_C9edwc",
     "divider_r6ErzJ",
