@@ -1,0 +1,272 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "intro": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Everything but candles.</h1>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "center",
+            "type_preset": "h2"
+          }
+        },
+        "offer": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>10% off all non-candle goods.</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "center",
+            "type_preset": "h4"
+          }
+        },
+        "intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A little something for the holiday weekend. From Japanese lighters and incense to vintage finds and everyday objects, enjoy 10% off the goods that keep Light Provisions going.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "center",
+            "type_preset": "rte"
+          }
+        },
+        "code": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use code <strong>CARRYTHEFIRE10</strong> at checkout.<br/>Through Monday, November 30.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "center",
+            "type_preset": "rte"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "offer",
+        "intro",
+        "code"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 16,
+        "color_scheme": "scheme-8",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "shopping": {
+      "type": "lp-sale-shopping",
+      "blocks": {
+        "lighters": {
+          "type": "shopping_link",
+          "settings": {
+            "title": "Lighters",
+            "description": "Refillable Japanese lighters from Tsubota Pearl.",
+            "collection": "all-lighters",
+            "product": "queue-stick-lighter",
+            "cta": "Shop lighters",
+            "image_fit": "cover"
+          }
+        },
+        "incense": {
+          "type": "shopping_link",
+          "settings": {
+            "title": "Incense",
+            "description": "Japanese incense, incense matches, and daily rituals.",
+            "collection": "incense",
+            "product": "kousaido-waboku-incense",
+            "cta": "Shop incense",
+            "image_fit": "cover"
+          }
+        },
+        "holders": {
+          "type": "shopping_link",
+          "settings": {
+            "title": "Incense Holders",
+            "description": "Brass, ceramic, and glass. Find their perfect resting place.",
+            "collection": "incense-holders",
+            "product": "",
+            "cta": "Shop holders",
+            "image_fit": "cover"
+          }
+        },
+        "supplies": {
+          "type": "shopping_link",
+          "settings": {
+            "title": "Lighter Supplies",
+            "description": "Wicks, flints, and the essentials to keep your flame going.",
+            "collection": "lighter-supplies",
+            "product": "",
+            "cta": "Shop supplies",
+            "image_fit": "cover"
+          }
+        },
+        "dishes": {
+          "type": "shopping_link",
+          "settings": {
+            "title": "Recycled Glass Dishes",
+            "description": "Repurposed bottles, ready for their next chapter.",
+            "collection": "",
+            "product": "reclaimed-bottle-glass-dish",
+            "cta": "Shop dishes",
+            "image_fit": "cover"
+          }
+        },
+        "vases": {
+          "type": "shopping_link",
+          "settings": {
+            "title": "Recycled Incense Vases",
+            "description": "A new life for wine bottles. A home for your incense.",
+            "collection": "",
+            "product": "recycled-bottle-incense-vase",
+            "cta": "Shop vases",
+            "image_fit": "cover"
+          }
+        },
+        "vintage": {
+          "type": "shopping_link",
+          "settings": {
+            "title": "Vintage Glassware",
+            "description": "One-of-a-kind finds and limited-quantity vintage pieces.",
+            "collection": "vintage-dishes",
+            "product": "amber-scalloped-glass-dish-vintage",
+            "cta": "Shop vintage",
+            "image_fit": "cover"
+          }
+        },
+        "signature": {
+          "type": "shopping_link",
+          "settings": {
+            "title": "Signature Glassware",
+            "description": "Our signature crystal tumbler, with possibilities beyond candles.",
+            "collection": "",
+            "product": "signature-crystal-tumbler",
+            "cta": "Shop glassware",
+            "image_fit": "cover"
+          }
+        }
+      },
+      "block_order": [
+        "lighters",
+        "incense",
+        "holders",
+        "supplies",
+        "dishes",
+        "vases",
+        "vintage",
+        "signature"
+      ],
+      "settings": {
+        "heading": "What's included",
+        "color_scheme": "scheme-2",
+        "columns": 4,
+        "mobile_columns": "2",
+        "gap": 24,
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
+    },
+    "details": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>A few details</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h3"
+          }
+        },
+        "terms": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use code <strong>CARRYTHEFIRE10</strong> at checkout. Offer ends Monday, November 30, at 11:59 PM MST. Candles, gift cards, and previously discounted merchandise are excluded. Cannot be combined with other promotional discounts.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "terms"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 16,
+        "color_scheme": "scheme-8",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "candles": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>What about the candles?</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h3"
+          }
+        },
+        "explanation": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Glad you asked. For the past 10 years, we've held our annual candle sale during Daylight Saving Time, not Black Friday. We like to keep you on your toes. Or at least keep your calendars thoroughly confused.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          }
+        },
+        "punchline": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you missed it, there's always next year. Just kidding. We're ending candle production in January, remember?</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "explanation",
+        "punchline"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 16,
+        "color_scheme": "scheme-2",
+        "padding-block-start": 40,
+        "padding-block-end": 48
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "shopping",
+    "details",
+    "candles"
+  ]
+}
