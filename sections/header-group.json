@@ -17,9 +17,8 @@
         "announcement_MXCdxR": {
           "type": "_announcement",
           "name": "t:names.announcement",
-          "disabled": true,
           "settings": {
-            "text": "<em>10% OFF EVERYTHING BUT CANDLES | USE CODE CARRYTHEFIRE10 | ENDS MONDAY</em>",
+            "text": "<em>BLACK FRIDAY: 10% OFF EVERYTHING BUT CANDLES | CODE: CARRYTHEFIRE10 | </em><span style=\"text-decoration:underline\"><em>CLICK FOR DETAILS</em></span>",
             "link": "shopify://pages/bfcm-everything-but-candles",
             "font": "var(--font-body--family)",
             "font_size": "1.125rem",
