@@ -12,6 +12,45 @@
     "ss_hero_23_pLVLgJ": {
       "type": "ss-hero-23",
       "blocks": {
+        "slide_Bx6Aje": {
+          "type": "slide",
+          "name": "Bay Leaf",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/winter-collection-bay-leaf-smoked-vanilla.jpg",
+            "image_mobile": "shopify://shop_images/bay-leaf-smoked-vanilla-candle-2363692.jpg",
+            "video_url": "",
+            "sub_heading": "Winter Collection",
+            "heading": "Bay Leaf & Smoked Vanilla",
+            "button": "Shop now",
+            "url": "shopify://products/bay-leaf-smoked-vanilla",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#fdfdfd",
+            "link_color": "#fdfdfd",
+            "arrow_color": "#ffffff",
+            "dots_color": "#fffefe",
+            "border_color": "#d2b07c"
+          }
+        },
+        "slide_6fAGpF": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/winter-collection-red-tea-sandalwood.jpg",
+            "image_mobile": "shopify://shop_images/red-tea-sandalwood-candle-2710578.jpg",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "sub_heading": "Winter Collection",
+            "heading": "Red Tea & Sandalwood",
+            "button": "Shop now",
+            "url": "shopify://products/red-tea-sandalwood",
+            "heading_color": "#ffffff",
+            "sub_heading_color": "#ffffff",
+            "link_color": "#ffffff",
+            "arrow_color": "#ffffff",
+            "dots_color": "#ffffff",
+            "border_color": "#d2b07c"
+          }
+        },
         "slide_am8Ujr": {
           "type": "slide",
           "name": "Winter Pine",
@@ -51,52 +90,13 @@
             "dots_color": "#fffefe",
             "border_color": "#d2b07c"
           }
-        },
-        "slide_6fAGpF": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/winter-collection-red-tea-sandalwood.jpg",
-            "image_mobile": "shopify://shop_images/red-tea-sandalwood-candle-2710578.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "sub_heading": "Winter Collection",
-            "heading": "Red Tea & Sandalwood",
-            "button": "Shop now",
-            "url": "shopify://products/red-tea-sandalwood",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#ffffff",
-            "link_color": "#ffffff",
-            "arrow_color": "#ffffff",
-            "dots_color": "#ffffff",
-            "border_color": "#d2b07c"
-          }
-        },
-        "slide_Bx6Aje": {
-          "type": "slide",
-          "name": "Bay Leaf",
-          "settings": {
-            "media_type": "image",
-            "image": "shopify://shop_images/winter-collection-bay-leaf-smoked-vanilla.jpg",
-            "image_mobile": "shopify://shop_images/bay-leaf-smoked-vanilla-candle-2363692.jpg",
-            "video_url": "",
-            "sub_heading": "Winter Collection",
-            "heading": "Bay Leaf & Smoked Vanilla",
-            "button": "Shop now",
-            "url": "shopify://products/bay-leaf-smoked-vanilla",
-            "heading_color": "#ffffff",
-            "sub_heading_color": "#fdfdfd",
-            "link_color": "#fdfdfd",
-            "arrow_color": "#ffffff",
-            "dots_color": "#fffefe",
-            "border_color": "#d2b07c"
-          }
         }
       },
       "block_order": [
-        "slide_am8Ujr",
-        "slide_3PzmrU",
+        "slide_Bx6Aje",
         "slide_6fAGpF",
-        "slide_Bx6Aje"
+        "slide_am8Ujr",
+        "slide_3PzmrU"
       ],
       "name": "Winter Slideshow",
       "settings": {
