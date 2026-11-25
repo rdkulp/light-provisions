@@ -1,0 +1,156 @@
+<div class="section-background color-{{ section.settings.color_scheme }}"></div>
+<section
+  class="section section--page-width color-{{ section.settings.color_scheme }} lp-glass"
+  style="--lp-glass-top: {{ section.settings.padding_top }}px; --lp-glass-bottom: {{ section.settings.padding_bottom }}px; --lp-glass-gap: {{ section.settings.gap }}px;"
+>
+  <div
+    class="lp-glass__content lp-glass__content--{{ section.settings.layout }}"
+    {% if section.settings.anchor != blank %}id="{{ section.settings.anchor | handleize }}"{% endif %}
+  >
+    {% content_for 'blocks' %}
+  </div>
+</section>
+
+{% style %}
+  .lp-glass {
+    padding-block: var(--lp-glass-top) var(--lp-glass-bottom);
+  }
+  .lp-glass__content {
+    display: grid;
+    gap: var(--lp-glass-gap);
+    width: 100%;
+    min-width: 0;
+    scroll-margin-top: 140px;
+  }
+  .lp-glass__content > .group-block {
+    min-width: 0;
+    width: 100%;
+  }
+  .lp-glass__content :is(h1, h2, h3) {
+    text-wrap: balance;
+  }
+  .lp-glass__content p {
+    text-wrap: pretty;
+  }
+  .lp-glass__content--hero {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.7fr);
+    align-items: center;
+  }
+  .lp-glass__content--hero > .group-block:last-child > .group-block-content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 16px;
+  }
+  .lp-glass__content--hero h1 {
+    font-size: clamp(2.75rem, 3.5vw, 3.25rem);
+    line-height: 1.08;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .lp-glass__content--hero > .group-block:first-child {
+    padding-inline-end: 16px;
+  }
+  .lp-glass__content--uses {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: start;
+  }
+  .lp-glass__content--uses > .group-block:first-child {
+    grid-column: 1 / -1;
+  }
+  .lp-glass__content--feature {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+  }
+  .lp-glass__content--feature > .group-block:last-child {
+    padding-inline-start: 24px;
+  }
+  .lp-glass__content--origins {
+    grid-template-columns: 1.15fr 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+  }
+  .lp-glass__content--origins > .group-block + .group-block {
+    border-inline-start: 1px solid var(--color-border);
+    padding-inline-start: 32px;
+  }
+  .lp-glass__content a.link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  .lp-glass__content a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 5px;
+  }
+  @media (max-width: 989px) {
+    .lp-glass__content--hero {
+      grid-template-columns: 1fr 1.2fr;
+    }
+    .lp-glass__content--hero > .group-block:first-child {
+      padding-inline-end: 0;
+    }
+    .lp-glass__content--origins {
+      gap: 24px;
+    }
+    .lp-glass__content--origins > .group-block + .group-block {
+      padding-inline-start: 20px;
+    }
+  }
+  @media (max-width: 749px) {
+    .lp-glass {
+      padding-block: min(var(--lp-glass-top), 40px) min(var(--lp-glass-bottom), 40px);
+    }
+    .lp-glass__content {
+      gap: 28px;
+    }
+    .lp-glass__content--hero,
+    .lp-glass__content--uses,
+    .lp-glass__content--feature,
+    .lp-glass__content--origins {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .lp-glass__content--hero > .group-block:last-child > .group-block-content {
+      gap: 12px;
+    }
+    .lp-glass__content--feature > .group-block:last-child {
+      padding-inline-start: 0;
+    }
+    .lp-glass__content--origins > .group-block + .group-block {
+      border-inline-start: 0;
+      border-block-start: 1px solid var(--color-border);
+      padding-inline-start: 0;
+      padding-block-start: 24px;
+    }
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Glass editorial",
+  "class": "section-wrapper",
+  "tag": "div",
+  "blocks": [{"type": "@theme"}],
+  "enabled_on": {"templates": ["collection"]},
+  "settings": [
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        {"value": "hero", "label": "Introduction with image pair"},
+        {"value": "stack", "label": "Stacked content"},
+        {"value": "uses", "label": "Heading with three columns"},
+        {"value": "feature", "label": "Two column feature"},
+        {"value": "origins", "label": "Three column material story"}
+      ],
+      "default": "stack"
+    },
+    {"type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-2"},
+    {"type": "text", "id": "anchor", "label": "Section anchor"},
+    {"type": "range", "id": "gap", "label": "Column gap", "min": 8, "max": 64, "step": 4, "unit": "px", "default": 24},
+    {"type": "range", "id": "padding_top", "label": "Top spacing", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 48},
+    {"type": "range", "id": "padding_bottom", "label": "Bottom spacing", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 48}
+  ],
+  "presets": [{"name": "Glass editorial"}]
+}
+{% endschema %}

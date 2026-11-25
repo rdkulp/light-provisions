@@ -1,0 +1,1166 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "glass_intro": {
+      "type": "lp-glass-editorial",
+      "name": "Glass, Reimagined introduction",
+      "settings": {
+        "layout": "hero",
+        "color_scheme": "scheme-2",
+        "gap": 24,
+        "padding_top": 40,
+        "padding_bottom": 48,
+        "anchor": ""
+      },
+      "blocks": {
+        "block_0": {
+          "type": "group",
+          "name": "Introduction",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 20,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "text",
+              "name": "Collection title",
+              "settings": {
+                "text": "<h1>{{ closest.collection.title }}</h1>",
+                "type_preset": "h1",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Opening statement",
+              "settings": {
+                "text": "<p><strong>Familiar materials. New forms. Multiple purposes.</strong></p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_2": {
+              "type": "text",
+              "name": "Introduction",
+              "settings": {
+                "text": "<p>Beautiful glass for the table, the studio, and the spaces in between. Reclaimed and recycled objects chosen for their color, form, and all the ways you might use them.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_3": {
+              "type": "button",
+              "name": "Shop the glass",
+              "settings": {
+                "label": "Shop the glass",
+                "link": "#glass-shop",
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "width_mobile": "fit-content"
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1",
+            "item_2",
+            "item_3"
+          ]
+        },
+        "block_1": {
+          "type": "group",
+          "name": "Image pair",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "group",
+              "name": "Bottle glass vessels",
+              "settings": {
+                "content_direction": "column",
+                "width": "fill",
+                "height": "fit",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "inherit_color_scheme": true,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "item_0": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image": "shopify://shop_images/recycled-bottle-incense-vase-5038473.jpg",
+                    "image_ratio": "square",
+                    "width": "fill",
+                    "width_mobile": "fill",
+                    "height": "fit",
+                    "border_radius": 0
+                  }
+                },
+                "item_1": {
+                  "type": "text",
+                  "name": "Vessel caption",
+                  "settings": {
+                    "text": "<p>A vase. A glass. A place for your tools.</p>",
+                    "type_preset": "paragraph",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "wrap": "pretty",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0
+                  }
+                }
+              },
+              "block_order": [
+                "item_0",
+                "item_1"
+              ]
+            },
+            "item_1": {
+              "type": "group",
+              "name": "Glass at the coffee bar",
+              "settings": {
+                "content_direction": "column",
+                "width": "fill",
+                "height": "fit",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "inherit_color_scheme": true,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "item_0": {
+                  "type": "image",
+                  "name": "Image",
+                  "settings": {
+                    "image": "shopify://shop_images/recycled-bottle-glass-dish-2749616.jpg",
+                    "image_ratio": "square",
+                    "width": "fill",
+                    "width_mobile": "fill",
+                    "height": "fit",
+                    "border_radius": 0
+                  }
+                },
+                "item_1": {
+                  "type": "text",
+                  "name": "Dish caption",
+                  "settings": {
+                    "text": "<p>A little dish with plenty to do.</p>",
+                    "type_preset": "paragraph",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "wrap": "pretty",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0
+                  }
+                }
+              },
+              "block_order": [
+                "item_0",
+                "item_1"
+              ]
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1"
+          ]
+        }
+      },
+      "block_order": [
+        "block_0",
+        "block_1"
+      ]
+    },
+    "glass_shop_heading": {
+      "type": "lp-glass-editorial",
+      "name": "Collection shopping heading",
+      "settings": {
+        "layout": "stack",
+        "color_scheme": "scheme-1",
+        "gap": 24,
+        "padding_top": 40,
+        "padding_bottom": 16,
+        "anchor": "glass-shop"
+      },
+      "blocks": {
+        "block_0": {
+          "type": "group",
+          "name": "Shop introduction",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "text",
+              "name": "Shopping heading",
+              "settings": {
+                "text": "<h2>Find your next everyday object.</h2>",
+                "type_preset": "h3",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Shopping introduction",
+              "settings": {
+                "text": "<p>Vessels, dishes, candles, and sculptural incense holders. Start with the shape that speaks to you.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1"
+          ]
+        }
+      },
+      "block_order": [
+        "block_0"
+      ]
+    },
+    "glass_uses": {
+      "type": "lp-glass-editorial",
+      "name": "Glass around the home and studio",
+      "settings": {
+        "layout": "uses",
+        "color_scheme": "scheme-2",
+        "gap": 24,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "anchor": "glass-possibilities"
+      },
+      "blocks": {
+        "block_0": {
+          "type": "group",
+          "name": "Uses introduction",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "text",
+              "name": "Uses heading",
+              "settings": {
+                "text": "<h2>One object. Plenty of possibilities.</h2>",
+                "type_preset": "h2",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Uses introduction",
+              "settings": {
+                "text": "<p>Let the shape suggest the use. Then make it your own.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1"
+          ]
+        },
+        "block_1": {
+          "type": "group",
+          "name": "At the table",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "image",
+              "name": "Image",
+              "settings": {
+                "image": "shopify://shop_images/recycled-bottle-glass-dish-8121374.jpg",
+                "image_ratio": "square",
+                "width": "fill",
+                "width_mobile": "fill",
+                "height": "fit",
+                "border_radius": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Kitchen heading",
+              "settings": {
+                "text": "<h3>At the table</h3>",
+                "type_preset": "h3",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_2": {
+              "type": "text",
+              "name": "Kitchen uses",
+              "settings": {
+                "text": "<p>Salt by the stove. Olives at the table. Coffee beans for the morning brew. Our food-safe bottle-glass dishes are small, useful, and happy to change jobs.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_3": {
+              "type": "button",
+              "name": "Find your dish",
+              "settings": {
+                "label": "Find your dish",
+                "link": "shopify://products/reclaimed-bottle-glass-dish",
+                "style_class": "link",
+                "width": "fit-content",
+                "width_mobile": "fit-content"
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1",
+            "item_2",
+            "item_3"
+          ]
+        },
+        "block_2": {
+          "type": "group",
+          "name": "In the studio",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "image",
+              "name": "Image",
+              "settings": {
+                "image": "shopify://shop_images/recycled-bottle-incense-vase-2108768.jpg",
+                "image_ratio": "square",
+                "width": "fill",
+                "width_mobile": "fill",
+                "height": "fit",
+                "border_radius": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Studio heading",
+              "settings": {
+                "text": "<h3>In the studio</h3>",
+                "type_preset": "h3",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_2": {
+              "type": "text",
+              "name": "Studio uses",
+              "settings": {
+                "text": "<p>A few fresh stems, a favorite pen, a handful of paintbrushes. Bottle-glass vessels bring color to the workspace and give the things you reach for a place to land.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_3": {
+              "type": "button",
+              "name": "Meet the versatile vessel",
+              "settings": {
+                "label": "Meet the versatile vessel",
+                "link": "shopify://products/recycled-bottle-incense-vase",
+                "style_class": "link",
+                "width": "fit-content",
+                "width_mobile": "fit-content"
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1",
+            "item_2",
+            "item_3"
+          ]
+        },
+        "block_3": {
+          "type": "group",
+          "name": "For the daily ritual",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "image",
+              "name": "Image",
+              "settings": {
+                "image": "shopify://shop_images/iye-square-recycled-glass-incense-holder-7316021.jpg",
+                "image_ratio": "square",
+                "width": "fill",
+                "width_mobile": "fill",
+                "height": "fit",
+                "border_radius": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Ritual heading",
+              "settings": {
+                "text": "<h3>For the daily ritual</h3>",
+                "type_preset": "h3",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_2": {
+              "type": "text",
+              "name": "Ritual uses",
+              "settings": {
+                "text": "<p>A sculptural base for a stick of incense. IYÉ’s recycled-glass holders bring weight, texture, and a quiet architectural presence to a shelf or desk.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_3": {
+              "type": "button",
+              "name": "Explore IYÉ glass",
+              "settings": {
+                "label": "Explore IYÉ glass",
+                "link": "shopify://products/iye-reborn-square-incense-holder",
+                "style_class": "link",
+                "width": "fit-content",
+                "width_mobile": "fit-content"
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1",
+            "item_2",
+            "item_3"
+          ]
+        }
+      },
+      "block_order": [
+        "block_0",
+        "block_1",
+        "block_2",
+        "block_3"
+      ]
+    },
+    "glass_afterlife": {
+      "type": "lp-glass-editorial",
+      "name": "Life after the candle",
+      "settings": {
+        "layout": "feature",
+        "color_scheme": "scheme-1",
+        "gap": 24,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "anchor": ""
+      },
+      "blocks": {
+        "block_0": {
+          "type": "group",
+          "name": "Empty On Rotation vessels",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "image",
+              "name": "Image",
+              "settings": {
+                "image": "shopify://shop_images/on-rotation-cedarwood-candle-2348349.jpg",
+                "image_ratio": "square",
+                "width": "fill",
+                "width_mobile": "fill",
+                "height": "fit",
+                "border_radius": 0
+              }
+            }
+          },
+          "block_order": [
+            "item_0"
+          ]
+        },
+        "block_1": {
+          "type": "group",
+          "name": "Candle reuse story",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 20,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "text",
+              "name": "Candle reuse heading",
+              "settings": {
+                "text": "<h2>A candle now.<br/>Your next idea, later.</h2>",
+                "type_preset": "h2",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Candle story",
+              "settings": {
+                "text": "<p>On Rotation starts with a candle poured into reclaimed bottle glass. When the last flame has gone out, the vessel still has plenty to offer.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_2": {
+              "type": "text",
+              "name": "Candle reuse ideas",
+              "settings": {
+                "text": "<p>Once it’s thoroughly cleaned, put it back to work with pencils, small flowers, or the little things that gather on your desk. Choose the scent. Keep the glass.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_3": {
+              "type": "button",
+              "name": "Discover Cedarwood",
+              "settings": {
+                "label": "Discover Cedarwood",
+                "link": "shopify://products/on-rotation-cedarwood",
+                "style_class": "link",
+                "width": "fit-content",
+                "width_mobile": "fit-content"
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1",
+            "item_2",
+            "item_3"
+          ]
+        }
+      },
+      "block_order": [
+        "block_0",
+        "block_1"
+      ]
+    },
+    "glass_origins": {
+      "type": "lp-glass-editorial",
+      "name": "The material story",
+      "settings": {
+        "layout": "origins",
+        "color_scheme": "scheme-4",
+        "gap": 24,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "anchor": ""
+      },
+      "blocks": {
+        "block_0": {
+          "type": "group",
+          "name": "Material story introduction",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "text",
+              "name": "Material story heading",
+              "settings": {
+                "text": "<h2>Good design has a past.</h2>",
+                "type_preset": "h2",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Material story introduction",
+              "settings": {
+                "text": "<p>The color, weight, and texture of the original glass become part of what makes each object worth keeping.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1"
+          ]
+        },
+        "block_1": {
+          "type": "group",
+          "name": "Colorado Springs glass",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "text",
+              "name": "Colorado heading",
+              "settings": {
+                "text": "<h3>Made here</h3>",
+                "type_preset": "h3",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Colorado story",
+              "settings": {
+                "text": "<p>Our bottle-glass dishes and vessels are crafted in Colorado Springs from locally collected bottles. Cut and fire-polished by a local glass studio, familiar materials take on useful new forms.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1"
+          ]
+        },
+        "block_2": {
+          "type": "group",
+          "name": "Japanese recycled glass",
+          "settings": {
+            "content_direction": "column",
+            "width": "fill",
+            "height": "fit",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 16,
+            "inherit_color_scheme": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "item_0": {
+              "type": "text",
+              "name": "Japan heading",
+              "settings": {
+                "text": "<h3>Made in Japan</h3>",
+                "type_preset": "h3",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            },
+            "item_1": {
+              "type": "text",
+              "name": "Japan story",
+              "settings": {
+                "text": "<p>IYÉ’s sculptural incense holders are cast and polished by hand from recycled glass recovered from old televisions and monitors. A different material history, with its own depth and character.</p>",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "wrap": "pretty",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+              }
+            }
+          },
+          "block_order": [
+            "item_0",
+            "item_1"
+          ]
+        }
+      },
+      "block_order": [
+        "block_0",
+        "block_1",
+        "block_2"
+      ]
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "filters": {
+          "type": "filters",
+          "static": true,
+          "settings": {
+            "enable_filtering": true,
+            "filter_style": "horizontal",
+            "filter_width": "centered",
+            "text_label_case": "default",
+            "show_swatch_label": false,
+            "show_filter_label": false,
+            "enable_sorting": true,
+            "enable_grid_density": true,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "padding-block-start": 8,
+            "padding-block-end": 8,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "facets_margin_bottom": 8,
+            "facets_margin_right": 20
+          },
+          "blocks": {}
+        },
+        "product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 0,
+            "inherit_color_scheme": true,
+            "color_scheme": "scheme-1",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "card-gallery": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group": {
+              "type": "_product-card-group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "space-between",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 4,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 24,
+                "padding-block-end": 24,
+                "padding-inline-start": 8,
+                "padding-inline-end": 8
+              },
+              "blocks": {
+                "product_title_NzQUxN": {
+                  "type": "product-title",
+                  "name": "t:names.product_title",
+                  "settings": {
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "price": {
+                  "type": "price",
+                  "settings": {
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "type_preset": "paragraph",
+                    "width": "fit-content",
+                    "alignment": "center",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "swatches_4339Te": {
+                  "type": "swatches",
+                  "name": "t:names.swatches",
+                  "settings": {
+                    "product_swatches_alignment": "flex-start",
+                    "product_swatches_alignment_mobile": "flex-start",
+                    "hide_padding": false,
+                    "product_swatches_padding_top": 4,
+                    "product_swatches_padding_bottom": 0,
+                    "product_swatches_padding_left": 0,
+                    "product_swatches_padding_right": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "product_title_NzQUxN",
+                "price",
+                "swatches_4339Te"
+              ]
+            }
+          },
+          "block_order": [
+            "card-gallery",
+            "group"
+          ]
+        }
+      },
+      "settings": {
+        "layout_type": "grid",
+        "product_card_size": "medium",
+        "mobile_product_card_size": "small",
+        "enable_infinite_scroll": true,
+        "products_per_page": 24,
+        "product_grid_width": "centered",
+        "full_width_on_mobile": false,
+        "columns_gap_horizontal": 24,
+        "columns_gap_vertical": 32,
+        "padding-inline-start": 0,
+        "padding-inline-end": 0,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 0,
+        "padding-block-end": 48
+      }
+    },
+    "glass_reviews": {
+      "type": "_blocks",
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_Yxwg46": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "current_collection",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "star_rating": "5_star",
+            "max_reviews": 20,
+            "quote_marks_size": "hidden",
+            "product_name_text_size": "medium",
+            "verified_badge_style": "text",
+            "card_height": "compact",
+            "text_size": "small",
+            "stars_size": "small",
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "quote_marks_style": "serif",
+            "card_color": "#F9F9F9",
+            "stars_and_quote_marks_color": "#A15736",
+            "text_color": "#3A3838",
+            "arrows_color": "#A15736",
+            "show_border": false,
+            "border_color": "#108474",
+            "show_drop_shadow": false,
+            "transition_speed": 4,
+            "header_text": "Kind Words",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_Yxwg46"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-2",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    }
+  },
+  "order": [
+    "glass_intro",
+    "glass_shop_heading",
+    "main",
+    "glass_uses",
+    "glass_afterlife",
+    "glass_origins",
+    "glass_reviews"
+  ]
+}
